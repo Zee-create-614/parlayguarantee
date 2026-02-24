@@ -1,0 +1,98 @@
+{
+  "date": "2026-02-21",
+  "scores_loaded": 431,
+  "straight": {
+    "correct": 2,
+    "incorrect": 11,
+    "no_score": 3,
+    "details": [
+      "\u274c Dallas Mavericks lost (Indiana Pacers 118 - Washington Wizards 131)",
+      "\u274c Louisville Cardinals lost (North Carolina Tar Heels 77 - Syracuse Orange 64)",
+      "\u274c Houston Cougars lost (Cincinnati Bearcats 84 - Kansas Jayhawks 68)",
+      "\u274c Boston Celtics lost (Los Angeles Clippers 122 - Los Angeles Lakers 125)",
+      "\u274c Los Angeles Clippers lost (Los Angeles Clippers 122 - Los Angeles Lakers 125)",
+      "\u274c Portland Trail Blazers lost (Orlando Magic 110 - Phoenix Suns 113)",
+      "\u274c Oakland Golden Grizzlies lost (Green Bay Phoenix 73 - Oakland Golden Grizzlies 68)",
+      "\u274c Toronto Raptors lost (Milwaukee Bucks 139 - New Orleans Pelicans 118)",
+      "\u274c Charlotte Hornets lost (Indiana Pacers 118 - Washington Wizards 131)",
+      "\u274c Atlanta Hawks lost (Miami Heat 128 - Atlanta Hawks 97)",
+      "\u2705 Denver Nuggets won (Denver Nuggets 157 - Portland Trail Blazers 103)",
+      "\u274c New York Knicks lost (Detroit Pistons 126 - Chicago Bulls 110)",
+      "\u2705 Minnesota Timberwolves won (Dallas Mavericks 111 - Minnesota Timberwolves 122)"
+    ],
+    "total": 13,
+    "rate": 0.1538
+  },
+  "spread": {
+    "correct": 5,
+    "incorrect": 8,
+    "push": 0,
+    "no_score": 3,
+    "details": [],
+    "total": 13,
+    "rate": 0.3846
+  },
+  "ou": {
+    "correct": 9,
+    "incorrect": 4,
+    "push": 0,
+    "no_score": 0,
+    "details": [],
+    "total": 13,
+    "rate": 0.6923
+  },
+  "ml_results": {
+    "correct": 2,
+    "incorrect": 11,
+    "no_score": 0,
+    "details": [
+      "\u274c ML Dallas Mavericks lost (Indiana Pacers 118 - Washington Wizards 131)",
+      "\u274c ML Louisville Cardinals lost (North Carolina Tar Heels 77 - Syracuse Orange 64)",
+      "\u274c ML Houston Cougars lost (Cincinnati Bearcats 84 - Kansas Jayhawks 68)",
+      "\u274c ML Boston Celtics lost (Los Angeles Clippers 122 - Los Angeles Lakers 125)",
+      "\u274c ML Los Angeles Clippers lost (Los Angeles Clippers 122 - Los Angeles Lakers 125)",
+      "\u274c ML Portland Trail Blazers lost (Orlando Magic 110 - Phoenix Suns 113)",
+      "\u274c ML Oakland Golden Grizzlies lost (Green Bay Phoenix 73 - Oakland Golden Grizzlies 68)",
+      "\u274c ML Toronto Raptors lost (Milwaukee Bucks 139 - New Orleans Pelicans 118)",
+      "\u274c ML Charlotte Hornets lost (Indiana Pacers 118 - Washington Wizards 131)",
+      "\u274c ML Atlanta Hawks lost (Miami Heat 128 - Atlanta Hawks 97)",
+      "\u2705 ML Denver Nuggets won (Denver Nuggets 157 - Portland Trail Blazers 103)",
+      "\u274c ML New York Knicks lost (Detroit Pistons 126 - Chicago Bulls 110)",
+      "\u2705 ML Minnesota Timberwolves won (Dallas Mavericks 111 - Minnesota Timberwolves 122)"
+    ],
+    "total": 13,
+    "rate": 0.1538
+  },
+  "ml_tier_results": {
+    "single": {
+      "wins": 3,
+      "losses": 7,
+      "total": 10,
+      "rate": 0.3
+    },
+    "2leg": {
+      "wins": 0,
+      "losses": 8,
+      "total": 8,
+      "rate": 0.0
+    },
+    "3leg": {
+      "wins": 0,
+      "losses": 5,
+      "total": 5,
+      "rate": 0.0
+    },
+    "4leg": {
+      "wins": 0,
+      "losses": 3,
+      "total": 3,
+      "rate": 0.0
+    },
+    "5leg": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "rate": 0.0
+    }
+  }
+}

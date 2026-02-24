@@ -1,0 +1,5468 @@
+{
+  "timestamp": "2026-02-21T23:00:19.160745-05:00",
+  "date": "2026-02-20",
+  "odds_events": 12,
+  "scores_count": 6,
+  "pregame_picks_loaded": 137,
+  "odds": [
+    {
+      "home": "New York Knicks",
+      "away": "Houston Rockets",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 134,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -172,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -106,
+              "point": -1.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 145,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -188,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -130,
+              "point": -1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 214.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 214.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 110,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -145,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": -125,
+              "point": 1.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -105,
+              "point": -1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -125,
+              "point": 214.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 214.5
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -175,
+              "point": null
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 160,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -200,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": 105,
+              "point": 1.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -135,
+              "point": -1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": 100,
+              "point": 213.5
+            },
+            {
+              "name": "Under",
+              "price": -130,
+              "point": 213.5
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": 145,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -190,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": 100,
+              "point": 1.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -130,
+              "point": -1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 213.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 213.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": -325,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": 230,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": -115,
+              "point": -4.0
+            },
+            {
+              "name": "New York Knicks",
+              "price": -115,
+              "point": 4.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 217.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 217.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Houston Rockets",
+              "price": -500,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": 350,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Houston Rockets",
+              "price": -118,
+              "point": -5.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -118,
+              "point": 5.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 220.5
+            },
+            {
+              "name": "Under",
+              "price": -133,
+              "point": 220.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Houston Rockets": {
+            "price": 145,
+            "point": null
+          },
+          "New York Knicks": {
+            "price": -188,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Houston Rockets": {
+            "price": 100,
+            "point": 1.5
+          },
+          "New York Knicks": {
+            "price": -130,
+            "point": -1.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -115,
+            "point": 214.5
+          },
+          "Under": {
+            "price": -115,
+            "point": 214.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Oklahoma City Thunder",
+      "away": "Cleveland Cavaliers",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -136,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 116,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 224.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 224.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -133,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 108,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 224.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 224.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -135,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 114,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 225.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 225.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -135,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 115,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 225.0
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -140,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 115,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 225.0
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -106,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -106,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 225.0
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 225.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -145,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 118,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 225.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 225.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -145,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 125,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -110,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -110,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 225.0
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -140,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 120,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -115,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -105,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 225.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 225.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -141,
+              "point": null
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": 114,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Cleveland Cavaliers",
+              "price": -114,
+              "point": -2.5
+            },
+            {
+              "name": "Oklahoma City Thunder",
+              "price": -109,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 224.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 224.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Cleveland Cavaliers": {
+            "price": -135,
+            "point": null
+          },
+          "Oklahoma City Thunder": {
+            "price": 114,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Cleveland Cavaliers": {
+            "price": -110,
+            "point": -2.5
+          },
+          "Oklahoma City Thunder": {
+            "price": -110,
+            "point": 2.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -105,
+            "point": 225.5
+          },
+          "Under": {
+            "price": -115,
+            "point": 225.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Atlanta Hawks",
+      "away": "Brooklyn Nets",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -360,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 290,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -110,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -370,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 280,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -110,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -375,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 300,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -110,
+              "point": -9.0
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -110,
+              "point": 9.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -360,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 285,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 229.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -355,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 278,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -111,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -101,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 230.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -375,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 290,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -360,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 290,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -390,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 295,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -105,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -345,
+              "point": null
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": 265,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Atlanta Hawks",
+              "price": -115,
+              "point": -8.5
+            },
+            {
+              "name": "Brooklyn Nets",
+              "price": -108,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 231.0
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 231.0
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Atlanta Hawks": {
+            "price": -360,
+            "point": null
+          },
+          "Brooklyn Nets": {
+            "price": 285,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Atlanta Hawks": {
+            "price": -115,
+            "point": -8.5
+          },
+          "Brooklyn Nets": {
+            "price": -105,
+            "point": 8.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -115,
+            "point": 229.5
+          },
+          "Under": {
+            "price": -105,
+            "point": 229.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Golden State Warriors",
+      "away": "Denver Nuggets",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -180,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 152,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -108,
+              "point": -5.0
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -112,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -108,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 230.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -185,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 149,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -5.0
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 229.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -180,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 150,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 229.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 158,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 229.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -106,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -106,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 230.0
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 155,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 229.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 163,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 230.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.0
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -195,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 165,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -105,
+              "point": -5.0
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -115,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 229.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 229.5
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Denver Nuggets",
+              "price": -186,
+              "point": null
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": 148,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Denver Nuggets",
+              "price": -114,
+              "point": -4.5
+            },
+            {
+              "name": "Golden State Warriors",
+              "price": -109,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 230.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 230.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Denver Nuggets": {
+            "price": -180,
+            "point": null
+          },
+          "Golden State Warriors": {
+            "price": 150,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Denver Nuggets": {
+            "price": -110,
+            "point": -4.5
+          },
+          "Golden State Warriors": {
+            "price": -110,
+            "point": 4.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -112,
+            "point": 229.5
+          },
+          "Under": {
+            "price": -108,
+            "point": 229.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Milwaukee Bucks",
+      "away": "Toronto Raptors",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 138,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -164,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 221.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 221.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -161,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -155,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -115,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -105,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -155,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -115,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -105,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 223.0
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -106,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -106,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 223.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 135,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 138,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 223.0
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 135,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -165,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Milwaukee Bucks",
+              "price": -112,
+              "point": 3.5
+            },
+            {
+              "name": "Toronto Raptors",
+              "price": -112,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 222.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.0
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Milwaukee Bucks": {
+            "price": 130,
+            "point": null
+          },
+          "Toronto Raptors": {
+            "price": -155,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Milwaukee Bucks": {
+            "price": -115,
+            "point": 3.5
+          },
+          "Toronto Raptors": {
+            "price": -105,
+            "point": -3.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 222.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 222.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Indiana Pacers",
+      "away": "Dallas Mavericks",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -126,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 108,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -108,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -112,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 103,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -110,
+              "point": -1.5
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -110,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 105,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -110,
+              "point": -1.5
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -110,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -122,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 102,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -115,
+              "point": -1.5
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -105,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 105,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -110,
+              "point": -1.5
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -110,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -101,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -111,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 232.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -105,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -115,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 105,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -105,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -115,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 105,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -105,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -115,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -129,
+              "point": null
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": 104,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Dallas Mavericks",
+              "price": -109,
+              "point": -2.0
+            },
+            {
+              "name": "Indiana Pacers",
+              "price": -113,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 232.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Dallas Mavericks": {
+            "price": -122,
+            "point": null
+          },
+          "Indiana Pacers": {
+            "price": 102,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Dallas Mavericks": {
+            "price": -115,
+            "point": -1.5
+          },
+          "Indiana Pacers": {
+            "price": -105,
+            "point": 1.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 232.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 232.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Washington Wizards",
+      "away": "Charlotte Hornets",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -590,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 440,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -108,
+              "point": -11.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -112,
+              "point": 11.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -106,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -114,
+              "point": 227.5
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -625,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 425,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -110,
+              "point": -12.0
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -110,
+              "point": 12.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 226.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 226.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -575,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 425,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -110,
+              "point": -11.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -110,
+              "point": 11.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.0
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -550,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 410,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -105,
+              "point": -11.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -115,
+              "point": 11.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 226.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 226.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -600,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 430,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -115,
+              "point": -11.0
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -105,
+              "point": 11.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.0
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -111,
+              "point": -11.0
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -101,
+              "point": 11.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 227.0
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -115,
+              "point": -11.0
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -105,
+              "point": 11.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -600,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 425,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -110,
+              "point": -11.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -110,
+              "point": 11.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 227.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -550,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 425,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -115,
+              "point": -11.0
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -105,
+              "point": 11.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.0
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -625,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 430,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -110,
+              "point": -11.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -110,
+              "point": 11.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -500,
+              "point": null
+            },
+            {
+              "name": "Washington Wizards",
+              "price": 360,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Charlotte Hornets",
+              "price": -115,
+              "point": -10.5
+            },
+            {
+              "name": "Washington Wizards",
+              "price": -108,
+              "point": 10.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 228.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 228.0
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Charlotte Hornets": {
+            "price": -550,
+            "point": null
+          },
+          "Washington Wizards": {
+            "price": 410,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Charlotte Hornets": {
+            "price": -105,
+            "point": -11.5
+          },
+          "Washington Wizards": {
+            "price": -115,
+            "point": 11.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 226.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 226.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Los Angeles Lakers",
+      "away": "Boston Celtics",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -126,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 108,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -106,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -114,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 228.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 228.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -130,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 110,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -118,
+              "point": -1.5
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -102,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 227.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -130,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 110,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 228.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 228.0
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -130,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 110,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -106,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -106,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 227.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.5
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -135,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 110,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -105,
+              "point": -2.5
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -115,
+              "point": 2.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 228.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 228.5
+            }
+          ]
+        },
+        "BetUS": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -130,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 110,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 227.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 105,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 228.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 228.0
+            }
+          ]
+        },
+        "MyBookie.ag": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -130,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 106,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -110,
+              "point": -2.0
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -110,
+              "point": 2.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 228.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 228.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Boston Celtics",
+              "price": -125,
+              "point": null
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": 100,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Boston Celtics",
+              "price": -114,
+              "point": -1.5
+            },
+            {
+              "name": "Los Angeles Lakers",
+              "price": -109,
+              "point": 1.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 227.5
+            },
+            {
+              "name": "Under",
+              "price": -109,
+              "point": 227.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Boston Celtics": {
+            "price": -130,
+            "point": null
+          },
+          "Los Angeles Lakers": {
+            "price": 110,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Boston Celtics": {
+            "price": -118,
+            "point": -1.5
+          },
+          "Los Angeles Lakers": {
+            "price": -102,
+            "point": 1.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -115,
+            "point": 227.5
+          },
+          "Under": {
+            "price": -105,
+            "point": 227.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Minnesota Timberwolves",
+      "away": "Philadelphia 76ers",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -320,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 260,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -108,
+              "point": -8.5
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -112,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 236.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 236.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -340,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 270,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -110,
+              "point": -8.5
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 236.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 236.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -345,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 270,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -110,
+              "point": -8.5
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 236.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 236.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -115,
+              "point": -8.0
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -105,
+              "point": 8.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 237.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 237.0
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -111,
+              "point": -8.0
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -101,
+              "point": 8.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 237.0
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 237.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -325,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 260,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -110,
+              "point": -8.5
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -115,
+              "point": 236.5
+            },
+            {
+              "name": "Under",
+              "price": -105,
+              "point": 236.5
+            }
+          ]
+        },
+        "BetUS": {
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -115,
+              "point": -8.0
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -105,
+              "point": 8.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 237.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 237.0
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -350,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 260,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -110,
+              "point": -9.0
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -110,
+              "point": 9.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 237.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 237.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -375,
+              "point": null
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": 275,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Minnesota Timberwolves",
+              "price": -113,
+              "point": -8.5
+            },
+            {
+              "name": "Philadelphia 76ers",
+              "price": -110,
+              "point": 8.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -113,
+              "point": 236.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 236.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Minnesota Timberwolves": {
+            "price": -340,
+            "point": null
+          },
+          "Philadelphia 76ers": {
+            "price": 270,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Minnesota Timberwolves": {
+            "price": -110,
+            "point": -8.5
+          },
+          "Philadelphia 76ers": {
+            "price": -110,
+            "point": 8.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 236.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 236.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Chicago Bulls",
+      "away": "New York Knicks",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Chicago Bulls",
+              "price": 360,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -460,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Chicago Bulls",
+              "price": -108,
+              "point": 10.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -112,
+              "point": -10.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -108,
+              "point": 232.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Chicago Bulls",
+              "price": 350,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -450,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Chicago Bulls",
+              "price": -110,
+              "point": 10.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -110,
+              "point": -10.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Chicago Bulls",
+              "price": 380,
+              "point": null
+            },
+            {
+              "name": "New York Knicks",
+              "price": -500,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Chicago Bulls",
+              "price": -110,
+              "point": 10.5
+            },
+            {
+              "name": "New York Knicks",
+              "price": -110,
+              "point": -10.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 232.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 232.5
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Chicago Bulls": {
+            "price": 380,
+            "point": null
+          },
+          "New York Knicks": {
+            "price": -500,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Chicago Bulls": {
+            "price": -110,
+            "point": 10.5
+          },
+          "New York Knicks": {
+            "price": -110,
+            "point": -10.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 232.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 232.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Phoenix Suns",
+      "away": "Portland Trail Blazers",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 128,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -152,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 222.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 136,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -162,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 140,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -165,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -106,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -106,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 222.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 130,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.5
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 223.0
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 135,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -115,
+              "point": 3.5
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -105,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "BetUS": {
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -110,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -110,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 222.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 222.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 140,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -165,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -105,
+              "point": 3.5
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -115,
+              "point": -3.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 223.0
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Phoenix Suns",
+              "price": 125,
+              "point": null
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -157,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Phoenix Suns",
+              "price": -109,
+              "point": 3.0
+            },
+            {
+              "name": "Portland Trail Blazers",
+              "price": -114,
+              "point": -3.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -112,
+              "point": 223.0
+            },
+            {
+              "name": "Under",
+              "price": -112,
+              "point": 223.0
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Phoenix Suns": {
+            "price": 136,
+            "point": null
+          },
+          "Portland Trail Blazers": {
+            "price": -162,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Phoenix Suns": {
+            "price": -110,
+            "point": 3.5
+          },
+          "Portland Trail Blazers": {
+            "price": -110,
+            "point": -3.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 222.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 222.5
+          }
+        }
+      }
+    },
+    {
+      "home": "Los Angeles Clippers",
+      "away": "Orlando Magic",
+      "bookmakers": {
+        "FanDuel": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -188,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 158,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -106,
+              "point": 215.5
+            }
+          ]
+        },
+        "DraftKings": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -198,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 164,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -105,
+              "point": -5.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -115,
+              "point": 5.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "Caesars": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -195,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 162,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -105,
+              "point": -5.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -115,
+              "point": 5.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "BetOnline.ag": {
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -110,
+              "point": -5.0
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -110,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "LowVig.ag": {
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -106,
+              "point": -5.0
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -106,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -107,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -107,
+              "point": 215.5
+            }
+          ]
+        },
+        "Fanatics": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "BetMGM": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -200,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 165,
+              "point": null
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "BetUS": {
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -110,
+              "point": -5.0
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -110,
+              "point": 5.0
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "Bovada": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -185,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 160,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -110,
+              "point": -4.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -110,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -110,
+              "point": 215.5
+            },
+            {
+              "name": "Under",
+              "price": -110,
+              "point": 215.5
+            }
+          ]
+        },
+        "BetRivers": {
+          "h2h": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -190,
+              "point": null
+            },
+            {
+              "name": "Orlando Magic",
+              "price": 150,
+              "point": null
+            }
+          ],
+          "spreads": [
+            {
+              "name": "Los Angeles Clippers",
+              "price": -112,
+              "point": -4.5
+            },
+            {
+              "name": "Orlando Magic",
+              "price": -112,
+              "point": 4.5
+            }
+          ],
+          "totals": [
+            {
+              "name": "Over",
+              "price": -114,
+              "point": 216.0
+            },
+            {
+              "name": "Under",
+              "price": -109,
+              "point": 216.0
+            }
+          ]
+        }
+      },
+      "draftkings": {
+        "h2h": {
+          "Los Angeles Clippers": {
+            "price": -198,
+            "point": null
+          },
+          "Orlando Magic": {
+            "price": 164,
+            "point": null
+          }
+        },
+        "spreads": {
+          "Los Angeles Clippers": {
+            "price": -105,
+            "point": -5.5
+          },
+          "Orlando Magic": {
+            "price": -115,
+            "point": 5.5
+          }
+        },
+        "totals": {
+          "Over": {
+            "price": -110,
+            "point": 215.5
+          },
+          "Under": {
+            "price": -110,
+            "point": 215.5
+          }
+        }
+      }
+    }
+  ],
+  "scores": [
+    {
+      "home_team": "Phoenix Suns",
+      "away_team": "Orlando Magic",
+      "home_abbr": "PHX",
+      "away_abbr": "ORL",
+      "home_score": 113,
+      "away_score": 110,
+      "period": 6,
+      "clock": "0.0",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Philadelphia 76ers",
+      "home_abbr": "NO",
+      "away_abbr": "PHI",
+      "home_score": 126,
+      "away_score": 111,
+      "period": 4,
+      "clock": "12:00",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "home_team": "Miami Heat",
+      "away_team": "Memphis Grizzlies",
+      "home_abbr": "MIA",
+      "away_abbr": "MEM",
+      "home_score": 136,
+      "away_score": 120,
+      "period": 4,
+      "clock": "12:00",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "home_team": "Chicago Bulls",
+      "away_team": "Detroit Pistons",
+      "home_abbr": "CHI",
+      "away_abbr": "DET",
+      "home_score": 110,
+      "away_score": 126,
+      "period": 4,
+      "clock": "12:00",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "home_team": "San Antonio Spurs",
+      "away_team": "Sacramento Kings",
+      "home_abbr": "SA",
+      "away_abbr": "SAC",
+      "home_score": 139,
+      "away_score": 122,
+      "period": 4,
+      "clock": "12:00",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "home_team": "New York Knicks",
+      "away_team": "Houston Rockets",
+      "home_abbr": "NY",
+      "away_abbr": "HOU",
+      "home_score": 103,
+      "away_score": 103,
+      "period": 4,
+      "clock": "47.7",
+      "status": "STATUS_IN_PROGRESS"
+    }
+  ],
+  "value_alerts": [
+    {
+      "timestamp": "2026-02-21T23:00:20.497367-05:00",
+      "game": "Cleveland Cavaliers @ Oklahoma City Thunder",
+      "alert_type": "SLIGHT_VALUE",
+      "pre_game_pick": "Oklahoma City Thunder",
+      "pre_game_prob": 0.509,
+      "live_line": 116,
+      "live_implied": 0.463,
+      "edge": 0.046,
+      "dk_line": 114,
+      "recommended_action": "WATCH"
+    },
+    {
+      "timestamp": "2026-02-21T23:00:20.498364-05:00",
+      "game": "Denver Nuggets @ Golden State Warriors",
+      "alert_type": "STRONG_VALUE",
+      "pre_game_pick": "Golden State Warriors",
+      "pre_game_prob": 0.519,
+      "live_line": 152,
+      "live_implied": 0.3968,
+      "edge": 0.1222,
+      "dk_line": 150,
+      "recommended_action": "BET"
+    }
+  ],
+  "dk_lines": {},
+  "pregame_picks": [
+    {
+      "pick": "Stetson Hatters",
+      "home": "Stetson Hatters",
+      "away": "North Florida Ospreys",
+      "win_prob": 0.526
+    },
+    {
+      "pick": "Tennessee Tech Golden Eagles",
+      "home": "Tennessee Tech Golden Eagles",
+      "away": "Lindenwood Lions",
+      "win_prob": 0.52
+    },
+    {
+      "pick": "Abilene Christian Wildcats",
+      "home": "Abilene Christian Wildcats",
+      "away": "Southern Utah Thunderbirds",
+      "win_prob": 0.523
+    },
+    {
+      "pick": "Colorado St Rams",
+      "home": "Colorado St Rams",
+      "away": "San Diego St Aztecs",
+      "win_prob": 0.515
+    },
+    {
+      "pick": "Wofford Terriers",
+      "home": "Wofford Terriers",
+      "away": "Furman Paladins",
+      "win_prob": 0.515
+    },
+    {
+      "pick": "Oral Roberts Golden Eagles",
+      "home": "Oral Roberts Golden Eagles",
+      "away": "South Dakota Coyotes",
+      "win_prob": 0.515
+    },
+    {
+      "pick": "Utah Utes",
+      "home": "Utah Utes",
+      "away": "UCF Knights",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "UNLV Rebels",
+      "home": "Air Force Falcons",
+      "away": "UNLV Rebels",
+      "win_prob": 0.547
+    },
+    {
+      "pick": "Villanova Wildcats",
+      "home": "Villanova Wildcats",
+      "away": "UConn Huskies",
+      "win_prob": 0.514
+    },
+    {
+      "pick": "Idaho State Bengals",
+      "home": "Idaho State Bengals",
+      "away": "Montana St Bobcats",
+      "win_prob": 0.512
+    },
+    {
+      "pick": "Los Angeles Lakers",
+      "home": "Los Angeles Lakers",
+      "away": "Boston Celtics",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Oklahoma City Thunder",
+      "home": "Oklahoma City Thunder",
+      "away": "Cleveland Cavaliers",
+      "win_prob": 0.509
+    },
+    {
+      "pick": "Baylor Bears",
+      "home": "Baylor Bears",
+      "away": "Arizona St Sun Devils",
+      "win_prob": 0.509
+    },
+    {
+      "pick": "Rhode Island Rams",
+      "home": "La Salle Explorers",
+      "away": "Rhode Island Rams",
+      "win_prob": 0.541
+    },
+    {
+      "pick": "Arkansas-Little Rock Trojans",
+      "home": "Arkansas-Little Rock Trojans",
+      "away": "SE Missouri St Redhawks",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Coppin St Eagles",
+      "home": "Coppin St Eagles",
+      "away": "Maryland-Eastern Shore Hawks",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "South Carolina Upstate Spartans",
+      "home": "South Carolina Upstate Spartans",
+      "away": "Presbyterian Blue Hose",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "New Orleans Pelicans",
+      "home": "New Orleans Pelicans",
+      "away": "Philadelphia 76ers",
+      "win_prob": 0.507
+    },
+    {
+      "pick": "Golden State Warriors",
+      "home": "Golden State Warriors",
+      "away": "Denver Nuggets",
+      "win_prob": 0.519
+    },
+    {
+      "pick": "Kansas St Wildcats",
+      "home": "Texas Tech Red Raiders",
+      "away": "Kansas St Wildcats",
+      "win_prob": 0.539
+    },
+    {
+      "pick": "Washington Huskies",
+      "home": "Maryland Terrapins",
+      "away": "Washington Huskies",
+      "win_prob": 0.539
+    },
+    {
+      "pick": "BYU Cougars",
+      "home": "BYU Cougars",
+      "away": "Iowa State Cyclones",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "New Hampshire Wildcats",
+      "home": "New Hampshire Wildcats",
+      "away": "Maine Black Bears",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Florida A&M Rattlers",
+      "home": "Florida A&M Rattlers",
+      "away": "Alabama St Hornets",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "San Diego Toreros",
+      "home": "San Diego Toreros",
+      "away": "Loyola Marymount Lions",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Bellarmine Knights",
+      "home": "Bellarmine Knights",
+      "away": "Eastern Kentucky Colonels",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Denver Pioneers",
+      "home": "Denver Pioneers",
+      "away": "St. Thomas (MN) Tommies",
+      "win_prob": 0.511
+    },
+    {
+      "pick": "Sacramento St Hornets",
+      "home": "Sacramento St Hornets",
+      "away": "Idaho Vandals",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Duke Blue Devils",
+      "home": "Duke Blue Devils",
+      "away": "Michigan Wolverines",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Long Beach St 49ers",
+      "home": "Long Beach St 49ers",
+      "away": "CSU Northridge Matadors",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "UC Riverside Highlanders",
+      "home": "UC Riverside Highlanders",
+      "away": "UC Davis Aggies",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Nevada Wolf Pack",
+      "home": "Nevada Wolf Pack",
+      "away": "Utah State Aggies",
+      "win_prob": 0.507
+    },
+    {
+      "pick": "Liberty Flames",
+      "home": "Liberty Flames",
+      "away": "Western Kentucky Hilltoppers",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "NJIT Highlanders",
+      "home": "NJIT Highlanders",
+      "away": "Vermont Catamounts",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "UCLA Bruins",
+      "home": "UCLA Bruins",
+      "away": "Illinois Fighting Illini",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Arizona Wildcats",
+      "home": "Houston Cougars",
+      "away": "Arizona Wildcats",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Montana Grizzlies",
+      "home": "Weber State Wildcats",
+      "away": "Montana Grizzlies",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Prairie View Panthers",
+      "home": "Arkansas-Pine Bluff Golden Lions",
+      "away": "Prairie View Panthers",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "CSU Bakersfield Roadrunners",
+      "home": "CSU Bakersfield Roadrunners",
+      "away": "CSU Fullerton Titans",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Orlando Magic",
+      "home": "Phoenix Suns",
+      "away": "Orlando Magic",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Texas A&M Aggies",
+      "home": "Oklahoma Sooners",
+      "away": "Texas A&M Aggies",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Sam Houston St Bearkats",
+      "home": "Sam Houston St Bearkats",
+      "away": "Jacksonville St Gamecocks",
+      "win_prob": 0.525
+    },
+    {
+      "pick": "Houston Christian Huskies",
+      "home": "Northwestern St Demons",
+      "away": "Houston Christian Huskies",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Utah Tech Trailblazers",
+      "home": "Tarleton State Texans",
+      "away": "Utah Tech Trailblazers",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Oklahoma St Cowboys",
+      "home": "Colorado Buffaloes",
+      "away": "Oklahoma St Cowboys",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "UNC Wilmington Seahawks",
+      "home": "Campbell Fighting Camels",
+      "away": "UNC Wilmington Seahawks",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Stanford Cardinal",
+      "home": "California Golden Bears",
+      "away": "Stanford Cardinal",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Troy Trojans",
+      "home": "South Alabama Jaguars",
+      "away": "Troy Trojans",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Morehead St Eagles",
+      "home": "Western Illinois Leathernecks",
+      "away": "Morehead St Eagles",
+      "win_prob": 0.519
+    },
+    {
+      "pick": "Arkansas St Red Wolves",
+      "home": "UL Monroe Warhawks",
+      "away": "Arkansas St Red Wolves",
+      "win_prob": 0.517
+    },
+    {
+      "pick": "Southern Miss Golden Eagles",
+      "home": "Southern Miss Golden Eagles",
+      "away": "Old Dominion Monarchs",
+      "win_prob": 0.515
+    },
+    {
+      "pick": "N Colorado Bears",
+      "home": "N Colorado Bears",
+      "away": "Northern Arizona Lumberjacks",
+      "win_prob": 0.515
+    },
+    {
+      "pick": "Boise State Broncos",
+      "home": "Boise State Broncos",
+      "away": "San Jos\u00e9 St Spartans",
+      "win_prob": 0.513
+    },
+    {
+      "pick": "Jacksonville Dolphins",
+      "home": "Jacksonville Dolphins",
+      "away": "Austin Peay Governors",
+      "win_prob": 0.513
+    },
+    {
+      "pick": "Belmont Bruins",
+      "home": "Belmont Bruins",
+      "away": "Indiana St Sycamores",
+      "win_prob": 0.513
+    },
+    {
+      "pick": "Gonzaga Bulldogs",
+      "home": "Gonzaga Bulldogs",
+      "away": "Pacific Tigers",
+      "win_prob": 0.512
+    },
+    {
+      "pick": "San Francisco Dons",
+      "home": "San Francisco Dons",
+      "away": "Santa Clara Broncos",
+      "win_prob": 0.512
+    },
+    {
+      "pick": "UAB Blazers",
+      "home": "Memphis Tigers",
+      "away": "UAB Blazers",
+      "win_prob": 0.511
+    },
+    {
+      "pick": "North Texas Mean Green",
+      "home": "North Texas Mean Green",
+      "away": "Florida Atlantic Owls",
+      "win_prob": 0.511
+    },
+    {
+      "pick": "UT-Arlington Mavericks",
+      "home": "UT-Arlington Mavericks",
+      "away": "Utah Valley Wolverines",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "USC Trojans",
+      "home": "USC Trojans",
+      "away": "Oregon Ducks",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Jackson St Tigers",
+      "home": "Alcorn St Braves",
+      "away": "Jackson St Tigers",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "McNeese Cowboys",
+      "home": "McNeese Cowboys",
+      "away": "Texas A&M-CC Islanders",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Lafayette Leopards",
+      "home": "Lafayette Leopards",
+      "away": "American Eagles",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Lehigh Mountain Hawks",
+      "home": "Lehigh Mountain Hawks",
+      "away": "Boston Univ. Terriers",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Cleveland St Vikings",
+      "home": "Cleveland St Vikings",
+      "away": "Fort Wayne Mastodons",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Drexel Dragons",
+      "home": "Drexel Dragons",
+      "away": "Towson Tigers",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Rider Broncs",
+      "home": "Rider Broncs",
+      "away": "Niagara Purple Eagles",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "Tulsa Golden Hurricane",
+      "home": "Tulsa Golden Hurricane",
+      "away": "UTSA Roadrunners",
+      "win_prob": 0.51
+    },
+    {
+      "pick": "San Antonio Spurs",
+      "home": "San Antonio Spurs",
+      "away": "Sacramento Kings",
+      "win_prob": 0.509
+    },
+    {
+      "pick": "Charleston Southern Buccaneers",
+      "home": "Charleston Southern Buccaneers",
+      "away": "Longwood Lancers",
+      "win_prob": 0.509
+    },
+    {
+      "pick": "LSU Tigers",
+      "home": "LSU Tigers",
+      "away": "Alabama Crimson Tide",
+      "win_prob": 0.509
+    },
+    {
+      "pick": "Lipscomb Bisons",
+      "home": "Lipscomb Bisons",
+      "away": "North Alabama Lions",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "Stephen F. Austin Lumberjacks",
+      "home": "Stephen F. Austin Lumberjacks",
+      "away": "Nicholls St Colonels",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "Bradley Braves",
+      "home": "Bradley Braves",
+      "away": "Illinois St Redbirds",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "Seattle Redhawks",
+      "home": "Seattle Redhawks",
+      "away": "Portland Pilots",
+      "win_prob": 0.508
+    },
+    {
+      "pick": "Detroit Pistons",
+      "home": "Chicago Bulls",
+      "away": "Detroit Pistons",
+      "win_prob": 0.507
+    },
+    {
+      "pick": "New York Knicks",
+      "home": "New York Knicks",
+      "away": "Houston Rockets",
+      "win_prob": 0.507
+    },
+    {
+      "pick": "South Dakota St Jackrabbits",
+      "home": "South Dakota St Jackrabbits",
+      "away": "North Dakota Fighting Hawks",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Stony Brook Seawolves",
+      "home": "Stony Brook Seawolves",
+      "away": "Hampton Pirates",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Winthrop Eagles",
+      "home": "High Point Panthers",
+      "away": "Winthrop Eagles",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Delaware St Hornets",
+      "home": "Morgan St Bears",
+      "away": "Delaware St Hornets",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Buffalo Bulls",
+      "home": "Massachusetts Minutemen",
+      "away": "Buffalo Bulls",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Auburn Tigers",
+      "home": "Auburn Tigers",
+      "away": "Kentucky Wildcats",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Hawai'i Rainbow Warriors",
+      "home": "Hawai'i Rainbow Warriors",
+      "away": "UC Santa Barbara Gauchos",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "UC Irvine Anteaters",
+      "home": "UC Irvine Anteaters",
+      "away": "UC San Diego Tritons",
+      "win_prob": 0.506
+    },
+    {
+      "pick": "Miami Heat",
+      "home": "Miami Heat",
+      "away": "Memphis Grizzlies",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Georgia Bulldogs",
+      "home": "Georgia Bulldogs",
+      "away": "Texas Longhorns",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "UT Rio Grande Valley Vaqueros",
+      "home": "SE Louisiana Lions",
+      "away": "UT Rio Grande Valley Vaqueros",
+      "win_prob": 0.505
+    },
+    {
+      "pick": "Valparaiso Beacons",
+      "home": "UIC Flames",
+      "away": "Valparaiso Beacons",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "Northern Illinois Huskies",
+      "home": "Northern Illinois Huskies",
+      "away": "Ohio Bobcats",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "West Georgia Wolves",
+      "home": "Queens University Royals",
+      "away": "West Georgia Wolves",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "UNC Greensboro Spartans",
+      "home": "UNC Greensboro Spartans",
+      "away": "East Tennessee St Buccaneers",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "Murray St Racers",
+      "home": "Murray St Racers",
+      "away": "Evansville Purple Aces",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "New Mexico Lobos",
+      "home": "Fresno St Bulldogs",
+      "away": "New Mexico Lobos",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "Wisconsin Badgers",
+      "home": "Wisconsin Badgers",
+      "away": "Iowa Hawkeyes",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "Monmouth Hawks",
+      "home": "Charleston Cougars",
+      "away": "Monmouth Hawks",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Eastern Michigan Eagles",
+      "home": "Toledo Rockets",
+      "away": "Eastern Michigan Eagles",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Eastern Washington Eagles",
+      "home": "Portland St Vikings",
+      "away": "Eastern Washington Eagles",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Southern Jaguars",
+      "home": "Southern Jaguars",
+      "away": "Grambling St Tigers",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Elon Phoenix",
+      "home": "Elon Phoenix",
+      "away": "North Carolina A&T Aggies",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Missouri St Bears",
+      "home": "Florida Int'l Golden Panthers",
+      "away": "Missouri St Bears",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "James Madison Dukes",
+      "home": "Georgia St Panthers",
+      "away": "James Madison Dukes",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "SMU Mustangs",
+      "home": "SMU Mustangs",
+      "away": "Boston College Eagles",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "South Carolina St Bulldogs",
+      "home": "Norfolk St Spartans",
+      "away": "South Carolina St Bulldogs",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Radford Highlanders",
+      "home": "UNC Asheville Bulldogs",
+      "away": "Radford Highlanders",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Eastern Illinois Panthers",
+      "home": "Eastern Illinois Panthers",
+      "away": "Southern Indiana Screaming Eagles",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Central Michigan Chippewas",
+      "home": "Central Michigan Chippewas",
+      "away": "Western Michigan Broncos",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Kennesaw St Owls",
+      "home": "Kennesaw St Owls",
+      "away": "Louisiana Tech Bulldogs",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "West Virginia Mountaineers",
+      "home": "TCU Horned Frogs",
+      "away": "West Virginia Mountaineers",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "East Texas A&M Lions",
+      "home": "East Texas A&M Lions",
+      "away": "Incarnate Word Cardinals",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Richmond Spiders",
+      "home": "Richmond Spiders",
+      "away": "St. Bonaventure Bonnies",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Wichita St Shockers",
+      "home": "Wichita St Shockers",
+      "away": "Temple Owls",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Lamar Cardinals",
+      "home": "Lamar Cardinals",
+      "away": "New Orleans Privateers",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Pepperdine Waves",
+      "home": "Oregon St Beavers",
+      "away": "Pepperdine Waves",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Bethune-Cookman Wildcats",
+      "home": "Bethune-Cookman Wildcats",
+      "away": "Alabama A&M Bulldogs",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Texas Southern Tigers",
+      "home": "Miss Valley St Delta Devils",
+      "away": "Texas Southern Tigers",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Northern Iowa Panthers",
+      "home": "Northern Iowa Panthers",
+      "away": "Southern Illinois Salukis",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Georgetown Hoyas",
+      "home": "Seton Hall Pirates",
+      "away": "Georgetown Hoyas",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Fairleigh Dickinson Knights",
+      "home": "Fairleigh Dickinson Knights",
+      "away": "New Haven Chargers",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Wyoming Cowboys",
+      "home": "Grand Canyon Antelopes",
+      "away": "Wyoming Cowboys",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Washington St Cougars",
+      "home": "Washington St Cougars",
+      "away": "Saint Mary's Gaels",
+      "win_prob": 0.501
+    },
+    {
+      "pick": "Missouri Tigers",
+      "home": "Arkansas Razorbacks",
+      "away": "Missouri Tigers",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "DePaul Blue Demons",
+      "home": "DePaul Blue Demons",
+      "away": "Providence Friars",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "New Mexico St Aggies",
+      "home": "New Mexico St Aggies",
+      "away": "UTEP Miners",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Bucknell Bison",
+      "home": "Bucknell Bison",
+      "away": "Holy Cross Crusaders",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Detroit Mercy Titans",
+      "home": "Detroit Mercy Titans",
+      "away": "Green Bay Phoenix",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Merrimack Warriors",
+      "home": "Merrimack Warriors",
+      "away": "Iona Gaels",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Michigan St Spartans",
+      "home": "Michigan St Spartans",
+      "away": "Ohio State Buckeyes",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Mt. St. Mary's Mountaineers",
+      "home": "Mt. St. Mary's Mountaineers",
+      "away": "Canisius Golden Griffins",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Quinnipiac Bobcats",
+      "home": "Quinnipiac Bobcats",
+      "away": "Fairfield Stags",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Marist Red Foxes",
+      "home": "Marist Red Foxes",
+      "away": "Sacred Heart Pioneers",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Youngstown St Penguins",
+      "home": "Youngstown St Penguins",
+      "away": "Northern Kentucky Norse",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Tulane Green Wave",
+      "home": "Tulane Green Wave",
+      "away": "Rice Owls",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Wright St Raiders",
+      "home": "Wright St Raiders",
+      "away": "Robert Morris Colonials",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Siena Saints",
+      "home": "Siena Saints",
+      "away": "Saint Peter's Peacocks",
+      "win_prob": 0.5
+    },
+    {
+      "pick": "Oakland Golden Grizzlies",
+      "home": "Oakland Golden Grizzlies",
+      "away": "Milwaukee Panthers",
+      "win_prob": 0.5
+    }
+  ]
+}

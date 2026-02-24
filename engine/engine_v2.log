@@ -1,0 +1,399 @@
+2026-02-16 16:01:36,663 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:01:36,663 INFO Fetching 2024-25 team stats...
+2026-02-16 16:01:45,662 ERROR Error fetching team stats: 'OPP_PTS'
+2026-02-16 16:01:45,662 INFO Falling back to 2023-24 season
+2026-02-16 16:01:45,663 INFO Fetching 2023-24 team stats...
+2026-02-16 16:02:54,375 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:02:54,375 INFO Fetching 2024-25 team stats...
+2026-02-16 16:02:55,434 INFO Loaded stats for 30 teams
+2026-02-16 16:03:26,909 ERROR Error fetching results for 2026-01-01: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-16 16:03:59,968 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:03:59,968 INFO Fetching 2024-25 team stats...
+2026-02-16 16:04:01,033 INFO Loaded stats for 30 teams
+2026-02-16 16:04:02,550 WARNING Attempt 1 failed for 2026-01-01: list index out of range
+2026-02-16 16:04:07,231 WARNING Attempt 2 failed for 2026-01-01: list index out of range
+2026-02-16 16:04:12,045 WARNING Attempt 3 failed for 2026-01-01: list index out of range
+2026-02-16 16:04:15,046 ERROR All retries failed for 2026-01-01
+2026-02-16 16:04:16,439 WARNING Attempt 1 failed for 2026-01-02: list index out of range
+2026-02-16 16:06:34,183 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:06:34,184 INFO Fetching 2024-25 team stats...
+2026-02-16 16:06:35,171 INFO Loaded stats for 30 teams
+2026-02-16 16:17:42,910 WARNING Attempt 1 for 2026-02-05: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=60)
+2026-02-16 16:18:15,873 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:18:15,874 INFO Recalibrating factor weights...
+2026-02-16 16:18:15,895 INFO Recalibrated weights based on 323 predictions
+2026-02-16 16:18:15,896 INFO Weights recalibrated
+2026-02-16 16:18:15,896 INFO Generating picks for parlay-consistent
+2026-02-16 16:18:16,502 WARNING No games found for parlay-consistent
+2026-02-16 16:18:16,502 WARNING No picks generated for parlay-consistent
+2026-02-16 16:18:16,502 INFO Generating picks for parlay-moonshot
+2026-02-16 16:18:16,869 WARNING No games found for parlay-moonshot
+2026-02-16 16:18:16,870 WARNING No picks generated for parlay-moonshot
+2026-02-16 16:18:16,870 INFO Generating picks for straight-weekday
+2026-02-16 16:18:20,098 INFO Fetching 2024-25 team stats...
+2026-02-16 16:18:21,198 INFO Loaded stats for 30 teams
+2026-02-16 16:18:42,924 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:18:42,924 INFO Generating accuracy report...
+2026-02-16 16:23:59,547 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:29:19,424 WARNING Attempt 1 for 2026-01-30: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=60)
+2026-02-16 16:30:34,727 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:30:34,727 INFO Recalibrating factor weights...
+2026-02-16 16:30:34,744 INFO Recalibrated weights based on 218 predictions
+2026-02-16 16:30:34,744 INFO Weights recalibrated
+2026-02-16 16:30:34,744 INFO Generating picks for parlay-consistent
+2026-02-16 16:30:35,250 WARNING No games found for parlay-consistent
+2026-02-16 16:30:35,250 WARNING No picks generated for parlay-consistent
+2026-02-16 16:30:35,250 INFO Generating picks for parlay-moonshot
+2026-02-16 16:30:35,738 WARNING No games found for parlay-moonshot
+2026-02-16 16:30:35,738 WARNING No picks generated for parlay-moonshot
+2026-02-16 16:30:35,738 INFO Generating picks for straight-weekday
+2026-02-16 16:30:39,036 INFO Fetching 2024-25 team stats...
+2026-02-16 16:30:40,201 INFO Loaded stats for 30 teams
+2026-02-16 16:31:14,384 ERROR Error calculating rest days for Charlotte Hornets: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-16 16:31:30,174 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 16:31:30,174 INFO Generating accuracy report...
+2026-02-16 17:00:56,461 WARNING Gamelog fetch error for Cleveland Cavaliers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:02:45,833 WARNING Gamelog fetch error for Oklahoma City Thunder: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:05:01,413 WARNING API call attempt 1/3 failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20). Waiting 1.8s...
+2026-02-16 17:16:03,551 WARNING Gamelog fetch error for Dallas Mavericks: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:16:43,530 WARNING Gamelog fetch error for Los Angeles Clippers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:18:04,303 WARNING Gamelog fetch error for San Antonio Spurs: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:20:48,468 WARNING API call attempt 1/3 failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20). Waiting 1.8s...
+2026-02-16 17:22:30,201 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-16 17:22:30,201 INFO Recalibrating factor weights...
+2026-02-16 17:22:30,215 INFO Recalibrated weights based on 218 predictions
+2026-02-16 17:22:30,215 INFO Weight change season_win_pct: 0.080 -> 0.054
+2026-02-16 17:22:30,215 INFO Weight change home_win_pct: 0.050 -> 0.033
+2026-02-16 17:22:30,215 INFO Weight change away_win_pct: 0.050 -> 0.033
+2026-02-16 17:22:30,215 INFO Weight change last_10_record: 0.060 -> 0.040
+2026-02-16 17:22:30,215 INFO Weight change last_5_record: 0.040 -> 0.026
+2026-02-16 17:22:30,215 INFO Weight change offensive_rating: 0.040 -> 0.027
+2026-02-16 17:22:30,215 INFO Weight change defensive_rating: 0.050 -> 0.033
+2026-02-16 17:22:30,216 INFO Weight change net_rating: 0.060 -> 0.040
+2026-02-16 17:22:30,216 INFO Weight change ppg: 0.030 -> 0.020
+2026-02-16 17:22:30,216 INFO Weight change rest_days: 0.100 -> 0.064
+2026-02-16 17:22:30,216 INFO Weight change travel_distance: 0.040 -> 0.026
+2026-02-16 17:22:30,216 INFO Weight change timezone_change: 0.030 -> 0.020
+2026-02-16 17:22:30,216 INFO Weight change head_to_head: 0.040 -> 0.026
+2026-02-16 17:22:30,216 INFO Weight change strength_of_schedule: 0.030 -> 0.019
+2026-02-16 17:22:30,216 INFO Weight change clutch_performance: 0.060 -> 0.040
+2026-02-16 17:22:30,216 INFO Weight change turnover_diff: 0.050 -> 0.032
+2026-02-16 17:22:30,216 INFO Weight change rebound_diff: 0.030 -> 0.020
+2026-02-16 17:22:30,216 INFO Weight change three_pt_pct: 0.030 -> 0.020
+2026-02-16 17:22:30,216 INFO Weight change home_court: 0.035 -> 0.023
+2026-02-16 17:22:30,216 INFO Weight change streak_diff: 0.030 -> 0.019
+2026-02-16 17:22:30,216 INFO Weight change scoring_margin_trend: 0.070 -> 0.045
+2026-02-16 17:22:30,216 INFO Weight change away_road_trip: 0.030 -> 0.019
+2026-02-16 17:22:30,216 INFO Weight change altitude_factor: 0.030 -> 0.019
+2026-02-16 17:22:30,216 INFO Weight change b2b_status: 0.070 -> 0.045
+2026-02-16 17:22:30,216 INFO Weight change schedule_density: 0.050 -> 0.032
+2026-02-16 17:22:30,216 INFO Weight change last_3_record: 0.030 -> 0.019
+2026-02-16 17:22:30,216 INFO Weights recalibrated
+2026-02-16 17:22:30,217 INFO Generating accuracy report...
+2026-02-16 17:30:33,308 WARNING Gamelog fetch error for New Orleans Pelicans: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-16 17:33:00,515 WARNING API call attempt 1/3 failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20). Waiting 1.8s...
+2026-02-16 17:34:08,314 WARNING API call attempt 1/3 failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20). Waiting 1.8s...
+2026-02-21 06:38:50,378 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-21 06:38:50,378 INFO Generating picks for parlay-consistent
+2026-02-21 06:38:50,805 INFO Fetching 2025-26 team stats...
+2026-02-21 06:38:52,217 INFO Loaded stats for 30 teams
+2026-02-21 06:39:00,352 INFO CBS Sports: scraped 94 injuries
+2026-02-21 06:39:01,009 INFO NBA Official: scraped 0 injuries
+2026-02-21 06:39:01,019 INFO Cached 94 injuries to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\injury_cache.json
+2026-02-21 06:39:01,019 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:39:01,019 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:39:13,040 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-21 06:39:13,040 INFO Generating picks for parlay-consistent
+2026-02-21 06:39:13,584 INFO Fetching 2025-26 team stats...
+2026-02-21 06:39:19,207 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-21 06:39:19,208 INFO Generating picks for parlay-consistent
+2026-02-21 06:39:19,562 INFO Fetching 2025-26 team stats...
+2026-02-21 06:39:20,764 INFO Loaded stats for 30 teams
+2026-02-21 06:39:28,219 INFO Using cached injuries (94 entries)
+2026-02-21 06:39:28,219 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:39:28,220 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:39:38,607 ERROR Error calculating travel distance for New Orleans Pelicans: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:40:06,780 ERROR Error calculating SOS for New Orleans Pelicans: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:40:09,063 ERROR Error calculating travel distance for Philadelphia 76ers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:40:10,115 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:40:10,116 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:40:19,453 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:40:19,453 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:40:28,714 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:40:28,714 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:40:36,475 INFO NBAPredictor v2 initialized with self-learning capabilities
+2026-02-21 06:40:36,477 INFO Generating picks for parlay-consistent
+2026-02-21 06:40:36,902 INFO Fetching 2025-26 team stats...
+2026-02-21 06:40:38,065 INFO Loaded stats for 30 teams
+2026-02-21 06:40:38,099 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:40:38,099 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:40:47,649 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:40:47,649 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:40:49,772 INFO Generated 8 picks for parlay-consistent
+2026-02-21 06:40:49,772 INFO Generating picks for parlay-moonshot
+2026-02-21 06:40:53,871 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:40:53,871 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:40:59,623 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:40:59,623 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:41:13,663 ERROR Error calculating travel distance for Phoenix Suns: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:41:33,060 ERROR Error calculating rest days for Memphis Grizzlies: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:41:35,393 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:41:35,393 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:41:41,064 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:41:41,064 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:41:44,100 ERROR Error calculating travel distance for Orlando Magic: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:42:14,224 ERROR Error calculating rest days for Sacramento Kings: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:42:14,559 ERROR Error calculating SOS for Phoenix Suns: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:42:15,113 INFO Using cached injuries (94 entries)
+2026-02-21 06:42:15,115 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:42:15,115 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:42:16,899 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:42:16,900 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:42:51,756 ERROR Error calculating travel distance for Houston Rockets: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:42:52,451 ERROR Error calculating rest days for Philadelphia 76ers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:42:53,032 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:42:53,033 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:42:54,736 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:42:54,738 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:42:55,352 INFO Generated 7 picks for parlay-moonshot
+2026-02-21 06:42:55,352 INFO Generating picks for straight-weekday
+2026-02-21 06:43:04,142 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:43:04,143 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:43:04,161 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:43:04,163 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:43:13,796 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:43:13,797 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:43:13,987 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:43:13,988 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:43:22,012 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:43:22,013 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:43:23,688 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:43:23,689 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:43:32,726 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:43:32,726 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:43:33,795 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:43:33,797 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:43:35,843 INFO Generated 8 picks for parlay-consistent
+2026-02-21 06:43:35,844 INFO Generating picks for parlay-moonshot
+2026-02-21 06:43:38,487 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:43:38,487 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:43:39,953 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:43:39,956 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:44:13,620 ERROR Error calculating rest days for Toronto Raptors: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:44:15,252 ERROR Error calculating SOS for New Orleans Pelicans: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:44:15,822 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:44:15,823 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:44:16,011 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:44:16,011 INFO Injury impact for Toronto Raptors: 0.045
+2026-02-21 06:44:48,351 ERROR Error calculating rest days for Miami Heat: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:44:51,650 ERROR Error calculating SOS for Phoenix Suns: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:44:51,650 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:44:51,650 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:45:18,944 ERROR Error calculating rest days for Memphis Grizzlies: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:45:21,314 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:45:21,314 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:45:24,252 ERROR Error fetching home/away splits for Golden State Warriors: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:45:26,877 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:45:26,878 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:45:32,753 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:45:32,755 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:45:38,467 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:45:38,468 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:45:40,769 INFO Generated 7 picks for parlay-moonshot
+2026-02-21 06:45:40,770 INFO Generating picks for straight-weekday
+2026-02-21 06:45:49,406 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:45:49,408 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:45:58,598 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:45:58,600 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:46:01,138 ERROR Error calculating SOS for Boston Celtics: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:46:01,142 INFO Injury impact for Golden State Warriors: 0.300
+2026-02-21 06:46:01,142 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:46:06,437 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:46:06,439 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:46:35,228 ERROR Error calculating travel distance for Sacramento Kings: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:46:37,007 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:46:37,007 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:46:41,978 ERROR Error fetching recent form for Indiana Pacers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:47:13,704 ERROR Error calculating rest days for Los Angeles Clippers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:47:14,971 ERROR Error calculating SOS for Washington Wizards: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:47:15,594 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:47:15,597 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:47:16,760 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:47:16,760 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:47:21,489 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:47:21,490 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:47:22,435 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:47:22,435 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:47:55,368 ERROR Error fetching recent form for Toronto Raptors: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:47:56,261 ERROR Error calculating travel distance for Washington Wizards: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:47:58,054 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:47:58,054 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:48:26,614 ERROR Error calculating rest days for Toronto Raptors: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:48:28,922 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:48:28,924 INFO Injury impact for Toronto Raptors: 0.045
+2026-02-21 06:48:31,332 ERROR Error fetching recent form for Utah Jazz: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:48:34,642 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:48:34,644 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:48:35,504 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:48:35,504 INFO Injury impact for Utah Jazz: 0.172
+2026-02-21 06:48:41,200 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:48:41,201 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:48:50,444 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:49:08,446 ERROR Error fetching recent form for Golden State Warriors: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:49:13,851 INFO Injury impact for Golden State Warriors: 0.300
+2026-02-21 06:49:13,852 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:49:19,386 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:49:19,388 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:49:26,117 ERROR Error calculating travel distance for New Orleans Pelicans: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:49:27,849 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:49:27,850 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:49:35,353 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:49:35,353 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:49:42,776 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:49:50,385 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:49:50,385 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:49:52,457 INFO Generated 6 picks for straight-weekday
+2026-02-21 06:49:52,457 INFO Generating picks for straight-weekend
+2026-02-21 06:49:53,172 ERROR Error fetching recent form for Los Angeles Clippers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:49:58,106 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:49:58,107 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:49:58,809 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:49:58,812 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:50:32,381 ERROR Error calculating travel distance for Washington Wizards: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:50:33,433 ERROR Error calculating travel distance for Cleveland Cavaliers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:50:34,125 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:50:34,125 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:50:34,546 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:50:34,549 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:51:09,154 ERROR Error calculating travel distance for Washington Wizards: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:51:09,392 ERROR Error calculating travel distance for Utah Jazz: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:51:10,545 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:51:10,545 INFO Injury impact for Utah Jazz: 0.172
+2026-02-21 06:51:16,109 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:51:16,109 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:51:39,862 ERROR Error calculating travel distance for Indiana Pacers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:51:40,977 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:51:40,979 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:51:52,062 ERROR Error calculating SOS for Dallas Mavericks: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:51:52,062 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:51:57,668 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:51:57,668 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:52:03,241 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:52:03,242 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:52:18,581 ERROR Error calculating SOS for Utah Jazz: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:52:18,582 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:52:18,583 INFO Injury impact for Utah Jazz: 0.172
+2026-02-21 06:52:24,902 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:52:24,903 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:52:34,430 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:52:38,110 ERROR Error calculating SOS for Los Angeles Lakers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:52:38,638 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:52:41,821 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:52:41,823 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:52:44,430 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:52:44,431 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:52:49,529 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:52:49,531 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:52:50,195 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:52:50,195 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:52:56,061 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:52:56,062 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:53:24,111 ERROR Error fetching recent form for Los Angeles Lakers: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:53:27,773 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:53:30,451 ERROR Error calculating travel distance for Memphis Grizzlies: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:53:31,575 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:53:31,575 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:53:35,482 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:53:35,484 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:53:37,683 INFO Generated 6 picks for straight-weekday
+2026-02-21 06:53:37,684 INFO Generating picks for straight-weekend
+2026-02-21 06:53:38,060 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:53:38,060 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:53:44,234 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:53:44,235 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:53:50,049 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:53:50,050 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:54:11,560 ERROR Error calculating travel distance for Charlotte Hornets: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:54:13,807 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:54:13,809 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:54:20,529 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:54:20,530 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:54:22,654 ERROR Error calculating rest days for Oklahoma City Thunder: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:54:25,955 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:54:25,955 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:54:32,844 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:54:32,844 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:54:39,115 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:54:39,115 INFO Injury impact for Toronto Raptors: 0.045
+2026-02-21 06:54:53,664 ERROR Error calculating rest days for Memphis Grizzlies: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:54:56,809 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:54:56,811 INFO Injury impact for Utah Jazz: 0.172
+2026-02-21 06:55:13,778 ERROR Error calculating rest days for Denver Nuggets: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:55:16,317 INFO Injury impact for Golden State Warriors: 0.300
+2026-02-21 06:55:16,317 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:55:22,134 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:55:22,135 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:55:28,094 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:55:28,094 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:55:29,895 ERROR Error calculating rest days for Atlanta Hawks: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:55:34,756 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:55:34,758 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:55:36,145 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:55:41,877 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:55:43,664 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:55:49,379 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:55:49,382 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:55:50,715 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:55:57,605 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:55:57,607 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:55:58,996 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:56:05,563 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:56:05,818 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:56:05,819 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:56:13,231 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:56:13,234 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:56:13,280 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:56:13,280 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:56:20,042 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:56:20,043 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:56:20,060 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:56:20,062 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:56:22,481 INFO Generated 6 picks for straight-weekend
+2026-02-21 06:56:22,501 INFO Results saved to engine_v2_output.json
+2026-02-21 06:56:22,501 INFO Generated picks for 4 products
+2026-02-21 06:56:26,285 INFO Injury impact for New Orleans Pelicans: 0.072
+2026-02-21 06:56:26,287 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:56:32,113 INFO Injury impact for Miami Heat: 0.045
+2026-02-21 06:56:32,116 INFO Injury impact for Memphis Grizzlies: 0.300
+2026-02-21 06:56:38,138 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:56:38,139 INFO Injury impact for Detroit Pistons: 0.018
+2026-02-21 06:56:44,237 INFO Injury impact for San Antonio Spurs: 0.108
+2026-02-21 06:56:44,239 INFO Injury impact for Sacramento Kings: 0.255
+2026-02-21 06:56:50,288 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:56:50,291 INFO Injury impact for Houston Rockets: 0.090
+2026-02-21 06:56:56,611 INFO Injury impact for Oklahoma City Thunder: 0.270
+2026-02-21 06:56:56,612 INFO Injury impact for Cleveland Cavaliers: 0.063
+2026-02-21 06:57:02,727 INFO Injury impact for Atlanta Hawks: 0.045
+2026-02-21 06:57:02,728 INFO Injury impact for Brooklyn Nets: 0.036
+2026-02-21 06:57:09,932 INFO Injury impact for Milwaukee Bucks: 0.118
+2026-02-21 06:57:09,934 INFO Injury impact for Toronto Raptors: 0.045
+2026-02-21 06:57:16,518 INFO Injury impact for Golden State Warriors: 0.300
+2026-02-21 06:57:16,520 INFO Injury impact for Denver Nuggets: 0.135
+2026-02-21 06:57:22,374 INFO Injury impact for Indiana Pacers: 0.300
+2026-02-21 06:57:22,376 INFO Injury impact for Dallas Mavericks: 0.126
+2026-02-21 06:57:28,457 INFO Injury impact for Washington Wizards: 0.300
+2026-02-21 06:57:28,459 INFO Injury impact for Charlotte Hornets: 0.144
+2026-02-21 06:57:34,522 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:57:40,484 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:57:46,559 INFO Injury impact for Boston Celtics: 0.132
+2026-02-21 06:57:52,372 INFO Injury impact for Philadelphia 76ers: 0.249
+2026-02-21 06:57:58,731 INFO Injury impact for Chicago Bulls: 0.126
+2026-02-21 06:57:58,733 INFO Injury impact for New York Knicks: 0.045
+2026-02-21 06:58:04,981 INFO Injury impact for Phoenix Suns: 0.232
+2026-02-21 06:58:04,983 INFO Injury impact for Portland Trail Blazers: 0.144
+2026-02-21 06:58:41,065 ERROR Error calculating SOS for Orlando Magic: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-21 06:58:41,068 INFO Injury impact for Los Angeles Clippers: 0.157
+2026-02-21 06:58:41,069 INFO Injury impact for Orlando Magic: 0.132
+2026-02-21 06:58:43,395 INFO Generated 6 picks for straight-weekend
+2026-02-21 06:58:43,411 INFO Results saved to engine_v2_output.json
+2026-02-21 06:58:43,412 INFO Generated picks for 4 products

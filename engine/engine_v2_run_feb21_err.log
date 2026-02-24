@@ -1,0 +1,224 @@
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])
+C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\engine_v2.py:336: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['GAME_DATE'] = pd.to_datetime(df['GAME_DATE'])

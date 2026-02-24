@@ -1,0 +1,140 @@
+{
+  "draftkings": {
+    "total_nights": 3,
+    "itm_nights": 0,
+    "best_scores": [
+      0,
+      0,
+      0
+    ],
+    "strategy_results": {},
+    "sample_nights": [
+      {
+        "date": "2024-12-01",
+        "games_count": 10,
+        "players_count": 260,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      },
+      {
+        "date": "2024-12-03",
+        "games_count": 11,
+        "players_count": 286,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      },
+      {
+        "date": "2024-12-05",
+        "games_count": 8,
+        "players_count": 20,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      }
+    ]
+  },
+  "fanduel": {
+    "total_nights": 3,
+    "itm_nights": 0,
+    "best_scores": [
+      0,
+      0,
+      0
+    ],
+    "strategy_results": {},
+    "sample_nights": [
+      {
+        "date": "2024-12-01",
+        "games_count": 10,
+        "players_count": 260,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      },
+      {
+        "date": "2024-12-03",
+        "games_count": 11,
+        "players_count": 286,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      },
+      {
+        "date": "2024-12-05",
+        "games_count": 8,
+        "players_count": 20,
+        "results": {
+          "draftkings": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          },
+          "fanduel": {
+            "lineups": [],
+            "actual_scores": [],
+            "best_score": 0,
+            "itm_count": 0
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,818 @@
+2026-02-15 20:31:03,613 INFO Starting Product Engine for: parlay-consistent
+2026-02-15 20:31:03,613 INFO Target date: 2026-02-19
+2026-02-15 20:31:03,614 INFO Fetching 2024-25 team stats...
+2026-02-15 20:31:04,102 INFO Loaded stats for 30 teams
+2026-02-15 20:31:05,602 INFO Generating picks for Parlay Consistent
+2026-02-15 20:31:06,427 INFO Found 10 games for Parlay Consistent
+2026-02-15 20:31:06,431 INFO ============================================================
+2026-02-15 20:31:06,431 INFO PRODUCT ENGINE RESULTS
+2026-02-15 20:31:06,431 INFO ============================================================
+2026-02-15 20:31:06,431 INFO Parlay Consistent:
+2026-02-15 20:31:06,431 INFO   - Picks: 10
+2026-02-15 20:31:06,432 INFO   - Games: 10
+2026-02-15 20:31:06,432 INFO   - Type: parlay
+2026-02-15 20:31:06,432 INFO Results saved to: picks_output.json
+2026-02-15 20:31:06,432 INFO ============================================================
+2026-02-15 20:36:54,632 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-15 20:36:54,632 INFO Product: all
+2026-02-15 20:36:54,632 INFO Date: 2026-02-19
+2026-02-15 20:36:54,632 INFO Starting Product Engine for: all
+2026-02-15 20:36:54,632 INFO Target date: 2026-02-19
+2026-02-15 20:36:54,632 INFO Fetching 2024-25 team stats...
+2026-02-15 20:36:55,229 INFO Loaded stats for 30 teams
+2026-02-15 20:36:56,730 INFO Generating picks for Parlay Consistent
+2026-02-15 20:36:57,503 INFO Found 10 games for Parlay Consistent
+2026-02-15 20:36:57,503 INFO Generating picks for Parlay Moonshot
+2026-02-15 20:36:58,274 INFO Found 10 games for Parlay Moonshot
+2026-02-15 20:36:58,274 INFO Generating picks for Straight Weekday Pack
+2026-02-15 20:37:02,359 INFO Found 19 games for Straight Weekday Pack
+2026-02-15 20:37:02,360 INFO Generating picks for Straight Weekend Pack
+2026-02-15 20:37:04,773 INFO Found 28 games for Straight Weekend Pack
+2026-02-15 20:37:04,779 INFO ============================================================
+2026-02-15 20:37:04,780 INFO PRODUCT ENGINE RESULTS
+2026-02-15 20:37:04,780 INFO ============================================================
+2026-02-15 20:37:04,780 INFO Parlay Consistent:
+2026-02-15 20:37:04,780 INFO   - Picks: 10
+2026-02-15 20:37:04,780 INFO   - Games: 10
+2026-02-15 20:37:04,780 INFO   - Type: parlay
+2026-02-15 20:37:04,780 INFO Parlay Moonshot:
+2026-02-15 20:37:04,781 INFO   - Picks: 10
+2026-02-15 20:37:04,781 INFO   - Games: 10
+2026-02-15 20:37:04,781 INFO   - Type: parlay
+2026-02-15 20:37:04,781 INFO Straight Weekday Pack:
+2026-02-15 20:37:04,781 INFO   - Picks: 10
+2026-02-15 20:37:04,782 INFO   - Games: 19
+2026-02-15 20:37:04,782 INFO   - Type: straight
+2026-02-15 20:37:04,782 INFO Straight Weekend Pack:
+2026-02-15 20:37:04,782 INFO   - Picks: 10
+2026-02-15 20:37:04,782 INFO   - Games: 28
+2026-02-15 20:37:04,783 INFO   - Type: straight
+2026-02-15 20:37:04,783 INFO Results saved to: picks_output.json
+2026-02-15 20:37:04,783 INFO ============================================================
+2026-02-17 08:39:30,836 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-17 08:39:30,837 INFO Product: all
+2026-02-17 08:39:30,837 INFO Date: 2026-02-20
+2026-02-17 08:39:30,837 INFO Starting Product Engine for: all
+2026-02-17 08:39:30,837 INFO Target date: 2026-02-20
+2026-02-17 08:39:30,837 INFO Fetching 2024-25 team stats...
+2026-02-17 08:39:39,461 INFO Loaded stats for 76 teams
+2026-02-17 08:39:40,963 INFO Generating picks for Parlay Consistent
+2026-02-17 08:39:42,321 ERROR Error fetching games for 2026-02-20: list index out of range
+2026-02-17 08:39:42,322 WARNING No games found for Parlay Consistent
+2026-02-17 08:39:42,322 INFO Generating picks for Parlay Moonshot
+2026-02-17 08:39:43,496 ERROR Error fetching games for 2026-02-20: list index out of range
+2026-02-17 08:39:43,497 WARNING No games found for Parlay Moonshot
+2026-02-17 08:39:43,497 INFO Generating picks for Straight Weekday Pack
+2026-02-17 08:39:44,700 ERROR Error fetching games for 2026-02-16: list index out of range
+2026-02-17 08:39:45,997 ERROR Error fetching games for 2026-02-17: list index out of range
+2026-02-17 08:39:47,484 ERROR Error fetching games for 2026-02-18: list index out of range
+2026-02-17 08:39:48,773 ERROR Error fetching games for 2026-02-19: list index out of range
+2026-02-17 08:39:49,934 ERROR Error fetching games for 2026-02-20: list index out of range
+2026-02-17 08:39:49,934 WARNING No games found for Straight Weekday Pack
+2026-02-17 08:39:49,934 INFO Generating picks for Straight Weekend Pack
+2026-02-17 08:39:51,147 ERROR Error fetching games for 2026-02-20: list index out of range
+2026-02-17 08:39:52,475 ERROR Error fetching games for 2026-02-21: list index out of range
+2026-02-17 08:39:53,726 ERROR Error fetching games for 2026-02-22: list index out of range
+2026-02-17 08:39:53,726 WARNING No games found for Straight Weekend Pack
+2026-02-17 08:39:53,728 INFO ============================================================
+2026-02-17 08:39:53,728 INFO PRODUCT ENGINE RESULTS
+2026-02-17 08:39:53,728 INFO ============================================================
+2026-02-17 08:39:53,729 INFO Results saved to: picks_output.json
+2026-02-17 08:39:53,729 INFO ============================================================
+2026-02-17 08:40:44,526 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-17 08:40:44,527 INFO Product: all
+2026-02-17 08:40:44,527 INFO Date: 2026-02-20
+2026-02-17 08:40:44,527 INFO Starting Product Engine for: all
+2026-02-17 08:40:44,527 INFO Target date: 2026-02-20
+2026-02-17 08:40:44,527 INFO Fetching 2024-25 team stats...
+2026-02-17 08:40:44,980 INFO Loaded stats for 76 teams
+2026-02-17 08:40:46,481 INFO Generating picks for Parlay Consistent
+2026-02-17 08:40:47,816 INFO Found 9 games for Parlay Consistent
+2026-02-17 08:40:47,817 INFO Generating picks for Parlay Moonshot
+2026-02-17 08:40:49,081 INFO Found 9 games for Parlay Moonshot
+2026-02-17 08:40:49,081 INFO Generating picks for Straight Weekday Pack
+2026-02-17 08:40:55,661 INFO Found 19 games for Straight Weekday Pack
+2026-02-17 08:40:55,662 INFO Generating picks for Straight Weekend Pack
+2026-02-17 08:40:59,321 INFO Found 28 games for Straight Weekend Pack
+2026-02-17 08:40:59,327 INFO ============================================================
+2026-02-17 08:40:59,327 INFO PRODUCT ENGINE RESULTS
+2026-02-17 08:40:59,327 INFO ============================================================
+2026-02-17 08:40:59,327 INFO Parlay Consistent:
+2026-02-17 08:40:59,328 INFO   - Picks: 10
+2026-02-17 08:40:59,328 INFO   - Games: 9
+2026-02-17 08:40:59,328 INFO   - Type: parlay
+2026-02-17 08:40:59,328 INFO Parlay Moonshot:
+2026-02-17 08:40:59,328 INFO   - Picks: 10
+2026-02-17 08:40:59,328 INFO   - Games: 9
+2026-02-17 08:40:59,328 INFO   - Type: parlay
+2026-02-17 08:40:59,328 INFO Straight Weekday Pack:
+2026-02-17 08:40:59,329 INFO   - Picks: 10
+2026-02-17 08:40:59,329 INFO   - Games: 19
+2026-02-17 08:40:59,329 INFO   - Type: straight
+2026-02-17 08:40:59,329 INFO Straight Weekend Pack:
+2026-02-17 08:40:59,329 INFO   - Picks: 10
+2026-02-17 08:40:59,330 INFO   - Games: 28
+2026-02-17 08:40:59,330 INFO   - Type: straight
+2026-02-17 08:40:59,330 INFO Results saved to: picks_output.json
+2026-02-17 08:40:59,330 INFO ============================================================
+2026-02-17 15:00:11,723 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-17 15:00:11,724 INFO Product: all
+2026-02-17 15:00:11,724 INFO Date: 2026-02-17
+2026-02-17 15:00:11,724 INFO Starting Product Engine for: all
+2026-02-17 15:00:11,724 INFO Target date: 2026-02-17
+2026-02-17 15:00:11,724 INFO Fetching 2024-25 team stats...
+2026-02-17 15:00:12,216 INFO Loaded stats for 76 teams
+2026-02-17 15:00:13,717 INFO Generating picks for Parlay Consistent
+2026-02-17 15:00:15,100 WARNING No games found for Parlay Consistent
+2026-02-17 15:00:15,100 INFO Generating picks for Parlay Moonshot
+2026-02-17 15:00:16,411 WARNING No games found for Parlay Moonshot
+2026-02-17 15:00:16,411 INFO Generating picks for Straight Weekday Pack
+2026-02-17 15:00:23,539 INFO Found 19 games for Straight Weekday Pack
+2026-02-17 15:00:23,539 INFO Generating picks for Referral Bonus Bundle
+2026-02-17 15:00:24,879 WARNING No games found for Referral Bonus Bundle
+2026-02-17 15:00:24,879 INFO Generating picks for Straight Weekend Pack
+2026-02-17 15:00:29,787 INFO Found 28 games for Straight Weekend Pack
+2026-02-17 15:00:29,792 INFO ============================================================
+2026-02-17 15:00:29,792 INFO PRODUCT ENGINE RESULTS
+2026-02-17 15:00:29,792 INFO ============================================================
+2026-02-17 15:00:29,793 INFO Straight Weekday Pack:
+2026-02-17 15:00:29,793 INFO   - Picks: 10
+2026-02-17 15:00:29,793 INFO   - Games: 19
+2026-02-17 15:00:29,793 INFO   - Type: straight
+2026-02-17 15:00:29,793 INFO Straight Weekend Pack:
+2026-02-17 15:00:29,794 INFO   - Picks: 10
+2026-02-17 15:00:29,794 INFO   - Games: 28
+2026-02-17 15:00:29,794 INFO   - Type: straight
+2026-02-17 15:00:29,794 INFO Results saved to: picks_output.json
+2026-02-17 15:00:29,794 INFO ============================================================
+2026-02-17 15:00:29,795 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-18 15:00:10,407 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 15:00:10,408 INFO Product: all
+2026-02-18 15:00:10,408 INFO Date: 2026-02-18
+2026-02-18 15:00:10,408 INFO Starting Product Engine for: all
+2026-02-18 15:00:10,408 INFO Target date: 2026-02-18
+2026-02-18 15:00:10,409 INFO Fetching 2024-25 team stats...
+2026-02-18 15:00:21,130 INFO Loaded stats for 30 teams
+2026-02-18 15:00:22,632 INFO Generating picks for Parlay Consistent
+2026-02-18 15:00:24,073 WARNING No games found for Parlay Consistent
+2026-02-18 15:00:24,073 INFO Generating picks for Parlay Moonshot
+2026-02-18 15:00:25,389 WARNING No games found for Parlay Moonshot
+2026-02-18 15:00:25,389 INFO Generating picks for Straight Weekday Pack
+2026-02-18 15:09:01,047 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 15:09:01,047 INFO Product: parlay-consistent
+2026-02-18 15:09:01,049 INFO Date: 2026-02-16
+2026-02-18 15:09:01,049 INFO Starting Product Engine for: parlay-consistent
+2026-02-18 15:09:01,049 INFO Target date: 2026-02-16
+2026-02-18 15:09:01,049 INFO Fetching 2024-25 team stats...
+2026-02-18 15:09:02,562 INFO Loaded stats for 30 teams
+2026-02-18 15:09:04,063 INFO Generating picks for Parlay Consistent
+2026-02-18 15:09:04,063 INFO Fetching games for 02/16/2026
+2026-02-18 15:09:06,373 INFO No games found for 2026-02-16
+2026-02-18 15:09:06,373 WARNING No games found for Parlay Consistent - returning empty result
+2026-02-18 15:09:06,375 INFO ============================================================
+2026-02-18 15:09:06,375 INFO PRODUCT ENGINE RESULTS
+2026-02-18 15:09:06,375 INFO ============================================================
+2026-02-18 15:09:06,375 INFO Parlay Consistent:
+2026-02-18 15:09:06,375 INFO   - Picks: 0
+2026-02-18 15:09:06,377 INFO   - Games: 0
+2026-02-18 15:09:06,377 INFO   - Type: parlay
+2026-02-18 15:09:06,377 INFO Results saved to: no_games_test.json
+2026-02-18 15:09:06,377 INFO ============================================================
+2026-02-18 15:09:06,377 WARNING No games found across all products - generating empty picks output
+2026-02-18 16:02:02,336 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 16:02:02,336 INFO Product: all
+2026-02-18 16:02:02,336 INFO Date: 2026-02-18
+2026-02-18 16:02:02,336 INFO Starting Product Engine for: all
+2026-02-18 16:02:02,336 INFO Target date: 2026-02-18
+2026-02-18 16:02:02,336 INFO Fetching 2024-25 team stats...
+2026-02-18 16:02:03,182 INFO Loaded stats for 30 teams
+2026-02-18 16:02:04,683 INFO Generating picks for Parlay Consistent
+2026-02-18 16:02:04,683 INFO Fetching games for 02/18/2026
+2026-02-18 16:02:44,789 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 16:02:44,789 INFO Product: all
+2026-02-18 16:02:44,791 INFO Date: 2026-02-18
+2026-02-18 16:02:44,791 INFO Starting Product Engine for: all
+2026-02-18 16:02:44,791 INFO Target date: 2026-02-18
+2026-02-18 16:02:44,791 INFO Fetching 2024-25 team stats...
+2026-02-18 16:02:45,732 INFO Loaded stats for 30 teams
+2026-02-18 16:02:47,234 INFO Generating picks for Parlay Consistent
+2026-02-18 16:02:47,234 INFO Fetching games for 02/18/2026
+2026-02-18 16:02:49,142 INFO No games found for 2026-02-18
+2026-02-18 16:02:49,142 WARNING No games found for Parlay Consistent - returning empty result
+2026-02-18 16:02:49,142 INFO Generating picks for Parlay Moonshot
+2026-02-18 16:02:49,142 INFO Fetching games for 02/18/2026
+2026-02-18 16:02:51,026 INFO No games found for 2026-02-18
+2026-02-18 16:02:51,026 WARNING No games found for Parlay Moonshot - returning empty result
+2026-02-18 16:02:51,026 INFO Generating picks for Straight Weekday Pack
+2026-02-18 16:02:51,026 INFO Fetching games for 02/16/2026
+2026-02-18 16:02:53,137 INFO No games found for 2026-02-16
+2026-02-18 16:02:53,139 INFO Fetching games for 02/17/2026
+2026-02-18 16:02:55,096 INFO No games found for 2026-02-17
+2026-02-18 16:02:55,096 INFO Fetching games for 02/18/2026
+2026-02-18 16:02:57,007 INFO No games found for 2026-02-18
+2026-02-18 16:02:57,007 INFO Fetching games for 02/19/2026
+2026-02-18 16:02:59,147 INFO Found 10 games for 2026-02-19
+2026-02-18 16:02:59,147 INFO Fetching games for 02/20/2026
+2026-02-18 16:03:01,236 INFO Found 9 games for 2026-02-20
+2026-02-18 16:03:01,236 INFO Found 19 games for Straight Weekday Pack
+2026-02-18 16:03:01,238 INFO Generating picks for Referral Bonus Bundle
+2026-02-18 16:03:01,238 INFO Fetching games for 02/18/2026
+2026-02-18 16:03:03,090 INFO No games found for 2026-02-18
+2026-02-18 16:03:03,090 WARNING No games found for Referral Bonus Bundle - returning empty result
+2026-02-18 16:03:03,090 INFO Generating picks for Straight Weekend Pack
+2026-02-18 16:03:03,098 INFO Fetching games for 02/20/2026
+2026-02-18 16:03:05,146 INFO Found 9 games for 2026-02-20
+2026-02-18 16:03:05,148 INFO Fetching games for 02/21/2026
+2026-02-18 16:03:06,923 INFO Found 6 games for 2026-02-21
+2026-02-18 16:03:06,923 INFO Fetching games for 02/22/2026
+2026-02-18 16:03:08,849 INFO Found 13 games for 2026-02-22
+2026-02-18 16:03:08,849 INFO Found 28 games for Straight Weekend Pack
+2026-02-18 16:03:08,860 INFO ============================================================
+2026-02-18 16:03:08,860 INFO PRODUCT ENGINE RESULTS
+2026-02-18 16:03:08,860 INFO ============================================================
+2026-02-18 16:03:08,860 INFO Parlay Consistent:
+2026-02-18 16:03:08,860 INFO   - Picks: 0
+2026-02-18 16:03:08,862 INFO   - Games: 0
+2026-02-18 16:03:08,862 INFO   - Type: parlay
+2026-02-18 16:03:08,862 INFO Parlay Moonshot:
+2026-02-18 16:03:08,862 INFO   - Picks: 0
+2026-02-18 16:03:08,862 INFO   - Games: 0
+2026-02-18 16:03:08,862 INFO   - Type: parlay
+2026-02-18 16:03:08,862 INFO Straight Weekday Pack:
+2026-02-18 16:03:08,862 INFO   - Picks: 10
+2026-02-18 16:03:08,862 INFO   - Games: 19
+2026-02-18 16:03:08,862 INFO   - Type: straight
+2026-02-18 16:03:08,862 INFO Referral Bonus Bundle:
+2026-02-18 16:03:08,862 INFO   - Picks: 0
+2026-02-18 16:03:08,862 INFO   - Games: 0
+2026-02-18 16:03:08,862 INFO   - Type: parlay
+2026-02-18 16:03:08,862 INFO Straight Weekend Pack:
+2026-02-18 16:03:08,862 INFO   - Picks: 10
+2026-02-18 16:03:08,866 INFO   - Games: 28
+2026-02-18 16:03:08,866 INFO   - Type: straight
+2026-02-18 16:03:08,866 INFO Results saved to: picks_output.json
+2026-02-18 16:03:08,866 INFO ============================================================
+2026-02-18 16:03:08,866 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-18 16:37:21,994 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 16:37:21,994 INFO Product: all
+2026-02-18 16:37:21,994 INFO Date: 2026-02-18
+2026-02-18 16:37:21,995 INFO Starting Product Engine for: all
+2026-02-18 16:37:21,995 INFO Target date: 2026-02-18
+2026-02-18 16:37:21,995 INFO Fetching 2024-25 team stats...
+2026-02-18 16:37:22,520 INFO Loaded stats for 30 teams
+2026-02-18 16:37:24,020 INFO Generating picks for Parlay Consistent
+2026-02-18 16:37:24,020 INFO Fetching games for 02/18/2026
+2026-02-18 16:37:25,562 INFO No games found for 2026-02-18
+2026-02-18 16:37:25,562 WARNING No games found for Parlay Consistent - returning empty result
+2026-02-18 16:37:25,563 INFO Generating picks for Parlay Moonshot
+2026-02-18 16:37:25,563 INFO Fetching games for 02/18/2026
+2026-02-18 16:37:27,087 INFO No games found for 2026-02-18
+2026-02-18 16:37:27,087 WARNING No games found for Parlay Moonshot - returning empty result
+2026-02-18 16:37:27,087 INFO Generating picks for Straight Weekday Pack
+2026-02-18 16:37:27,088 INFO Fetching games for 02/16/2026
+2026-02-18 16:37:28,672 INFO No games found for 2026-02-16
+2026-02-18 16:37:28,674 INFO Fetching games for 02/17/2026
+2026-02-18 16:37:30,275 INFO No games found for 2026-02-17
+2026-02-18 16:37:30,276 INFO Fetching games for 02/18/2026
+2026-02-18 16:37:31,678 INFO No games found for 2026-02-18
+2026-02-18 16:37:31,679 INFO Fetching games for 02/19/2026
+2026-02-18 16:37:33,049 INFO Found 10 games for 2026-02-19
+2026-02-18 16:37:33,049 INFO Fetching games for 02/20/2026
+2026-02-18 16:37:34,603 INFO Found 9 games for 2026-02-20
+2026-02-18 16:37:34,603 INFO Found 19 games for Straight Weekday Pack
+2026-02-18 16:37:34,604 INFO Generating picks for Referral Bonus Bundle
+2026-02-18 16:37:34,604 INFO Fetching games for 02/18/2026
+2026-02-18 16:37:36,133 INFO No games found for 2026-02-18
+2026-02-18 16:37:36,134 WARNING No games found for Referral Bonus Bundle - returning empty result
+2026-02-18 16:37:36,134 INFO Generating picks for Straight Weekend Pack
+2026-02-18 16:37:36,134 INFO Fetching games for 02/20/2026
+2026-02-18 16:37:37,499 INFO Found 9 games for 2026-02-20
+2026-02-18 16:37:37,499 INFO Fetching games for 02/21/2026
+2026-02-18 16:37:38,927 INFO Found 6 games for 2026-02-21
+2026-02-18 16:37:38,928 INFO Fetching games for 02/22/2026
+2026-02-18 16:37:40,306 INFO Found 13 games for 2026-02-22
+2026-02-18 16:37:40,307 INFO Found 28 games for Straight Weekend Pack
+2026-02-18 16:37:40,310 INFO ============================================================
+2026-02-18 16:37:40,310 INFO PRODUCT ENGINE RESULTS
+2026-02-18 16:37:40,310 INFO ============================================================
+2026-02-18 16:37:40,310 INFO Parlay Consistent:
+2026-02-18 16:37:40,311 INFO   - Picks: 0
+2026-02-18 16:37:40,311 INFO   - Games: 0
+2026-02-18 16:37:40,311 INFO   - Type: parlay
+2026-02-18 16:37:40,311 INFO Parlay Moonshot:
+2026-02-18 16:37:40,311 INFO   - Picks: 0
+2026-02-18 16:37:40,311 INFO   - Games: 0
+2026-02-18 16:37:40,312 INFO   - Type: parlay
+2026-02-18 16:37:40,312 INFO Straight Weekday Pack:
+2026-02-18 16:37:40,312 INFO   - Picks: 10
+2026-02-18 16:37:40,312 INFO   - Games: 19
+2026-02-18 16:37:40,312 INFO   - Type: straight
+2026-02-18 16:37:40,312 INFO Referral Bonus Bundle:
+2026-02-18 16:37:40,312 INFO   - Picks: 0
+2026-02-18 16:37:40,312 INFO   - Games: 0
+2026-02-18 16:37:40,312 INFO   - Type: parlay
+2026-02-18 16:37:40,313 INFO Straight Weekend Pack:
+2026-02-18 16:37:40,313 INFO   - Picks: 10
+2026-02-18 16:37:40,313 INFO   - Games: 28
+2026-02-18 16:37:40,313 INFO   - Type: straight
+2026-02-18 16:37:40,313 INFO Results saved to: picks_output.json.temp
+2026-02-18 16:37:40,313 INFO ============================================================
+2026-02-18 16:37:40,313 INFO 🎯 Applying prediction market confidence boosting...
+2026-02-18 16:37:40,314 INFO Initialized Kalshi API client
+2026-02-18 16:37:40,314 INFO Initialized Polymarket API client
+2026-02-18 16:37:40,314 INFO Initialized PredictionMarketsAggregator
+2026-02-18 16:37:40,314 INFO Initialized MarketBooster for NBA
+2026-02-18 16:37:40,314 INFO Starting market-based confidence boosting...
+2026-02-18 16:37:40,314 INFO Fetching prediction market data...
+2026-02-18 16:37:40,315 INFO Fetching NBA prediction markets from all sources...
+2026-02-18 16:37:40,315 INFO Fetching Kalshi markets...
+2026-02-18 16:37:41,339 WARNING API error for https://trading-api.kalshi.com/trade-api/v2/events: 401 Client Error: Unauthorized for url: https://trading-api.kalshi.com/trade-api/v2/events?limit=200&status=open&category=Sports
+2026-02-18 16:37:41,340 WARNING No Kalshi events data received
+2026-02-18 16:37:41,340 INFO Fetching Polymarket markets...
+2026-02-18 16:37:42,417 INFO Found 43 Polymarket NBA events
+2026-02-18 16:37:42,419 INFO Successfully processed 0 Polymarket games
+2026-02-18 16:37:42,420 INFO Consolidated 0 games from prediction markets
+2026-02-18 16:37:42,421 INFO Cached market data for 0 games
+2026-02-18 16:37:42,421 INFO Processing parlay-consistent with 0 picks
+2026-02-18 16:37:42,421 INFO Processing parlay-moonshot with 0 picks
+2026-02-18 16:37:42,421 INFO Processing straight-weekday with 10 picks
+2026-02-18 16:37:42,422 INFO Processing referral-bundle with 0 picks
+2026-02-18 16:37:42,422 INFO Processing straight-weekend with 10 picks
+2026-02-18 16:37:42,422 INFO Market-based confidence boosting completed
+2026-02-18 16:37:42,427 INFO ✅ Market boosting applied successfully
+2026-02-18 16:37:42,434 ERROR Unexpected error: 'summary'
+2026-02-18 16:38:12,824 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 16:38:12,824 INFO Product: all
+2026-02-18 16:38:12,825 INFO Date: 2026-02-18
+2026-02-18 16:38:12,825 INFO Starting Product Engine for: all
+2026-02-18 16:38:12,825 INFO Target date: 2026-02-18
+2026-02-18 16:38:12,825 INFO Fetching 2024-25 team stats...
+2026-02-18 16:38:13,359 INFO Loaded stats for 30 teams
+2026-02-18 16:38:14,860 INFO Generating picks for Parlay Consistent
+2026-02-18 16:38:14,860 INFO Fetching games for 02/18/2026
+2026-02-18 16:38:16,238 INFO No games found for 2026-02-18
+2026-02-18 16:38:16,239 WARNING No games found for Parlay Consistent - returning empty result
+2026-02-18 16:38:16,239 INFO Generating picks for Parlay Moonshot
+2026-02-18 16:38:16,240 INFO Fetching games for 02/18/2026
+2026-02-18 16:38:17,815 INFO No games found for 2026-02-18
+2026-02-18 16:38:17,815 WARNING No games found for Parlay Moonshot - returning empty result
+2026-02-18 16:38:17,815 INFO Generating picks for Straight Weekday Pack
+2026-02-18 16:38:17,815 INFO Fetching games for 02/16/2026
+2026-02-18 16:38:19,400 INFO No games found for 2026-02-16
+2026-02-18 16:38:19,401 INFO Fetching games for 02/17/2026
+2026-02-18 16:38:20,629 INFO No games found for 2026-02-17
+2026-02-18 16:38:20,629 INFO Fetching games for 02/18/2026
+2026-02-18 16:38:22,082 INFO No games found for 2026-02-18
+2026-02-18 16:38:22,083 INFO Fetching games for 02/19/2026
+2026-02-18 16:38:23,970 INFO Found 10 games for 2026-02-19
+2026-02-18 16:38:23,971 INFO Fetching games for 02/20/2026
+2026-02-18 16:38:25,431 INFO Found 9 games for 2026-02-20
+2026-02-18 16:38:25,432 INFO Found 19 games for Straight Weekday Pack
+2026-02-18 16:38:25,432 INFO Generating picks for Referral Bonus Bundle
+2026-02-18 16:38:25,432 INFO Fetching games for 02/18/2026
+2026-02-18 16:38:26,877 INFO No games found for 2026-02-18
+2026-02-18 16:38:26,878 WARNING No games found for Referral Bonus Bundle - returning empty result
+2026-02-18 16:38:26,878 INFO Generating picks for Straight Weekend Pack
+2026-02-18 16:38:26,878 INFO Fetching games for 02/20/2026
+2026-02-18 16:38:28,310 INFO Found 9 games for 2026-02-20
+2026-02-18 16:38:28,310 INFO Fetching games for 02/21/2026
+2026-02-18 16:38:29,756 INFO Found 6 games for 2026-02-21
+2026-02-18 16:38:29,757 INFO Fetching games for 02/22/2026
+2026-02-18 16:38:31,062 INFO Found 13 games for 2026-02-22
+2026-02-18 16:38:31,062 INFO Found 28 games for Straight Weekend Pack
+2026-02-18 16:38:31,063 INFO ============================================================
+2026-02-18 16:38:31,063 INFO PRODUCT ENGINE RESULTS
+2026-02-18 16:38:31,063 INFO ============================================================
+2026-02-18 16:38:31,063 INFO Parlay Consistent:
+2026-02-18 16:38:31,063 INFO   - Picks: 0
+2026-02-18 16:38:31,063 INFO   - Games: 0
+2026-02-18 16:38:31,063 INFO   - Type: parlay
+2026-02-18 16:38:31,065 INFO Parlay Moonshot:
+2026-02-18 16:38:31,065 INFO   - Picks: 0
+2026-02-18 16:38:31,065 INFO   - Games: 0
+2026-02-18 16:38:31,065 INFO   - Type: parlay
+2026-02-18 16:38:31,065 INFO Straight Weekday Pack:
+2026-02-18 16:38:31,065 INFO   - Picks: 10
+2026-02-18 16:38:31,065 INFO   - Games: 19
+2026-02-18 16:38:31,065 INFO   - Type: straight
+2026-02-18 16:38:31,065 INFO Referral Bonus Bundle:
+2026-02-18 16:38:31,065 INFO   - Picks: 0
+2026-02-18 16:38:31,065 INFO   - Games: 0
+2026-02-18 16:38:31,065 INFO   - Type: parlay
+2026-02-18 16:38:31,065 INFO Straight Weekend Pack:
+2026-02-18 16:38:31,065 INFO   - Picks: 10
+2026-02-18 16:38:31,065 INFO   - Games: 28
+2026-02-18 16:38:31,065 INFO   - Type: straight
+2026-02-18 16:38:31,065 INFO Results saved to: picks_output.json.temp
+2026-02-18 16:38:31,065 INFO ============================================================
+2026-02-18 16:38:31,066 INFO 🎯 Applying prediction market confidence boosting...
+2026-02-18 16:38:31,066 INFO Initialized Kalshi API client
+2026-02-18 16:38:31,066 INFO Initialized Polymarket API client
+2026-02-18 16:38:31,066 INFO Initialized PredictionMarketsAggregator
+2026-02-18 16:38:31,066 INFO Initialized MarketBooster for NBA
+2026-02-18 16:38:31,066 INFO Starting market-based confidence boosting...
+2026-02-18 16:38:31,066 INFO Fetching prediction market data...
+2026-02-18 16:38:31,066 INFO Fetching NBA prediction markets from all sources...
+2026-02-18 16:38:31,066 INFO Fetching Kalshi markets...
+2026-02-18 16:38:31,666 WARNING API error for https://trading-api.kalshi.com/trade-api/v2/events: 401 Client Error: Unauthorized for url: https://trading-api.kalshi.com/trade-api/v2/events?limit=200&status=open&category=Sports
+2026-02-18 16:38:31,666 WARNING No Kalshi events data received
+2026-02-18 16:38:31,666 INFO Fetching Polymarket markets...
+2026-02-18 16:38:32,330 INFO Found 43 Polymarket NBA events
+2026-02-18 16:38:32,332 INFO Successfully processed 0 Polymarket games
+2026-02-18 16:38:32,333 INFO Consolidated 0 games from prediction markets
+2026-02-18 16:38:32,334 INFO Cached market data for 0 games
+2026-02-18 16:38:32,334 INFO Processing parlay-consistent with 0 picks
+2026-02-18 16:38:32,334 INFO Processing parlay-moonshot with 0 picks
+2026-02-18 16:38:32,334 INFO Processing straight-weekday with 10 picks
+2026-02-18 16:38:32,334 INFO Processing referral-bundle with 0 picks
+2026-02-18 16:38:32,334 INFO Processing straight-weekend with 10 picks
+2026-02-18 16:38:32,335 INFO Market-based confidence boosting completed
+2026-02-18 16:38:32,338 INFO ✅ Market boosting applied successfully
+2026-02-18 16:38:32,343 ERROR Unexpected error: 'summary'
+2026-02-18 16:39:12,010 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-18 16:39:12,010 INFO Product: all
+2026-02-18 16:39:12,010 INFO Date: 2026-02-18
+2026-02-18 16:39:12,011 INFO Starting Product Engine for: all
+2026-02-18 16:39:12,011 INFO Target date: 2026-02-18
+2026-02-18 16:39:12,011 INFO Fetching 2024-25 team stats...
+2026-02-18 16:39:12,691 INFO Loaded stats for 30 teams
+2026-02-18 16:39:14,192 INFO Generating picks for Parlay Consistent
+2026-02-18 16:39:14,192 INFO Fetching games for 02/18/2026
+2026-02-18 16:39:15,475 INFO No games found for 2026-02-18
+2026-02-18 16:39:15,475 WARNING No games found for Parlay Consistent - returning empty result
+2026-02-18 16:39:15,475 INFO Generating picks for Parlay Moonshot
+2026-02-18 16:39:15,475 INFO Fetching games for 02/18/2026
+2026-02-18 16:39:16,841 INFO No games found for 2026-02-18
+2026-02-18 16:39:16,842 WARNING No games found for Parlay Moonshot - returning empty result
+2026-02-18 16:39:16,842 INFO Generating picks for Straight Weekday Pack
+2026-02-18 16:39:16,842 INFO Fetching games for 02/16/2026
+2026-02-18 16:39:18,516 INFO No games found for 2026-02-16
+2026-02-18 16:39:18,516 INFO Fetching games for 02/17/2026
+2026-02-18 16:39:19,911 INFO No games found for 2026-02-17
+2026-02-18 16:39:19,911 INFO Fetching games for 02/18/2026
+2026-02-18 16:39:21,173 INFO No games found for 2026-02-18
+2026-02-18 16:39:21,173 INFO Fetching games for 02/19/2026
+2026-02-18 16:39:22,750 INFO Found 10 games for 2026-02-19
+2026-02-18 16:39:22,750 INFO Fetching games for 02/20/2026
+2026-02-18 16:39:24,361 INFO Found 9 games for 2026-02-20
+2026-02-18 16:39:24,361 INFO Found 19 games for Straight Weekday Pack
+2026-02-18 16:39:24,362 INFO Generating picks for Referral Bonus Bundle
+2026-02-18 16:39:24,362 INFO Fetching games for 02/18/2026
+2026-02-18 16:39:25,801 INFO No games found for 2026-02-18
+2026-02-18 16:39:25,802 WARNING No games found for Referral Bonus Bundle - returning empty result
+2026-02-18 16:39:25,802 INFO Generating picks for Straight Weekend Pack
+2026-02-18 16:39:25,802 INFO Fetching games for 02/20/2026
+2026-02-18 16:39:27,345 INFO Found 9 games for 2026-02-20
+2026-02-18 16:39:27,345 INFO Fetching games for 02/21/2026
+2026-02-18 16:39:28,815 INFO Found 6 games for 2026-02-21
+2026-02-18 16:39:28,815 INFO Fetching games for 02/22/2026
+2026-02-18 16:39:30,316 INFO Found 13 games for 2026-02-22
+2026-02-18 16:39:30,316 INFO Found 28 games for Straight Weekend Pack
+2026-02-18 16:39:30,320 INFO ============================================================
+2026-02-18 16:39:30,321 INFO PRODUCT ENGINE RESULTS
+2026-02-18 16:39:30,321 INFO ============================================================
+2026-02-18 16:39:30,321 INFO Parlay Consistent:
+2026-02-18 16:39:30,321 INFO   - Picks: 0
+2026-02-18 16:39:30,321 INFO   - Games: 0
+2026-02-18 16:39:30,321 INFO   - Type: parlay
+2026-02-18 16:39:30,321 INFO Parlay Moonshot:
+2026-02-18 16:39:30,322 INFO   - Picks: 0
+2026-02-18 16:39:30,322 INFO   - Games: 0
+2026-02-18 16:39:30,322 INFO   - Type: parlay
+2026-02-18 16:39:30,322 INFO Straight Weekday Pack:
+2026-02-18 16:39:30,322 INFO   - Picks: 10
+2026-02-18 16:39:30,322 INFO   - Games: 19
+2026-02-18 16:39:30,323 INFO   - Type: straight
+2026-02-18 16:39:30,323 INFO Referral Bonus Bundle:
+2026-02-18 16:39:30,323 INFO   - Picks: 0
+2026-02-18 16:39:30,323 INFO   - Games: 0
+2026-02-18 16:39:30,324 INFO   - Type: parlay
+2026-02-18 16:39:30,324 INFO Straight Weekend Pack:
+2026-02-18 16:39:30,324 INFO   - Picks: 10
+2026-02-18 16:39:30,324 INFO   - Games: 28
+2026-02-18 16:39:30,324 INFO   - Type: straight
+2026-02-18 16:39:30,324 INFO Results saved to: picks_output.json.temp
+2026-02-18 16:39:30,325 INFO ============================================================
+2026-02-18 16:39:30,325 INFO 🎯 Applying prediction market confidence boosting...
+2026-02-18 16:39:30,325 INFO Initialized Kalshi API client
+2026-02-18 16:39:30,325 INFO Initialized Polymarket API client
+2026-02-18 16:39:30,325 INFO Initialized PredictionMarketsAggregator
+2026-02-18 16:39:30,325 INFO Initialized MarketBooster for NBA
+2026-02-18 16:39:30,327 INFO Starting market-based confidence boosting...
+2026-02-18 16:39:30,327 INFO Fetching prediction market data...
+2026-02-18 16:39:30,327 INFO Fetching NBA prediction markets from all sources...
+2026-02-18 16:39:30,327 INFO Fetching Kalshi markets...
+2026-02-18 16:39:31,093 WARNING API error for https://trading-api.kalshi.com/trade-api/v2/events: 401 Client Error: Unauthorized for url: https://trading-api.kalshi.com/trade-api/v2/events?limit=200&status=open&category=Sports
+2026-02-18 16:39:31,094 WARNING No Kalshi events data received
+2026-02-18 16:39:31,094 INFO Fetching Polymarket markets...
+2026-02-18 16:39:31,968 INFO Found 43 Polymarket NBA events
+2026-02-18 16:39:31,971 INFO Successfully processed 0 Polymarket games
+2026-02-18 16:39:31,972 INFO Consolidated 0 games from prediction markets
+2026-02-18 16:39:31,972 INFO Cached market data for 0 games
+2026-02-18 16:39:31,972 INFO Processing parlay-consistent with 0 picks
+2026-02-18 16:39:31,972 INFO Processing parlay-moonshot with 0 picks
+2026-02-18 16:39:31,972 INFO Processing straight-weekday with 10 picks
+2026-02-18 16:39:31,973 INFO Processing referral-bundle with 0 picks
+2026-02-18 16:39:31,973 INFO Processing straight-weekend with 10 picks
+2026-02-18 16:39:31,973 INFO Market-based confidence boosting completed
+2026-02-18 16:39:31,978 INFO ✅ Market boosting applied successfully
+2026-02-18 16:39:31,985 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-19 13:57:37,320 INFO Starting Product Engine for: all
+2026-02-19 13:57:37,320 INFO Target date: 2026-02-19
+2026-02-19 13:57:37,320 INFO Fetching 2024-25 team stats...
+2026-02-19 13:57:37,775 INFO Loaded stats for 30 teams
+2026-02-19 13:57:39,277 INFO Generating picks for Parlay Consistent
+2026-02-19 13:57:39,277 INFO Fetching games for 02/19/2026
+2026-02-19 13:57:40,539 INFO Found 10 games for 2026-02-19
+2026-02-19 13:57:40,540 INFO Found 10 games for Parlay Consistent
+2026-02-19 13:57:40,540 INFO Generating picks for Parlay Moonshot
+2026-02-19 13:57:40,541 INFO Fetching games for 02/19/2026
+2026-02-19 13:57:41,696 INFO Found 10 games for 2026-02-19
+2026-02-19 13:57:41,697 INFO Found 10 games for Parlay Moonshot
+2026-02-19 13:57:41,697 INFO Generating picks for Straight Weekday Pack
+2026-02-19 13:57:41,697 INFO Fetching games for 02/16/2026
+2026-02-19 13:57:42,897 INFO No games found for 2026-02-16
+2026-02-19 13:57:42,897 INFO Fetching games for 02/17/2026
+2026-02-19 13:57:44,056 INFO No games found for 2026-02-17
+2026-02-19 13:57:44,057 INFO Fetching games for 02/18/2026
+2026-02-19 13:57:45,375 INFO No games found for 2026-02-18
+2026-02-19 13:57:45,375 INFO Fetching games for 02/19/2026
+2026-02-19 13:57:46,524 INFO Found 10 games for 2026-02-19
+2026-02-19 13:57:46,524 INFO Fetching games for 02/20/2026
+2026-02-19 13:57:47,707 INFO Found 9 games for 2026-02-20
+2026-02-19 13:57:47,708 INFO Found 19 games for Straight Weekday Pack
+2026-02-19 13:57:47,708 INFO Generating picks for Referral Bonus Bundle
+2026-02-19 13:57:47,708 INFO Fetching games for 02/19/2026
+2026-02-19 13:57:48,883 INFO Found 10 games for 2026-02-19
+2026-02-19 13:57:48,884 INFO Found 10 games for Referral Bonus Bundle
+2026-02-19 13:57:48,884 INFO Generating picks for Straight Weekend Pack
+2026-02-19 13:57:48,884 INFO Fetching games for 02/20/2026
+2026-02-19 13:57:50,051 INFO Found 9 games for 2026-02-20
+2026-02-19 13:57:50,052 INFO Fetching games for 02/21/2026
+2026-02-19 13:57:51,276 INFO Found 6 games for 2026-02-21
+2026-02-19 13:57:51,276 INFO Fetching games for 02/22/2026
+2026-02-19 13:57:52,464 INFO Found 13 games for 2026-02-22
+2026-02-19 13:57:52,465 INFO Found 28 games for Straight Weekend Pack
+2026-02-19 13:57:52,473 INFO ============================================================
+2026-02-19 13:57:52,473 INFO PRODUCT ENGINE RESULTS
+2026-02-19 13:57:52,474 INFO ============================================================
+2026-02-19 13:57:52,474 INFO Parlay Consistent:
+2026-02-19 13:57:52,474 INFO   - Picks: 10
+2026-02-19 13:57:52,474 INFO   - Games: 10
+2026-02-19 13:57:52,474 INFO   - Type: parlay
+2026-02-19 13:57:52,474 INFO Parlay Moonshot:
+2026-02-19 13:57:52,475 INFO   - Picks: 10
+2026-02-19 13:57:52,475 INFO   - Games: 10
+2026-02-19 13:57:52,475 INFO   - Type: parlay
+2026-02-19 13:57:52,475 INFO Straight Weekday Pack:
+2026-02-19 13:57:52,475 INFO   - Picks: 10
+2026-02-19 13:57:52,475 INFO   - Games: 19
+2026-02-19 13:57:52,475 INFO   - Type: straight
+2026-02-19 13:57:52,476 INFO Referral Bonus Bundle:
+2026-02-19 13:57:52,476 INFO   - Picks: 3
+2026-02-19 13:57:52,476 INFO   - Games: 10
+2026-02-19 13:57:52,476 INFO   - Type: parlay
+2026-02-19 13:57:52,476 INFO Straight Weekend Pack:
+2026-02-19 13:57:52,476 INFO   - Picks: 10
+2026-02-19 13:57:52,476 INFO   - Games: 28
+2026-02-19 13:57:52,476 INFO   - Type: straight
+2026-02-19 13:57:52,477 INFO Results saved to: picks_output.json
+2026-02-19 13:57:52,477 INFO ============================================================
+2026-02-19 14:59:47,729 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-19 14:59:47,730 INFO Product: all
+2026-02-19 14:59:47,730 INFO Date: 2026-02-19
+2026-02-19 14:59:47,730 INFO Starting Product Engine for: all
+2026-02-19 14:59:47,730 INFO Target date: 2026-02-19
+2026-02-19 14:59:47,730 INFO Fetching 2024-25 team stats...
+2026-02-19 14:59:48,211 INFO Loaded stats for 30 teams
+2026-02-19 14:59:49,712 INFO Generating picks for Parlay Consistent
+2026-02-19 14:59:49,712 INFO Fetching games for 02/19/2026
+2026-02-19 14:59:50,937 INFO Found 10 games for 2026-02-19
+2026-02-19 14:59:50,938 INFO Found 10 games for Parlay Consistent
+2026-02-19 14:59:50,938 INFO Generating picks for Parlay Moonshot
+2026-02-19 14:59:50,938 INFO Fetching games for 02/19/2026
+2026-02-19 14:59:52,201 INFO Found 10 games for 2026-02-19
+2026-02-19 14:59:52,202 INFO Found 10 games for Parlay Moonshot
+2026-02-19 14:59:52,202 INFO Generating picks for Parlay Weekday
+2026-02-19 14:59:52,203 INFO Fetching games for 02/16/2026
+2026-02-19 14:59:53,346 INFO No games found for 2026-02-16
+2026-02-19 14:59:53,347 INFO Fetching games for 02/17/2026
+2026-02-19 14:59:54,779 INFO No games found for 2026-02-17
+2026-02-19 14:59:54,779 INFO Fetching games for 02/18/2026
+2026-02-19 14:59:56,014 INFO No games found for 2026-02-18
+2026-02-19 14:59:56,015 INFO Fetching games for 02/19/2026
+2026-02-19 14:59:57,195 INFO Found 10 games for 2026-02-19
+2026-02-19 14:59:57,196 INFO Fetching games for 02/20/2026
+2026-02-19 14:59:58,501 INFO Found 9 games for 2026-02-20
+2026-02-19 14:59:58,501 INFO Found 19 games for Parlay Weekday
+2026-02-19 14:59:58,501 INFO Generating picks for Parlay Weekend
+2026-02-19 14:59:58,502 INFO Fetching games for 02/20/2026
+2026-02-19 14:59:59,810 INFO Found 9 games for 2026-02-20
+2026-02-19 14:59:59,811 INFO Fetching games for 02/21/2026
+2026-02-19 15:00:01,154 INFO Found 6 games for 2026-02-21
+2026-02-19 15:00:01,154 INFO Fetching games for 02/22/2026
+2026-02-19 15:00:02,396 INFO Found 13 games for 2026-02-22
+2026-02-19 15:00:02,396 INFO Found 28 games for Parlay Weekend
+2026-02-19 15:00:02,397 INFO Generating picks for Straight Weekday Pack
+2026-02-19 15:00:02,397 INFO Fetching games for 02/16/2026
+2026-02-19 15:00:03,615 INFO No games found for 2026-02-16
+2026-02-19 15:00:03,616 INFO Fetching games for 02/17/2026
+2026-02-19 15:00:04,804 INFO No games found for 2026-02-17
+2026-02-19 15:00:04,805 INFO Fetching games for 02/18/2026
+2026-02-19 15:00:05,956 INFO No games found for 2026-02-18
+2026-02-19 15:00:05,956 INFO Fetching games for 02/19/2026
+2026-02-19 15:00:07,153 INFO Found 10 games for 2026-02-19
+2026-02-19 15:00:07,154 INFO Fetching games for 02/20/2026
+2026-02-19 15:00:08,458 INFO Found 9 games for 2026-02-20
+2026-02-19 15:00:08,458 INFO Found 19 games for Straight Weekday Pack
+2026-02-19 15:00:08,458 INFO Generating picks for Referral Bonus Bundle
+2026-02-19 15:00:08,458 INFO Fetching games for 02/19/2026
+2026-02-19 15:00:09,664 INFO Found 10 games for 2026-02-19
+2026-02-19 15:00:09,665 INFO Found 10 games for Referral Bonus Bundle
+2026-02-19 15:00:09,665 INFO Generating picks for Straight Weekend Pack
+2026-02-19 15:00:09,666 INFO Fetching games for 02/20/2026
+2026-02-19 15:00:10,028 INFO 🚀 Starting ParlayGuarantee Engine - 4 Product System
+2026-02-19 15:00:10,029 INFO Product: all
+2026-02-19 15:00:10,029 INFO Date: 2026-02-19
+2026-02-19 15:00:10,029 INFO Starting Product Engine for: all
+2026-02-19 15:00:10,029 INFO Target date: 2026-02-19
+2026-02-19 15:00:10,029 INFO Fetching 2024-25 team stats...
+2026-02-19 15:00:10,815 INFO Found 9 games for 2026-02-20
+2026-02-19 15:00:10,816 INFO Fetching games for 02/21/2026
+2026-02-19 15:00:12,011 INFO Found 6 games for 2026-02-21
+2026-02-19 15:00:12,011 INFO Fetching games for 02/22/2026
+2026-02-19 15:00:13,197 INFO Found 13 games for 2026-02-22
+2026-02-19 15:00:13,198 INFO Found 28 games for Straight Weekend Pack
+2026-02-19 15:00:13,208 INFO ============================================================
+2026-02-19 15:00:13,208 INFO PRODUCT ENGINE RESULTS
+2026-02-19 15:00:13,208 INFO ============================================================
+2026-02-19 15:00:13,208 INFO Parlay Consistent:
+2026-02-19 15:00:13,208 INFO   - Picks: 10
+2026-02-19 15:00:13,208 INFO   - Games: 10
+2026-02-19 15:00:13,209 INFO   - Type: parlay
+2026-02-19 15:00:13,209 INFO Parlay Moonshot:
+2026-02-19 15:00:13,209 INFO   - Picks: 10
+2026-02-19 15:00:13,209 INFO   - Games: 10
+2026-02-19 15:00:13,209 INFO   - Type: parlay
+2026-02-19 15:00:13,209 INFO Parlay Weekday:
+2026-02-19 15:00:13,209 INFO   - Picks: 10
+2026-02-19 15:00:13,209 INFO   - Games: 19
+2026-02-19 15:00:13,209 INFO   - Type: parlay
+2026-02-19 15:00:13,210 INFO Parlay Weekend:
+2026-02-19 15:00:13,210 INFO   - Picks: 7
+2026-02-19 15:00:13,210 INFO   - Games: 28
+2026-02-19 15:00:13,210 INFO   - Type: parlay
+2026-02-19 15:00:13,210 INFO Straight Weekday Pack:
+2026-02-19 15:00:13,211 INFO   - Picks: 10
+2026-02-19 15:00:13,211 INFO   - Games: 19
+2026-02-19 15:00:13,211 INFO   - Type: straight
+2026-02-19 15:00:13,211 INFO Referral Bonus Bundle:
+2026-02-19 15:00:13,211 INFO   - Picks: 3
+2026-02-19 15:00:13,211 INFO   - Games: 10
+2026-02-19 15:00:13,212 INFO   - Type: parlay
+2026-02-19 15:00:13,212 INFO Straight Weekend Pack:
+2026-02-19 15:00:13,212 INFO   - Picks: 10
+2026-02-19 15:00:13,212 INFO   - Games: 28
+2026-02-19 15:00:13,212 INFO   - Type: straight
+2026-02-19 15:00:13,212 INFO Results saved to: picks_output.json.temp
+2026-02-19 15:00:13,212 INFO ============================================================
+2026-02-19 15:00:13,213 INFO 🎯 Applying prediction market confidence boosting...
+2026-02-19 15:00:13,213 INFO Initialized Kalshi API client
+2026-02-19 15:00:13,213 INFO Initialized Polymarket API client
+2026-02-19 15:00:13,214 INFO Initialized PredictionMarketsAggregator
+2026-02-19 15:00:13,214 INFO Initialized MarketBooster for NBA
+2026-02-19 15:00:13,214 INFO Starting market-based confidence boosting...
+2026-02-19 15:00:13,214 INFO Fetching prediction market data...
+2026-02-19 15:00:13,214 INFO Fetching NBA prediction markets from all sources...
+2026-02-19 15:00:13,214 INFO Fetching Kalshi markets...
+2026-02-19 15:00:13,698 WARNING API error for https://trading-api.kalshi.com/trade-api/v2/events: 401 Client Error: Unauthorized for url: https://trading-api.kalshi.com/trade-api/v2/events?limit=200&status=open&category=Sports
+2026-02-19 15:00:13,698 WARNING No Kalshi events data received
+2026-02-19 15:00:13,699 INFO Fetching Polymarket markets...
+2026-02-19 15:00:14,598 INFO Found 43 Polymarket NBA events
+2026-02-19 15:00:14,600 INFO Successfully processed 0 Polymarket games
+2026-02-19 15:00:14,601 INFO Consolidated 0 games from prediction markets
+2026-02-19 15:00:14,602 INFO Cached market data for 0 games
+2026-02-19 15:00:14,602 INFO Processing parlay-consistent with 10 picks
+2026-02-19 15:00:14,602 INFO Processing parlay-moonshot with 10 picks
+2026-02-19 15:00:14,603 INFO Processing parlay-weekday with 10 picks
+2026-02-19 15:00:14,603 INFO Processing parlay-weekend with 7 picks
+2026-02-19 15:00:14,603 INFO Processing straight-weekday with 10 picks
+2026-02-19 15:00:14,604 INFO Processing referral-bundle with 3 picks
+2026-02-19 15:00:14,604 INFO Processing straight-weekend with 10 picks
+2026-02-19 15:00:14,604 INFO Market-based confidence boosting completed
+2026-02-19 15:00:14,609 INFO ✅ Market boosting applied successfully
+2026-02-19 15:00:14,628 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-19 15:00:40,366 ERROR Error fetching 2024-25 stats: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-19 15:00:40,367 INFO Falling back to 2023-24 stats
+2026-02-19 15:00:43,468 INFO Loaded 2023-24 stats for 30 teams
+2026-02-19 15:00:44,970 INFO Generating picks for Parlay Consistent
+2026-02-19 15:00:44,970 INFO Fetching games for 02/19/2026
+2026-02-19 15:00:46,114 INFO Found 10 games for 2026-02-19
+2026-02-19 15:00:46,115 INFO Found 10 games for Parlay Consistent
+2026-02-19 15:00:46,115 INFO Generating picks for Parlay Moonshot
+2026-02-19 15:00:46,115 INFO Fetching games for 02/19/2026
+2026-02-19 15:00:47,227 INFO Found 10 games for 2026-02-19
+2026-02-19 15:00:47,228 INFO Found 10 games for Parlay Moonshot
+2026-02-19 15:00:47,228 INFO Generating picks for Parlay Weekday
+2026-02-19 15:00:47,228 INFO Fetching games for 02/16/2026
+2026-02-19 15:00:48,429 INFO No games found for 2026-02-16
+2026-02-19 15:00:48,429 INFO Fetching games for 02/17/2026
+2026-02-19 15:01:19,477 ERROR Error fetching games for 2026-02-17: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2026-02-19 15:01:19,478 INFO Fetching games for 02/18/2026
+2026-02-19 15:01:20,653 INFO No games found for 2026-02-18
+2026-02-19 15:01:20,653 INFO Fetching games for 02/19/2026
+2026-02-19 15:01:21,819 INFO Found 10 games for 2026-02-19
+2026-02-19 15:01:21,819 INFO Fetching games for 02/20/2026
+2026-02-19 15:01:22,968 INFO Found 9 games for 2026-02-20
+2026-02-19 15:01:22,969 INFO Found 19 games for Parlay Weekday
+2026-02-19 15:01:22,969 INFO Generating picks for Parlay Weekend
+2026-02-19 15:01:22,969 INFO Fetching games for 02/20/2026
+2026-02-19 15:01:24,138 INFO Found 9 games for 2026-02-20
+2026-02-19 15:01:24,139 INFO Fetching games for 02/21/2026
+2026-02-19 15:01:25,424 INFO Found 6 games for 2026-02-21
+2026-02-19 15:01:25,425 INFO Fetching games for 02/22/2026
+2026-02-19 15:01:26,626 INFO Found 13 games for 2026-02-22
+2026-02-19 15:01:26,626 INFO Found 28 games for Parlay Weekend
+2026-02-19 15:01:26,626 INFO Generating picks for Straight Weekday Pack
+2026-02-19 15:01:26,627 INFO Fetching games for 02/16/2026
+2026-02-19 15:01:27,756 INFO No games found for 2026-02-16
+2026-02-19 15:01:27,756 INFO Fetching games for 02/17/2026
+2026-02-19 15:01:28,949 INFO No games found for 2026-02-17
+2026-02-19 15:01:28,949 INFO Fetching games for 02/18/2026
+2026-02-19 15:01:30,077 INFO No games found for 2026-02-18
+2026-02-19 15:01:30,077 INFO Fetching games for 02/19/2026
+2026-02-19 15:01:31,250 INFO Found 10 games for 2026-02-19
+2026-02-19 15:01:31,251 INFO Fetching games for 02/20/2026
+2026-02-19 15:01:32,383 INFO Found 9 games for 2026-02-20
+2026-02-19 15:01:32,384 INFO Found 19 games for Straight Weekday Pack
+2026-02-19 15:01:32,384 INFO Generating picks for Referral Bonus Bundle
+2026-02-19 15:01:32,385 INFO Fetching games for 02/19/2026
+2026-02-19 15:01:33,574 INFO Found 10 games for 2026-02-19
+2026-02-19 15:01:33,574 INFO Found 10 games for Referral Bonus Bundle
+2026-02-19 15:01:33,574 INFO Generating picks for Straight Weekend Pack
+2026-02-19 15:01:33,574 INFO Fetching games for 02/20/2026
+2026-02-19 15:01:34,867 INFO Found 9 games for 2026-02-20
+2026-02-19 15:01:34,867 INFO Fetching games for 02/21/2026
+2026-02-19 15:01:36,031 INFO Found 6 games for 2026-02-21
+2026-02-19 15:01:36,032 INFO Fetching games for 02/22/2026
+2026-02-19 15:01:37,232 INFO Found 13 games for 2026-02-22
+2026-02-19 15:01:37,233 INFO Found 28 games for Straight Weekend Pack
+2026-02-19 15:01:37,240 INFO ============================================================
+2026-02-19 15:01:37,241 INFO PRODUCT ENGINE RESULTS
+2026-02-19 15:01:37,241 INFO ============================================================
+2026-02-19 15:01:37,241 INFO Parlay Consistent:
+2026-02-19 15:01:37,241 INFO   - Picks: 10
+2026-02-19 15:01:37,241 INFO   - Games: 10
+2026-02-19 15:01:37,241 INFO   - Type: parlay
+2026-02-19 15:01:37,241 INFO Parlay Moonshot:
+2026-02-19 15:01:37,241 INFO   - Picks: 10
+2026-02-19 15:01:37,241 INFO   - Games: 10
+2026-02-19 15:01:37,241 INFO   - Type: parlay
+2026-02-19 15:01:37,241 INFO Parlay Weekday:
+2026-02-19 15:01:37,241 INFO   - Picks: 10
+2026-02-19 15:01:37,241 INFO   - Games: 19
+2026-02-19 15:01:37,242 INFO   - Type: parlay
+2026-02-19 15:01:37,242 INFO Parlay Weekend:
+2026-02-19 15:01:37,242 INFO   - Picks: 7
+2026-02-19 15:01:37,242 INFO   - Games: 28
+2026-02-19 15:01:37,242 INFO   - Type: parlay
+2026-02-19 15:01:37,242 INFO Straight Weekday Pack:
+2026-02-19 15:01:37,242 INFO   - Picks: 10
+2026-02-19 15:01:37,242 INFO   - Games: 19
+2026-02-19 15:01:37,242 INFO   - Type: straight
+2026-02-19 15:01:37,242 INFO Referral Bonus Bundle:
+2026-02-19 15:01:37,242 INFO   - Picks: 3
+2026-02-19 15:01:37,242 INFO   - Games: 10
+2026-02-19 15:01:37,242 INFO   - Type: parlay
+2026-02-19 15:01:37,243 INFO Straight Weekend Pack:
+2026-02-19 15:01:37,243 INFO   - Picks: 10
+2026-02-19 15:01:37,243 INFO   - Games: 28
+2026-02-19 15:01:37,243 INFO   - Type: straight
+2026-02-19 15:01:37,243 INFO Results saved to: picks_output.json.temp
+2026-02-19 15:01:37,243 INFO ============================================================
+2026-02-19 15:01:37,243 INFO 🎯 Applying prediction market confidence boosting...
+2026-02-19 15:01:37,243 INFO Initialized Kalshi API client
+2026-02-19 15:01:37,243 INFO Initialized Polymarket API client
+2026-02-19 15:01:37,244 INFO Initialized PredictionMarketsAggregator
+2026-02-19 15:01:37,244 INFO Initialized MarketBooster for NBA
+2026-02-19 15:01:37,244 INFO Starting market-based confidence boosting...
+2026-02-19 15:01:37,244 INFO Fetching prediction market data...
+2026-02-19 15:01:37,244 INFO Fetching NBA prediction markets from all sources...
+2026-02-19 15:01:37,244 INFO Fetching Kalshi markets...
+2026-02-19 15:01:37,754 WARNING API error for https://trading-api.kalshi.com/trade-api/v2/events: 401 Client Error: Unauthorized for url: https://trading-api.kalshi.com/trade-api/v2/events?limit=200&status=open&category=Sports
+2026-02-19 15:01:37,754 WARNING No Kalshi events data received
+2026-02-19 15:01:37,755 INFO Fetching Polymarket markets...
+2026-02-19 15:01:38,606 INFO Found 43 Polymarket NBA events
+2026-02-19 15:01:38,607 INFO Successfully processed 0 Polymarket games
+2026-02-19 15:01:38,609 INFO Consolidated 0 games from prediction markets
+2026-02-19 15:01:38,609 INFO Cached market data for 0 games
+2026-02-19 15:01:38,609 INFO Processing parlay-consistent with 10 picks
+2026-02-19 15:01:38,609 INFO Processing parlay-moonshot with 10 picks
+2026-02-19 15:01:38,610 INFO Processing parlay-weekday with 10 picks
+2026-02-19 15:01:38,610 INFO Processing parlay-weekend with 7 picks
+2026-02-19 15:01:38,610 INFO Processing straight-weekday with 10 picks
+2026-02-19 15:01:38,611 INFO Processing referral-bundle with 3 picks
+2026-02-19 15:01:38,611 INFO Processing straight-weekend with 10 picks
+2026-02-19 15:01:38,611 INFO Market-based confidence boosting completed
+2026-02-19 15:01:38,615 INFO ✅ Market boosting applied successfully
+2026-02-19 15:01:38,628 WARNING ENGINE_SECRET not set, skipping email notifications

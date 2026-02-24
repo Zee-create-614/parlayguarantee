@@ -1,0 +1,538 @@
+2026-02-17 07:36:43,128 INFO === MMA Engine: Generating Picks ===
+2026-02-17 07:36:43,680 INFO Fetched 67 events from Odds API (mma_mixed_martial_arts)
+2026-02-17 07:36:43,683 INFO Analyzing: Lukasz Charzewski vs Alioune Nahaye
+2026-02-17 07:36:46,005 WARNING Fighter not found on ufcstats: Lukasz Charzewski
+2026-02-17 07:36:46,007 WARNING Could not find fighter: Lukasz Charzewski
+2026-02-17 07:36:48,588 WARNING Fighter not found on ufcstats: Alioune Nahaye
+2026-02-17 07:36:48,589 WARNING Could not find fighter: Alioune Nahaye
+2026-02-17 07:36:48,589 WARNING Missing fighter data: ['Lukasz Charzewski', 'Alioune Nahaye']
+2026-02-17 07:36:48,590 INFO Analyzing: Artur Szczepaniak vs Kacper Koziorzębski
+2026-02-17 07:36:51,848 WARNING Fighter not found on ufcstats: Artur Szczepaniak
+2026-02-17 07:36:51,848 WARNING Could not find fighter: Artur Szczepaniak
+2026-02-17 07:36:53,726 WARNING Fighter not found on ufcstats: Kacper Koziorzębski
+2026-02-17 07:36:53,727 WARNING Could not find fighter: Kacper Koziorzębski
+2026-02-17 07:36:53,727 WARNING Missing fighter data: ['Artur Szczepaniak', 'Kacper Koziorzębski']
+2026-02-17 07:36:53,727 INFO Analyzing: Mariusz Joniak vs Karol Durszlewicz
+2026-02-17 07:36:57,273 WARNING Fighter not found on ufcstats: Mariusz Joniak
+2026-02-17 07:36:57,273 WARNING Could not find fighter: Mariusz Joniak
+2026-02-17 07:36:59,340 WARNING Fighter not found on ufcstats: Karol Durszlewicz
+2026-02-17 07:36:59,340 WARNING Could not find fighter: Karol Durszlewicz
+2026-02-17 07:36:59,341 WARNING Missing fighter data: ['Mariusz Joniak', 'Karol Durszlewicz']
+2026-02-17 07:36:59,341 INFO Analyzing: Sebastian Przybysz vs Vitaliy Yakimenko
+2026-02-17 07:37:04,547 WARNING Fighter not found on ufcstats: Sebastian Przybysz
+2026-02-17 07:37:04,547 WARNING Could not find fighter: Sebastian Przybysz
+2026-02-17 07:37:06,581 WARNING Fighter not found on ufcstats: Vitaliy Yakimenko
+2026-02-17 07:37:06,581 WARNING Could not find fighter: Vitaliy Yakimenko
+2026-02-17 07:37:06,582 WARNING Missing fighter data: ['Sebastian Przybysz', 'Vitaliy Yakimenko']
+2026-02-17 07:37:06,582 INFO Analyzing: Jacobe Smith vs Josiah Harrell
+2026-02-17 07:37:10,659 INFO Scraped Jacobe Smith: 11-0-0 (3 fights)
+2026-02-17 07:37:15,104 INFO Scraped Josiah Harrell: 11-0-0 (0 fights)
+2026-02-17 07:37:15,118 INFO Analyzing: Luis Gurule vs Alden Coria
+2026-02-17 07:37:19,665 INFO Scraped Luis Gurule: 10-2-0 (3 fights)
+2026-02-17 07:37:24,133 INFO Scraped Alden Coria: 11-3-0 (1 NC) (1 fights)
+2026-02-17 07:37:24,139 INFO Analyzing: Ode Osbourne vs Alibi Idiris
+2026-02-17 07:37:28,830 INFO Scraped Ode Osbourne: 13-9-0 (1 NC) (13 fights)
+2026-02-17 07:37:33,134 INFO Scraped Alibi Idiris: 11-1-0 (1 fights)
+2026-02-17 07:37:33,140 INFO Analyzing: Sergey Spivak vs Ante Delija
+2026-02-17 07:37:35,372 WARNING Fighter not found on ufcstats: Sergey Spivak
+2026-02-17 07:37:35,372 WARNING Could not find fighter: Sergey Spivak
+2026-02-17 07:37:39,167 INFO Scraped Ante Delija: 26-7-0 (2 fights)
+2026-02-17 07:37:39,167 WARNING Missing fighter data: ['Sergey Spivak']
+2026-02-17 07:37:39,167 INFO Analyzing: Juliana Miller vs Carli Judice
+2026-02-17 07:37:43,729 INFO Scraped Juliana Miller: 5-3-0 (4 fights)
+2026-02-17 07:37:48,199 INFO Scraped Carli Judice: 5-2-0 (4 fights)
+2026-02-17 07:37:48,206 INFO Analyzing: Carlos Leal vs Chidi Njokuani
+2026-02-17 07:37:52,693 INFO Scraped Carlos Leal: 22-7-0 (3 fights)
+2026-02-17 07:37:57,370 INFO Scraped Chidi Njokuani: 25-11-0 (1 NC) (10 fights)
+2026-02-17 07:37:57,376 INFO Analyzing: Dan Ige vs Melquizael Costa
+2026-02-17 07:38:01,875 INFO Scraped Dan Ige: 19-10-0 (21 fights)
+2026-02-17 07:38:11,670 INFO Scraped Islam Makhachev: 28-1-0 (18 fights)
+2026-02-17 07:38:16,326 INFO Scraped Charles Oliveira: 36-11-0 (1 NC) (36 fights)
+2026-02-17 07:39:39,705 INFO Scraped Islam Makhachev: 28-1-0 (18 fights)
+2026-02-17 07:39:44,591 INFO Scraped Charles Oliveira: 36-11-0 (1 NC) (36 fights)
+2026-02-17 07:40:17,308 INFO Using cached data for Islam Makhachev
+2026-02-17 07:40:17,311 INFO Using cached data for Charles Oliveira
+2026-02-17 07:40:20,789 INFO Scraped Jon Jones: 28-1-0 (1 NC) (24 fights)
+2026-02-17 07:40:25,209 INFO Scraped Stipe Miocic: 20-5-0 (19 fights)
+2026-02-17 07:50:03,919 INFO Starting backtest: 6 months, max 15 events
+2026-02-17 07:50:03,920 INFO Scraping completed events (last 6 months)...
+2026-02-17 07:50:04,631 INFO Found 18 completed events in last 6 months
+2026-02-17 07:50:04,640 INFO Backtesting: UFC Fight Night: Bautista vs. Oliveira (February 07, 2026)
+2026-02-17 07:50:09,616 INFO Scraped Mario Bautista: 17-3-0 (14 fights)
+2026-02-17 07:50:13,968 INFO Scraped Vinicius Oliveira: 23-4-0 (6 fights)
+2026-02-17 07:50:18,566 INFO Scraped Kyoji Horiguchi: 36-5-0 (1 NC) (10 fights)
+2026-02-17 07:50:22,979 INFO Scraped Amir Albazi: 17-3-0 (7 fights)
+2026-02-17 07:50:27,432 INFO Scraped Rizvan Kuniev: 13-3-1 (1 NC) (4 fights)
+2026-02-17 07:50:32,053 INFO Scraped Jailton Almeida: 22-5-0 (12 fights)
+2026-02-17 07:50:36,607 INFO Scraped Michal Oleksiejczuk: 22-9-0 (1 NC) (18 fights)
+2026-02-17 07:50:41,116 INFO Scraped Marc-Andre Barriault: 17-11-0 (1 NC) (17 fights)
+2026-02-17 07:50:45,494 INFO Scraped Farid Basharat: 15-0-0 (7 fights)
+2026-02-17 07:50:49,979 INFO Scraped Jean Matsumoto: 17-2-0 (6 fights)
+2026-02-17 07:50:54,703 INFO Scraped Dustin Jacoby: 22-9-1 (18 fights)
+2026-02-17 07:50:58,934 INFO Scraped Julius Walker: 7-2-0 (3 fights)
+2026-02-17 07:51:03,843 INFO Scraped Daniil Donchenko: 14-2-0 (2 fights)
+2026-02-17 07:51:08,741 INFO Scraped Alex Morono: 24-13-0 (1 NC) (24 fights)
+2026-02-17 07:51:12,925 INFO Scraped Nikolay Veretennikov: 14-7-0 (6 fights)
+2026-02-17 07:51:17,658 INFO Scraped Niko Price: 16-10-0 (2 NC) (20 fights)
+2026-02-17 07:51:21,943 INFO Scraped Ketlen Souza: 16-6-0 (6 fights)
+2026-02-17 07:51:26,485 INFO Scraped Bruna Brasil: 11-6-1 (8 fights)
+2026-02-17 07:51:30,967 INFO Scraped Javid Basharat: 15-2-0 (1 NC) (8 fights)
+2026-02-17 07:51:35,329 INFO Scraped Gianni Vazquez: 13-5-1 (1 fights)
+2026-02-17 07:51:41,437 INFO Scraped Wang Cong: 9-1-0 (6 fights)
+2026-02-17 07:51:45,936 INFO Scraped Eduarda Moura: 12-2-0 (6 fights)
+2026-02-17 07:51:50,369 INFO Scraped Jakub Wiklacz: 18-3-2 (2 fights)
+2026-02-17 07:51:54,948 INFO Scraped Muin Gafurov: 20-7-0 (6 fights)
+2026-02-17 07:51:59,527 INFO Scraped Klaudia Sygula: 8-2-0 (3 fights)
+2026-02-17 08:10:32,685 INFO Starting backtest: 6 months, max 15 events
+2026-02-17 08:10:32,686 INFO Backtesting: UFC Fight Night: Bautista vs. Oliveira (February 07, 2026)
+2026-02-17 08:10:32,687 INFO Using cached data for Mario Bautista
+2026-02-17 08:10:32,688 INFO Using cached data for Vinicius Oliveira
+2026-02-17 08:10:32,693 INFO Using cached data for Kyoji Horiguchi
+2026-02-17 08:10:32,694 INFO Using cached data for Amir Albazi
+2026-02-17 08:10:32,696 INFO Using cached data for Rizvan Kuniev
+2026-02-17 08:10:32,697 INFO Using cached data for Jailton Almeida
+2026-02-17 08:10:32,699 INFO Using cached data for Michal Oleksiejczuk
+2026-02-17 08:10:32,701 INFO Using cached data for Marc-Andre Barriault
+2026-02-17 08:10:32,704 INFO Using cached data for Farid Basharat
+2026-02-17 08:10:32,704 INFO Using cached data for Jean Matsumoto
+2026-02-17 08:10:32,706 INFO Using cached data for Dustin Jacoby
+2026-02-17 08:10:32,707 INFO Using cached data for Julius Walker
+2026-02-17 08:10:32,709 INFO Using cached data for Daniil Donchenko
+2026-02-17 08:10:32,709 INFO Using cached data for Alex Morono
+2026-02-17 08:10:32,711 INFO Using cached data for Nikolay Veretennikov
+2026-02-17 08:10:32,712 INFO Using cached data for Niko Price
+2026-02-17 08:10:32,714 INFO Using cached data for Ketlen Souza
+2026-02-17 08:10:32,714 INFO Using cached data for Bruna Brasil
+2026-02-17 08:10:32,716 INFO Using cached data for Javid Basharat
+2026-02-17 08:10:32,717 INFO Using cached data for Gianni Vazquez
+2026-02-17 08:10:32,718 INFO Using cached data for Wang Cong
+2026-02-17 08:10:32,719 INFO Using cached data for Eduarda Moura
+2026-02-17 08:10:32,721 INFO Using cached data for Jakub Wiklacz
+2026-02-17 08:10:32,721 INFO Using cached data for Muin Gafurov
+2026-02-17 08:10:32,723 INFO Using cached data for Klaudia Sygula
+2026-02-17 08:10:32,723 INFO Using cached data for Priscila Cachoeira
+2026-02-17 08:10:32,726 INFO Generated 10 MMA parlays
+2026-02-17 08:10:32,726 INFO Backtesting: UFC 325: Volkanovski vs. Lopes 2 (January 31, 2026)
+2026-02-17 08:10:37,933 INFO Scraped Alexander Volkanovski: 28-4-0 (18 fights)
+2026-02-17 08:10:42,216 INFO Scraped Diego Lopes: 27-8-0 (10 fights)
+2026-02-17 08:10:46,283 WARNING Fighter not found on ufcstats: Benoit Saint Denis
+2026-02-17 08:10:46,284 WARNING Could not find fighter: Benoit Saint Denis
+2026-02-17 08:10:50,015 INFO Scraped Dan Hooker: 24-14-0 (24 fights)
+2026-02-17 08:10:50,015 WARNING Missing fighter data: ['Benoit Saint Denis']
+2026-02-17 08:10:54,220 INFO Scraped Mauricio Ruffy: 13-2-0 (6 fights)
+2026-02-17 08:10:58,832 INFO Scraped Rafael Fiziev: 13-5-0 (12 fights)
+2026-02-17 08:11:03,620 INFO Scraped Tallison Teixeira: 9-1-0 (4 fights)
+2026-02-17 08:11:08,017 INFO Scraped Tai Tuivasa: 15-9-0 (17 fights)
+2026-02-17 08:11:12,743 INFO Scraped Quillan Salkilld: 11-1-0 (5 fights)
+2026-02-17 08:11:17,438 INFO Scraped Jamie Mullarkey: 18-9-0 (13 fights)
+2026-02-17 08:11:21,728 INFO Scraped Billy Elekana: 10-2-0 (4 fights)
+2026-02-17 08:11:26,295 INFO Scraped Junior Tafa: 6-5-0 (7 fights)
+2026-02-17 08:11:30,738 INFO Scraped Cam Rowston: 14-3-0 (4 fights)
+2026-02-17 08:11:35,436 INFO Scraped Cody Brundage: 11-8-1 (1 NC) (15 fights)
+2026-02-17 08:11:39,825 INFO Scraped Jacob Malkoun: 9-3-0 (8 fights)
+2026-02-17 08:11:44,254 INFO Scraped Torrez Finney: 11-1-0 (5 fights)
+2026-02-17 08:11:48,731 INFO Scraped Jonathan Micallef: 9-1-0 (3 fights)
+2026-02-17 08:11:53,309 INFO Scraped Oban Elliott: 12-4-0 (6 fights)
+2026-02-17 08:11:57,754 INFO Scraped Kaan Ofli: 14-4-1 (4 fights)
+2026-02-17 08:12:04,297 INFO Scraped Yizha: 26-6-0 (9 fights)
+2026-02-17 08:12:06,523 WARNING Fighter not found on ufcstats: Dom Mar Fan
+2026-02-17 08:12:06,523 WARNING Could not find fighter: Dom Mar Fan
+2026-02-17 08:12:10,458 INFO Scraped Sangwook Kim: 13-4-0 (5 fights)
+2026-02-17 08:12:10,459 WARNING Missing fighter data: ['Dom Mar Fan']
+2026-02-17 08:12:15,120 INFO Scraped Keiichiro Nakamura: 8-1-0 (3 fights)
+2026-02-17 08:12:19,460 INFO Scraped Sebastian Szalay: 10-2-0 (3 fights)
+2026-02-17 08:12:23,921 INFO Scraped Lawrence Lui: 8-1-0 (3 fights)
+2026-02-17 08:12:28,410 INFO Scraped Sulangrangbo: 10-4-0 (3 fights)
+2026-02-17 08:12:28,414 INFO Generated 10 MMA parlays
+2026-02-17 08:12:28,414 INFO Backtesting: UFC 324: Gaethje vs. Pimblett (January 24, 2026)
+2026-02-17 08:12:33,514 INFO Scraped Justin Gaethje: 27-5-0 (15 fights)
+2026-02-17 08:12:37,904 INFO Scraped Paddy Pimblett: 23-4-0 (8 fights)
+2026-02-17 08:12:42,540 INFO Scraped Sean O'Malley: 19-3-0 (1 NC) (16 fights)
+2026-02-17 08:12:48,549 INFO Scraped Song Yadong: 22-9-1 (1 NC) (16 fights)
+2026-02-17 08:12:51,918 WARNING Fighter not found on ufcstats: Waldo Cortes Acosta
+2026-02-17 08:12:51,918 WARNING Could not find fighter: Waldo Cortes Acosta
+2026-02-17 08:12:56,282 INFO Scraped Derrick Lewis: 29-13-0 (1 NC) (31 fights)
+2026-02-17 08:12:56,282 WARNING Missing fighter data: ['Waldo Cortes Acosta']
+2026-02-17 08:13:00,414 INFO Scraped Natalia Silva: 20-5-1 (8 fights)
+2026-02-17 08:13:05,090 INFO Scraped Rose Namajunas: 15-8-0 (19 fights)
+2026-02-17 08:13:09,286 INFO Scraped Jean Silva: 19-12-3 (1 NC) (1 fights)
+2026-02-17 08:13:14,089 INFO Scraped Arnold Allen: 20-4-0 (14 fights)
+2026-02-17 08:13:18,441 INFO Scraped Umar Nurmagomedov: 20-1-0 (9 fights)
+2026-02-17 08:13:23,035 INFO Scraped Deiveson Figueiredo: 25-6-1 (21 fights)
+2026-02-17 08:13:27,441 INFO Scraped Ateba Gautier: 10-1-0 (5 fights)
+2026-02-17 08:13:31,862 INFO Scraped Andrey Pulyaev: 10-4-0 (4 fights)
+2026-02-17 08:13:36,619 INFO Scraped Nikita Krylov: 31-11-0 (21 fights)
+2026-02-17 08:13:41,001 INFO Scraped Modestas Bukauskas: 19-7-0 (12 fights)
+2026-02-17 08:13:45,529 INFO Scraped Alex Perez: 26-10-0 (15 fights)
+2026-02-17 08:13:50,030 INFO Scraped Charles Johnson: 18-8-0 (13 fights)
+2026-02-17 08:13:54,324 INFO Scraped Josh Hokit: 8-0-0 (3 fights)
+2026-02-17 08:13:58,848 INFO Scraped Denzel Freeman: 7-2-0 (2 fights)
+2026-02-17 08:14:04,279 INFO Scraped Ty Miller: 7-0-0 (1 NC) (2 fights)
+2026-02-17 08:14:08,110 INFO Scraped Adam Fugitt: 10-6-0 (6 fights)
+2026-02-17 08:14:08,120 INFO Generated 10 MMA parlays
+2026-02-17 08:14:08,120 INFO Backtesting: UFC Fight Night: Royval vs. Kape (December 13, 2025)
+2026-02-17 08:14:13,424 INFO Scraped Manel Kape: 22-7-0 (10 fights)
+2026-02-17 08:14:18,145 INFO Scraped Brandon Royval: 17-9-0 (12 fights)
+2026-02-17 08:14:22,296 INFO Scraped Kevin Vallejos: 17-1-0 (5 fights)
+2026-02-17 08:14:26,889 INFO Scraped Giga Chikadze: 15-6-0 (13 fights)
+2026-02-17 08:14:31,267 INFO Scraped Cezary Oleksiejczuk: 17-3-0 (2 fights)
+2026-02-17 08:14:35,858 INFO Scraped Cesar Almeida: 7-2-0 (6 fights)
+2026-02-17 08:14:40,425 INFO Scraped Melquizael Costa: 25-7-0 (8 fights)
+2026-02-17 08:14:44,867 INFO Scraped Morgan Charriere: 21-12-1 (6 fights)
+2026-02-17 08:14:49,514 INFO Scraped Kennedy Nzechukwu: 14-6-1 (17 fights)
+2026-02-17 08:14:53,795 INFO Scraped Marcus Buchecha: 5-2-1 (2 fights)
+2026-02-17 08:14:58,921 INFO Scraped King Green: 33-17-1 (1 NC) (34 fights)
+2026-02-17 08:15:03,047 WARNING Fighter not found on ufcstats: Lance Gibson Jr.
+2026-02-17 08:15:03,047 WARNING Could not find fighter: Lance Gibson Jr.
+2026-02-17 08:15:03,047 WARNING Missing fighter data: ['Lance Gibson Jr.']
+2026-02-17 08:15:06,115 INFO Scraped Yaroslav Amosov: 29-1-0 (1 fights)
+2026-02-17 08:15:11,222 INFO Scraped Neil Magny: 31-15-0 (37 fights)
+2026-02-17 08:15:15,342 INFO Scraped Joanderson Brito: 18-5-1 (10 fights)
+2026-02-17 08:15:19,626 INFO Scraped Isaac Thomson: 9-3-0 (1 fights)
+2026-02-17 08:15:24,145 INFO Scraped Steven Asplund: 7-1-0 (2 fights)
+2026-02-17 08:15:28,660 INFO Scraped Sean Sharaf: 4-2-0 (2 fights)
+2026-02-17 08:15:33,236 INFO Scraped Luana Santos: 10-2-0 (6 fights)
+2026-02-17 08:15:37,668 INFO Scraped Melissa Croden: 7-3-0 (2 fights)
+2026-02-17 08:15:42,149 INFO Scraped Guilherme Pat: 6-0-0 (1 fights)
+2026-02-17 08:15:45,675 WARNING Fighter not found on ufcstats: Allen Frye Jr.
+2026-02-17 08:15:45,675 WARNING Could not find fighter: Allen Frye Jr.
+2026-02-17 08:15:45,675 WARNING Missing fighter data: ['Allen Frye Jr.']
+2026-02-17 08:15:49,744 INFO Scraped Jamey-Lyn Horth: 9-2-0 (6 fights)
+2026-02-17 08:16:04,791 INFO Scraped Tereza Bleda: 7-2-0 (4 fights)
+2026-02-17 08:16:04,800 INFO Generated 10 MMA parlays
+2026-02-17 08:16:04,801 INFO Backtesting: UFC 323: Dvalishvili vs. Yan 2 (December 06, 2025)
+2026-02-17 08:16:10,199 INFO Scraped Petr Yan: 20-5-0 (16 fights)
+2026-02-17 08:16:14,764 INFO Scraped Merab Dvalishvili: 21-5-0 (17 fights)
+2026-02-17 08:16:19,094 INFO Scraped Joshua Van: 16-2-0 (10 fights)
+2026-02-17 08:16:23,783 INFO Scraped Alexandre Pantoja: 30-6-0 (18 fights)
+2026-02-17 08:16:28,080 INFO Scraped Tatsuro Taira: 18-1-0 (9 fights)
+2026-02-17 08:16:32,731 INFO Scraped Brandon Moreno: 23-9-2 (19 fights)
+2026-02-17 08:16:37,009 INFO Scraped Payton Talbott: 11-1-0 (7 fights)
+2026-02-17 08:16:41,712 INFO Scraped Henry Cejudo: 16-6-0 (16 fights)
+2026-02-17 08:16:46,298 INFO Scraped Jan Blachowicz: 29-11-2 (22 fights)
+2026-02-17 08:16:50,539 INFO Scraped Bogdan Guskov: 18-3-1 (6 fights)
+2026-02-17 08:16:55,063 INFO Scraped Manuel Torres: 17-3-0 (7 fights)
+2026-02-17 08:16:59,699 INFO Scraped Grant Dawson: 23-3-1 (15 fights)
+2026-02-17 08:17:04,398 INFO Scraped Chris Duncan: 15-2-0 (9 fights)
+2026-02-17 08:17:09,124 INFO Scraped Terrance McKinney: 17-8-0 (13 fights)
+2026-02-17 08:17:13,529 INFO Scraped Maycee Barber: 15-2-0 (13 fights)
+2026-02-17 08:17:17,931 INFO Scraped Karine Silva: 19-6-0 (8 fights)
+2026-02-17 08:17:22,463 INFO Scraped Fares Ziam: 18-4-0 (10 fights)
+2026-02-17 08:17:26,875 INFO Scraped Nazim Sadykhov: 11-2-1 (7 fights)
+2026-02-17 08:17:31,448 INFO Scraped Brunno Ferreira: 15-2-0 (9 fights)
+2026-02-17 08:17:36,101 INFO Scraped Marvin Vettori: 19-10-1 (18 fights)
+2026-02-17 08:17:40,545 INFO Scraped Jalin Turner: 15-9-0 (15 fights)
+2026-02-17 08:17:45,308 INFO Scraped Edson Barboza: 24-14-0 (32 fights)
+2026-02-17 08:17:49,323 INFO Scraped Iwo Baraniewski: 7-0-0 (2 fights)
+2026-02-17 08:17:53,930 INFO Scraped Ibo Aslan: 14-4-0 (6 fights)
+2026-02-17 08:17:58,358 INFO Scraped Mansur Abdul-Malik: 9-0-1 (5 fights)
+2026-02-17 08:18:02,876 INFO Scraped Antonio Trocoli: 12-6-0 (1 NC) (4 fights)
+2026-02-17 08:18:07,372 INFO Scraped Mairon Santos: 18-1-0 (4 fights)
+2026-02-17 08:18:11,956 INFO Scraped Muhammad Naimov: 13-4-0 (8 fights)
+2026-02-17 08:18:11,968 INFO Generated 10 MMA parlays
+2026-02-17 08:18:11,968 INFO Backtesting: UFC Fight Night: Tsarukyan vs. Hooker (November 22, 2025)
+2026-02-17 08:18:17,271 INFO Scraped Arman Tsarukyan: 23-3-0 (12 fights)
+2026-02-17 08:18:17,276 INFO Using cached data for Dan Hooker
+2026-02-17 08:18:20,502 WARNING Fighter not found on ufcstats: Ian Machado Garry
+2026-02-17 08:18:20,503 WARNING Could not find fighter: Ian Machado Garry
+2026-02-17 08:18:24,962 INFO Scraped Belal Muhammad: 24-5-0 (1 NC) (21 fights)
+2026-02-17 08:18:24,963 WARNING Missing fighter data: ['Ian Machado Garry']
+2026-02-17 08:18:29,312 INFO Scraped Volkan Oezdemir: 21-8-0 (16 fights)
+2026-02-17 08:18:33,933 INFO Scraped Alonzo Menifield: 17-6-1 (19 fights)
+2026-02-17 08:18:38,167 INFO Scraped Myktybek Orolbai: 15-2-1 (5 fights)
+2026-02-17 08:18:42,968 INFO Scraped Jack Hermansson: 24-10-0 (19 fights)
+2026-02-17 08:18:46,092 WARNING Fighter not found on ufcstats: Waldo Cortes Acosta
+2026-02-17 08:18:46,093 WARNING Could not find fighter: Waldo Cortes Acosta
+2026-02-17 08:18:50,196 INFO Scraped Shamil Gaziev: 14-2-0 (6 fights)
+2026-02-17 08:18:50,197 WARNING Missing fighter data: ['Waldo Cortes Acosta']
+2026-02-17 08:18:50,202 INFO Using cached data for Kyoji Horiguchi
+2026-02-17 08:18:54,737 INFO Scraped Tagir Ulanbekov: 17-3-0 (8 fights)
+2026-02-17 08:18:59,122 INFO Scraped Luke Riley: 12-0-0 (1 fights)
+2026-02-17 08:19:03,806 INFO Scraped Bogdan Grad: 15-4-0 (5 fights)
+2026-02-17 08:19:08,287 INFO Scraped Nicolas Dalby: 24-6-1 (2 NC) (15 fights)
+2026-02-17 08:19:12,606 INFO Scraped Saygid Izagakhmaev: 22-3-0 (1 fights)
+2026-02-17 08:19:17,205 INFO Scraped Asu Almabayev: 23-3-0 (7 fights)
+2026-02-17 08:19:17,207 INFO Using cached data for Alex Perez
+2026-02-17 08:19:21,735 INFO Scraped Abdul Rakhman Yakhyaev: 8-0-0 (2 fights)
+2026-02-17 08:19:26,172 INFO Scraped Rafael Cerqueira: 11-4-0 (4 fights)
+2026-02-17 08:19:30,643 INFO Scraped Aleksandre Topuria: 7-1-0 (2 fights)
+2026-02-17 08:19:35,157 INFO Scraped Bekzat Almakhan: 12-3-0 (3 fights)
+2026-02-17 08:19:39,738 INFO Scraped Ismail Naurdiev: 25-8-0 (7 fights)
+2026-02-17 08:19:44,167 INFO Scraped Ryan Loder: 8-3-0 (3 fights)
+2026-02-17 08:19:48,693 INFO Scraped Nurullo Aliev: 11-0-0 (4 fights)
+2026-02-17 08:19:53,134 INFO Scraped Shem Rock: 12-2-1 (1 fights)
+2026-02-17 08:19:53,143 INFO Using cached data for Denzel Freeman
+2026-02-17 08:19:57,640 INFO Scraped Marek Bujlo: 6-1-0 (1 fights)
+2026-02-17 08:19:57,652 INFO Generated 10 MMA parlays
+2026-02-17 08:19:57,652 INFO Backtesting: UFC 322: Della Maddalena vs. Makhachev (November 15, 2025)
+2026-02-17 08:19:59,683 INFO Using cached data for Islam Makhachev
+2026-02-17 08:20:01,919 WARNING Fighter not found on ufcstats: Jack Della Maddalena
+2026-02-17 08:20:01,919 WARNING Could not find fighter: Jack Della Maddalena
+2026-02-17 08:20:01,921 WARNING Missing fighter data: ['Jack Della Maddalena']
+2026-02-17 08:20:06,960 INFO Scraped Valentina Shevchenko: 26-4-1 (19 fights)
+2026-02-17 08:20:12,839 INFO Scraped Zhang Weili: 26-4-0 (13 fights)
+2026-02-17 08:20:17,228 INFO Scraped Michael Morales: 19-0-0 (8 fights)
+2026-02-17 08:20:21,701 INFO Scraped Sean Brady: 18-2-0 (10 fights)
+2026-02-17 08:20:26,235 INFO Scraped Carlos Prates: 23-7-0 (8 fights)
+2026-02-17 08:20:30,956 INFO Scraped Leon Edwards: 22-6-0 (1 NC) (20 fights)
+2026-02-17 08:20:34,135 WARNING Fighter not found on ufcstats: Benoit Saint Denis
+2026-02-17 08:20:34,135 WARNING Could not find fighter: Benoit Saint Denis
+2026-02-17 08:20:38,905 INFO Scraped Beneil Dariush: 23-7-1 (25 fights)
+2026-02-17 08:20:38,906 WARNING Missing fighter data: ['Benoit Saint Denis']
+2026-02-17 08:20:42,744 INFO Scraped Bo Nickal: 8-1-0 (8 fights)
+2026-02-17 08:20:47,292 INFO Scraped Rodolfo Vieira: 11-4-0 (10 fights)
+2026-02-17 08:20:51,750 INFO Scraped Gregory Rodrigues: 18-6-0 (13 fights)
+2026-02-17 08:20:56,298 INFO Scraped Roman Kopylov: 14-5-0 (11 fights)
+2026-02-17 08:21:00,774 INFO Scraped Erin Blanchfield: 14-2-0 (9 fights)
+2026-02-17 08:21:05,690 INFO Scraped Tracy Cortez: 12-3-0 (9 fights)
+2026-02-17 08:21:09,861 INFO Scraped Ethyn Ewing: 9-2-0 (1 fights)
+2026-02-17 08:21:14,585 INFO Scraped Malcolm Wellmaker: 10-1-0 (4 fights)
+2026-02-17 08:21:19,039 INFO Scraped Kyle Daukaus: 17-4-0 (1 NC) (10 fights)
+2026-02-17 08:21:23,792 INFO Scraped Gerald Meerschaert: 37-21-0 (25 fights)
+2026-02-17 08:21:28,126 INFO Scraped Pat Sabatini: 21-5-0 (10 fights)
+2026-02-17 08:21:32,537 INFO Scraped Chepe Mariscal: 18-7-0 (1 NC) (6 fights)
+2026-02-17 08:21:37,003 INFO Scraped Fatima Kline: 9-1-0 (4 fights)
+2026-02-17 08:21:41,992 INFO Scraped Angela Hill: 18-16-0 (29 fights)
+2026-02-17 08:21:46,011 INFO Scraped Baisangur Susurkaev: 11-0-0 (3 fights)
+2026-02-17 08:21:50,511 INFO Scraped Eric McConico: 10-4-1 (3 fights)
+2026-02-17 08:21:55,017 INFO Scraped Matheus Camilo: 10-3-0 (2 fights)
+2026-02-17 08:21:59,651 INFO Scraped Viacheslav Borshchev: 8-7-1 (11 fights)
+2026-02-17 08:21:59,661 INFO Generated 10 MMA parlays
+2026-02-17 08:21:59,661 INFO Backtesting: UFC Fight Night: Bonfim vs. Brown (November 08, 2025)
+2026-02-17 08:22:06,214 INFO Scraped Gabriel Bonfim: 19-1-0 (8 fights)
+2026-02-17 08:22:10,788 INFO Scraped Randy Brown: 20-7-0 (21 fights)
+2026-02-17 08:22:14,937 INFO Scraped Joseph Morales: 15-2-0 (5 fights)
+2026-02-17 08:22:19,624 INFO Scraped Matt Schnell: 17-10-0 (1 NC) (16 fights)
+2026-02-17 08:22:24,031 INFO Scraped Uros Medic: 12-3-0 (10 fights)
+2026-02-17 08:22:28,622 INFO Scraped Muslim Salikhov: 22-6-0 (14 fights)
+2026-02-17 08:22:32,924 INFO Scraped Chris Padilla: 17-6-0 (4 fights)
+2026-02-17 08:22:37,470 INFO Scraped Ismael Bonfim: 20-6-0 (6 fights)
+2026-02-17 08:22:42,008 INFO Scraped Christian Leroy Duncan: 13-2-0 (8 fights)
+2026-02-17 08:22:46,462 INFO Scraped Marco Tulio: 14-2-0 (5 fights)
+2026-02-17 08:22:51,043 INFO Scraped Jamall Emmers: 22-8-0 (10 fights)
+2026-02-17 08:22:55,477 INFO Scraped Hyder Amil: 11-2-0 (6 fights)
+2026-02-17 08:23:00,114 INFO Scraped Raoni Barcelos: 21-5-0 (14 fights)
+2026-02-17 08:23:04,659 INFO Scraped Ricky Simon: 22-7-0 (17 fights)
+2026-02-17 08:23:08,957 INFO Scraped Jacqueline Cavalcanti: 10-1-0 (5 fights)
+2026-02-17 08:23:12,836 WARNING Fighter not found on ufcstats: Mayra Bueno Silva
+2026-02-17 08:23:12,836 WARNING Could not find fighter: Mayra Bueno Silva
+2026-02-17 08:23:12,836 WARNING Missing fighter data: ['Mayra Bueno Silva']
+2026-02-17 08:23:12,837 INFO Using cached data for Josh Hokit
+2026-02-17 08:23:16,406 INFO Scraped Max Gimenis: 6-2-0 (1 fights)
+2026-02-17 08:23:21,080 INFO Scraped Denise Gomes: 12-3-0 (9 fights)
+2026-02-17 08:23:25,727 INFO Scraped Tecia Pennington: 15-8-0 (19 fights)
+2026-02-17 08:23:30,028 INFO Scraped Daniel Marcos: 18-1-0 (1 NC) (8 fights)
+2026-02-17 08:23:34,633 INFO Scraped Miles Johns: 15-5-0 (1 NC) (13 fights)
+2026-02-17 08:23:38,989 INFO Scraped Zach Reese: 10-2-0 (1 NC) (8 fights)
+2026-02-17 08:23:43,427 INFO Scraped Jackson McVey: 6-2-0 (2 fights)
+2026-02-17 08:23:43,436 INFO Generated 10 MMA parlays
+2026-02-17 08:23:43,437 INFO Backtesting: UFC Fight Night: Garcia vs. Onama (November 01, 2025)
+2026-02-17 08:23:48,547 INFO Scraped Steve Garcia: 19-5-0 (11 fights)
+2026-02-17 08:23:53,037 INFO Scraped David Onama: 14-3-0 (9 fights)
+2026-02-17 08:23:56,617 WARNING Fighter not found on ufcstats: Waldo Cortes Acosta
+2026-02-17 08:23:56,617 WARNING Could not find fighter: Waldo Cortes Acosta
+2026-02-17 08:24:00,461 INFO Scraped Ante Delija: 26-7-0 (2 fights)
+2026-02-17 08:24:00,462 WARNING Missing fighter data: ['Waldo Cortes Acosta']
+2026-02-17 08:24:05,237 INFO Scraped Jeremiah Wells: 13-4-1 (7 fights)
+2026-02-17 08:24:09,623 INFO Scraped Themba Gorimbo: 14-6-0 (7 fights)
+2026-02-17 08:24:12,885 WARNING Fighter not found on ufcstats: Yadier del Valle
+2026-02-17 08:24:12,885 WARNING Could not find fighter: Yadier del Valle
+2026-02-17 08:24:17,070 INFO Scraped Isaac Dulgarian: 7-2-0 (4 fights)
+2026-02-17 08:24:17,071 WARNING Missing fighter data: ['Yadier del Valle']
+2026-02-17 08:24:21,616 INFO Scraped Charles Radtke: 11-5-0 (6 fights)
+2026-02-17 08:24:26,044 INFO Scraped Daniel Frunza: 9-4-0 (3 fights)
+2026-02-17 08:24:30,620 INFO Scraped Allan Nascimento: 22-6-0 (6 fights)
+2026-02-17 08:24:35,272 INFO Scraped Cody Durden: 17-9-1 (14 fights)
+2026-02-17 08:24:35,281 INFO Using cached data for Billy Elekana
+2026-02-17 08:24:39,544 INFO Scraped Kevin Christian: 9-3-0 (2 fights)
+2026-02-17 08:24:44,100 INFO Scraped Timmy Cuamba: 10-3-0 (5 fights)
+2026-02-17 08:24:48,613 INFO Scraped ChangHo Lee: 11-2-0 (5 fights)
+2026-02-17 08:24:53,057 INFO Scraped Donte Johnson: 7-0-0 (2 fights)
+2026-02-17 08:24:57,697 INFO Scraped Sedriques Dumas: 10-4-0 (1 NC) (9 fights)
+2026-02-17 08:25:02,443 INFO Scraped Norma Dumont: 13-2-0 (11 fights)
+2026-02-17 08:25:06,785 INFO Scraped Ketlen Vieira: 15-5-0 (14 fights)
+2026-02-17 08:25:11,104 INFO Scraped Alice Ardelean: 11-7-0 (4 fights)
+2026-02-17 08:25:15,624 INFO Scraped Montserrat Conejo Ruiz: 10-5-0 (5 fights)
+2026-02-17 08:25:20,061 INFO Scraped Seokhyeon Ko: 13-2-0 (3 fights)
+2026-02-17 08:25:24,704 INFO Scraped Phil Rowe: 11-6-0 (9 fights)
+2026-02-17 08:25:29,131 INFO Scraped Talita Alencar: 7-1-1 (5 fights)
+2026-02-17 08:25:33,653 INFO Scraped Ariane Carnelossi: 15-4-0 (6 fights)
+2026-02-17 08:25:33,662 INFO Generated 10 MMA parlays
+2026-02-17 08:25:33,662 INFO Backtesting: UFC 321: Aspinall vs. Gane (October 25, 2025)
+2026-02-17 08:25:39,129 INFO Scraped Tom Aspinall: 15-3-0 (1 NC) (10 fights)
+2026-02-17 08:25:43,648 INFO Scraped Ciryl Gane: 13-2-0 (1 NC) (13 fights)
+2026-02-17 08:25:48,210 INFO Scraped Mackenzie Dern: 16-5-0 (16 fights)
+2026-02-17 08:25:52,667 INFO Scraped Virna Jandiroba: 22-4-0 (12 fights)
+2026-02-17 08:25:52,677 INFO Using cached data for Umar Nurmagomedov
+2026-02-17 08:25:52,680 INFO Using cached data for Mario Bautista
+2026-02-17 08:25:57,260 INFO Scraped Alexander Volkov: 39-11-0 (18 fights)
+2026-02-17 08:25:57,266 INFO Using cached data for Jailton Almeida
+2026-02-17 08:26:01,749 INFO Scraped Azamat Murzakanov: 16-0-0 (7 fights)
+2026-02-17 08:26:06,246 INFO Scraped Aleksandar Rakic: 14-6-0 (11 fights)
+2026-02-17 08:26:06,255 INFO Using cached data for Quillan Salkilld
+2026-02-17 08:26:10,827 INFO Scraped Nasrat Haqparast: 18-6-0 (15 fights)
+2026-02-17 08:26:15,163 INFO Scraped Ikram Aliskerov: 17-2-0 (6 fights)
+2026-02-17 08:26:19,799 INFO Scraped JunYong Park: 19-7-0 (13 fights)
+2026-02-17 08:26:24,265 INFO Scraped Ludovit Klein: 24-5-1 (12 fights)
+2026-02-17 08:26:28,655 INFO Scraped Mateusz Rebecki: 20-4-0 (8 fights)
+2026-02-17 08:26:33,132 INFO Scraped Valter Walker: 15-1-0 (5 fights)
+2026-02-17 08:26:37,574 INFO Scraped Louie Sutherland: 10-4-0 (1 fights)
+2026-02-17 08:26:42,302 INFO Scraped Nathaniel Wood: 22-6-0 (13 fights)
+2026-02-17 08:26:46,643 INFO Scraped Jose Delgado: 10-2-0 (4 fights)
+2026-02-17 08:26:51,139 INFO Scraped Hamdy Abdelwahab: 7-1-0 (1 NC) (4 fights)
+2026-02-17 08:26:55,678 INFO Scraped Chris Barnett: 23-10-0 (6 fights)
+2026-02-17 08:27:00,144 INFO Scraped Mitch Raposo: 10-3-0 (4 fights)
+2026-02-17 08:27:06,708 INFO Scraped Azat Maksum: 15-3-0 (4 fights)
+2026-02-17 08:27:11,214 INFO Scraped Mizuki: 16-6-0 (4 fights)
+2026-02-17 08:27:15,798 INFO Scraped Jaqueline Amorim: 10-2-0 (6 fights)
+2026-02-17 08:27:15,805 INFO Generated 10 MMA parlays
+2026-02-17 08:27:15,805 INFO Backtesting: UFC Fight Night: De Ridder vs. Allen (October 18, 2025)
+2026-02-17 08:27:21,131 INFO Scraped Brendan Allen: 26-7-0 (19 fights)
+2026-02-17 08:27:22,879 WARNING Fighter not found on ufcstats: Reinier de Ridder
+2026-02-17 08:27:22,879 WARNING Could not find fighter: Reinier de Ridder
+2026-02-17 08:27:22,879 WARNING Missing fighter data: ['Reinier de Ridder']
+2026-02-17 08:27:26,998 INFO Scraped Mike Malott: 13-2-1 (8 fights)
+2026-02-17 08:27:31,854 INFO Scraped Kevin Holland: 28-15-0 (1 NC) (29 fights)
+2026-02-17 08:27:35,944 INFO Scraped Aiemann Zahabi: 14-2-0 (10 fights)
+2026-02-17 08:27:40,756 INFO Scraped Marlon Vera: 23-11-1 (25 fights)
+2026-02-17 08:27:45,172 INFO Scraped Manon Fiorot: 13-2-0 (9 fights)
+2026-02-17 08:27:49,458 INFO Scraped Jasmine Jasudavicius: 14-4-0 (12 fights)
+2026-02-17 08:27:54,093 INFO Scraped Charles Jourdain: 17-8-1 (16 fights)
+2026-02-17 08:27:58,591 INFO Scraped Davey Grant: 17-8-0 (15 fights)
+2026-02-17 08:28:03,878 INFO Scraped Kyle Nelson: 17-6-1 (11 fights)
+2026-02-17 08:28:07,550 INFO Scraped Matt Frevola: 11-6-1 (13 fights)
+2026-02-17 08:28:12,303 INFO Scraped Drew Dober: 28-15-0 (1 NC) (27 fights)
+2026-02-17 08:28:16,369 INFO Scraped Kyle Prepolec: 18-10-0 (4 fights)
+2026-02-17 08:28:21,003 INFO Scraped Aoriqileng: 26-12-0 (1 NC) (9 fights)
+2026-02-17 08:28:25,520 INFO Scraped Cody Gibson: 22-12-0 (10 fights)
+2026-02-17 08:28:30,046 INFO Scraped Bruno Silva: 15-7-2 (1 NC) (10 fights)
+2026-02-17 08:28:34,496 INFO Scraped HyunSung Park: 10-2-0 (7 fights)
+2026-02-17 08:28:38,907 INFO Scraped Djorden Santos: 11-2-0 (3 fights)
+2026-02-17 08:28:43,458 INFO Scraped Danny Barlow: 9-2-0 (5 fights)
+2026-02-17 08:28:47,937 INFO Scraped Stephanie Luciano: 7-2-1 (4 fights)
+2026-02-17 08:28:52,404 INFO Scraped Ravena Oliveira: 7-3-1 (2 fights)
+2026-02-17 08:28:56,931 INFO Scraped Yousri Belgaroui: 9-3-0 (3 fights)
+2026-02-17 08:29:01,429 INFO Scraped Azamat Bekoev: 20-4-0 (3 fights)
+2026-02-17 08:29:01,437 INFO Using cached data for Melissa Croden
+2026-02-17 08:29:05,945 INFO Scraped Tainara Lisboa: 7-4-0 (4 fights)
+2026-02-17 08:29:05,956 INFO Generated 10 MMA parlays
+2026-02-17 08:29:05,956 INFO Backtesting: UFC Fight Night: Oliveira vs. Gamrot (October 11, 2025)
+2026-02-17 08:29:07,813 INFO Using cached data for Charles Oliveira
+2026-02-17 08:29:11,034 INFO Scraped Mateusz Gamrot: 25-4-0 (1 NC) (12 fights)
+2026-02-17 08:29:11,043 INFO Using cached data for Deiveson Figueiredo
+2026-02-17 08:29:15,625 INFO Scraped Montel Jackson: 15-3-0 (13 fights)
+2026-02-17 08:29:20,077 INFO Scraped Joel Alvarez: 23-3-0 (10 fights)
+2026-02-17 08:29:24,792 INFO Scraped Vicente Luque: 23-12-1 (24 fights)
+2026-02-17 08:29:28,928 INFO Scraped Mario Pinto: 11-0-0 (3 fights)
+2026-02-17 08:29:33,467 INFO Scraped Jhonata Diniz: 9-2-0 (6 fights)
+2026-02-17 08:29:33,476 INFO Using cached data for Kaan Ofli
+2026-02-17 08:29:38,151 INFO Scraped Ricardo Ramos: 17-8-0 (15 fights)
+2026-02-17 08:29:42,064 WARNING Fighter not found on ufcstats: Michael Aswell Jr.
+2026-02-17 08:29:42,064 WARNING Could not find fighter: Michael Aswell Jr.
+2026-02-17 08:29:45,533 INFO Scraped Lucas Almeida: 15-5-0 (7 fights)
+2026-02-17 08:29:45,533 WARNING Missing fighter data: ['Michael Aswell Jr.']
+2026-02-17 08:29:50,047 INFO Scraped Jafel Filho: 17-4-0 (6 fights)
+2026-02-17 08:29:54,491 INFO Scraped Clayton Carpenter: 8-2-0 (5 fights)
+2026-02-17 08:29:59,044 INFO Scraped Vitor Petrino: 13-2-0 (9 fights)
+2026-02-17 08:30:05,038 INFO Scraped Thomas Petersen: 10-4-0 (6 fights)
+2026-02-17 08:30:08,656 INFO Scraped Bia Mesquita: 6-0-0 (1 fights)
+2026-02-17 08:30:13,190 INFO Scraped Irina Alekseeva: 5-4-0 (4 fights)
+2026-02-17 08:30:17,719 INFO Scraped Lucas Rocha: 18-2-0 (3 fights)
+2026-02-17 08:30:22,193 INFO Scraped Stewart Nicoll: 8-2-0 (2 fights)
+2026-02-17 08:30:26,769 INFO Scraped Julia Polastri: 14-5-0 (6 fights)
+2026-02-17 08:30:31,584 INFO Scraped Karolina Kowalkiewicz: 16-10-0 (19 fights)
+2026-02-17 08:30:35,799 INFO Scraped Luan Lacerda: 13-3-0 (3 fights)
+2026-02-17 08:30:40,261 INFO Scraped Saimon Oliveira: 18-7-0 (5 fights)
+2026-02-17 08:30:40,272 INFO Generated 10 MMA parlays
+2026-02-17 08:30:40,272 INFO Backtesting: UFC 320: Ankalaev vs. Pereira 2 (October 04, 2025)
+2026-02-17 08:30:45,579 INFO Scraped Alex Pereira: 13-3-0 (12 fights)
+2026-02-17 08:30:50,195 INFO Scraped Magomed Ankalaev: 21-2-1 (1 NC) (16 fights)
+2026-02-17 08:30:50,205 INFO Using cached data for Merab Dvalishvili
+2026-02-17 08:30:54,561 INFO Scraped Cory Sandhagen: 18-6-0 (16 fights)
+2026-02-17 08:30:59,026 INFO Scraped Jiri Prochazka: 32-5-1 (8 fights)
+2026-02-17 08:31:03,393 WARNING Fighter not found on ufcstats: Khalil Rountree Jr.
+2026-02-17 08:31:03,393 WARNING Could not find fighter: Khalil Rountree Jr.
+2026-02-17 08:31:03,393 WARNING Missing fighter data: ['Khalil Rountree Jr.']
+2026-02-17 08:31:06,718 INFO Scraped Youssef Zalal: 18-5-1 (12 fights)
+2026-02-17 08:31:11,251 INFO Scraped Josh Emmett: 19-6-0 (16 fights)
+2026-02-17 08:31:15,635 INFO Scraped Joe Pyfer: 15-3-0 (9 fights)
+2026-02-17 08:31:20,182 INFO Scraped Abus Magomedov: 28-7-1 (7 fights)
+2026-02-17 08:31:20,191 INFO Using cached data for Ateba Gautier
+2026-02-17 08:31:24,554 INFO Scraped Tre'ston Vines: 10-4-0 (1 fights)
+2026-02-17 08:31:29,128 INFO Scraped Daniel Santos: 14-2-0 (5 fights)
+2026-02-17 08:31:33,576 INFO Scraped JooSang Yoo: 9-1-0 (2 fights)
+2026-02-17 08:31:33,585 INFO Using cached data for Jakub Wiklacz
+2026-02-17 08:31:38,107 INFO Scraped Patchy Mix: 20-3-0 (2 fights)
+2026-02-17 08:31:42,810 INFO Scraped Edmen Shahbazyan: 16-5-0 (15 fights)
+2026-02-17 08:31:47,263 INFO Scraped Andre Muniz: 24-8-0 (12 fights)
+2026-02-17 08:31:51,767 INFO Scraped Punahele Soriano: 12-4-0 (11 fights)
+2026-02-17 08:31:51,773 INFO Using cached data for Nikolay Veretennikov
+2026-02-17 08:31:56,231 INFO Scraped Yana Santos: 17-8-0 (1 NC) (12 fights)
+2026-02-17 08:32:00,821 INFO Scraped Macy Chiasson: 11-5-0 (13 fights)
+2026-02-17 08:32:00,828 INFO Using cached data for Farid Basharat
+2026-02-17 08:32:06,845 INFO Scraped Chris Gutierrez: 22-7-2 (15 fights)
+2026-02-17 08:32:10,817 INFO Scraped Ramiz Brahimaj: 13-5-0 (8 fights)
+2026-02-17 08:32:15,259 INFO Scraped Austin Vanderford: 13-3-0 (3 fights)
+2026-02-17 08:32:19,797 INFO Scraped Veronica Hardy: 10-5-1 (10 fights)
+2026-02-17 08:32:24,364 INFO Scraped Brogan Walker: 8-5-0 (3 fights)
+2026-02-17 08:32:24,376 INFO Generated 10 MMA parlays
+2026-02-17 08:32:24,377 INFO Backtesting: UFC Fight Night: Ulberg vs. Reyes (September 27, 2025)
+2026-02-17 08:32:29,681 INFO Scraped Carlos Ulberg: 14-1-0 (11 fights)
+2026-02-17 08:32:34,265 INFO Scraped Dominick Reyes: 15-5-0 (14 fights)
+2026-02-17 08:32:38,717 INFO Scraped Jimmy Crute: 14-4-2 (13 fights)
+2026-02-17 08:32:43,084 INFO Scraped Ivan Erslan: 14-6-0 (1 NC) (3 fights)
+2026-02-17 08:32:47,616 INFO Scraped Jack Jenkins: 14-4-0 (7 fights)
+2026-02-17 08:32:52,099 INFO Scraped Ramon Taveras: 10-4-0 (5 fights)
+2026-02-17 08:32:52,109 INFO Using cached data for Neil Magny
+2026-02-17 08:32:57,018 INFO Scraped Jake Matthews: 22-8-0 (23 fights)
+2026-02-17 08:33:01,276 INFO Scraped Tom Nolan: 10-1-0 (6 fights)
+2026-02-17 08:33:06,188 INFO Scraped Charlie Campbell: 9-3-0 (4 fights)
+2026-02-17 08:33:10,695 INFO Scraped Navajo Stirling: 8-0-0 (4 fights)
+2026-02-17 08:33:15,261 INFO Scraped Rodolfo Bellato: 12-3-1 (1 NC) (6 fights)
+2026-02-17 08:33:15,270 INFO Using cached data for Cam Rowston
+2026-02-17 08:33:19,844 INFO Scraped Andre Petroski: 13-6-0 (12 fights)
+2026-02-17 08:33:19,853 INFO Using cached data for Jamie Mullarkey
+2026-02-17 08:33:24,203 INFO Scraped Rolando Bedoya: 14-5-0 (4 fights)
+2026-02-17 08:33:28,691 INFO Scraped Colby Thicknesse: 8-1-0 (2 fights)
+2026-02-17 08:33:33,188 INFO Scraped Josias Musasa: 8-2-0 (3 fights)
+2026-02-17 08:33:37,654 INFO Scraped Michelle Montague: 7-0-0 (1 fights)
+2026-02-17 08:33:42,404 INFO Scraped Luana Carolina: 11-5-0 (11 fights)
+2026-02-17 08:33:46,688 INFO Scraped Brando Pericic: 5-1-0 (1 fights)
+2026-02-17 08:33:51,159 INFO Scraped Elisha Ellison: 5-2-0 (1 fights)
+2026-02-17 08:33:55,671 INFO Scraped Alexia Thainara: 13-1-0 (3 fights)
+2026-02-17 08:34:00,249 INFO Scraped Loma Lookboonmee: 10-4-0 (10 fights)
+2026-02-17 08:34:00,254 INFO Generated 10 MMA parlays
+2026-02-17 08:34:00,254 INFO Backtesting: UFC Fight Night: Lopes vs. Silva (September 13, 2025)
+2026-02-17 08:34:03,848 INFO Using cached data for Diego Lopes
+2026-02-17 08:34:03,851 INFO Using cached data for Jean Silva
+2026-02-17 08:34:06,967 INFO Scraped David Martinez: 13-1-0 (3 fights)
+2026-02-17 08:34:11,834 INFO Scraped Rob Font: 22-9-0 (20 fights)
+2026-02-17 08:34:16,208 INFO Scraped Rafa Garcia: 18-4-0 (10 fights)
+2026-02-17 08:34:20,699 INFO Scraped Jared Gordon: 21-8-0 (1 NC) (17 fights)
+2026-02-17 08:34:25,401 INFO Scraped Kelvin Gastelum: 21-10-0 (1 NC) (25 fights)
+2026-02-17 08:34:29,596 INFO Scraped Dustin Stoltzfus: 16-8-0 (11 fights)
+2026-02-17 08:34:34,208 INFO Scraped Alexander Hernandez: 18-8-0 (17 fights)
+2026-02-17 08:34:38,673 INFO Scraped Diego Ferreira: 19-7-0 (17 fights)
+2026-02-17 08:34:42,958 INFO Scraped Santiago Luna: 7-0-0 (1 fights)
+2026-02-17 08:34:47,523 INFO Scraped Quang Le: 9-3-0 (4 fights)
+2026-02-17 08:34:52,153 INFO Scraped Dusko Todorovic: 13-6-0 (11 fights)
+2026-02-17 08:34:55,173 WARNING Fighter not found on ufcstats: Jose Daniel Medina
+2026-02-17 08:34:55,173 WARNING Could not find fighter: Jose Daniel Medina
+2026-02-17 08:34:55,173 WARNING Missing fighter data: ['Jose Daniel Medina']
+2026-02-17 08:34:59,672 INFO Scraped Joaquim Silva: 14-6-0 (12 fights)
+2026-02-17 08:35:04,084 INFO Scraped Claudio Puelles: 13-5-0 (9 fights)
+2026-02-17 08:35:08,756 INFO Scraped Tatiana Suarez: 12-1-0 (9 fights)
+2026-02-17 08:35:13,214 INFO Scraped Amanda Lemos: 15-5-1 (14 fights)
+2026-02-17 08:35:17,585 INFO Scraped Jesus Aguilar: 12-3-0 (7 fights)
+2026-02-17 08:35:22,024 INFO Scraped Luis Gurule: 10-2-0 (3 fights)
+2026-02-17 08:35:22,033 INFO Using cached data for Zach Reese
+2026-02-17 08:35:22,036 INFO Using cached data for Sedriques Dumas
+2026-02-17 08:35:26,496 INFO Scraped Alden Coria: 11-3-0 (1 NC) (1 fights)
+2026-02-17 08:35:31,087 INFO Scraped Alessandro Costa: 14-5-0 (6 fights)
+2026-02-17 08:35:35,530 INFO Scraped Montse Rendon: 7-1-0 (3 fights)
+2026-02-17 08:35:39,996 INFO Scraped Alice Pereira: 6-1-0 (1 fights)
+2026-02-17 08:35:40,005 INFO Using cached data for Daniil Donchenko
+2026-02-17 08:35:44,487 INFO Scraped Rodrigo Sezinando: 9-2-0 (1 fights)
+2026-02-17 08:35:44,498 INFO Generated 10 MMA parlays
+2026-02-17 08:35:44,519 INFO Results saved to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\mma_backtest_results.json
+2026-02-17 08:35:44,520 INFO Report saved to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\MMA_BACKTEST_REPORT.md

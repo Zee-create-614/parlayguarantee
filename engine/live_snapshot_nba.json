@@ -1,0 +1,82 @@
+{
+  "sport": "nba",
+  "timestamp": "2026-02-21T14:33:14.032255+00:00",
+  "sources": {
+    "FanDuel": 6,
+    "Odds API": 6
+  },
+  "games": {
+    "Philadelphia 76ers@New Orleans Pelicans": {
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Philadelphia 76ers",
+      "spread": 3.5,
+      "total": 232.5,
+      "home_odds": 138,
+      "away_odds": -164,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Memphis Grizzlies@Miami Heat": {
+      "home_team": "Miami Heat",
+      "away_team": "Memphis Grizzlies",
+      "spread": -10.5,
+      "total": 234.5,
+      "home_odds": -500,
+      "away_odds": 385,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Orlando Magic@Phoenix Suns": {
+      "home_team": "Phoenix Suns",
+      "away_team": "Orlando Magic",
+      "spread": -1.5,
+      "total": 219.5,
+      "home_odds": -124,
+      "away_odds": 106,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Sacramento Kings@San Antonio Spurs": {
+      "home_team": "San Antonio Spurs",
+      "away_team": "Sacramento Kings",
+      "spread": -18.0,
+      "total": 230.5,
+      "home_odds": -2200,
+      "away_odds": 1100,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Detroit Pistons@Chicago Bulls": {
+      "home_team": "Chicago Bulls",
+      "away_team": "Detroit Pistons",
+      "spread": 10.5,
+      "total": 232.5,
+      "home_odds": 410,
+      "away_odds": -550,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Houston Rockets@New York Knicks": {
+      "home_team": "New York Knicks",
+      "away_team": "Houston Rockets",
+      "spread": -3.5,
+      "total": 217.5,
+      "home_odds": -162,
+      "away_odds": 136,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2526 @@
+{
+  "nights_processed": 10,
+  "last_date": "2024-11-01",
+  "partial_results": [
+    {
+      "date": "2024-10-23",
+      "games_available": 10,
+      "parlays_generated": 8,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -80,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        68.73133605011213,
+        67.26380716660266,
+        65.64620639282775,
+        60.237976268984134,
+        58.454078520547704,
+        56.987175218149574,
+        54.661159093526464,
+        47.436074960539976
+      ],
+      "game_details": [
+        {
+          "game": "Indiana Pacers @ Detroit Pistons",
+          "final_score": "115-109",
+          "margin": -6,
+          "total": 224,
+          "picks_generated": 3
+        },
+        {
+          "game": "Brooklyn Nets @ Atlanta Hawks",
+          "final_score": "116-120",
+          "margin": 4,
+          "total": 236,
+          "picks_generated": 3
+        },
+        {
+          "game": "Orlando Magic @ Miami Heat",
+          "final_score": "116-97",
+          "margin": -19,
+          "total": 213,
+          "picks_generated": 3
+        },
+        {
+          "game": "Milwaukee Bucks @ Philadelphia 76ers",
+          "final_score": "124-109",
+          "margin": -15,
+          "total": 233,
+          "picks_generated": 3
+        },
+        {
+          "game": "Cleveland Cavaliers @ Toronto Raptors",
+          "final_score": "136-106",
+          "margin": -30,
+          "total": 242,
+          "picks_generated": 3
+        },
+        {
+          "game": "Charlotte Hornets @ Houston Rockets",
+          "final_score": "110-105",
+          "margin": -5,
+          "total": 215,
+          "picks_generated": 3
+        },
+        {
+          "game": "Chicago Bulls @ New Orleans Pelicans",
+          "final_score": "111-123",
+          "margin": 12,
+          "total": 234,
+          "picks_generated": 3
+        },
+        {
+          "game": "Memphis Grizzlies @ Utah Jazz",
+          "final_score": "126-124",
+          "margin": -2,
+          "total": 250,
+          "picks_generated": 3
+        },
+        {
+          "game": "Phoenix Suns @ Los Angeles Clippers",
+          "final_score": "116-113",
+          "margin": -3,
+          "total": 229,
+          "picks_generated": 3
+        },
+        {
+          "game": "Golden State Warriors @ Portland Trail Blazers",
+          "final_score": "140-104",
+          "margin": -36,
+          "total": 244,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 68.73133605011213,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Portland Trail Blazers +5.0",
+              "confidence": 69.52825074595238
+            },
+            {
+              "type": "spread",
+              "pick": "Miami Heat +5.0",
+              "confidence": 67.9344213542719
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 67.26380716660266,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Los Angeles Clippers +4.5",
+              "confidence": 67.29560471257494
+            },
+            {
+              "type": "spread",
+              "pick": "Atlanta Hawks +4.5",
+              "confidence": 67.23200962063038
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 65.64620639282775,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Utah Jazz +4.5",
+              "confidence": 66.97492662357311
+            },
+            {
+              "type": "spread",
+              "pick": "Detroit Pistons +4.0",
+              "confidence": 65.01399215151775
+            },
+            {
+              "type": "spread",
+              "pick": "New Orleans Pelicans +4.0",
+              "confidence": 64.94970040339238
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 60.237976268984134,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Over 222",
+              "confidence": 61.27620050826752
+            },
+            {
+              "type": "total",
+              "pick": "Over 214",
+              "confidence": 59.82366817493481
+            },
+            {
+              "type": "spread",
+              "pick": "Philadelphia 76ers +2.5",
+              "confidence": 59.61406012375007
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 58.454078520547704,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Portland Trail Blazers ML",
+              "confidence": 59.09901313405952
+            },
+            {
+              "type": "spread",
+              "pick": "Toronto Raptors +2.5",
+              "confidence": 58.518964276452465
+            },
+            {
+              "type": "moneyline",
+              "pick": "Miami Heat ML",
+              "confidence": 57.74425815113112
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 56.987175218149574,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Los Angeles Clippers ML",
+              "confidence": 57.2012640056887
+            },
+            {
+              "type": "moneyline",
+              "pick": "Atlanta Hawks ML",
+              "confidence": 57.14720817753582
+            },
+            {
+              "type": "moneyline",
+              "pick": "Utah Jazz ML",
+              "confidence": 56.928687630037146
+            },
+            {
+              "type": "spread",
+              "pick": "Houston Rockets +2.0",
+              "confidence": 56.67154105933663
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 54.661159093526464,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Detroit Pistons ML",
+              "confidence": 55.26189332879009
+            },
+            {
+              "type": "moneyline",
+              "pick": "New Orleans Pelicans ML",
+              "confidence": 55.207245342883525
+            },
+            {
+              "type": "total",
+              "pick": "Over 218",
+              "confidence": 54.74845885939627
+            },
+            {
+              "type": "total",
+              "pick": "Over 219",
+              "confidence": 53.42703884303599
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 47.436074960539976,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Philadelphia 76ers ML",
+              "confidence": 50.67195110518756
+            },
+            {
+              "type": "moneyline",
+              "pick": "Toronto Raptors ML",
+              "confidence": 49.74111963498459
+            },
+            {
+              "type": "moneyline",
+              "pick": "Houston Rockets ML",
+              "confidence": 48.17080990043614
+            },
+            {
+              "type": "total",
+              "pick": "Over 217",
+              "confidence": 47.770117755049824
+            },
+            {
+              "type": "total",
+              "pick": "Over 219",
+              "confidence": 40.82637640704175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-24",
+      "games_available": 4,
+      "parlays_generated": 4,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -40,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        67.62873564262736,
+        61.241853513829355,
+        58.001153992779585,
+        50.86008380742305
+      ],
+      "game_details": [
+        {
+          "game": "Boston Celtics @ Washington Wizards",
+          "final_score": "122-102",
+          "margin": -20,
+          "total": 224,
+          "picks_generated": 3
+        },
+        {
+          "game": "San Antonio Spurs @ Dallas Mavericks",
+          "final_score": "109-120",
+          "margin": 11,
+          "total": 229,
+          "picks_generated": 3
+        },
+        {
+          "game": "Oklahoma City Thunder @ Denver Nuggets",
+          "final_score": "102-87",
+          "margin": -15,
+          "total": 189,
+          "picks_generated": 3
+        },
+        {
+          "game": "Minnesota Timberwolves @ Sacramento Kings",
+          "final_score": "117-115",
+          "margin": -2,
+          "total": 232,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 67.62873564262736,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Washington Wizards +5.0",
+              "confidence": 68.28522474293983
+            },
+            {
+              "type": "spread",
+              "pick": "Dallas Mavericks +5.0",
+              "confidence": 66.9722465423149
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 61.241853513829355,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Denver Nuggets +2.5",
+              "confidence": 62.27224639380343
+            },
+            {
+              "type": "total",
+              "pick": "Over 217",
+              "confidence": 60.21146063385528
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 58.001153992779585,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Sacramento Kings +2.5",
+              "confidence": 59.03461138587221
+            },
+            {
+              "type": "moneyline",
+              "pick": "Washington Wizards ML",
+              "confidence": 58.04244103149885
+            },
+            {
+              "type": "moneyline",
+              "pick": "Dallas Mavericks ML",
+              "confidence": 56.92640956096767
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 50.86008380742305,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Denver Nuggets ML",
+              "confidence": 52.93140943473291
+            },
+            {
+              "type": "moneyline",
+              "pick": "Sacramento Kings ML",
+              "confidence": 50.179419677991376
+            },
+            {
+              "type": "total",
+              "pick": "Under 212",
+              "confidence": 49.46942230954485
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-25",
+      "games_available": 10,
+      "parlays_generated": 8,
+      "parlays_hit": 1,
+      "hit_rate": 0.125,
+      "deposit_kept": true,
+      "daily_profit_loss": 70,
+      "hit_by_legs": {
+        "4_leg": 1
+      },
+      "hit_by_type": {
+        "moneyline": 2,
+        "total": 2
+      },
+      "confidence_scores": [
+        70.83995290441763,
+        68.06185326327292,
+        66.17905876506983,
+        62.39922483661445,
+        60.4185810868132,
+        58.15358267845027,
+        55.175949816044174,
+        50.882776256673864
+      ],
+      "game_details": [
+        {
+          "game": "Brooklyn Nets @ Orlando Magic",
+          "final_score": "101-116",
+          "margin": 15,
+          "total": 217,
+          "picks_generated": 3
+        },
+        {
+          "game": "Philadelphia 76ers @ Toronto Raptors",
+          "final_score": "107-115",
+          "margin": 8,
+          "total": 222,
+          "picks_generated": 3
+        },
+        {
+          "game": "Charlotte Hornets @ Atlanta Hawks",
+          "final_score": "120-125",
+          "margin": 5,
+          "total": 245,
+          "picks_generated": 3
+        },
+        {
+          "game": "Detroit Pistons @ Cleveland Cavaliers",
+          "final_score": "101-113",
+          "margin": 12,
+          "total": 214,
+          "picks_generated": 3
+        },
+        {
+          "game": "Indiana Pacers @ New York Knicks",
+          "final_score": "98-123",
+          "margin": 25,
+          "total": 221,
+          "picks_generated": 3
+        },
+        {
+          "game": "Memphis Grizzlies @ Houston Rockets",
+          "final_score": "108-128",
+          "margin": 20,
+          "total": 236,
+          "picks_generated": 3
+        },
+        {
+          "game": "Chicago Bulls @ Milwaukee Bucks",
+          "final_score": "133-122",
+          "margin": -11,
+          "total": 255,
+          "picks_generated": 3
+        },
+        {
+          "game": "Golden State Warriors @ Utah Jazz",
+          "final_score": "127-86",
+          "margin": -41,
+          "total": 213,
+          "picks_generated": 3
+        },
+        {
+          "game": "Phoenix Suns @ Los Angeles Lakers",
+          "final_score": "116-123",
+          "margin": 7,
+          "total": 239,
+          "picks_generated": 3
+        },
+        {
+          "game": "New Orleans Pelicans @ Portland Trail Blazers",
+          "final_score": "105-103",
+          "margin": -2,
+          "total": 208,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 70.83995290441763,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Toronto Raptors +5.5",
+              "confidence": 71.06155876047396
+            },
+            {
+              "type": "spread",
+              "pick": "Utah Jazz +5.0",
+              "confidence": 70.6183470483613
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 68.06185326327292,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Portland Trail Blazers +5.0",
+              "confidence": 68.3095708605795
+            },
+            {
+              "type": "spread",
+              "pick": "Los Angeles Lakers +5.0",
+              "confidence": 67.81413566596636
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 66.17905876506983,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Orlando Magic +4.5",
+              "confidence": 67.22348897255347
+            },
+            {
+              "type": "spread",
+              "pick": "New York Knicks +4.5",
+              "confidence": 66.52253275154754
+            },
+            {
+              "type": "total",
+              "pick": "Under 206",
+              "confidence": 64.79115457110848
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 62.39922483661445,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Atlanta Hawks +4.0",
+              "confidence": 64.39834904818599
+            },
+            {
+              "type": "spread",
+              "pick": "Milwaukee Bucks +3.0",
+              "confidence": 61.77926367344723
+            },
+            {
+              "type": "spread",
+              "pick": "Cleveland Cavaliers +3.5",
+              "confidence": 61.02006178821014
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 60.4185810868132,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Houston Rockets +3.0",
+              "confidence": 60.827823322929646
+            },
+            {
+              "type": "moneyline",
+              "pick": "Toronto Raptors ML",
+              "confidence": 60.402324946402864
+            },
+            {
+              "type": "moneyline",
+              "pick": "Utah Jazz ML",
+              "confidence": 60.025594991107106
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 58.15358267845027,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 59.769214539566654
+            },
+            {
+              "type": "moneyline",
+              "pick": "Portland Trail Blazers ML",
+              "confidence": 58.06313523149257
+            },
+            {
+              "type": "moneyline",
+              "pick": "Los Angeles Lakers ML",
+              "confidence": 57.64201531607141
+            },
+            {
+              "type": "moneyline",
+              "pick": "Orlando Magic ML",
+              "confidence": 57.139965626670445
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 55.175949816044174,
+          "expected_odds": "+800",
+          "hit": true,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "New York Knicks ML",
+              "confidence": 56.544152838815414
+            },
+            {
+              "type": "total",
+              "pick": "Over 220",
+              "confidence": 56.248973712185986
+            },
+            {
+              "type": "moneyline",
+              "pick": "Atlanta Hawks ML",
+              "confidence": 54.73859669095809
+            },
+            {
+              "type": "total",
+              "pick": "Over 220",
+              "confidence": 53.172076022217205
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 50.882776256673864,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Milwaukee Bucks ML",
+              "confidence": 52.512374122430145
+            },
+            {
+              "type": "moneyline",
+              "pick": "Cleveland Cavaliers ML",
+              "confidence": 51.86705251997862
+            },
+            {
+              "type": "moneyline",
+              "pick": "Houston Rockets ML",
+              "confidence": 51.7036498244902
+            },
+            {
+              "type": "total",
+              "pick": "Under 211",
+              "confidence": 49.89218168319304
+            },
+            {
+              "type": "total",
+              "pick": "Over 216",
+              "confidence": 48.43862313327734
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-26",
+      "games_available": 10,
+      "parlays_generated": 8,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -80,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        75.73214779748533,
+        73.02297032589087,
+        68.68258523777564,
+        64.29187460688196,
+        62.352730279028854,
+        61.342777507127394,
+        57.32106762474231,
+        53.584304181358696
+      ],
+      "game_details": [
+        {
+          "game": "Los Angeles Clippers @ Denver Nuggets",
+          "final_score": "109-104",
+          "margin": -5,
+          "total": 213,
+          "picks_generated": 3
+        },
+        {
+          "game": "Miami Heat @ Charlotte Hornets",
+          "final_score": "114-106",
+          "margin": -8,
+          "total": 220,
+          "picks_generated": 3
+        },
+        {
+          "game": "Boston Celtics @ Detroit Pistons",
+          "final_score": "124-118",
+          "margin": -6,
+          "total": 242,
+          "picks_generated": 3
+        },
+        {
+          "game": "Cleveland Cavaliers @ Washington Wizards",
+          "final_score": "135-116",
+          "margin": -19,
+          "total": 251,
+          "picks_generated": 3
+        },
+        {
+          "game": "Oklahoma City Thunder @ Chicago Bulls",
+          "final_score": "114-95",
+          "margin": -19,
+          "total": 209,
+          "picks_generated": 3
+        },
+        {
+          "game": "Orlando Magic @ Memphis Grizzlies",
+          "final_score": "111-124",
+          "margin": 13,
+          "total": 235,
+          "picks_generated": 3
+        },
+        {
+          "game": "Toronto Raptors @ Minnesota Timberwolves",
+          "final_score": "101-112",
+          "margin": 11,
+          "total": 213,
+          "picks_generated": 3
+        },
+        {
+          "game": "Houston Rockets @ San Antonio Spurs",
+          "final_score": "106-109",
+          "margin": 3,
+          "total": 215,
+          "picks_generated": 3
+        },
+        {
+          "game": "Dallas Mavericks @ Phoenix Suns",
+          "final_score": "102-114",
+          "margin": 12,
+          "total": 216,
+          "picks_generated": 3
+        },
+        {
+          "game": "Sacramento Kings @ Los Angeles Lakers",
+          "final_score": "127-131",
+          "margin": 4,
+          "total": 258,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 75.73214779748533,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Charlotte Hornets +7.5",
+              "confidence": 77.14420663167846
+            },
+            {
+              "type": "spread",
+              "pick": "Los Angeles Lakers +6.5",
+              "confidence": 74.32008896329219
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 73.02297032589087,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "San Antonio Spurs +6.5",
+              "confidence": 73.05349111083403
+            },
+            {
+              "type": "spread",
+              "pick": "Chicago Bulls +6.0",
+              "confidence": 72.99244954094769
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 68.68258523777564,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Memphis Grizzlies +6.0",
+              "confidence": 70.531031826113
+            },
+            {
+              "type": "spread",
+              "pick": "Phoenix Suns +5.5",
+              "confidence": 69.94414825028726
+            },
+            {
+              "type": "moneyline",
+              "pick": "Charlotte Hornets ML",
+              "confidence": 65.57257563692669
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 64.29187460688196,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Washington Wizards +4.0",
+              "confidence": 65.1134365414814
+            },
+            {
+              "type": "spread",
+              "pick": "Detroit Pistons +4.5",
+              "confidence": 64.59011166036612
+            },
+            {
+              "type": "moneyline",
+              "pick": "Los Angeles Lakers ML",
+              "confidence": 63.17207561879836
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 62.352730279028854,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Over 214",
+              "confidence": 62.54757697180925
+            },
+            {
+              "type": "spread",
+              "pick": "Denver Nuggets +3.0",
+              "confidence": 62.415146421068386
+            },
+            {
+              "type": "moneyline",
+              "pick": "San Antonio Spurs ML",
+              "confidence": 62.09546744420892
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 61.342777507127394,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Chicago Bulls ML",
+              "confidence": 62.043582109805534
+            },
+            {
+              "type": "spread",
+              "pick": "Minnesota Timberwolves +3.0",
+              "confidence": 61.89792859465694
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 61.47822227185107
+            },
+            {
+              "type": "moneyline",
+              "pick": "Memphis Grizzlies ML",
+              "confidence": 59.951377052196044
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 57.32106762474231,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Phoenix Suns ML",
+              "confidence": 59.452526012744165
+            },
+            {
+              "type": "total",
+              "pick": "Under 207",
+              "confidence": 58.0187510647981
+            },
+            {
+              "type": "total",
+              "pick": "Under 213",
+              "confidence": 56.46657236116778
+            },
+            {
+              "type": "moneyline",
+              "pick": "Washington Wizards ML",
+              "confidence": 55.346421060259196
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 53.584304181358696,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Detroit Pistons ML",
+              "confidence": 54.9015949113112
+            },
+            {
+              "type": "total",
+              "pick": "Over 220",
+              "confidence": 53.882685127863574
+            },
+            {
+              "type": "total",
+              "pick": "Over 215",
+              "confidence": 53.47112710425222
+            },
+            {
+              "type": "moneyline",
+              "pick": "Denver Nuggets ML",
+              "confidence": 53.052874457908125
+            },
+            {
+              "type": "moneyline",
+              "pick": "Minnesota Timberwolves ML",
+              "confidence": 52.6132393054584
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-27",
+      "games_available": 5,
+      "parlays_generated": 5,
+      "parlays_hit": 1,
+      "hit_rate": 0.2,
+      "deposit_kept": true,
+      "daily_profit_loss": -10,
+      "hit_by_legs": {
+        "2_leg": 1
+      },
+      "hit_by_type": {
+        "spread": 2
+      },
+      "confidence_scores": [
+        72.83683898207067,
+        69.06325777377077,
+        61.896918464196915,
+        60.769613864222016,
+        55.62902906087803
+      ],
+      "game_details": [
+        {
+          "game": "Philadelphia 76ers @ Indiana Pacers",
+          "final_score": "118-114",
+          "margin": -4,
+          "total": 232,
+          "picks_generated": 3
+        },
+        {
+          "game": "Milwaukee Bucks @ Brooklyn Nets",
+          "final_score": "102-115",
+          "margin": 13,
+          "total": 217,
+          "picks_generated": 3
+        },
+        {
+          "game": "New Orleans Pelicans @ Portland Trail Blazers",
+          "final_score": "103-125",
+          "margin": 22,
+          "total": 228,
+          "picks_generated": 3
+        },
+        {
+          "game": "Atlanta Hawks @ Oklahoma City Thunder",
+          "final_score": "104-128",
+          "margin": 24,
+          "total": 232,
+          "picks_generated": 3
+        },
+        {
+          "game": "Los Angeles Clippers @ Golden State Warriors",
+          "final_score": "112-104",
+          "margin": -8,
+          "total": 216,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 72.83683898207067,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Brooklyn Nets +6.0",
+              "confidence": 73.18997082302354
+            },
+            {
+              "type": "spread",
+              "pick": "Golden State Warriors +6.0",
+              "confidence": 72.4837071411178
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 69.06325777377077,
+          "expected_odds": "+180",
+          "hit": true,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Portland Trail Blazers +6.0",
+              "confidence": 71.81877431706633
+            },
+            {
+              "type": "spread",
+              "pick": "Oklahoma City Thunder +4.0",
+              "confidence": 66.30774123047522
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 61.896918464196915,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Brooklyn Nets ML",
+              "confidence": 62.21147519957001
+            },
+            {
+              "type": "total",
+              "pick": "Under 211",
+              "confidence": 61.8681291230706
+            },
+            {
+              "type": "moneyline",
+              "pick": "Golden State Warriors ML",
+              "confidence": 61.61115106995013
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 60.769613864222016,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Portland Trail Blazers ML",
+              "confidence": 61.04595816950638
+            },
+            {
+              "type": "spread",
+              "pick": "Indiana Pacers +3.0",
+              "confidence": 60.76568112069756
+            },
+            {
+              "type": "total",
+              "pick": "Over 219",
+              "confidence": 60.49720230246213
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 55.62902906087803,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Under 210",
+              "confidence": 58.82634165921479
+            },
+            {
+              "type": "moneyline",
+              "pick": "Oklahoma City Thunder ML",
+              "confidence": 56.361580045903935
+            },
+            {
+              "type": "total",
+              "pick": "Under 207",
+              "confidence": 51.699165477515365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-28",
+      "games_available": 11,
+      "parlays_generated": 9,
+      "parlays_hit": 3,
+      "hit_rate": 0.3333333333333333,
+      "deposit_kept": true,
+      "daily_profit_loss": 400,
+      "hit_by_legs": {
+        "2_leg": 1,
+        "4_leg": 1,
+        "5_leg": 1
+      },
+      "hit_by_type": {
+        "spread": 4,
+        "moneyline": 3,
+        "total": 4
+      },
+      "confidence_scores": [
+        73.69229635604515,
+        66.91885492251393,
+        64.97207383971927,
+        63.70540695720647,
+        62.12387013448237,
+        59.83754968120707,
+        56.672645880371675,
+        53.995305082423705,
+        48.59017289922188
+      ],
+      "game_details": [
+        {
+          "game": "Indiana Pacers @ Orlando Magic",
+          "final_score": "115-119",
+          "margin": 4,
+          "total": 234,
+          "picks_generated": 3
+        },
+        {
+          "game": "Washington Wizards @ Atlanta Hawks",
+          "final_score": "121-119",
+          "margin": -2,
+          "total": 240,
+          "picks_generated": 3
+        },
+        {
+          "game": "Milwaukee Bucks @ Boston Celtics",
+          "final_score": "108-119",
+          "margin": 11,
+          "total": 227,
+          "picks_generated": 3
+        },
+        {
+          "game": "Detroit Pistons @ Miami Heat",
+          "final_score": "98-106",
+          "margin": 8,
+          "total": 204,
+          "picks_generated": 3
+        },
+        {
+          "game": "Cleveland Cavaliers @ New York Knicks",
+          "final_score": "110-104",
+          "margin": -6,
+          "total": 214,
+          "picks_generated": 3
+        },
+        {
+          "game": "Denver Nuggets @ Toronto Raptors",
+          "final_score": "127-125",
+          "margin": -2,
+          "total": 252,
+          "picks_generated": 3
+        },
+        {
+          "game": "Chicago Bulls @ Memphis Grizzlies",
+          "final_score": "126-123",
+          "margin": -3,
+          "total": 249,
+          "picks_generated": 3
+        },
+        {
+          "game": "Houston Rockets @ San Antonio Spurs",
+          "final_score": "106-101",
+          "margin": -5,
+          "total": 207,
+          "picks_generated": 3
+        },
+        {
+          "game": "Utah Jazz @ Dallas Mavericks",
+          "final_score": "102-110",
+          "margin": 8,
+          "total": 212,
+          "picks_generated": 3
+        },
+        {
+          "game": "Los Angeles Lakers @ Phoenix Suns",
+          "final_score": "105-109",
+          "margin": 4,
+          "total": 214,
+          "picks_generated": 3
+        },
+        {
+          "game": "Portland Trail Blazers @ Sacramento Kings",
+          "final_score": "98-111",
+          "margin": 13,
+          "total": 209,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 73.69229635604515,
+          "expected_odds": "+180",
+          "hit": true,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Miami Heat +7.5",
+              "confidence": 77.31026756934635
+            },
+            {
+              "type": "spread",
+              "pick": "Sacramento Kings +5.0",
+              "confidence": 70.07432514274393
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 66.91885492251393,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Boston Celtics +5.0",
+              "confidence": 67.52563011222198
+            },
+            {
+              "type": "spread",
+              "pick": "Toronto Raptors +4.5",
+              "confidence": 66.31207973280587
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 64.97207383971927,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Miami Heat ML",
+              "confidence": 65.7137274339444
+            },
+            {
+              "type": "spread",
+              "pick": "San Antonio Spurs +4.0",
+              "confidence": 64.75897027480818
+            },
+            {
+              "type": "spread",
+              "pick": "Memphis Grizzlies +3.5",
+              "confidence": 64.44352381040525
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 63.70540695720647,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Orlando Magic +4.0",
+              "confidence": 63.80112906551031
+            },
+            {
+              "type": "total",
+              "pick": "Under 212",
+              "confidence": 63.70241423022655
+            },
+            {
+              "type": "spread",
+              "pick": "Atlanta Hawks +4.0",
+              "confidence": 63.61267757588257
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 62.12387013448237,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "New York Knicks +4.0",
+              "confidence": 62.89624455313536
+            },
+            {
+              "type": "total",
+              "pick": "Over 217",
+              "confidence": 61.81479314355752
+            },
+            {
+              "type": "total",
+              "pick": "Over 217",
+              "confidence": 61.660572706754216
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 59.83754968120707,
+          "expected_odds": "+800",
+          "hit": true,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Phoenix Suns +3.0",
+              "confidence": 61.147168707685694
+            },
+            {
+              "type": "spread",
+              "pick": "Dallas Mavericks +2.5",
+              "confidence": 60.098000018546045
+            },
+            {
+              "type": "moneyline",
+              "pick": "Sacramento Kings ML",
+              "confidence": 59.56317637133234
+            },
+            {
+              "type": "total",
+              "pick": "Over 219",
+              "confidence": 58.54185362726421
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 56.672645880371675,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Under 206",
+              "confidence": 57.88340541962608
+            },
+            {
+              "type": "moneyline",
+              "pick": "Boston Celtics ML",
+              "confidence": 57.39678559538868
+            },
+            {
+              "type": "moneyline",
+              "pick": "Toronto Raptors ML",
+              "confidence": 56.36526777288499
+            },
+            {
+              "type": "moneyline",
+              "pick": "San Antonio Spurs ML",
+              "confidence": 55.04512473358695
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 53.995305082423705,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Memphis Grizzlies ML",
+              "confidence": 54.776995238844464
+            },
+            {
+              "type": "moneyline",
+              "pick": "Orlando Magic ML",
+              "confidence": 54.23095970568376
+            },
+            {
+              "type": "moneyline",
+              "pick": "Atlanta Hawks ML",
+              "confidence": 54.07077593950019
+            },
+            {
+              "type": "moneyline",
+              "pick": "New York Knicks ML",
+              "confidence": 53.46180787016505
+            },
+            {
+              "type": "total",
+              "pick": "Under 207",
+              "confidence": 53.43598665792507
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 48.59017289922188,
+          "expected_odds": "+1600",
+          "hit": true,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Phoenix Suns ML",
+              "confidence": 51.97509340153284
+            },
+            {
+              "type": "total",
+              "pick": "Under 209",
+              "confidence": 51.337842738978026
+            },
+            {
+              "type": "moneyline",
+              "pick": "Dallas Mavericks ML",
+              "confidence": 51.08330001576414
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 47.73719430708981
+            },
+            {
+              "type": "total",
+              "pick": "Under 209",
+              "confidence": 40.81743403274462
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-29",
+      "games_available": 4,
+      "parlays_generated": 4,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -40,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        73.89146027841349,
+        64.97084869965752,
+        61.68518353994091,
+        50.194523206314024
+      ],
+      "game_details": [
+        {
+          "game": "Denver Nuggets @ Brooklyn Nets",
+          "final_score": "144-139",
+          "margin": -5,
+          "total": 283,
+          "picks_generated": 3
+        },
+        {
+          "game": "Dallas Mavericks @ Minnesota Timberwolves",
+          "final_score": "120-114",
+          "margin": -6,
+          "total": 234,
+          "picks_generated": 3
+        },
+        {
+          "game": "Sacramento Kings @ Utah Jazz",
+          "final_score": "113-96",
+          "margin": -17,
+          "total": 209,
+          "picks_generated": 3
+        },
+        {
+          "game": "New Orleans Pelicans @ Golden State Warriors",
+          "final_score": "106-124",
+          "margin": 18,
+          "total": 230,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 73.89146027841349,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Brooklyn Nets +6.5",
+              "confidence": 75.6991870342669
+            },
+            {
+              "type": "spread",
+              "pick": "Utah Jazz +5.5",
+              "confidence": 72.08373352256007
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 64.97084869965752,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Golden State Warriors +4.0",
+              "confidence": 65.59738842018818
+            },
+            {
+              "type": "moneyline",
+              "pick": "Brooklyn Nets ML",
+              "confidence": 64.34430897912686
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 61.68518353994091,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Minnesota Timberwolves +4.0",
+              "confidence": 63.42648640037138
+            },
+            {
+              "type": "moneyline",
+              "pick": "Utah Jazz ML",
+              "confidence": 61.271173494176054
+            },
+            {
+              "type": "total",
+              "pick": "Over 220",
+              "confidence": 60.35789072527529
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 50.194523206314024,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Golden State Warriors ML",
+              "confidence": 55.75778015715995
+            },
+            {
+              "type": "moneyline",
+              "pick": "Minnesota Timberwolves ML",
+              "confidence": 53.91251344031567
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 40.91327602146646
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-30",
+      "games_available": 11,
+      "parlays_generated": 9,
+      "parlays_hit": 1,
+      "hit_rate": 0.1111111111111111,
+      "deposit_kept": true,
+      "daily_profit_loss": -20,
+      "hit_by_legs": {
+        "3_leg": 1
+      },
+      "hit_by_type": {
+        "spread": 2,
+        "moneyline": 1
+      },
+      "confidence_scores": [
+        73.36701591259623,
+        70.13740485346176,
+        65.18622753538888,
+        62.691840803816284,
+        61.33403827184659,
+        59.64682817670734,
+        56.474890752287614,
+        53.63960727894896,
+        45.23761417823345
+      ],
+      "game_details": [
+        {
+          "game": "Toronto Raptors @ Charlotte Hornets",
+          "final_score": "133-138",
+          "margin": 5,
+          "total": 271,
+          "picks_generated": 3
+        },
+        {
+          "game": "Los Angeles Lakers @ Cleveland Cavaliers",
+          "final_score": "110-134",
+          "margin": 24,
+          "total": 244,
+          "picks_generated": 3
+        },
+        {
+          "game": "Boston Celtics @ Indiana Pacers",
+          "final_score": "132-135",
+          "margin": 3,
+          "total": 267,
+          "picks_generated": 3
+        },
+        {
+          "game": "Detroit Pistons @ Philadelphia 76ers",
+          "final_score": "105-95",
+          "margin": -10,
+          "total": 200,
+          "picks_generated": 3
+        },
+        {
+          "game": "Atlanta Hawks @ Washington Wizards",
+          "final_score": "120-133",
+          "margin": 13,
+          "total": 253,
+          "picks_generated": 3
+        },
+        {
+          "game": "New York Knicks @ Miami Heat",
+          "final_score": "116-107",
+          "margin": -9,
+          "total": 223,
+          "picks_generated": 3
+        },
+        {
+          "game": "Orlando Magic @ Chicago Bulls",
+          "final_score": "99-102",
+          "margin": 3,
+          "total": 201,
+          "picks_generated": 3
+        },
+        {
+          "game": "Brooklyn Nets @ Memphis Grizzlies",
+          "final_score": "119-106",
+          "margin": -13,
+          "total": 225,
+          "picks_generated": 3
+        },
+        {
+          "game": "San Antonio Spurs @ Oklahoma City Thunder",
+          "final_score": "93-105",
+          "margin": 12,
+          "total": 198,
+          "picks_generated": 3
+        },
+        {
+          "game": "New Orleans Pelicans @ Golden State Warriors",
+          "final_score": "89-104",
+          "margin": 15,
+          "total": 193,
+          "picks_generated": 3
+        },
+        {
+          "game": "Portland Trail Blazers @ Los Angeles Clippers",
+          "final_score": "106-105",
+          "margin": -1,
+          "total": 211,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 73.36701591259623,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Cleveland Cavaliers +6.0",
+              "confidence": 73.50642896060215
+            },
+            {
+              "type": "spread",
+              "pick": "Los Angeles Clippers +6.0",
+              "confidence": 73.22760286459032
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 70.13740485346176,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Chicago Bulls +5.5",
+              "confidence": 71.15383511538396
+            },
+            {
+              "type": "spread",
+              "pick": "Philadelphia 76ers +5.5",
+              "confidence": 69.12097459153958
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 65.18622753538888,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Washington Wizards +5.0",
+              "confidence": 68.22378783488439
+            },
+            {
+              "type": "spread",
+              "pick": "Memphis Grizzlies +3.5",
+              "confidence": 63.857160846550954
+            },
+            {
+              "type": "spread",
+              "pick": "Indiana Pacers +4.0",
+              "confidence": 63.47773392473131
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 62.691840803816284,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Miami Heat +3.5",
+              "confidence": 63.35159536003526
+            },
+            {
+              "type": "moneyline",
+              "pick": "Cleveland Cavaliers ML",
+              "confidence": 62.480464616511824
+            },
+            {
+              "type": "moneyline",
+              "pick": "Los Angeles Clippers ML",
+              "confidence": 62.24346243490177
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 61.33403827184659,
+          "expected_odds": "+350",
+          "hit": true,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Charlotte Hornets +3.0",
+              "confidence": 62.001564150881975
+            },
+            {
+              "type": "spread",
+              "pick": "Oklahoma City Thunder +3.0",
+              "confidence": 61.519790816581406
+            },
+            {
+              "type": "moneyline",
+              "pick": "Chicago Bulls ML",
+              "confidence": 60.48075984807636
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 59.64682817670734,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Over 219",
+              "confidence": 60.4513659921233
+            },
+            {
+              "type": "spread",
+              "pick": "Golden State Warriors +2.5",
+              "confidence": 60.25101584216437
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 59.13210246973305
+            },
+            {
+              "type": "moneyline",
+              "pick": "Philadelphia 76ers ML",
+              "confidence": 58.75282840280864
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 56.474890752287614,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Under 212",
+              "confidence": 58.422905263886534
+            },
+            {
+              "type": "moneyline",
+              "pick": "Washington Wizards ML",
+              "confidence": 57.99021965965173
+            },
+            {
+              "type": "total",
+              "pick": "Over 216",
+              "confidence": 55.173546737104445
+            },
+            {
+              "type": "total",
+              "pick": "Over 216",
+              "confidence": 54.31289134850774
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 53.63960727894896,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Memphis Grizzlies ML",
+              "confidence": 54.27858671956831
+            },
+            {
+              "type": "moneyline",
+              "pick": "Indiana Pacers ML",
+              "confidence": 53.956073836021616
+            },
+            {
+              "type": "moneyline",
+              "pick": "Miami Heat ML",
+              "confidence": 53.84885605602997
+            },
+            {
+              "type": "total",
+              "pick": "Over 216",
+              "confidence": 53.41319025487522
+            },
+            {
+              "type": "moneyline",
+              "pick": "Charlotte Hornets ML",
+              "confidence": 52.70132952824968
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 45.23761417823345,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Oklahoma City Thunder ML",
+              "confidence": 52.291822194094195
+            },
+            {
+              "type": "moneyline",
+              "pick": "Golden State Warriors ML",
+              "confidence": 51.21336346583971
+            },
+            {
+              "type": "total",
+              "pick": "Under 209",
+              "confidence": 43.27383782274049
+            },
+            {
+              "type": "total",
+              "pick": "Under 209",
+              "confidence": 41.40251814247279
+            },
+            {
+              "type": "total",
+              "pick": "Under 211",
+              "confidence": 38.006529266020074
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-10-31",
+      "games_available": 4,
+      "parlays_generated": 4,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -40,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        68.71790530487843,
+        63.56042739702781,
+        60.14274353784705,
+        55.399405981223374
+      ],
+      "game_details": [
+        {
+          "game": "Milwaukee Bucks @ Memphis Grizzlies",
+          "final_score": "99-122",
+          "margin": 23,
+          "total": 221,
+          "picks_generated": 3
+        },
+        {
+          "game": "Houston Rockets @ Dallas Mavericks",
+          "final_score": "108-102",
+          "margin": -6,
+          "total": 210,
+          "picks_generated": 3
+        },
+        {
+          "game": "San Antonio Spurs @ Utah Jazz",
+          "final_score": "106-88",
+          "margin": -18,
+          "total": 194,
+          "picks_generated": 3
+        },
+        {
+          "game": "Phoenix Suns @ Los Angeles Clippers",
+          "final_score": "125-119",
+          "margin": -6,
+          "total": 244,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 68.71790530487843,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Memphis Grizzlies +5.0",
+              "confidence": 69.02935017596525
+            },
+            {
+              "type": "spread",
+              "pick": "Dallas Mavericks +4.5",
+              "confidence": 68.4064604337916
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 63.56042739702781,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Utah Jazz +3.5",
+              "confidence": 64.04378223958835
+            },
+            {
+              "type": "spread",
+              "pick": "Los Angeles Clippers +4.0",
+              "confidence": 63.07707255446727
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 60.14274353784705,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Over 215",
+              "confidence": 61.602967903683634
+            },
+            {
+              "type": "total",
+              "pick": "Under 210",
+              "confidence": 60.15031506028707
+            },
+            {
+              "type": "moneyline",
+              "pick": "Memphis Grizzlies ML",
+              "confidence": 58.67494764957046
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 55.399405981223374,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Dallas Mavericks ML",
+              "confidence": 58.14549136872285
+            },
+            {
+              "type": "moneyline",
+              "pick": "Utah Jazz ML",
+              "confidence": 54.4372149036501
+            },
+            {
+              "type": "moneyline",
+              "pick": "Los Angeles Clippers ML",
+              "confidence": 53.61551167129718
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-11-01",
+      "games_available": 9,
+      "parlays_generated": 8,
+      "parlays_hit": 0,
+      "hit_rate": 0.0,
+      "deposit_kept": false,
+      "daily_profit_loss": -80,
+      "hit_by_legs": {},
+      "hit_by_type": {},
+      "confidence_scores": [
+        69.7419347418041,
+        67.32812371913542,
+        66.08409687032785,
+        64.02194746734861,
+        60.462805575919084,
+        57.63228412906609,
+        56.40122874657972,
+        53.58524432860404
+      ],
+      "game_details": [
+        {
+          "game": "Boston Celtics @ Charlotte Hornets",
+          "final_score": "124-109",
+          "margin": -15,
+          "total": 233,
+          "picks_generated": 3
+        },
+        {
+          "game": "Orlando Magic @ Cleveland Cavaliers",
+          "final_score": "109-120",
+          "margin": 11,
+          "total": 229,
+          "picks_generated": 3
+        },
+        {
+          "game": "New York Knicks @ Detroit Pistons",
+          "final_score": "128-98",
+          "margin": -30,
+          "total": 226,
+          "picks_generated": 3
+        },
+        {
+          "game": "Sacramento Kings @ Atlanta Hawks",
+          "final_score": "123-115",
+          "margin": -8,
+          "total": 238,
+          "picks_generated": 3
+        },
+        {
+          "game": "Chicago Bulls @ Brooklyn Nets",
+          "final_score": "112-120",
+          "margin": 8,
+          "total": 232,
+          "picks_generated": 3
+        },
+        {
+          "game": "Los Angeles Lakers @ Toronto Raptors",
+          "final_score": "131-125",
+          "margin": -6,
+          "total": 256,
+          "picks_generated": 3
+        },
+        {
+          "game": "Indiana Pacers @ New Orleans Pelicans",
+          "final_score": "118-125",
+          "margin": 7,
+          "total": 243,
+          "picks_generated": 3
+        },
+        {
+          "game": "Denver Nuggets @ Minnesota Timberwolves",
+          "final_score": "116-119",
+          "margin": 3,
+          "total": 235,
+          "picks_generated": 3
+        },
+        {
+          "game": "Oklahoma City Thunder @ Portland Trail Blazers",
+          "final_score": "137-114",
+          "margin": -23,
+          "total": 251,
+          "picks_generated": 3
+        }
+      ],
+      "parlay_details": [
+        {
+          "id": 1,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 69.7419347418041,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "New Orleans Pelicans +6.0",
+              "confidence": 71.36710563366213
+            },
+            {
+              "type": "spread",
+              "pick": "Toronto Raptors +5.0",
+              "confidence": 68.11676384994607
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "legs": 2,
+          "risk_level": "safe",
+          "confidence": 67.32812371913542,
+          "expected_odds": "+180",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Charlotte Hornets +5.0",
+              "confidence": 67.4909910065263
+            },
+            {
+              "type": "spread",
+              "pick": "Atlanta Hawks +5.0",
+              "confidence": 67.16525643174454
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 66.08409687032785,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Portland Trail Blazers +4.5",
+              "confidence": 66.23900987954742
+            },
+            {
+              "type": "spread",
+              "pick": "Cleveland Cavaliers +4.5",
+              "confidence": 66.02450574599592
+            },
+            {
+              "type": "spread",
+              "pick": "Minnesota Timberwolves +4.5",
+              "confidence": 65.9887749854402
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 64.02194746734861,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "spread",
+              "pick": "Detroit Pistons +4.5",
+              "confidence": 65.29399590915398
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 63.672528605966406
+            },
+            {
+              "type": "total",
+              "pick": "Over 215",
+              "confidence": 63.09931788692545
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "legs": 3,
+          "risk_level": "medium",
+          "confidence": 60.462805575919084,
+          "expected_odds": "+350",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "New Orleans Pelicans ML",
+              "confidence": 60.662039788612816
+            },
+            {
+              "type": "spread",
+              "pick": "Brooklyn Nets +3.0",
+              "confidence": 60.574466564285956
+            },
+            {
+              "type": "total",
+              "pick": "Under 214",
+              "confidence": 60.15191037485848
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 57.63228412906609,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "total",
+              "pick": "Under 213",
+              "confidence": 58.07024449905358
+            },
+            {
+              "type": "moneyline",
+              "pick": "Toronto Raptors ML",
+              "confidence": 57.899249272454156
+            },
+            {
+              "type": "moneyline",
+              "pick": "Charlotte Hornets ML",
+              "confidence": 57.36734235554735
+            },
+            {
+              "type": "total",
+              "pick": "Over 216",
+              "confidence": 57.192300389209294
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "legs": 4,
+          "risk_level": "risky",
+          "confidence": 56.40122874657972,
+          "expected_odds": "+800",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Atlanta Hawks ML",
+              "confidence": 57.09046796698286
+            },
+            {
+              "type": "moneyline",
+              "pick": "Portland Trail Blazers ML",
+              "confidence": 56.303158397615306
+            },
+            {
+              "type": "moneyline",
+              "pick": "Cleveland Cavaliers ML",
+              "confidence": 56.12082988409654
+            },
+            {
+              "type": "moneyline",
+              "pick": "Minnesota Timberwolves ML",
+              "confidence": 56.09045873762417
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "legs": 5,
+          "risk_level": "risky",
+          "confidence": 53.58524432860404,
+          "expected_odds": "+1600",
+          "hit": false,
+          "picks": [
+            {
+              "type": "moneyline",
+              "pick": "Detroit Pistons ML",
+              "confidence": 55.49989652278088
+            },
+            {
+              "type": "total",
+              "pick": "Under 212",
+              "confidence": 54.89932915416622
+            },
+            {
+              "type": "total",
+              "pick": "Over 222",
+              "confidence": 54.39007010932158
+            },
+            {
+              "type": "total",
+              "pick": "Over 221",
+              "confidence": 51.64862927710847
+            },
+            {
+              "type": "moneyline",
+              "pick": "Brooklyn Nets ML",
+              "confidence": 51.48829657964306
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

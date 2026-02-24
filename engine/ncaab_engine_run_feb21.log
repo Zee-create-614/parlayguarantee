@@ -1,0 +1,877 @@
+2026-02-21 06:40:45,715 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 06:40:46,545 INFO Odds API: 148 NCAAB events (requests remaining: 19141)
+2026-02-21 06:40:48,037 INFO Returning 148 NCAAB games for 2026-02-21
+2026-02-21 06:40:48,041 INFO Found 148 NCAAB games
+2026-02-21 06:46:14,173 INFO Generated 148 predictions
+
+======================================================================
+  NCAAB PREDICTIONS — Saturday February 21, 2026
+  Regular Season
+======================================================================
+
+   1. Howard Bison over North Carolina Central Eagles
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: North Carolina Central Eagles +12.5 (77.5%)
+      O/U: Over 143.5
+      Howard Bison (17-10) vs North Carolina Central Eagles (10-15)
+
+   2. Saint Joseph's Hawks over Loyola (Chi) Ramblers
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Loyola (Chi) Ramblers +9.5 (62.5%)
+      O/U: Under 143.5
+      Saint Joseph's Hawks (16-10) vs Loyola (Chi) Ramblers (10-10)
+
+   3. St. John's Red Storm over Creighton Bluejays
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Creighton Bluejays +12.5 (77.5%)
+      O/U: Over 153.5
+      St. John's Red Storm (21-5) vs Creighton Bluejays (14-13)
+
+   4. Appalachian St Mountaineers over Georgia Southern Eagles
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Georgia Southern Eagles +7.5 (52.5%)
+      O/U: Over 148.5
+      Appalachian St Mountaineers (19-7) vs Georgia Southern Eagles (15-13)
+
+   5. UMass Lowell River Hawks over Binghamton Bearcats
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Binghamton Bearcats +9.5 (62.5%)
+      O/U: Under 146.5
+      UMass Lowell River Hawks (12-15) vs Binghamton Bearcats (6-22)
+
+   6. Kansas Jayhawks over Cincinnati Bearcats
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Cincinnati Bearcats +10.5 (67.5%)
+      O/U: Over 138.5
+      Kansas Jayhawks (20-6) vs Cincinnati Bearcats (14-12)
+
+   7. Middle Tennessee Blue Raiders over Delaware Blue Hens
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Delaware Blue Hens +8.5 (57.5%)
+      O/U: Over 136.5
+      Middle Tennessee Blue Raiders (12-14) vs Delaware Blue Hens (9-17)
+
+   8. North Dakota St Bison over UMKC Kangaroos
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: UMKC Kangaroos +19.0 (85.0%)
+      North Dakota St Bison (16-14) vs UMKC Kangaroos (4-23)
+
+   9. Yale Bulldogs over Pennsylvania Quakers
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Pennsylvania Quakers +10.5 (67.5%)
+      O/U: Over 152.5
+      Yale Bulldogs (20-4) vs Pennsylvania Quakers (13-10)
+
+  10. Nebraska Cornhuskers over Penn State Nittany Lions
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: Penn State Nittany Lions +18.5 (85.0%)
+      O/U: Over 148.5
+      Nebraska Cornhuskers (22-4) vs Penn State Nittany Lions (11-16)
+
+  11. Louisville Cardinals over Georgia Tech Yellow Jackets
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: Georgia Tech Yellow Jackets +22.5 (85.0%)
+      O/U: Under 164.5
+      Louisville Cardinals (19-7) vs Georgia Tech Yellow Jackets (11-16)
+
+  12. Texas Tech Red Raiders over Kansas St Wildcats
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Kansas St Wildcats +13.5 (82.5%)
+      Texas Tech Red Raiders (19-7) vs Kansas St Wildcats (20-6)
+
+  13. UNLV Rebels over Air Force Falcons
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: Air Force Falcons +15.5 (85.0%)
+      O/U: Under 152.5
+      Air Force Falcons (3-23) vs UNLV Rebels (13-13)
+
+  14. Arkansas St Red Wolves over UL Monroe Warhawks
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: UL Monroe Warhawks +15.0 (85.0%)
+      O/U: Under 164.0
+      UL Monroe Warhawks (4-24) vs Arkansas St Red Wolves (19-7)
+
+  15. Arkansas Razorbacks over Missouri Tigers
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Missouri Tigers +10.5 (67.5%)
+      O/U: Over 160.5
+      Arkansas Razorbacks (19-7) vs Missouri Tigers (18-8)
+
+  16. Boise State Broncos over San José St Spartans
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: San José St Spartans +16.5 (85.0%)
+      Boise State Broncos (15-11) vs San José St Spartans (10-10)
+
+  17. Murray St Racers over Evansville Purple Aces
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Evansville Purple Aces +15.0 (85.0%)
+      O/U: Under 155.0
+      Murray St Racers (19-10) vs Evansville Purple Aces (6-21)
+
+  18. SMU Mustangs over Boston College Eagles
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Boston College Eagles +15.5 (85.0%)
+      O/U: Over 150.5
+      SMU Mustangs (18-8) vs Boston College Eagles (9-17)
+
+  19. USC Trojans over Oregon Ducks
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: USC Trojans -5.5 (57.5%)
+      O/U: Over 146.5
+      USC Trojans (18-8) vs Oregon Ducks (9-17)
+
+  20. Toledo Rockets over Eastern Michigan Eagles
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Eastern Michigan Eagles +9.0 (60.0%)
+      O/U: Over 147.0
+      Toledo Rockets (13-13) vs Eastern Michigan Eagles (10-17)
+
+  21. Kennesaw St Owls over Louisiana Tech Bulldogs
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Louisiana Tech Bulldogs +7.0 (50.0%)
+      O/U: Over 147.5
+      Kennesaw St Owls (15-11) vs Louisiana Tech Bulldogs (15-11)
+
+  22. Lipscomb Bisons over North Alabama Lions
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: North Alabama Lions +12.5 (77.5%)
+      O/U: Over 147.5
+      Lipscomb Bisons (17-11) vs North Alabama Lions (8-18)
+
+  23. TCU Horned Frogs over West Virginia Mountaineers
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: TCU Horned Frogs -5.5 (57.5%)
+      O/U: Over 131.5
+      TCU Horned Frogs (16-10) vs West Virginia Mountaineers (16-10)
+
+  24. Stephen F. Austin Lumberjacks over Nicholls St Colonels
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Nicholls St Colonels +13.0 (80.0%)
+      O/U: Over 148.0
+      Stephen F. Austin Lumberjacks (24-3) vs Nicholls St Colonels (14-12)
+
+  25. Wichita St Shockers over Temple Owls
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Temple Owls +8.5 (57.5%)
+      O/U: Over 142.5
+      Wichita St Shockers (17-10) vs Temple Owls (15-11)
+
+  26. Elon Phoenix over North Carolina A&T Aggies
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: North Carolina A&T Aggies +7.5 (52.5%)
+      O/U: Over 151.5
+      Elon Phoenix (14-13) vs North Carolina A&T Aggies (10-15)
+
+  27. Belmont Bruins over Indiana St Sycamores
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Indiana St Sycamores +13.5 (82.5%)
+      O/U: Over 156.0
+      Belmont Bruins (24-4) vs Indiana St Sycamores (13-14)
+
+  28. McNeese Cowboys over Texas A&M-CC Islanders
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Texas A&M-CC Islanders +14.5 (85.0%)
+      O/U: Over 139.5
+      McNeese Cowboys (22-5) vs Texas A&M-CC Islanders (12-14)
+
+  29. N Colorado Bears over Northern Arizona Lumberjacks
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Northern Arizona Lumberjacks +13.0 (80.0%)
+      O/U: Over 148.5
+      N Colorado Bears (14-12) vs Northern Arizona Lumberjacks (10-17)
+
+  30. Gonzaga Bulldogs over Pacific Tigers
+      Confidence: [█████████████████░░░] 85.0% 🔥 UPSET ALERT
+      Spread: Pacific Tigers +20.5 (85.0%)
+      O/U: Over 144.5
+      Gonzaga Bulldogs (26-2) vs Pacific Tigers (17-12)
+
+  31. Seattle Redhawks over Portland Pilots
+      Confidence: [█████████████████░░░] 85.0%
+      Spread: Portland Pilots +8.5 (57.5%)
+      O/U: Over 140.5
+      Seattle Redhawks (18-7) vs Portland Pilots (12-16)
+
+  32. Southern Jaguars over Grambling St Tigers
+      Confidence: [████████████████░░░░] 84.6%
+      Spread: Southern Jaguars -5.5 (57.1%)
+      O/U: Over 141.5
+      Southern Jaguars (12-14) vs Grambling St Tigers (11-14)
+
+  33. UIC Flames over Valparaiso Beacons
+      Confidence: [████████████████░░░░] 84.6%
+      Spread: Valparaiso Beacons +7.0 (50.4%)
+      O/U: Over 138.5
+      UIC Flames (16-12) vs Valparaiso Beacons (15-13)
+
+  34. Virginia Cavaliers over Miami Hurricanes
+      Confidence: [████████████████░░░░] 84.1%
+      Spread: Miami Hurricanes +8.5 (58.4%)
+      O/U: Over 145.5
+      Virginia Cavaliers (23-3) vs Miami Hurricanes (21-5)
+
+  35. South Dakota St Jackrabbits over North Dakota Fighting Hawks
+      Confidence: [████████████████░░░░] 83.9%
+      Spread: South Dakota St Jackrabbits -6.5 (51.4%)
+      O/U: Over 151.5
+      South Dakota St Jackrabbits (13-13) vs North Dakota Fighting Hawks (16-14)
+
+  36. Oregon St Beavers over Pepperdine Waves
+      Confidence: [████████████████░░░░] 83.7%
+      Spread: Pepperdine Waves +9.0 (61.3%)
+      O/U: Under 148.0
+      Oregon St Beavers (9-17) vs Pepperdine Waves (8-20)
+
+  37. High Point Panthers over Winthrop Eagles
+      Confidence: [████████████████░░░░] 83.3%
+      Spread: Winthrop Eagles +8.5 (59.2%)
+      O/U: Over 164.5
+      High Point Panthers (25-4) vs Winthrop Eagles (20-8)
+
+  38. Columbia Lions over Dartmouth Big Green
+      Confidence: [████████████████░░░░] 82.1%
+      Spread: Dartmouth Big Green +7.0 (52.9%)
+      O/U: Over 150.5
+      Columbia Lions (15-9) vs Dartmouth Big Green (10-13)
+
+  39. Morgan St Bears over Delaware St Hornets
+      Confidence: [████████████████░░░░] 81.8%
+      Spread: Morgan St Bears -5.5 (54.3%)
+      O/U: Under 146.5
+      Morgan St Bears (10-14) vs Delaware St Hornets (9-17)
+
+  40. UMBC Retrievers over Albany Great Danes
+      Confidence: [████████████████░░░░] 81.5%
+      Spread: UMBC Retrievers -6.0 (51.5%)
+      O/U: Over 143.5
+      UMBC Retrievers (17-8) vs Albany Great Danes (6-19)
+
+  41. Charleston Southern Buccaneers over Longwood Lancers
+      Confidence: [████████████████░░░░] 81.1%
+      Spread: Charleston Southern Buccaneers -4.5 (58.6%)
+      O/U: Over 152.5
+      Charleston Southern Buccaneers (13-15) vs Longwood Lancers (14-15)
+
+  42. Florida Gators over Ole Miss Rebels
+      Confidence: [████████████████░░░░] 81.0% 🔥 UPSET ALERT
+      Spread: Ole Miss Rebels +13.5 (85.0%)
+      O/U: Over 150.5
+      Ole Miss Rebels (11-15) vs Florida Gators (20-6)
+
+  43. Charleston Cougars over Monmouth Hawks
+      Confidence: [████████████████░░░░] 81.0%
+      Spread: Charleston Cougars -4.5 (58.5%)
+      Charleston Cougars (18-10) vs Monmouth Hawks (14-13)
+
+  44. Virginia Tech Hokies over Wake Forest Demon Deacons
+      Confidence: [████████████████░░░░] 80.7%
+      Spread: Virginia Tech Hokies -4.5 (58.1%)
+      O/U: Over 151.5
+      Virginia Tech Hokies (17-10) vs Wake Forest Demon Deacons (14-12)
+
+  45. Stony Brook Seawolves over Hampton Pirates
+      Confidence: [████████████████░░░░] 80.7%
+      Spread: Stony Brook Seawolves -4.5 (58.1%)
+      O/U: Over 135.5
+      Stony Brook Seawolves (16-11) vs Hampton Pirates (12-15)
+
+  46. New Hampshire Wildcats over Maine Black Bears
+      Confidence: [████████████████░░░░] 80.5%
+      Spread: New Hampshire Wildcats -3.5 (63.0%)
+      O/U: Under 136.5
+      New Hampshire Wildcats (8-17) vs Maine Black Bears (6-21)
+
+  47. Northwestern St Demons over Houston Christian Huskies
+      Confidence: [████████████████░░░░] 80.0%
+      Spread: Northwestern St Demons -2.5 (67.5%)
+      O/U: Over 134.5
+      Northwestern St Demons (11-16) vs Houston Christian Huskies (10-17)
+
+  48. Bethune-Cookman Wildcats over Alabama A&M Bulldogs
+      Confidence: [████████████████░░░░] 80.0%
+      Spread: Alabama A&M Bulldogs +6.5 (52.5%)
+      O/U: Over 141.5
+      Bethune-Cookman Wildcats (14-13) vs Alabama A&M Bulldogs (16-11)
+
+  49. Mercer Bears over Samford Bulldogs
+      Confidence: [███████████████░░░░░] 79.6%
+      Spread: Mercer Bears -4.0 (59.6%)
+      O/U: Over 155.0
+      Mercer Bears (17-11) vs Samford Bulldogs (16-12)
+
+  50. Cornell Big Red over Harvard Crimson
+      Confidence: [███████████████░░░░░] 79.5%
+      Spread: Cornell Big Red -4.0 (59.5%)
+      O/U: Over 155.0
+      Cornell Big Red (12-11) vs Harvard Crimson (14-10)
+
+  51. Minnesota Golden Gophers over Rutgers Scarlet Knights
+      Confidence: [███████████████░░░░░] 79.5%
+      Spread: Rutgers Scarlet Knights +7.5 (58.0%)
+      O/U: Over 135.5
+      Minnesota Golden Gophers (12-14) vs Rutgers Scarlet Knights (11-15)
+
+  52. California Golden Bears over Stanford Cardinal
+      Confidence: [███████████████░░░░░] 79.0%
+      Spread: California Golden Bears -1.5 (71.5%)
+      O/U: Over 147.5
+      California Golden Bears (18-8) vs Stanford Cardinal (16-10)
+
+  53. Arkansas-Pine Bluff Golden Lions over Prairie View Panthers
+      Confidence: [███████████████░░░░░] 78.2%
+      Spread: Arkansas-Pine Bluff Golden Lions -2.5 (65.7%)
+      O/U: Under 158.5
+      Arkansas-Pine Bluff Golden Lions (11-16) vs Prairie View Panthers (10-10)
+
+  54. UC Irvine Anteaters over UC San Diego Tritons
+      Confidence: [███████████████░░░░░] 77.7%
+      Spread: UC Irvine Anteaters -4.5 (55.2%)
+      O/U: Over 140.5
+      UC Irvine Anteaters (18-9) vs UC San Diego Tritons (18-9)
+
+  55. Fairleigh Dickinson Knights over New Haven Chargers
+      Confidence: [███████████████░░░░░] 77.7%
+      Spread: Fairleigh Dickinson Knights -2.5 (65.2%)
+      O/U: Over 122.0
+      Fairleigh Dickinson Knights (11-17) vs New Haven Chargers (12-15)
+
+  56. Norfolk St Spartans over South Carolina St Bulldogs
+      Confidence: [███████████████░░░░░] 77.3%
+      Spread: South Carolina St Bulldogs +10.5 (75.1%)
+      O/U: Over 146.5
+      Norfolk St Spartans (13-14) vs South Carolina St Bulldogs (13-15)
+
+  57. Queens University Royals over West Georgia Wolves
+      Confidence: [███████████████░░░░░] 77.2%
+      Spread: West Georgia Wolves +11.5 (80.2%)
+      O/U: Under 162.5
+      Queens University Royals (18-10) vs West Georgia Wolves (12-15)
+
+  58. Weber State Wildcats over Montana Grizzlies
+      Confidence: [███████████████░░░░░] 76.9%
+      Spread: Weber State Wildcats -2.5 (64.4%)
+      O/U: Over 152.0
+      Weber State Wildcats (14-14) vs Montana Grizzlies (14-13)
+
+  59. Portland St Vikings over Eastern Washington Eagles
+      Confidence: [███████████████░░░░░] 76.4%
+      Spread: Eastern Washington Eagles +6.5 (56.0%)
+      O/U: Over 146.5
+      Portland St Vikings (12-14) vs Eastern Washington Eagles (10-17)
+
+  60. Massachusetts Minutemen over Buffalo Bulls
+      Confidence: [███████████████░░░░░] 75.8%
+      Spread: Buffalo Bulls +7.5 (61.7%)
+      O/U: Over 156.0
+      Massachusetts Minutemen (15-12) vs Buffalo Bulls (15-11)
+
+  61. Richmond Spiders over St. Bonaventure Bonnies
+      Confidence: [███████████████░░░░░] 75.7%
+      Spread: Richmond Spiders -2.5 (63.2%)
+      O/U: Over 149.5
+      Richmond Spiders (14-13) vs St. Bonaventure Bonnies (14-12)
+
+  62. Charlotte 49ers over East Carolina Pirates
+      Confidence: [███████████████░░░░░] 75.6%
+      Spread: East Carolina Pirates +6.5 (56.9%)
+      Charlotte 49ers (13-13) vs East Carolina Pirates (9-17)
+
+  63. Butler Bulldogs over Xavier Musketeers
+      Confidence: [███████████████░░░░░] 75.3%
+      Spread: Butler Bulldogs -3.5 (57.8%)
+      Butler Bulldogs (14-13) vs Xavier Musketeers (13-13)
+
+  64. Alcorn St Braves over Jackson St Tigers
+      Confidence: [███████████████░░░░░] 75.1% 🔥 UPSET ALERT
+      Spread: Alcorn St Braves +1.5 (82.6%)
+      O/U: Over 150.5
+      Alcorn St Braves (12-11) vs Jackson St Tigers (10-10)
+
+  65. Sam Houston St Bearkats over Jacksonville St Gamecocks
+      Confidence: [███████████████░░░░░] 75.1%
+      Spread: Jacksonville St Gamecocks +8.0 (64.9%)
+      O/U: Over 149.5
+      Sam Houston St Bearkats (19-7) vs Jacksonville St Gamecocks (22-5)
+
+  66. Morehead St Eagles over Western Illinois Leathernecks
+      Confidence: [██████████████░░░░░░] 74.8%
+      Spread: Western Illinois Leathernecks +8.5 (67.7%)
+      O/U: Under 145.5
+      Western Illinois Leathernecks (5-23) vs Morehead St Eagles (16-12)
+
+  67. Vanderbilt Commodores over Tennessee Volunteers
+      Confidence: [██████████████░░░░░░] 74.5%
+      Spread: Vanderbilt Commodores -3.5 (57.0%)
+      O/U: Over 150.5
+      Vanderbilt Commodores (21-5) vs Tennessee Volunteers (19-7)
+
+  68. Liberty Flames over Western Kentucky Hilltoppers
+      Confidence: [██████████████░░░░░░] 74.0%
+      Spread: Western Kentucky Hilltoppers +8.0 (66.0%)
+      O/U: Over 145.5
+      Liberty Flames (23-3) vs Western Kentucky Hilltoppers (15-11)
+
+  69. Austin Peay Governors over Jacksonville Dolphins
+      Confidence: [██████████████░░░░░░] 73.2%
+      Spread: Jacksonville Dolphins +7.0 (61.8%)
+      O/U: Over 141.0
+      Jacksonville Dolphins (10-18) vs Austin Peay Governors (20-6)
+
+  70. Georgia Bulldogs over Texas Longhorns
+      Confidence: [██████████████░░░░░░] 72.8%
+      Spread: Georgia Bulldogs -2.5 (60.3%)
+      O/U: Over 164.5
+      Georgia Bulldogs (18-8) vs Texas Longhorns (17-9)
+
+  71. Georgia St Panthers over James Madison Dukes
+      Confidence: [██████████████░░░░░░] 72.7%
+      Spread: Georgia St Panthers +2.0 (82.7%)
+      O/U: Over 142.5
+      Georgia St Panthers (18-8) vs James Madison Dukes (15-13)
+
+  72. Alabama Crimson Tide over LSU Tigers
+      Confidence: [██████████████░░░░░░] 72.7%
+      Spread: LSU Tigers +7.5 (64.8%)
+      LSU Tigers (14-12) vs Alabama Crimson Tide (19-7)
+
+  73. St. Francis (PA) Red Flash over Wagner Seahawks
+      Confidence: [██████████████░░░░░░] 72.6%
+      Spread: St. Francis (PA) Red Flash +1.5 (80.1%)
+      O/U: Over 153.5
+      St. Francis (PA) Red Flash (20-6) vs Wagner Seahawks (10-16)
+
+  74. Texas Southern Tigers over Miss Valley St Delta Devils
+      Confidence: [██████████████░░░░░░] 72.5% 🔥 UPSET ALERT
+      Spread: Miss Valley St Delta Devils +12.5 (85.0%)
+      O/U: Under 145.5
+      Miss Valley St Delta Devils (9-17) vs Texas Southern Tigers (10-15)
+
+  75. Western Carolina Catamounts over VMI Keydets
+      Confidence: [██████████████░░░░░░] 72.5%
+      Spread: VMI Keydets +9.5 (75.0%)
+      O/U: Under 155.5
+      VMI Keydets (6-22) vs Western Carolina Catamounts (11-15)
+
+  76. Southern Miss Golden Eagles over Old Dominion Monarchs
+      Confidence: [██████████████░░░░░░] 72.1%
+      Spread: Southern Miss Golden Eagles -4.0 (52.1%)
+      Southern Miss Golden Eagles (14-14) vs Old Dominion Monarchs (10-18)
+
+  77. Auburn Tigers over Kentucky Wildcats
+      Confidence: [██████████████░░░░░░] 71.8%
+      Spread: Auburn Tigers -3.5 (54.3%)
+      O/U: Over 158.0
+      Auburn Tigers (14-12) vs Kentucky Wildcats (17-9)
+
+  78. Navy Midshipmen over Army Knights
+      Confidence: [██████████████░░░░░░] 71.4%
+      Spread: Army Knights +9.5 (76.1%)
+      O/U: Over 138.5
+      Army Knights (11-17) vs Navy Midshipmen (22-6)
+
+  79. Lamar Cardinals over New Orleans Privateers
+      Confidence: [██████████████░░░░░░] 71.3%
+      Spread: Lamar Cardinals -4.0 (51.3%)
+      Lamar Cardinals (12-15) vs New Orleans Privateers (12-15)
+
+  80. New Mexico Lobos over Fresno St Bulldogs
+      Confidence: [██████████████░░░░░░] 71.2%
+      Spread: Fresno St Bulldogs +8.5 (71.3%)
+      Fresno St Bulldogs (13-15) vs New Mexico Lobos (20-6)
+
+  81. Colorado Buffaloes over Oklahoma St Cowboys
+      Confidence: [██████████████░░░░░░] 71.0%
+      Spread: Colorado Buffaloes -3.5 (53.5%)
+      Colorado Buffaloes (14-12) vs Oklahoma St Cowboys (13-13)
+
+  82. Santa Clara Broncos over San Francisco Dons
+      Confidence: [██████████████░░░░░░] 70.9%
+      Spread: San Francisco Dons +7.5 (66.6%)
+      San Francisco Dons (15-14) vs Santa Clara Broncos (22-6)
+
+  83. Illinois Fighting Illini over UCLA Bruins
+      Confidence: [█████████████░░░░░░░] 70.0%
+      Spread: UCLA Bruins +6.5 (62.5%)
+      O/U: Over 145.5
+      UCLA Bruins (17-9) vs Illinois Fighting Illini (22-5)
+
+  84. Idaho Vandals over Sacramento St Hornets
+      Confidence: [█████████████░░░░░░░] 69.9%
+      Spread: Idaho Vandals -3.5 (52.4%)
+      O/U: Under 163.0
+      Sacramento St Hornets (6-21) vs Idaho Vandals (14-13)
+
+  85. Hofstra Pride over Northeastern Huskies
+      Confidence: [█████████████░░░░░░░] 69.9%
+      Spread: Northeastern Huskies +8.5 (72.6%)
+      O/U: Over 148.5
+      Northeastern Huskies (6-19) vs Hofstra Pride (18-10)
+
+  86. Northern Iowa Panthers over Southern Illinois Salukis
+      Confidence: [█████████████░░░░░░░] 69.8%
+      Spread: Southern Illinois Salukis +6.5 (62.7%)
+      O/U: Over 132.5
+      Northern Iowa Panthers (18-10) vs Southern Illinois Salukis (13-15)
+
+  87. Hawai'i Rainbow Warriors over UC Santa Barbara Gauchos
+      Confidence: [█████████████░░░░░░░] 69.7%
+      Spread: Hawai'i Rainbow Warriors -3.5 (52.2%)
+      O/U: Over 146.5
+      Hawai'i Rainbow Warriors (18-7) vs UC Santa Barbara Gauchos (17-10)
+
+  88. Florida Int'l Golden Panthers over Missouri St Bears
+      Confidence: [█████████████░░░░░░░] 69.5%
+      Spread: Missouri St Bears +4.0 (50.4%)
+      O/U: Over 155.5
+      Florida Int'l Golden Panthers (14-15) vs Missouri St Bears (18-8)
+
+  89. Seton Hall Pirates over Georgetown Hoyas
+      Confidence: [█████████████░░░░░░░] 69.5%
+      Spread: Georgetown Hoyas +4.5 (53.0%)
+      O/U: Over 135.5
+      Seton Hall Pirates (18-9) vs Georgetown Hoyas (13-13)
+
+  90. Arkansas-Little Rock Trojans over SE Missouri St Redhawks
+      Confidence: [█████████████░░░░░░░] 69.5%
+      Spread: Arkansas-Little Rock Trojans +1.5 (77.0%)
+      O/U: Over 142.5
+      Arkansas-Little Rock Trojans (19-7) vs SE Missouri St Redhawks (18-7)
+
+  91. Wofford Terriers over Furman Paladins
+      Confidence: [█████████████░░░░░░░] 69.2%
+      Spread: Wofford Terriers -1.0 (64.2%)
+      O/U: Over 151.5
+      Wofford Terriers (18-10) vs Furman Paladins (17-11)
+
+  92. Maryland-Eastern Shore Hawks over Coppin St Eagles
+      Confidence: [█████████████░░░░░░░] 68.8%
+      Spread: Maryland-Eastern Shore Hawks -2.5 (56.3%)
+      O/U: Over 128.5
+      Coppin St Eagles (6-21) vs Maryland-Eastern Shore Hawks (18-7)
+
+  93. Colorado St Rams over San Diego St Aztecs
+      Confidence: [█████████████░░░░░░░] 68.5%
+      Spread: Colorado St Rams +2.5 (81.0%)
+      O/U: Over 137.5
+      Colorado St Rams (14-12) vs San Diego St Aztecs (11-17)
+
+  94. Alabama St Hornets over Florida A&M Rattlers
+      Confidence: [█████████████░░░░░░░] 68.3%
+      Spread: Alabama St Hornets -1.5 (60.8%)
+      O/U: Over 143.5
+      Florida A&M Rattlers (10-15) vs Alabama St Hornets (19-7)
+
+  95. LIU Sharks over Mercyhurst Lakers
+      Confidence: [█████████████░░░░░░░] 68.2%
+      Spread: LIU Sharks -2.5 (55.7%)
+      O/U: Over 134.5
+      Mercyhurst Lakers (13-15) vs LIU Sharks (19-7)
+
+  96. Dayton Flyers over Duquesne Dukes
+      Confidence: [█████████████░░░░░░░] 68.0%
+      Spread: Duquesne Dukes +6.0 (62.0%)
+      O/U: Over 148.5
+      Dayton Flyers (17-9) vs Duquesne Dukes (16-10)
+
+  97. Abilene Christian Wildcats over Southern Utah Thunderbirds
+      Confidence: [█████████████░░░░░░░] 67.8%
+      Spread: Southern Utah Thunderbirds +6.5 (64.7%)
+      Abilene Christian Wildcats (12-14) vs Southern Utah Thunderbirds (9-18)
+
+  98. UT Rio Grande Valley Vaqueros over SE Louisiana Lions
+      Confidence: [█████████████░░░░░░░] 67.6%
+      Spread: UT Rio Grande Valley Vaqueros -3.5 (50.1%)
+      O/U: Over 134.5
+      SE Louisiana Lions (8-19) vs UT Rio Grande Valley Vaqueros (15-12)
+
+  99. Central Michigan Chippewas over Western Michigan Broncos
+      Confidence: [█████████████░░░░░░░] 66.1%
+      Spread: Western Michigan Broncos +3.5 (51.4%)
+      O/U: Under 151.5
+      Central Michigan Chippewas (8-18) vs Western Michigan Broncos (9-17)
+
+  100. Colgate Raiders over Loyola (MD) Greyhounds
+      Confidence: [████████████░░░░░░░░] 64.9%
+      Spread: Loyola (MD) Greyhounds +8.5 (77.6%)
+      O/U: Over 151.5
+      Colgate Raiders (16-12) vs Loyola (MD) Greyhounds (23-3)
+
+  101. Texas State Bobcats over Louisiana Ragin' Cajuns
+      Confidence: [████████████░░░░░░░░] 64.8%
+      Spread: Texas State Bobcats -2.5 (52.3%)
+      O/U: Over 134.5
+      Louisiana Ragin' Cajuns (9-19) vs Texas State Bobcats (18-11)
+
+  102. Utah Valley Wolverines over UT-Arlington Mavericks
+      Confidence: [████████████░░░░░░░░] 64.3%
+      Spread: UT-Arlington Mavericks +5.5 (63.2%)
+      O/U: Over 141.0
+      UT-Arlington Mavericks (11-16) vs Utah Valley Wolverines (19-7)
+
+  103. Ohio Bobcats over Northern Illinois Huskies
+      Confidence: [████████████░░░░░░░░] 64.2%
+      Spread: Northern Illinois Huskies +6.0 (65.8%)
+      O/U: Under 150.5
+      Northern Illinois Huskies (9-16) vs Ohio Bobcats (14-13)
+
+  104. South Carolina Upstate Spartans over Presbyterian Blue Hose
+      Confidence: [████████████░░░░░░░░] 64.2%
+      Spread: South Carolina Upstate Spartans +1.5 (71.7%)
+      O/U: Over 139.5
+      South Carolina Upstate Spartans (11-17) vs Presbyterian Blue Hose (14-14)
+
+  105. Chicago St Cougars over Central Connecticut St Blue Devils
+      Confidence: [████████████░░░░░░░░] 64.1% 🔥 UPSET ALERT
+      Spread: Chicago St Cougars +4.5 (85.0%)
+      O/U: Over 139.5
+      Chicago St Cougars (18-8) vs Central Connecticut St Blue Devils (16-10)
+
+  106. Utah State Aggies over Nevada Wolf Pack
+      Confidence: [████████████░░░░░░░░] 64.1%
+      Spread: Nevada Wolf Pack +4.5 (58.4%)
+      O/U: Over 148.5
+      Nevada Wolf Pack (17-9) vs Utah State Aggies (23-3)
+
+  107. Clemson Tigers over Florida St Seminoles
+      Confidence: [████████████░░░░░░░░] 62.5%
+      Spread: Florida St Seminoles +8.5 (80.0%)
+      O/U: Over 145.5
+      Clemson Tigers (20-7) vs Florida St Seminoles (20-6)
+
+  108. Washington Huskies over Maryland Terrapins
+      Confidence: [████████████░░░░░░░░] 62.2%
+      Spread: Maryland Terrapins +3.5 (55.3%)
+      O/U: Over 145.5
+      Maryland Terrapins (10-16) vs Washington Huskies (13-13)
+
+  109. South Carolina Gamecocks over Mississippi St Bulldogs
+      Confidence: [████████████░░░░░░░░] 61.8%
+      Spread: South Carolina Gamecocks -1.5 (54.3%)
+      South Carolina Gamecocks (11-15) vs Mississippi St Bulldogs (13-15)
+
+  110. Idaho State Bengals over Montana St Bobcats
+      Confidence: [████████████░░░░░░░░] 61.7%
+      Spread: Idaho State Bengals +2.5 (74.2%)
+      Idaho State Bengals (11-17) vs Montana St Bobcats (9-17)
+
+  111. Denver Pioneers over St. Thomas (MN) Tommies
+      Confidence: [████████████░░░░░░░░] 61.2%
+      Spread: Denver Pioneers +4.5 (83.7%)
+      O/U: Under 167.5
+      Denver Pioneers (14-15) vs St. Thomas (MN) Tommies (15-14)
+
+  112. Stetson Hatters over North Florida Ospreys
+      Confidence: [████████████░░░░░░░░] 61.1%
+      Spread: North Florida Ospreys +3.5 (56.4%)
+      O/U: Under 161.5
+      Stetson Hatters (9-19) vs North Florida Ospreys (6-22)
+
+  113. Fordham Rams over Davidson Wildcats
+      Confidence: [████████████░░░░░░░░] 60.6%
+      Spread: Fordham Rams -1.5 (53.1%)
+      O/U: Over 132.0
+      Fordham Rams (15-12) vs Davidson Wildcats (16-10)
+
+  114. New Mexico St Aggies over UTEP Miners
+      Confidence: [████████████░░░░░░░░] 60.3%
+      Spread: UTEP Miners +6.5 (72.2%)
+      O/U: Under 141.5
+      New Mexico St Aggies (6-21) vs UTEP Miners (10-16)
+
+  115. Vermont Catamounts over NJIT Highlanders
+      Confidence: [███████████░░░░░░░░░] 60.0%
+      Spread: NJIT Highlanders +4.0 (60.0%)
+      NJIT Highlanders (15-13) vs Vermont Catamounts (17-11)
+
+  116. Bellarmine Knights over Eastern Kentucky Colonels
+      Confidence: [███████████░░░░░░░░░] 59.9%
+      Spread: Eastern Kentucky Colonels +2.0 (50.1%)
+      O/U: Over 157.0
+      Bellarmine Knights (11-16) vs Eastern Kentucky Colonels (10-18)
+
+  117. UCF Knights over Utah Utes
+      Confidence: [███████████░░░░░░░░░] 59.9%
+      Spread: Utah Utes +2.5 (52.6%)
+      Utah Utes (10-16) vs UCF Knights (18-7)
+
+  118. Rhode Island Rams over La Salle Explorers
+      Confidence: [███████████░░░░░░░░░] 59.7%
+      Spread: La Salle Explorers +3.5 (57.8%)
+      O/U: Over 135.5
+      La Salle Explorers (7-19) vs Rhode Island Rams (15-11)
+
+  119. Chattanooga Mocs over The Citadel Bulldogs
+      Confidence: [███████████░░░░░░░░░] 59.3%
+      Spread: The Citadel Bulldogs +3.5 (58.2%)
+      The Citadel Bulldogs (9-19) vs Chattanooga Mocs (11-17)
+
+  120. Le Moyne Dolphins over Stonehill Skyhawks
+      Confidence: [███████████░░░░░░░░░] 58.9%
+      Spread: Stonehill Skyhawks +2.5 (53.6%)
+      Stonehill Skyhawks (9-19) vs Le Moyne Dolphins (14-14)
+
+  121. Baylor Bears over Arizona St Sun Devils
+      Confidence: [███████████░░░░░░░░░] 58.8%
+      Spread: Arizona St Sun Devils +6.5 (73.7%)
+      O/U: Over 157.5
+      Baylor Bears (13-13) vs Arizona St Sun Devils (24-2)
+
+  122. Houston Cougars over Arizona Wildcats
+      Confidence: [███████████░░░░░░░░░] 58.3%
+      Spread: Arizona Wildcats +4.5 (64.2%)
+      O/U: Over 141.5
+      Houston Cougars (23-3) vs Arizona Wildcats (24-2)
+
+  123. Lindenwood Lions over Tennessee Tech Golden Eagles
+      Confidence: [███████████░░░░░░░░░] 58.3%
+      Spread: Tennessee Tech Golden Eagles +2.5 (54.2%)
+      O/U: Over 153.5
+      Tennessee Tech Golden Eagles (12-16) vs Lindenwood Lions (14-15)
+
+  124. Tarleton State Texans over Utah Tech Trailblazers
+      Confidence: [███████████░░░░░░░░░] 58.2%
+      Spread: Utah Tech Trailblazers +2.5 (54.2%)
+      O/U: Over 140.5
+      Tarleton State Texans (14-13) vs Utah Tech Trailblazers (16-12)
+
+  125. UC Davis Aggies over UC Riverside Highlanders
+      Confidence: [███████████░░░░░░░░░] 58.0%
+      Spread: UC Riverside Highlanders +2.5 (54.5%)
+      O/U: Over 148.5
+      UC Riverside Highlanders (9-19) vs UC Davis Aggies (16-11)
+
+  126. North Carolina Tar Heels over Syracuse Orange
+      Confidence: [███████████░░░░░░░░░] 56.5%
+      Spread: Syracuse Orange +1.5 (51.0%)
+      O/U: Over 153.5
+      Syracuse Orange (15-12) vs North Carolina Tar Heels (20-6)
+
+  127. South Dakota Coyotes over Oral Roberts Golden Eagles
+      Confidence: [███████████░░░░░░░░░] 56.4%
+      Spread: South Dakota Coyotes +1.0 (61.4%)
+      Oral Roberts Golden Eagles (6-22) vs South Dakota Coyotes (14-14)
+
+  128. San Diego Toreros over Loyola Marymount Lions
+      Confidence: [███████████░░░░░░░░░] 56.2%
+      Spread: San Diego Toreros +2.5 (68.7%)
+      San Diego Toreros (11-17) vs Loyola Marymount Lions (13-15)
+
+  129. Grand Canyon Antelopes over Wyoming Cowboys
+      Confidence: [███████████░░░░░░░░░] 56.0% 🔥 UPSET ALERT
+      Spread: Wyoming Cowboys +7.5 (81.5%)
+      O/U: Under 145.5
+      Grand Canyon Antelopes (9-19) vs Wyoming Cowboys (14-12)
+
+  130. Florida Gulf Coast Eagles over Central Arkansas Bears
+      Confidence: [███████████░░░░░░░░░] 55.2%
+      Spread: Florida Gulf Coast Eagles +1.5 (62.7%)
+      O/U: Over 151.5
+      Florida Gulf Coast Eagles (13-15) vs Central Arkansas Bears (18-10)
+
+  131. SIU-Edwardsville Cougars over Tennessee St Tigers
+      Confidence: [███████████░░░░░░░░░] 55.1%
+      Spread: SIU-Edwardsville Cougars +4.5 (77.6%)
+      O/U: Over 143.5
+      Tennessee St Tigers (6-19) vs SIU-Edwardsville Cougars (18-8)
+
+  132. East Texas A&M Lions over Incarnate Word Cardinals
+      Confidence: [██████████░░░░░░░░░░] 55.0%
+      Spread: Incarnate Word Cardinals +1.5 (52.5%)
+      East Texas A&M Lions (11-17) vs Incarnate Word Cardinals (10-17)
+
+  133. UNC Wilmington Seahawks over Campbell Fighting Camels
+      Confidence: [██████████░░░░░░░░░░] 54.7%
+      Spread: Campbell Fighting Camels +3.0 (60.3%)
+      O/U: Over 151.5
+      Campbell Fighting Camels (13-14) vs UNC Wilmington Seahawks (23-4)
+
+  134. Saint Mary's Gaels over Washington St Cougars
+      Confidence: [██████████░░░░░░░░░░] 54.7% 🔥 UPSET ALERT
+      Spread: Washington St Cougars +8.5 (85.0%)
+      O/U: Over 149.5
+      Washington St Cougars (18-8) vs Saint Mary's Gaels (24-4)
+
+  135. BYU Cougars over Iowa State Cyclones
+      Confidence: [██████████░░░░░░░░░░] 54.6%
+      Spread: BYU Cougars +3.0 (69.6%)
+      O/U: Over 155.5
+      BYU Cougars (19-7) vs Iowa State Cyclones (23-3)
+
+  136. Michigan Wolverines over Duke Blue Devils
+      Confidence: [██████████░░░░░░░░░░] 54.4%
+      Spread: Duke Blue Devils +2.5 (58.1%)
+      O/U: Over 150.5
+      Duke Blue Devils (24-2) vs Michigan Wolverines (25-1)
+
+  137. Texas A&M Aggies over Oklahoma Sooners
+      Confidence: [██████████░░░░░░░░░░] 54.1%
+      Spread: Oklahoma Sooners +1.5 (53.4%)
+      O/U: Over 165.5
+      Oklahoma Sooners (13-13) vs Texas A&M Aggies (18-8)
+
+  138. CSU Northridge Matadors over Long Beach St 49ers
+      Confidence: [██████████░░░░░░░░░░] 54.0%
+      Spread: Long Beach St 49ers +4.0 (66.0%)
+      O/U: Under 158.5
+      Long Beach St 49ers (14-15) vs CSU Northridge Matadors (16-10)
+
+  139. Pittsburgh Panthers over Notre Dame Fighting Irish
+      Confidence: [██████████░░░░░░░░░░] 53.3%
+      Spread: Notre Dame Fighting Irish +1.5 (54.1%)
+      O/U: Over 137.5
+      Pittsburgh Panthers (9-17) vs Notre Dame Fighting Irish (12-14)
+
+  140. Villanova Wildcats over UConn Huskies
+      Confidence: [██████████░░░░░░░░░░] 53.3%
+      Spread: Villanova Wildcats +2.5 (65.8%)
+      O/U: Over 140.5
+      Villanova Wildcats (21-5) vs UConn Huskies (24-3)
+
+  141. Providence Friars over DePaul Blue Demons
+      Confidence: [██████████░░░░░░░░░░] 52.9%
+      Spread: Providence Friars +1.5 (60.4%)
+      O/U: Over 154.5
+      DePaul Blue Demons (14-12) vs Providence Friars (11-15)
+
+  142. East Tennessee St Buccaneers over UNC Greensboro Spartans
+      Confidence: [██████████░░░░░░░░░░] 52.9%
+      Spread: UNC Greensboro Spartans +7.0 (82.1%)
+      O/U: Over 149.0
+      UNC Greensboro Spartans (12-16) vs East Tennessee St Buccaneers (13-15)
+
+  143. Bradley Braves over Illinois St Redbirds
+      Confidence: [██████████░░░░░░░░░░] 52.5%
+      Spread: Illinois St Redbirds +3.5 (65.0%)
+      O/U: Over 143.5
+      Bradley Braves (18-10) vs Illinois St Redbirds (22-5)
+
+  144. Southern Indiana Screaming Eagles over Eastern Illinois Panthers
+      Confidence: [██████████░░░░░░░░░░] 52.3%
+      Spread: Southern Indiana Screaming Eagles +4.0 (72.4%)
+      O/U: Over 136.0
+      Eastern Illinois Panthers (11-17) vs Southern Indiana Screaming Eagles (17-10)
+
+  145. Marshall Thundering Herd over Coastal Carolina Chanticleers
+      Confidence: [██████████░░░░░░░░░░] 51.7%
+      Spread: Coastal Carolina Chanticleers +1.5 (55.8%)
+      Coastal Carolina Chanticleers (16-12) vs Marshall Thundering Herd (18-10)
+
+  146. Radford Highlanders over UNC Asheville Bulldogs
+      Confidence: [██████████░░░░░░░░░░] 51.4%
+      Spread: Radford Highlanders +1.5 (58.9%)
+      O/U: Over 148.5
+      UNC Asheville Bulldogs (12-15) vs Radford Highlanders (15-13)
+
+  147. Troy Trojans over South Alabama Jaguars
+      Confidence: [██████████░░░░░░░░░░] 51.2%
+      Spread: South Alabama Jaguars +2.5 (61.3%)
+      O/U: Over 143.5
+      South Alabama Jaguars (19-9) vs Troy Trojans (18-10)
+
+  148. CSU Bakersfield Roadrunners over CSU Fullerton Titans
+      Confidence: [██████████░░░░░░░░░░] 50.8%
+      Spread: CSU Bakersfield Roadrunners +6.0 (80.8%)
+      O/U: Under 160.5
+      CSU Bakersfield Roadrunners (16-10) vs CSU Fullerton Titans (16-10)
+
+Saved 148 predictions to ncaab_picks_2026-02-21.json

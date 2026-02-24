@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-02-15T17:52:42.911631Z",
+  "date": "2026-02-15",
+  "sport": "NBA",
+  "games_analyzed": 4,
+  "parlays": [
+    {
+      "id": 1,
+      "legs": 7,
+      "type": "7-Leg Parlay",
+      "combined_odds": "+9142",
+      "combined_decimal": 92.4,
+      "confidence": 31,
+      "picks": [
+        {
+          "game": "Dallas Mavericks vs Phoenix Suns",
+          "pick": "Phoenix Suns ML",
+          "type": "moneyline",
+          "odds": "-110",
+          "reasoning": "Phoenix Suns projected to win straight up based on comprehensive analysis"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Golden State Warriors ML",
+          "type": "moneyline",
+          "odds": "-110",
+          "reasoning": "Golden State Warriors projected to win straight up based on comprehensive analysis"
+        },
+        {
+          "game": "Milwaukee Bucks vs Miami Heat",
+          "pick": "Miami Heat (spread TBD)",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Miami Heat favored. Miami Heat has home court advantage, Superior record strength: 0.509, Long travel distance affects Milwaukee Bucks"
+        },
+        {
+          "game": "Dallas Mavericks vs Phoenix Suns",
+          "pick": "Under 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive-minded game, pace factor 1.01 suggests under 220.5"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Boston Celtics (spread TBD)",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Boston Celtics favored. Boston Celtics has home court advantage, Superior record strength: 0.655, Long travel distance affects Los Angeles Lakers"
+        },
+        {
+          "game": "Milwaukee Bucks vs Miami Heat",
+          "pick": "Under 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive-minded game, pace factor 0.99 suggests under 220.5"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Under 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive-minded game, pace factor 1.01 suggests under 220.5"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$914",
+        "$25": "$2286",
+        "$50": "$4571",
+        "$100": "$9142"
+      }
+    },
+    {
+      "id": 2,
+      "legs": 6,
+      "type": "6-Leg Parlay",
+      "combined_odds": "+4741",
+      "combined_decimal": 48.4,
+      "confidence": 36,
+      "picks": [
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Under 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive-minded game, pace factor 1.00 suggests under 220.5"
+        },
+        {
+          "game": "Milwaukee Bucks vs Miami Heat",
+          "pick": "Miami Heat (spread TBD)",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Miami Heat favored. Miami Heat has home court advantage, Superior record strength: 0.509, Long travel distance affects Milwaukee Bucks"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Boston Celtics (spread TBD)",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Boston Celtics favored. Boston Celtics has home court advantage, Superior record strength: 0.655, Long travel distance affects Los Angeles Lakers"
+        },
+        {
+          "game": "Dallas Mavericks vs Phoenix Suns",
+          "pick": "Phoenix Suns (spread TBD)",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Phoenix Suns favored. Phoenix Suns has home court advantage, Superior record strength: 0.537"
+        },
+        {
+          "game": "Dallas Mavericks vs Phoenix Suns",
+          "pick": "Under 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive-minded game, pace factor 1.01 suggests under 220.5"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Golden State Warriors ML",
+          "type": "moneyline",
+          "odds": "-110",
+          "reasoning": "Golden State Warriors projected to win straight up based on comprehensive analysis"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$474",
+        "$25": "$1185",
+        "$50": "$2371",
+        "$100": "$4741"
+      }
+    }
+  ],
+  "track_record_entry": {
+    "date": "2026-02-15",
+    "total_parlays": 2,
+    "results": "pending"
+  }
+}

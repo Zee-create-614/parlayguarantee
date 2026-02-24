@@ -1,0 +1,22 @@
+{
+  "draftkings": {
+    "nights": 3,
+    "itm_nights": 0,
+    "itm_rate": "0.00%",
+    "avg_best_score": "0.0",
+    "worst_night_best": "0.0",
+    "best_single_score": "0.0",
+    "total_lineups": 0,
+    "strategy_hit_rates": {}
+  },
+  "fanduel": {
+    "nights": 3,
+    "itm_nights": 0,
+    "itm_rate": "0.00%",
+    "avg_best_score": "0.0",
+    "worst_night_best": "0.0",
+    "best_single_score": "0.0",
+    "total_lineups": 0,
+    "strategy_hit_rates": {}
+  }
+}

@@ -1,0 +1,47 @@
+2026-02-20 11:23:38,972 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 11:23:39,641 INFO Odds API: 21 NCAAB events (requests remaining: 442)
+2026-02-20 11:23:39,741 INFO Returning 13 NCAAB games for 2026-02-20
+2026-02-20 11:23:39,741 INFO Found 13 NCAAB games
+2026-02-20 11:25:02,662 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 11:25:03,217 INFO Odds API: 21 NCAAB events (requests remaining: 439)
+2026-02-20 11:25:03,340 INFO Returning 13 NCAAB games for 2026-02-20
+2026-02-20 11:25:03,340 INFO Found 13 NCAAB games
+2026-02-20 11:25:04,314 INFO Loaded 362 ESPN teams
+2026-02-20 11:25:12,568 INFO Generated 13 predictions
+2026-02-20 13:27:12,502 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 13:27:13,080 INFO Odds API: 28 NCAAB events (requests remaining: 260)
+2026-02-20 13:27:13,192 INFO Returning 13 NCAAB games for 2026-02-20
+2026-02-20 13:27:13,192 INFO Found 13 NCAAB games
+2026-02-20 13:27:14,781 INFO Generated 13 predictions
+2026-02-20 13:27:21,763 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 13:27:22,229 INFO Odds API: 28 NCAAB events (requests remaining: 257)
+2026-02-20 13:27:22,378 INFO Returning 13 NCAAB games for 2026-02-20
+2026-02-20 13:27:22,379 INFO Found 13 NCAAB games
+2026-02-20 13:27:24,024 INFO Generated 13 predictions
+2026-02-20 13:47:21,640 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 13:47:22,286 INFO Odds API: 30 NCAAB events (requests remaining: 240)
+2026-02-20 13:47:22,409 INFO Returning 13 NCAAB games for 2026-02-20
+2026-02-20 13:47:22,410 INFO Found 13 NCAAB games
+2026-02-20 13:47:24,588 INFO Generated 13 predictions
+2026-02-20 18:31:24,508 INFO NCAAB Engine: predicting games for 2026-02-20
+2026-02-20 18:31:25,171 ERROR Odds API fetch failed: 401 Client Error: Unauthorized for url: https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=5b35ed6fd487a1496a3159a68159f4c3&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american
+2026-02-20 18:31:25,171 WARNING No NCAAB games found for this date
+2026-02-21 06:38:13,882 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 06:38:14,618 INFO Odds API: 148 NCAAB events (requests remaining: 19156)
+2026-02-21 06:38:16,323 INFO Returning 148 NCAAB games for 2026-02-21
+2026-02-21 06:38:16,325 INFO Found 148 NCAAB games
+2026-02-21 06:40:45,715 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 06:40:46,545 INFO Odds API: 148 NCAAB events (requests remaining: 19141)
+2026-02-21 06:40:48,037 INFO Returning 148 NCAAB games for 2026-02-21
+2026-02-21 06:40:48,041 INFO Found 148 NCAAB games
+2026-02-21 06:46:14,173 INFO Generated 148 predictions
+2026-02-21 16:32:24,369 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 16:32:24,426 INFO Scraping all sources for ncaab consensus...
+2026-02-21 16:32:24,901 INFO Phase 1: API scrapers...
+2026-02-21 16:32:25,893 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 16:32:25,955 INFO FanDuel: got 109 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 16:32:25,956 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 16:32:25,958 INFO OddsAPI: got 129 games
+2026-02-21 16:32:25,959 INFO fanduel: 109 games
+2026-02-21 16:32:25,959 INFO odds_api: 129 games
+2026-02-21 16:32:25,959 INFO Phase 2: Playwright scrapers...

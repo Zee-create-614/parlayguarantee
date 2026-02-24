@@ -1,0 +1,80 @@
+# Requirements for ParlayGuarantee Engine v2
+# Production-grade NBA betting prediction engine
+
+# Core NBA API and data
+nba_api==1.2.1
+requests>=2.31.0
+pandas>=2.0.3
+numpy>=1.24.3
+
+# Database
+# sqlite3 is built into Python
+
+# Date/Time handling  
+pytz>=2023.3
+
+# Mathematical operations
+scipy>=1.11.1
+
+# Logging and utilities
+python-dateutil>=2.8.2
+
+# API integrations
+urllib3>=1.26.16
+
+# JSON handling (built-in)
+# Math operations (built-in)
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Performance monitoring
+psutil>=5.9.5
+
+# Configuration management
+python-dotenv>=1.0.0
+
+# Web scraping (injury reports)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# HTTP client with retry logic
+requests-retry>=0.1.4
+
+# Better JSON serialization
+orjson>=3.9.2
+
+# Timezone handling
+tzlocal>=5.0.1
+
+# Data analysis (optional, for advanced analytics)
+scikit-learn>=1.3.0
+
+# Progress bars for long-running operations
+tqdm>=4.65.0
+
+# Caching (optional, for API response caching)
+diskcache>=5.6.1
+
+# Configuration validation
+pydantic>=2.0.3
+
+# Async support (for future parallel API calls)
+aiohttp>=3.8.5
+# asyncio is built into Python
+
+# Better error handling
+backoff>=2.2.1
+
+# Memory profiling (development only)
+memory-profiler>=0.61.0
+
+# Code formatting and linting (development only)
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.1
+
+# Documentation (optional)
+sphinx>=7.1.2
+sphinx-rtd-theme>=1.3.0

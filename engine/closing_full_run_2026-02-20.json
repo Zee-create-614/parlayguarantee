@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-20",
+  "started_at": "2026-02-20T18:29:35.471867",
+  "elapsed_seconds": 108.0,
+  "results": {
+    "closing_snapshot": "failed",
+    "moneyline_nba": "ok",
+    "moneyline_ncaab": "ok",
+    "player_props": "ok",
+    "sgp": "ok",
+    "clv_store": "ok"
+  },
+  "files_generated": [
+    "moneyline_parlays_2026-02-20.json",
+    "player_props_2026-02-20.json",
+    "sgp_picks_2026-02-20.json"
+  ]
+}

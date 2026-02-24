@@ -1,0 +1,153 @@
+INFO:__main__:Starting DFS backtesting...
+INFO:__main__:Date range: 2024-12-01 to 2025-01-15
+INFO:__main__:Total possible nights: 46
+INFO:__main__:Sampling 20 nights for faster testing
+INFO:__main__:Processing night 1/20: 2024-12-01
+INFO:__main__:Backtesting 2024-12-01...
+INFO:__main__:Found 10 games on 2024-12-01
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400305: 25 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400306: 28 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400307: 26 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400308: 25 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400309: 29 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400310: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400311: 24 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400312: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400313: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400314: 26 players
+INFO:__main__:Found 260 players for 2024-12-01
+INFO:__main__:Backtest complete for 2024-12-01
+INFO:__main__:Processing night 2/20: 2024-12-03
+INFO:__main__:Backtesting 2024-12-03...
+INFO:__main__:Found 11 games on 2024-12-03
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400050: 28 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400051: 25 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400052: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400053: 26 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400054: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400055: 24 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400056: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400057: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400058: 27 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400059: 28 players
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400060: 27 players
+INFO:__main__:Found 286 players for 2024-12-03
+INFO:__main__:Backtest complete for 2024-12-03
+INFO:__main__:Processing night 3/20: 2024-12-05
+INFO:__main__:Backtesting 2024-12-05...
+INFO:__main__:Found 8 games on 2024-12-05
+INFO:__main__:Available columns: ['gameId', 'teamId', 'teamCity', 'teamName', 'teamTricode', 'teamSlug', 'personId', 'firstName', 'familyName', 'nameI', 'playerSlug', 'position', 'comment', 'jerseyNum', 'minutes', 'fieldGoalsMade', 'fieldGoalsAttempted', 'fieldGoalsPercentage', 'threePointersMade', 'threePointersAttempted', 'threePointersPercentage', 'freeThrowsMade', 'freeThrowsAttempted', 'freeThrowsPercentage', 'reboundsOffensive', 'reboundsDefensive', 'reboundsTotal', 'assists', 'steals', 'blocks', 'turnovers', 'foulsPersonal', 'points', 'plusMinusPoints']
+INFO:__main__:Got box score for game 0022400325: 27 players
+WARNING:dfs_engine:Failed to get game log for player 1631212: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 1630192: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 1641790: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 201599: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 1629618: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 203967: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:dfs_engine:Failed to get game log for player 1641816: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400326: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400327: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400328: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400329: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400330: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400331: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+ERROR:__main__:Failed to get box score for game 0022400332: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+INFO:__main__:Found 20 players for 2024-12-05
+INFO:__main__:Backtest complete for 2024-12-05
+INFO:__main__:Processing night 4/20: 2024-12-07
+INFO:__main__:Backtesting 2024-12-07...
+ERROR:__main__:Failed to get games for 2024-12-07: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-07
+INFO:__main__:Processing night 5/20: 2024-12-09
+INFO:__main__:Backtesting 2024-12-09...
+ERROR:__main__:Failed to get games for 2024-12-09: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-09
+INFO:__main__:Progress: 5/20 nights completed. Success rate: 3/5
+INFO:__main__:Processing night 6/20: 2024-12-11
+INFO:__main__:Backtesting 2024-12-11...
+ERROR:__main__:Failed to get games for 2024-12-11: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-11
+INFO:__main__:Processing night 7/20: 2024-12-13
+INFO:__main__:Backtesting 2024-12-13...
+ERROR:__main__:Failed to get games for 2024-12-13: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-13
+INFO:__main__:Processing night 8/20: 2024-12-15
+INFO:__main__:Backtesting 2024-12-15...
+ERROR:__main__:Failed to get games for 2024-12-15: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-15
+INFO:__main__:Processing night 9/20: 2024-12-17
+INFO:__main__:Backtesting 2024-12-17...
+ERROR:__main__:Failed to get games for 2024-12-17: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-17
+INFO:__main__:Processing night 10/20: 2024-12-19
+INFO:__main__:Backtesting 2024-12-19...
+ERROR:__main__:Failed to get games for 2024-12-19: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-19
+INFO:__main__:Progress: 10/20 nights completed. Success rate: 3/10
+INFO:__main__:Intermediate results saved to dfs_backtest_intermediate_10.json
+INFO:__main__:Processing night 11/20: 2024-12-21
+INFO:__main__:Backtesting 2024-12-21...
+ERROR:__main__:Failed to get games for 2024-12-21: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-21
+INFO:__main__:Processing night 12/20: 2024-12-23
+INFO:__main__:Backtesting 2024-12-23...
+ERROR:__main__:Failed to get games for 2024-12-23: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-23
+INFO:__main__:Processing night 13/20: 2024-12-25
+INFO:__main__:Backtesting 2024-12-25...
+ERROR:__main__:Failed to get games for 2024-12-25: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-25
+INFO:__main__:Processing night 14/20: 2024-12-27
+INFO:__main__:Backtesting 2024-12-27...
+ERROR:__main__:Failed to get games for 2024-12-27: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-27
+INFO:__main__:Processing night 15/20: 2024-12-29
+INFO:__main__:Backtesting 2024-12-29...
+ERROR:__main__:Failed to get games for 2024-12-29: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-29
+INFO:__main__:Progress: 15/20 nights completed. Success rate: 3/15
+INFO:__main__:Processing night 16/20: 2024-12-31
+INFO:__main__:Backtesting 2024-12-31...
+ERROR:__main__:Failed to get games for 2024-12-31: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2024-12-31
+INFO:__main__:Processing night 17/20: 2025-01-02
+INFO:__main__:Backtesting 2025-01-02...
+ERROR:__main__:Failed to get games for 2025-01-02: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2025-01-02
+INFO:__main__:Processing night 18/20: 2025-01-04
+INFO:__main__:Backtesting 2025-01-04...
+ERROR:__main__:Failed to get games for 2025-01-04: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2025-01-04
+INFO:__main__:Processing night 19/20: 2025-01-06
+INFO:__main__:Backtesting 2025-01-06...
+ERROR:__main__:Failed to get games for 2025-01-06: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2025-01-06
+INFO:__main__:Processing night 20/20: 2025-01-08
+INFO:__main__:Backtesting 2025-01-08...
+ERROR:__main__:Failed to get games for 2025-01-08: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+WARNING:__main__:No games found for 2025-01-08
+INFO:__main__:Progress: 20/20 nights completed. Success rate: 3/20
+INFO:__main__:Intermediate results saved to dfs_backtest_intermediate_20.json
+INFO:__main__:Final results saved to dfs_backtest_results.json
+INFO:__main__:Backtesting complete!

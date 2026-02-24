@@ -1,0 +1,12 @@
+[
+  {"game_date": "2026-02-19", "home": "Cleveland Cavaliers", "away": "Brooklyn Nets", "pick": "Cleveland Cavaliers", "win_prob": 0.88, "spread": -15.8},
+  {"game_date": "2026-02-19", "home": "Sacramento Kings", "away": "Orlando Magic", "pick": "Orlando Magic", "win_prob": 0.75, "spread": 8.6},
+  {"game_date": "2026-02-19", "home": "San Antonio Spurs", "away": "Phoenix Suns", "pick": "San Antonio Spurs", "win_prob": 0.72, "spread": -8.1},
+  {"game_date": "2026-02-19", "home": "Chicago Bulls", "away": "Toronto Raptors", "pick": "Toronto Raptors", "win_prob": 0.67, "spread": 6.3},
+  {"game_date": "2026-02-19", "home": "Golden State Warriors", "away": "Boston Celtics", "pick": "Boston Celtics", "win_prob": 0.67, "spread": 5.8},
+  {"game_date": "2026-02-19", "home": "Charlotte Hornets", "away": "Houston Rockets", "pick": "Houston Rockets", "win_prob": 0.62, "spread": 4.4},
+  {"game_date": "2026-02-19", "home": "LA Clippers", "away": "Denver Nuggets", "pick": "Denver Nuggets", "win_prob": 0.62, "spread": 4.0},
+  {"game_date": "2026-02-19", "home": "New York Knicks", "away": "Detroit Pistons", "pick": "New York Knicks", "win_prob": 0.59, "spread": -3.6},
+  {"game_date": "2026-02-19", "home": "Washington Wizards", "away": "Indiana Pacers", "pick": "Indiana Pacers", "win_prob": 0.54, "spread": 2.1},
+  {"game_date": "2026-02-19", "home": "Philadelphia 76ers", "away": "Atlanta Hawks", "pick": "Philadelphia 76ers", "win_prob": 0.51, "spread": -1.2}
+]

@@ -1,0 +1,36 @@
+2026-02-20 16:57:57,395 INFO Soccer Engine: generating picks for 2026-02-20
+2026-02-20 16:57:58,582 INFO Odds API: 20 soccer_epl events (remaining: 169)
+2026-02-20 16:58:00,219 INFO Odds API: 20 soccer_spain_la_liga events (remaining: 163)
+2026-02-20 16:58:00,734 INFO La Liga: 2 games
+2026-02-20 16:58:00,850 INFO Odds API: 17 soccer_germany_bundesliga events (remaining: 157)
+2026-02-20 16:58:01,346 INFO Bundesliga: 1 games
+2026-02-20 16:58:01,462 INFO Odds API: 19 soccer_italy_serie_a events (remaining: 151)
+2026-02-20 16:58:01,990 INFO Serie A: 1 games
+2026-02-20 16:58:02,102 INFO Odds API: 17 soccer_france_ligue_one events (remaining: 145)
+2026-02-20 16:58:02,717 INFO Ligue 1: 1 games
+2026-02-20 16:58:02,841 INFO Odds API: 15 soccer_usa_mls events (remaining: 139)
+2026-02-20 16:58:03,471 INFO Odds API: 8 soccer_uefa_champs_league events (remaining: 133)
+2026-02-20 16:58:06,111 INFO Generated 5 soccer predictions
+2026-02-20 17:36:29,330 INFO Soccer Engine: generating picks for 2026-02-20
+2026-02-20 17:36:30,340 INFO Odds API: 20 soccer_epl events (remaining: 79)
+2026-02-20 17:36:31,893 INFO Odds API: 19 soccer_spain_la_liga events (remaining: 73)
+2026-02-20 17:36:32,474 INFO La Liga: 1 games
+2026-02-20 17:36:32,586 INFO Odds API: 17 soccer_germany_bundesliga events (remaining: 67)
+2026-02-20 17:36:33,072 INFO Bundesliga: 1 games
+2026-02-20 17:36:33,255 INFO Odds API: 19 soccer_italy_serie_a events (remaining: 61)
+2026-02-20 17:36:33,785 INFO Serie A: 1 games
+2026-02-20 17:36:33,910 INFO Odds API: 17 soccer_france_ligue_one events (remaining: 55)
+2026-02-20 17:36:34,441 INFO Ligue 1: 1 games
+2026-02-20 17:36:39,117 INFO Soccer Engine: generating picks for 2026-02-20
+2026-02-20 17:36:39,893 INFO Odds API: 20 soccer_epl events (remaining: 43)
+2026-02-20 17:36:40,018 INFO Odds API: 19 soccer_spain_la_liga events (remaining: 37)
+2026-02-20 17:36:40,018 INFO La Liga: 1 games
+2026-02-20 17:36:40,222 INFO Odds API: 17 soccer_germany_bundesliga events (remaining: 31)
+2026-02-20 17:36:40,224 INFO Bundesliga: 1 games
+2026-02-20 17:36:40,318 INFO Odds API: 19 soccer_italy_serie_a events (remaining: 25)
+2026-02-20 17:36:40,318 INFO Serie A: 1 games
+2026-02-20 17:36:40,418 INFO Odds API: 17 soccer_france_ligue_one events (remaining: 19)
+2026-02-20 17:36:40,418 INFO Ligue 1: 1 games
+2026-02-20 17:36:40,516 INFO Odds API: 15 soccer_usa_mls events (remaining: 13)
+2026-02-20 17:36:42,264 INFO Odds API: 8 soccer_uefa_champs_league events (remaining: 7)
+2026-02-20 17:36:42,820 INFO Generated 4 soccer predictions

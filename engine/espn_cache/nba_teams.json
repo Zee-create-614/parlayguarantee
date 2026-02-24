@@ -1,0 +1,542 @@
+{
+  "Atlanta Hawks": {
+    "id": "1",
+    "name": "Atlanta Hawks",
+    "short_name": "Hawks",
+    "abbreviation": "ATL"
+  },
+  "Hawks": {
+    "id": "1",
+    "name": "Atlanta Hawks",
+    "short_name": "Hawks",
+    "abbreviation": "ATL"
+  },
+  "ATL": {
+    "id": "1",
+    "name": "Atlanta Hawks",
+    "short_name": "Hawks",
+    "abbreviation": "ATL"
+  },
+  "Boston Celtics": {
+    "id": "2",
+    "name": "Boston Celtics",
+    "short_name": "Celtics",
+    "abbreviation": "BOS"
+  },
+  "Celtics": {
+    "id": "2",
+    "name": "Boston Celtics",
+    "short_name": "Celtics",
+    "abbreviation": "BOS"
+  },
+  "BOS": {
+    "id": "2",
+    "name": "Boston Celtics",
+    "short_name": "Celtics",
+    "abbreviation": "BOS"
+  },
+  "Brooklyn Nets": {
+    "id": "17",
+    "name": "Brooklyn Nets",
+    "short_name": "Nets",
+    "abbreviation": "BKN"
+  },
+  "Nets": {
+    "id": "17",
+    "name": "Brooklyn Nets",
+    "short_name": "Nets",
+    "abbreviation": "BKN"
+  },
+  "BKN": {
+    "id": "17",
+    "name": "Brooklyn Nets",
+    "short_name": "Nets",
+    "abbreviation": "BKN"
+  },
+  "Charlotte Hornets": {
+    "id": "30",
+    "name": "Charlotte Hornets",
+    "short_name": "Hornets",
+    "abbreviation": "CHA"
+  },
+  "Hornets": {
+    "id": "30",
+    "name": "Charlotte Hornets",
+    "short_name": "Hornets",
+    "abbreviation": "CHA"
+  },
+  "CHA": {
+    "id": "30",
+    "name": "Charlotte Hornets",
+    "short_name": "Hornets",
+    "abbreviation": "CHA"
+  },
+  "Chicago Bulls": {
+    "id": "4",
+    "name": "Chicago Bulls",
+    "short_name": "Bulls",
+    "abbreviation": "CHI"
+  },
+  "Bulls": {
+    "id": "4",
+    "name": "Chicago Bulls",
+    "short_name": "Bulls",
+    "abbreviation": "CHI"
+  },
+  "CHI": {
+    "id": "4",
+    "name": "Chicago Bulls",
+    "short_name": "Bulls",
+    "abbreviation": "CHI"
+  },
+  "Cleveland Cavaliers": {
+    "id": "5",
+    "name": "Cleveland Cavaliers",
+    "short_name": "Cavaliers",
+    "abbreviation": "CLE"
+  },
+  "Cavaliers": {
+    "id": "5",
+    "name": "Cleveland Cavaliers",
+    "short_name": "Cavaliers",
+    "abbreviation": "CLE"
+  },
+  "CLE": {
+    "id": "5",
+    "name": "Cleveland Cavaliers",
+    "short_name": "Cavaliers",
+    "abbreviation": "CLE"
+  },
+  "Dallas Mavericks": {
+    "id": "6",
+    "name": "Dallas Mavericks",
+    "short_name": "Mavericks",
+    "abbreviation": "DAL"
+  },
+  "Mavericks": {
+    "id": "6",
+    "name": "Dallas Mavericks",
+    "short_name": "Mavericks",
+    "abbreviation": "DAL"
+  },
+  "DAL": {
+    "id": "6",
+    "name": "Dallas Mavericks",
+    "short_name": "Mavericks",
+    "abbreviation": "DAL"
+  },
+  "Denver Nuggets": {
+    "id": "7",
+    "name": "Denver Nuggets",
+    "short_name": "Nuggets",
+    "abbreviation": "DEN"
+  },
+  "Nuggets": {
+    "id": "7",
+    "name": "Denver Nuggets",
+    "short_name": "Nuggets",
+    "abbreviation": "DEN"
+  },
+  "DEN": {
+    "id": "7",
+    "name": "Denver Nuggets",
+    "short_name": "Nuggets",
+    "abbreviation": "DEN"
+  },
+  "Detroit Pistons": {
+    "id": "8",
+    "name": "Detroit Pistons",
+    "short_name": "Pistons",
+    "abbreviation": "DET"
+  },
+  "Pistons": {
+    "id": "8",
+    "name": "Detroit Pistons",
+    "short_name": "Pistons",
+    "abbreviation": "DET"
+  },
+  "DET": {
+    "id": "8",
+    "name": "Detroit Pistons",
+    "short_name": "Pistons",
+    "abbreviation": "DET"
+  },
+  "Golden State Warriors": {
+    "id": "9",
+    "name": "Golden State Warriors",
+    "short_name": "Warriors",
+    "abbreviation": "GS"
+  },
+  "Warriors": {
+    "id": "9",
+    "name": "Golden State Warriors",
+    "short_name": "Warriors",
+    "abbreviation": "GS"
+  },
+  "GS": {
+    "id": "9",
+    "name": "Golden State Warriors",
+    "short_name": "Warriors",
+    "abbreviation": "GS"
+  },
+  "Houston Rockets": {
+    "id": "10",
+    "name": "Houston Rockets",
+    "short_name": "Rockets",
+    "abbreviation": "HOU"
+  },
+  "Rockets": {
+    "id": "10",
+    "name": "Houston Rockets",
+    "short_name": "Rockets",
+    "abbreviation": "HOU"
+  },
+  "HOU": {
+    "id": "10",
+    "name": "Houston Rockets",
+    "short_name": "Rockets",
+    "abbreviation": "HOU"
+  },
+  "Indiana Pacers": {
+    "id": "11",
+    "name": "Indiana Pacers",
+    "short_name": "Pacers",
+    "abbreviation": "IND"
+  },
+  "Pacers": {
+    "id": "11",
+    "name": "Indiana Pacers",
+    "short_name": "Pacers",
+    "abbreviation": "IND"
+  },
+  "IND": {
+    "id": "11",
+    "name": "Indiana Pacers",
+    "short_name": "Pacers",
+    "abbreviation": "IND"
+  },
+  "LA Clippers": {
+    "id": "12",
+    "name": "LA Clippers",
+    "short_name": "Clippers",
+    "abbreviation": "LAC"
+  },
+  "Clippers": {
+    "id": "12",
+    "name": "LA Clippers",
+    "short_name": "Clippers",
+    "abbreviation": "LAC"
+  },
+  "LAC": {
+    "id": "12",
+    "name": "LA Clippers",
+    "short_name": "Clippers",
+    "abbreviation": "LAC"
+  },
+  "Los Angeles Lakers": {
+    "id": "13",
+    "name": "Los Angeles Lakers",
+    "short_name": "Lakers",
+    "abbreviation": "LAL"
+  },
+  "Lakers": {
+    "id": "13",
+    "name": "Los Angeles Lakers",
+    "short_name": "Lakers",
+    "abbreviation": "LAL"
+  },
+  "LAL": {
+    "id": "13",
+    "name": "Los Angeles Lakers",
+    "short_name": "Lakers",
+    "abbreviation": "LAL"
+  },
+  "Memphis Grizzlies": {
+    "id": "29",
+    "name": "Memphis Grizzlies",
+    "short_name": "Grizzlies",
+    "abbreviation": "MEM"
+  },
+  "Grizzlies": {
+    "id": "29",
+    "name": "Memphis Grizzlies",
+    "short_name": "Grizzlies",
+    "abbreviation": "MEM"
+  },
+  "MEM": {
+    "id": "29",
+    "name": "Memphis Grizzlies",
+    "short_name": "Grizzlies",
+    "abbreviation": "MEM"
+  },
+  "Miami Heat": {
+    "id": "14",
+    "name": "Miami Heat",
+    "short_name": "Heat",
+    "abbreviation": "MIA"
+  },
+  "Heat": {
+    "id": "14",
+    "name": "Miami Heat",
+    "short_name": "Heat",
+    "abbreviation": "MIA"
+  },
+  "MIA": {
+    "id": "14",
+    "name": "Miami Heat",
+    "short_name": "Heat",
+    "abbreviation": "MIA"
+  },
+  "Milwaukee Bucks": {
+    "id": "15",
+    "name": "Milwaukee Bucks",
+    "short_name": "Bucks",
+    "abbreviation": "MIL"
+  },
+  "Bucks": {
+    "id": "15",
+    "name": "Milwaukee Bucks",
+    "short_name": "Bucks",
+    "abbreviation": "MIL"
+  },
+  "MIL": {
+    "id": "15",
+    "name": "Milwaukee Bucks",
+    "short_name": "Bucks",
+    "abbreviation": "MIL"
+  },
+  "Minnesota Timberwolves": {
+    "id": "16",
+    "name": "Minnesota Timberwolves",
+    "short_name": "Timberwolves",
+    "abbreviation": "MIN"
+  },
+  "Timberwolves": {
+    "id": "16",
+    "name": "Minnesota Timberwolves",
+    "short_name": "Timberwolves",
+    "abbreviation": "MIN"
+  },
+  "MIN": {
+    "id": "16",
+    "name": "Minnesota Timberwolves",
+    "short_name": "Timberwolves",
+    "abbreviation": "MIN"
+  },
+  "New Orleans Pelicans": {
+    "id": "3",
+    "name": "New Orleans Pelicans",
+    "short_name": "Pelicans",
+    "abbreviation": "NO"
+  },
+  "Pelicans": {
+    "id": "3",
+    "name": "New Orleans Pelicans",
+    "short_name": "Pelicans",
+    "abbreviation": "NO"
+  },
+  "NO": {
+    "id": "3",
+    "name": "New Orleans Pelicans",
+    "short_name": "Pelicans",
+    "abbreviation": "NO"
+  },
+  "New York Knicks": {
+    "id": "18",
+    "name": "New York Knicks",
+    "short_name": "Knicks",
+    "abbreviation": "NY"
+  },
+  "Knicks": {
+    "id": "18",
+    "name": "New York Knicks",
+    "short_name": "Knicks",
+    "abbreviation": "NY"
+  },
+  "NY": {
+    "id": "18",
+    "name": "New York Knicks",
+    "short_name": "Knicks",
+    "abbreviation": "NY"
+  },
+  "Oklahoma City Thunder": {
+    "id": "25",
+    "name": "Oklahoma City Thunder",
+    "short_name": "Thunder",
+    "abbreviation": "OKC"
+  },
+  "Thunder": {
+    "id": "25",
+    "name": "Oklahoma City Thunder",
+    "short_name": "Thunder",
+    "abbreviation": "OKC"
+  },
+  "OKC": {
+    "id": "25",
+    "name": "Oklahoma City Thunder",
+    "short_name": "Thunder",
+    "abbreviation": "OKC"
+  },
+  "Orlando Magic": {
+    "id": "19",
+    "name": "Orlando Magic",
+    "short_name": "Magic",
+    "abbreviation": "ORL"
+  },
+  "Magic": {
+    "id": "19",
+    "name": "Orlando Magic",
+    "short_name": "Magic",
+    "abbreviation": "ORL"
+  },
+  "ORL": {
+    "id": "19",
+    "name": "Orlando Magic",
+    "short_name": "Magic",
+    "abbreviation": "ORL"
+  },
+  "Philadelphia 76ers": {
+    "id": "20",
+    "name": "Philadelphia 76ers",
+    "short_name": "76ers",
+    "abbreviation": "PHI"
+  },
+  "76ers": {
+    "id": "20",
+    "name": "Philadelphia 76ers",
+    "short_name": "76ers",
+    "abbreviation": "PHI"
+  },
+  "PHI": {
+    "id": "20",
+    "name": "Philadelphia 76ers",
+    "short_name": "76ers",
+    "abbreviation": "PHI"
+  },
+  "Phoenix Suns": {
+    "id": "21",
+    "name": "Phoenix Suns",
+    "short_name": "Suns",
+    "abbreviation": "PHX"
+  },
+  "Suns": {
+    "id": "21",
+    "name": "Phoenix Suns",
+    "short_name": "Suns",
+    "abbreviation": "PHX"
+  },
+  "PHX": {
+    "id": "21",
+    "name": "Phoenix Suns",
+    "short_name": "Suns",
+    "abbreviation": "PHX"
+  },
+  "Portland Trail Blazers": {
+    "id": "22",
+    "name": "Portland Trail Blazers",
+    "short_name": "Trail Blazers",
+    "abbreviation": "POR"
+  },
+  "Trail Blazers": {
+    "id": "22",
+    "name": "Portland Trail Blazers",
+    "short_name": "Trail Blazers",
+    "abbreviation": "POR"
+  },
+  "POR": {
+    "id": "22",
+    "name": "Portland Trail Blazers",
+    "short_name": "Trail Blazers",
+    "abbreviation": "POR"
+  },
+  "Sacramento Kings": {
+    "id": "23",
+    "name": "Sacramento Kings",
+    "short_name": "Kings",
+    "abbreviation": "SAC"
+  },
+  "Kings": {
+    "id": "23",
+    "name": "Sacramento Kings",
+    "short_name": "Kings",
+    "abbreviation": "SAC"
+  },
+  "SAC": {
+    "id": "23",
+    "name": "Sacramento Kings",
+    "short_name": "Kings",
+    "abbreviation": "SAC"
+  },
+  "San Antonio Spurs": {
+    "id": "24",
+    "name": "San Antonio Spurs",
+    "short_name": "Spurs",
+    "abbreviation": "SA"
+  },
+  "Spurs": {
+    "id": "24",
+    "name": "San Antonio Spurs",
+    "short_name": "Spurs",
+    "abbreviation": "SA"
+  },
+  "SA": {
+    "id": "24",
+    "name": "San Antonio Spurs",
+    "short_name": "Spurs",
+    "abbreviation": "SA"
+  },
+  "Toronto Raptors": {
+    "id": "28",
+    "name": "Toronto Raptors",
+    "short_name": "Raptors",
+    "abbreviation": "TOR"
+  },
+  "Raptors": {
+    "id": "28",
+    "name": "Toronto Raptors",
+    "short_name": "Raptors",
+    "abbreviation": "TOR"
+  },
+  "TOR": {
+    "id": "28",
+    "name": "Toronto Raptors",
+    "short_name": "Raptors",
+    "abbreviation": "TOR"
+  },
+  "Utah Jazz": {
+    "id": "26",
+    "name": "Utah Jazz",
+    "short_name": "Jazz",
+    "abbreviation": "UTAH"
+  },
+  "Jazz": {
+    "id": "26",
+    "name": "Utah Jazz",
+    "short_name": "Jazz",
+    "abbreviation": "UTAH"
+  },
+  "UTAH": {
+    "id": "26",
+    "name": "Utah Jazz",
+    "short_name": "Jazz",
+    "abbreviation": "UTAH"
+  },
+  "Washington Wizards": {
+    "id": "27",
+    "name": "Washington Wizards",
+    "short_name": "Wizards",
+    "abbreviation": "WSH"
+  },
+  "Wizards": {
+    "id": "27",
+    "name": "Washington Wizards",
+    "short_name": "Wizards",
+    "abbreviation": "WSH"
+  },
+  "WSH": {
+    "id": "27",
+    "name": "Washington Wizards",
+    "short_name": "Wizards",
+    "abbreviation": "WSH"
+  }
+}

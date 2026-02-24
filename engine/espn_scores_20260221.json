@@ -1,0 +1,1186 @@
+[
+  {
+    "h": "Duke Blue Devils",
+    "a": "Michigan Wolverines",
+    "hs": 68,
+    "as": 63,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Houston Cougars",
+    "a": "Arizona Wildcats",
+    "hs": 66,
+    "as": 73,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Villanova Wildcats",
+    "a": "UConn Huskies",
+    "hs": 63,
+    "as": 73,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "BYU Cougars",
+    "a": "Iowa State Cyclones",
+    "hs": 79,
+    "as": 69,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Kansas Jayhawks",
+    "a": "Cincinnati Bearcats",
+    "hs": 68,
+    "as": 84,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Nebraska Cornhuskers",
+    "a": "Penn State Nittany Lions",
+    "hs": 87,
+    "as": 64,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UCLA Bruins",
+    "a": "Illinois Fighting Illini",
+    "hs": 95,
+    "as": 94,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Gonzaga Bulldogs",
+    "a": "Pacific Tigers",
+    "hs": 71,
+    "as": 62,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Ole Miss Rebels",
+    "a": "Florida Gators",
+    "hs": 75,
+    "as": 94,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Texas Tech Red Raiders",
+    "a": "Kansas State Wildcats",
+    "hs": 100,
+    "as": 72,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Virginia Cavaliers",
+    "a": "Miami Hurricanes",
+    "hs": 86,
+    "as": 83,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Syracuse Orange",
+    "a": "North Carolina Tar Heels",
+    "hs": 64,
+    "as": 77,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "St. John's Red Storm",
+    "a": "Creighton Bluejays",
+    "hs": 81,
+    "as": 52,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Vanderbilt Commodores",
+    "a": "Tennessee Volunteers",
+    "hs": 65,
+    "as": 69,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Arkansas Razorbacks",
+    "a": "Missouri Tigers",
+    "hs": 94,
+    "as": 86,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Louisville Cardinals",
+    "a": "Georgia Tech Yellow Jackets",
+    "hs": 87,
+    "as": 70,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "LSU Tigers",
+    "a": "Alabama Crimson Tide",
+    "hs": 83,
+    "as": 90,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Howard Bison",
+    "a": "North Carolina Central Eagles",
+    "hs": 100,
+    "as": 67,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Saint Joseph's Hawks",
+    "a": "Loyola Chicago Ramblers",
+    "hs": 75,
+    "as": 61,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Charlotte 49ers",
+    "a": "East Carolina Pirates",
+    "hs": 68,
+    "as": 56,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Minnesota Golden Gophers",
+    "a": "Rutgers Scarlet Knights",
+    "hs": 80,
+    "as": 61,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Virginia Tech Hokies",
+    "a": "Wake Forest Demon Deacons",
+    "hs": 82,
+    "as": 63,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Clemson Tigers",
+    "a": "Florida State Seminoles",
+    "hs": 65,
+    "as": 70,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "UMass Lowell River Hawks",
+    "a": "Binghamton Bearcats",
+    "hs": 92,
+    "as": 79,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UMBC Retrievers",
+    "a": "UAlbany Great Danes",
+    "hs": 66,
+    "as": 62,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "VMI Keydets",
+    "a": "Western Carolina Catamounts",
+    "hs": 62,
+    "as": 81,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "The Citadel Bulldogs",
+    "a": "Chattanooga Mocs",
+    "hs": 72,
+    "as": 93,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Louisiana Ragin' Cajuns",
+    "a": "Texas State Bobcats",
+    "hs": 67,
+    "as": 54,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Coastal Carolina Chanticleers",
+    "a": "Marshall Thundering Herd",
+    "hs": 79,
+    "as": 75,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "App State Mountaineers",
+    "a": "Georgia Southern Eagles",
+    "hs": 89,
+    "as": 74,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "South Carolina Gamecocks",
+    "a": "Mississippi State Bulldogs",
+    "hs": 97,
+    "as": 89,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Butler Bulldogs",
+    "a": "Xavier Musketeers",
+    "hs": 80,
+    "as": 75,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Army Black Knights",
+    "a": "Navy Midshipmen",
+    "hs": 63,
+    "as": 81,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Dayton Flyers",
+    "a": "Duquesne Dukes",
+    "hs": 78,
+    "as": 66,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Fordham Rams",
+    "a": "Davidson Wildcats",
+    "hs": 63,
+    "as": 59,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Pittsburgh Panthers",
+    "a": "Notre Dame Fighting Irish",
+    "hs": 73,
+    "as": 68,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Colgate Raiders",
+    "a": "Loyola Maryland Greyhounds",
+    "hs": 101,
+    "as": 98,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Columbia Lions",
+    "a": "Dartmouth Big Green",
+    "hs": 63,
+    "as": 64,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "North Dakota State Bison",
+    "a": "Kansas City Roos",
+    "hs": 95,
+    "as": 59,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Chicago State Cougars",
+    "a": "Central Connecticut Blue Devils",
+    "hs": 70,
+    "as": 51,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Cornell Big Red",
+    "a": "Harvard Crimson",
+    "hs": 54,
+    "as": 73,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Yale Bulldogs",
+    "a": "Pennsylvania Quakers",
+    "hs": 74,
+    "as": 70,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Saint Francis Red Flash",
+    "a": "Wagner Seahawks",
+    "hs": 56,
+    "as": 65,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Mercyhurst Lakers",
+    "a": "Long Island University Sharks",
+    "hs": 91,
+    "as": 83,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Stonehill Skyhawks",
+    "a": "Le Moyne Dolphins",
+    "hs": 77,
+    "as": 68,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Northeastern Huskies",
+    "a": "Hofstra Pride",
+    "hs": 68,
+    "as": 82,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Mercer Bears",
+    "a": "Samford Bulldogs",
+    "hs": 89,
+    "as": 86,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Florida Gulf Coast Eagles",
+    "a": "Central Arkansas Bears",
+    "hs": 75,
+    "as": 71,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Tennessee State Tigers",
+    "a": "SIU Edwardsville Cougars",
+    "hs": 80,
+    "as": 53,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Middle Tennessee Blue Raiders",
+    "a": "Delaware Blue Hens",
+    "hs": 78,
+    "as": 66,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "La Salle Explorers",
+    "a": "Rhode Island Rams",
+    "hs": 59,
+    "as": 46,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UIC Flames",
+    "a": "Valparaiso Beacons",
+    "hs": 67,
+    "as": 71,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Maryland Terrapins",
+    "a": "Washington Huskies",
+    "hs": 64,
+    "as": 60,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Air Force Falcons",
+    "a": "UNLV Rebels",
+    "hs": 66,
+    "as": 91,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "South Dakota State Jackrabbits",
+    "a": "North Dakota Fighting Hawks",
+    "hs": 91,
+    "as": 83,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Northern Illinois Huskies",
+    "a": "Ohio Bobcats",
+    "hs": 66,
+    "as": 74,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "UL Monroe Warhawks",
+    "a": "Arkansas State Red Wolves",
+    "hs": 94,
+    "as": 102,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Southern Miss Golden Eagles",
+    "a": "Old Dominion Monarchs",
+    "hs": 86,
+    "as": 81,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Queens University Royals",
+    "a": "West Georgia Wolves",
+    "hs": 91,
+    "as": 84,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UT Arlington Mavericks",
+    "a": "Utah Valley Wolverines",
+    "hs": 54,
+    "as": 66,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Florida International Panthers",
+    "a": "Missouri State Bears",
+    "hs": 70,
+    "as": 67,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Colorado Buffaloes",
+    "a": "Oklahoma State Cowboys",
+    "hs": 83,
+    "as": 69,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Georgia Bulldogs",
+    "a": "Texas Longhorns",
+    "hs": 91,
+    "as": 80,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Stetson Hatters",
+    "a": "North Florida Ospreys",
+    "hs": 76,
+    "as": 71,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Sam Houston Bearkats",
+    "a": "Jacksonville State Gamecocks",
+    "hs": 82,
+    "as": 78,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Georgia State Panthers",
+    "a": "James Madison Dukes",
+    "hs": 65,
+    "as": 80,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Murray State Racers",
+    "a": "Evansville Purple Aces",
+    "hs": 88,
+    "as": 75,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Norfolk State Spartans",
+    "a": "South Carolina State Bulldogs",
+    "hs": 90,
+    "as": 71,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Baylor Bears",
+    "a": "Arizona State Sun Devils",
+    "hs": 73,
+    "as": 68,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "USC Trojans",
+    "a": "Oregon Ducks",
+    "hs": 70,
+    "as": 71,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "High Point Panthers",
+    "a": "Winthrop Eagles",
+    "hs": 89,
+    "as": 87,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Charleston Southern Buccaneers",
+    "a": "Longwood Lancers",
+    "hs": 96,
+    "as": 107,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Boise State Broncos",
+    "a": "San José State Spartans",
+    "hs": 84,
+    "as": 69,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "SMU Mustangs",
+    "a": "Boston College Eagles",
+    "hs": 94,
+    "as": 70,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "New Hampshire Wildcats",
+    "a": "Maine Black Bears",
+    "hs": 58,
+    "as": 61,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Charleston Cougars",
+    "a": "Monmouth Hawks",
+    "hs": 74,
+    "as": 63,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Stony Brook Seawolves",
+    "a": "Hampton Pirates",
+    "hs": 79,
+    "as": 72,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Campbell Fighting Camels",
+    "a": "UNC Wilmington Seahawks",
+    "hs": 68,
+    "as": 73,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "UNC Greensboro Spartans",
+    "a": "East Tennessee State Buccaneers",
+    "hs": 75,
+    "as": 87,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "South Alabama Jaguars",
+    "a": "Troy Trojans",
+    "hs": 65,
+    "as": 54,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Little Rock Trojans",
+    "a": "Southeast Missouri State Redhawks",
+    "hs": 65,
+    "as": 70,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Tennessee Tech Golden Eagles",
+    "a": "Lindenwood Lions",
+    "hs": 72,
+    "as": 57,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Abilene Christian Wildcats",
+    "a": "Southern Utah Thunderbirds",
+    "hs": 87,
+    "as": 83,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Liberty Flames",
+    "a": "Western Kentucky Hilltoppers",
+    "hs": 73,
+    "as": 94,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "UNC Asheville Bulldogs",
+    "a": "Radford Highlanders",
+    "hs": 74,
+    "as": 73,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Coppin State Eagles",
+    "a": "Maryland Eastern Shore Hawks",
+    "hs": 71,
+    "as": 65,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "SE Louisiana Lions",
+    "a": "UT Rio Grande Valley Vaqueros",
+    "hs": 75,
+    "as": 96,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Northwestern State Demons",
+    "a": "Houston Christian Huskies",
+    "hs": 71,
+    "as": 53,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Western Illinois Leathernecks",
+    "a": "Morehead State Eagles",
+    "hs": 59,
+    "as": 81,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Eastern Illinois Panthers",
+    "a": "Southern Indiana Screaming Eagles",
+    "hs": 68,
+    "as": 70,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Alcorn State Braves",
+    "a": "Jackson State Tigers",
+    "hs": 83,
+    "as": 65,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Morgan State Bears",
+    "a": "Delaware State Hornets",
+    "hs": 82,
+    "as": 68,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "TCU Horned Frogs",
+    "a": "West Virginia Mountaineers",
+    "hs": 60,
+    "as": 54,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Central Michigan Chippewas",
+    "a": "Western Michigan Broncos",
+    "hs": 83,
+    "as": 70,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Toledo Rockets",
+    "a": "Eastern Michigan Eagles",
+    "hs": 94,
+    "as": 75,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UC Riverside Highlanders",
+    "a": "UC Davis Aggies",
+    "hs": 73,
+    "as": 78,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Portland State Vikings",
+    "a": "Eastern Washington Eagles",
+    "hs": 55,
+    "as": 67,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Tarleton State Texans",
+    "a": "Utah Tech Trailblazers",
+    "hs": 72,
+    "as": 80,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Kennesaw State Owls",
+    "a": "Louisiana Tech Bulldogs",
+    "hs": 58,
+    "as": 55,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "South Carolina Upstate Spartans",
+    "a": "Presbyterian Blue Hose",
+    "hs": 76,
+    "as": 74,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Bethune-Cookman Wildcats",
+    "a": "Alabama A&M Bulldogs",
+    "hs": 85,
+    "as": 76,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Lipscomb Bisons",
+    "a": "North Alabama Lions",
+    "hs": 73,
+    "as": 51,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Northern Iowa Panthers",
+    "a": "Southern Illinois Salukis",
+    "hs": 57,
+    "as": 59,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "San Diego Toreros",
+    "a": "Loyola Marymount Lions",
+    "hs": 65,
+    "as": 77,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Richmond Spiders",
+    "a": "St. Bonaventure Bonnies",
+    "hs": 99,
+    "as": 94,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Wichita State Shockers",
+    "a": "Temple Owls",
+    "hs": 69,
+    "as": 57,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Southern Jaguars",
+    "a": "Grambling Tigers",
+    "hs": 87,
+    "as": 73,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Colorado State Rams",
+    "a": "San Diego State Aztecs",
+    "hs": 83,
+    "as": 74,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "California Golden Bears",
+    "a": "Stanford Cardinal",
+    "hs": 72,
+    "as": 66,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Denver Pioneers",
+    "a": "St. Thomas-Minnesota Tommies",
+    "hs": 82,
+    "as": 80,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Massachusetts Minutemen",
+    "a": "Buffalo Bulls",
+    "hs": 82,
+    "as": 86,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Stephen F. Austin Lumberjacks",
+    "a": "Nicholls Colonels",
+    "hs": 81,
+    "as": 78,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "East Texas A&M Lions",
+    "a": "Incarnate Word Cardinals",
+    "hs": 73,
+    "as": 82,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Idaho State Bengals",
+    "a": "Montana State Bobcats",
+    "hs": 91,
+    "as": 76,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Seton Hall Pirates",
+    "a": "Georgetown Hoyas",
+    "hs": 51,
+    "as": 47,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Arkansas-Pine Bluff Golden Lions",
+    "a": "Prairie View A&M Panthers",
+    "hs": 84,
+    "as": 82,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Florida A&M Rattlers",
+    "a": "Alabama State Hornets",
+    "hs": 76,
+    "as": 63,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Fairleigh Dickinson Knights",
+    "a": "New Haven Chargers",
+    "hs": 77,
+    "as": 84,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "NJIT Highlanders",
+    "a": "Vermont Catamounts",
+    "hs": 64,
+    "as": 70,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Elon Phoenix",
+    "a": "North Carolina A&T Aggies",
+    "hs": 82,
+    "as": 102,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Wofford Terriers",
+    "a": "Furman Paladins",
+    "hs": 67,
+    "as": 76,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Lamar Cardinals",
+    "a": "New Orleans Privateers",
+    "hs": 71,
+    "as": 77,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Bellarmine Knights",
+    "a": "Eastern Kentucky Colonels",
+    "hs": 92,
+    "as": 95,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Jacksonville Dolphins",
+    "a": "Austin Peay Governors",
+    "hs": 61,
+    "as": 65,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Mississippi Valley State Delta Devils",
+    "a": "Texas Southern Tigers",
+    "hs": 72,
+    "as": 71,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Bradley Braves",
+    "a": "Illinois State Redbirds",
+    "hs": 74,
+    "as": 60,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Belmont Bruins",
+    "a": "Indiana State Sycamores",
+    "hs": 87,
+    "as": 70,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Oregon State Beavers",
+    "a": "Pepperdine Waves",
+    "hs": 83,
+    "as": 73,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Fresno State Bulldogs",
+    "a": "New Mexico Lobos",
+    "hs": 78,
+    "as": 80,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Grand Canyon Lopes",
+    "a": "Wyoming Cowboys",
+    "hs": 65,
+    "as": 70,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Oral Roberts Golden Eagles",
+    "a": "South Dakota Coyotes",
+    "hs": 67,
+    "as": 62,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "McNeese Cowboys",
+    "a": "Texas A&M-Corpus Christi Islanders",
+    "hs": 70,
+    "as": 54,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Northern Colorado Bears",
+    "a": "Northern Arizona Lumberjacks",
+    "hs": 78,
+    "as": 77,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "DePaul Blue Demons",
+    "a": "Providence Friars",
+    "hs": 68,
+    "as": 71,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Oklahoma Sooners",
+    "a": "Texas A&M Aggies",
+    "hs": 71,
+    "as": 75,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Auburn Tigers",
+    "a": "Kentucky Wildcats",
+    "hs": 75,
+    "as": 74,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Utah Utes",
+    "a": "UCF Knights",
+    "hs": 71,
+    "as": 73,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Long Beach State Beach",
+    "a": "Cal State Northridge Matadors",
+    "hs": 76,
+    "as": 78,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "New Mexico State Aggies",
+    "a": "UTEP Miners",
+    "hs": 67,
+    "as": 63,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Cal State Bakersfield Roadrunners",
+    "a": "Cal State Fullerton Titans",
+    "hs": 80,
+    "as": 88,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Weber State Wildcats",
+    "a": "Montana Grizzlies",
+    "hs": 92,
+    "as": 72,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Nevada Wolf Pack",
+    "a": "Utah State Aggies",
+    "hs": 80,
+    "as": 77,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "San Francisco Dons",
+    "a": "Santa Clara Broncos",
+    "hs": 73,
+    "as": 94,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Seattle U Redhawks",
+    "a": "Portland Pilots",
+    "hs": 71,
+    "as": 59,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "Hawai'i Rainbow Warriors",
+    "a": "UC Santa Barbara Gauchos",
+    "hs": 78,
+    "as": 75,
+    "hw": true,
+    "f": true
+  },
+  {
+    "h": "UC Irvine Anteaters",
+    "a": "UC San Diego Tritons",
+    "hs": 69,
+    "as": 71,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Sacramento State Hornets",
+    "a": "Idaho Vandals",
+    "hs": 80,
+    "as": 86,
+    "hw": false,
+    "f": true
+  },
+  {
+    "h": "Washington State Cougars",
+    "a": "Saint Mary's Gaels",
+    "hs": 67,
+    "as": 83,
+    "hw": false,
+    "f": true
+  }
+]

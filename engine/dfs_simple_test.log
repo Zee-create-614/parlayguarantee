@@ -1,0 +1,18 @@
+2026-02-16 06:59:37,953 - INFO - Building player pool for 2024-12-15
+2026-02-16 06:59:38,560 - DEBUG - Starting new HTTPS connection (1): stats.nba.com:443
+2026-02-16 06:59:39,622 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76001&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 297
+2026-02-16 06:59:40,460 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76002&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:41,287 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76003&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:42,139 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=51&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 293
+2026-02-16 06:59:43,012 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=1505&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 294
+2026-02-16 06:59:43,867 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=949&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 295
+2026-02-16 06:59:44,711 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76005&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:45,635 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76006&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:46,516 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76007&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:47,405 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=203518&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 297
+2026-02-16 06:59:48,118 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=1630173&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 1851
+2026-02-16 06:59:48,966 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=101165&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 298
+2026-02-16 06:59:49,799 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76008&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 296
+2026-02-16 06:59:50,685 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76009&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 297
+2026-02-16 06:59:51,609 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=76010&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 297
+2026-02-16 06:59:52,437 - DEBUG - https://stats.nba.com:443 "GET /stats/playergamelog?DateFrom=&DateTo=&LeagueID=00&PlayerID=203112&Season=2024-25&SeasonType=Regular+Season HTTP/1.1" 200 297

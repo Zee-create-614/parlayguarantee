@@ -1,0 +1,34 @@
+{
+  "draftkings": {
+    "nights_tested": 19,
+    "itm_nights": 18,
+    "itm_rate": "94.74%",
+    "avg_best_score": "320.6",
+    "worst_night_best": "248.5",
+    "best_single_score": "379.5",
+    "total_lineups": 95,
+    "strategy_hit_rates": {
+      "Greedy Points": "84.21%",
+      "Value Focus": "94.74%",
+      "Mixed 1": "5.26%",
+      "Mixed 2": "5.26%",
+      "Mixed 3": "5.26%"
+    }
+  },
+  "fanduel": {
+    "nights_tested": 19,
+    "itm_nights": 17,
+    "itm_rate": "89.47%",
+    "avg_best_score": "334.2",
+    "worst_night_best": "248.1",
+    "best_single_score": "405.7",
+    "total_lineups": 92,
+    "strategy_hit_rates": {
+      "Greedy Points": "63.16%",
+      "Value Focus": "89.47%",
+      "Mixed 1": "5.56%",
+      "Mixed 2": "5.56%",
+      "Mixed 3": "5.56%"
+    }
+  }
+}

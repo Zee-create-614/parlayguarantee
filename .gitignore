@@ -1,0 +1,62 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# media
+tiktok-videos/*.mp4
+tiktok-videos/*.mp3
+tiktok-videos/*.wav
+
+# engine heavy files
+engine/*.db
+engine/__pycache__/
+engine/archive/
+engine/data/
+engine/sim/
+engine/picks_*/
+*.db
+*.sqlite
+
+# All generated parlay/pick JSON files (100MB+)
+engine/*_parlays_*.json
+engine/all_parlays_*.json
+engine/all_spread_parlays_*.json
+engine/cross_sport_*.json
+engine/comparison_*.json
+engine/moneyline_parlays_*.json
+engine/ncaab_*.json
+engine/tonight_*.json
+engine/ultimate_*.json
+engine/*_pure*.json
+engine/*_mixed_*.json

@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-02-20T18:09:17.099400-05:00",
+  "date": "2026-02-20",
+  "odds_events": 0,
+  "scores_count": 9,
+  "pregame_picks_loaded": 10,
+  "odds": [],
+  "scores": [
+    {
+      "home_team": "Charlotte Hornets",
+      "away_team": "Cleveland Cavaliers",
+      "home_abbr": "CHA",
+      "away_abbr": "CLE",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Washington Wizards",
+      "away_team": "Indiana Pacers",
+      "home_abbr": "WSH",
+      "away_abbr": "IND",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Memphis Grizzlies",
+      "away_team": "Utah Jazz",
+      "home_abbr": "MEM",
+      "away_abbr": "UTAH",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Atlanta Hawks",
+      "away_team": "Miami Heat",
+      "home_abbr": "ATL",
+      "away_abbr": "MIA",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Dallas Mavericks",
+      "home_abbr": "MIN",
+      "away_abbr": "DAL",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Milwaukee Bucks",
+      "home_abbr": "NO",
+      "away_abbr": "MIL",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Oklahoma City Thunder",
+      "away_team": "Brooklyn Nets",
+      "home_abbr": "OKC",
+      "away_abbr": "BKN",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Los Angeles Lakers",
+      "away_team": "LA Clippers",
+      "home_abbr": "LAL",
+      "away_abbr": "LAC",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    },
+    {
+      "home_team": "Portland Trail Blazers",
+      "away_team": "Denver Nuggets",
+      "home_abbr": "POR",
+      "away_abbr": "DEN",
+      "home_score": 0,
+      "away_score": 0,
+      "period": 0,
+      "clock": "0.0",
+      "status": "STATUS_SCHEDULED"
+    }
+  ],
+  "value_alerts": [],
+  "dk_lines": {},
+  "pregame_picks": [
+    {
+      "pick": "Charlotte Hornets",
+      "home": "Charlotte Hornets",
+      "away": "Cleveland Cavaliers",
+      "win_prob": 0.521
+    },
+    {
+      "pick": "Utah Jazz",
+      "home": "Memphis Grizzlies",
+      "away": "Utah Jazz",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Indiana Pacers",
+      "home": "Washington Wizards",
+      "away": "Indiana Pacers",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Atlanta Hawks",
+      "home": "Atlanta Hawks",
+      "away": "Miami Heat",
+      "win_prob": 0.52
+    },
+    {
+      "pick": "Dallas Mavericks",
+      "home": "Minnesota Timberwolves",
+      "away": "Dallas Mavericks",
+      "win_prob": 0.554
+    },
+    {
+      "pick": "Brooklyn Nets",
+      "home": "Oklahoma City Thunder",
+      "away": "Brooklyn Nets",
+      "win_prob": 0.549
+    },
+    {
+      "pick": "Milwaukee Bucks",
+      "home": "New Orleans Pelicans",
+      "away": "Milwaukee Bucks",
+      "win_prob": 0.504
+    },
+    {
+      "pick": "Denver Nuggets",
+      "home": "Portland Trail Blazers",
+      "away": "Denver Nuggets",
+      "win_prob": 0.502
+    },
+    {
+      "pick": "Los Angeles Clippers",
+      "home": "Los Angeles Lakers",
+      "away": "Los Angeles Clippers",
+      "win_prob": 0.503
+    },
+    {
+      "pick": "Houston Rockets",
+      "home": "New York Knicks",
+      "away": "Houston Rockets",
+      "win_prob": 0.5
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+2026-02-23 07:00:04,156 [INFO] ======================================================================
+2026-02-23 07:00:04,156 [INFO] NBA UPSET COMPOSITE V2 — TUNING BACKTEST
+2026-02-23 07:00:04,156 [INFO] ======================================================================
+2026-02-23 07:00:04,156 [INFO] Date range: 2026-01-23 to 2026-02-22
+2026-02-23 07:00:06,018 [INFO]   Odds API 2026-01-23: 8 games, remaining=18174
+2026-02-23 07:00:07,689 [INFO]   ESPN scores 2026-01-23: 8 final games
+2026-02-23 07:00:09,183 [INFO]   Odds API 2026-01-24: 7 games, remaining=18154
+2026-02-23 07:00:09,906 [INFO]   ESPN scores 2026-01-24: 6 final games
+2026-02-23 07:00:11,358 [INFO]   Odds API 2026-01-25: 8 games, remaining=18134
+2026-02-23 07:00:12,115 [INFO]   ESPN scores 2026-01-25: 6 final games
+2026-02-23 07:00:14,937 [INFO]   Odds API 2026-01-26: 7 games, remaining=18114
+2026-02-23 07:00:15,810 [INFO]   ESPN scores 2026-01-26: 7 final games
+2026-02-23 07:00:17,378 [INFO]   Odds API 2026-01-27: 7 games, remaining=18094
+2026-02-23 07:00:18,176 [INFO]   ESPN scores 2026-01-27: 7 final games
+2026-02-23 07:00:19,764 [INFO]   Odds API 2026-01-28: 9 games, remaining=18074
+2026-02-23 07:00:20,706 [INFO]   ESPN scores 2026-01-28: 9 final games
+2026-02-23 07:00:22,220 [INFO]   Odds API 2026-01-29: 8 games, remaining=18054
+2026-02-23 07:00:22,940 [INFO]   ESPN scores 2026-01-29: 8 final games
+2026-02-23 07:00:24,555 [INFO]   Odds API 2026-01-30: 9 games, remaining=18034
+2026-02-23 07:00:25,282 [INFO]   ESPN scores 2026-01-30: 9 final games
+2026-02-23 07:00:26,776 [INFO]   Odds API 2026-01-31: 6 games, remaining=18014
+2026-02-23 07:00:27,471 [INFO]   ESPN scores 2026-01-31: 6 final games
+2026-02-23 07:00:29,075 [INFO]   Odds API 2026-02-01: 10 games, remaining=17994
+2026-02-23 07:00:29,950 [INFO]   ESPN scores 2026-02-01: 10 final games
+2026-02-23 07:00:31,454 [INFO]   Odds API 2026-02-02: 6 games, remaining=17974
+2026-02-23 07:00:32,316 [INFO]   ESPN scores 2026-02-02: 4 final games
+2026-02-23 07:00:33,878 [INFO]   Odds API 2026-02-03: 10 games, remaining=17954
+2026-02-23 07:00:34,815 [INFO]   ESPN scores 2026-02-03: 10 final games
+2026-02-23 07:00:36,236 [INFO]   Odds API 2026-02-04: 7 games, remaining=17934
+2026-02-23 07:00:36,871 [INFO]   ESPN scores 2026-02-04: 7 final games
+2026-02-23 07:00:38,482 [INFO]   Odds API 2026-02-05: 8 games, remaining=17914
+2026-02-23 07:00:39,141 [INFO]   ESPN scores 2026-02-05: 8 final games
+2026-02-23 07:00:40,716 [INFO]   Odds API 2026-02-06: 6 games, remaining=17894
+2026-02-23 07:00:41,310 [INFO]   ESPN scores 2026-02-06: 6 final games
+2026-02-23 07:00:42,871 [INFO]   Odds API 2026-02-07: 10 games, remaining=17874
+2026-02-23 07:00:43,478 [INFO]   ESPN scores 2026-02-07: 10 final games
+2026-02-23 07:00:44,880 [INFO]   Odds API 2026-02-08: 4 games, remaining=17854
+2026-02-23 07:00:45,585 [INFO]   ESPN scores 2026-02-08: 4 final games
+2026-02-23 07:00:47,105 [INFO]   Odds API 2026-02-09: 10 games, remaining=17834
+2026-02-23 07:00:48,113 [INFO]   ESPN scores 2026-02-09: 10 final games
+2026-02-23 07:00:49,658 [INFO]   Odds API 2026-02-10: 9 games, remaining=17814
+2026-02-23 07:00:50,320 [INFO]   ESPN scores 2026-02-10: 4 final games
+2026-02-23 07:00:51,946 [INFO]   Odds API 2026-02-11: 14 games, remaining=17794
+2026-02-23 07:00:52,783 [INFO]   ESPN scores 2026-02-11: 14 final games
+2026-02-23 07:00:54,067 [INFO]   Odds API 2026-02-12: 3 games, remaining=17774
+2026-02-23 07:00:54,688 [INFO]   ESPN scores 2026-02-12: 3 final games
+2026-02-23 07:00:55,939 [INFO]   Odds API 2026-02-13: 1 games, remaining=17754
+2026-02-23 07:00:56,567 [INFO]   ESPN scores 2026-02-13: 0 final games
+2026-02-23 07:00:57,891 [INFO]   Odds API 2026-02-14: 1 games, remaining=17734
+2026-02-23 07:00:58,578 [INFO]   ESPN scores 2026-02-14: 0 final games
+2026-02-23 07:00:59,819 [INFO]   Odds API 2026-02-15: 1 games, remaining=17714
+2026-02-23 07:01:00,682 [INFO]   ESPN scores 2026-02-15: 3 final games
+2026-02-23 07:01:02,149 [INFO]   Odds API 2026-02-16: 11 games, remaining=17694
+2026-02-23 07:01:02,827 [INFO]   ESPN scores 2026-02-16: 0 final games
+2026-02-23 07:01:04,348 [INFO]   Odds API 2026-02-17: 13 games, remaining=17674
+2026-02-23 07:01:04,939 [INFO]   ESPN scores 2026-02-17: 0 final games
+2026-02-23 07:01:06,556 [INFO]   Odds API 2026-02-18: 13 games, remaining=17654
+2026-02-23 07:01:07,264 [INFO]   ESPN scores 2026-02-18: 0 final games
+2026-02-23 07:01:08,915 [INFO]   Odds API 2026-02-19: 13 games, remaining=17634
+2026-02-23 07:01:09,633 [INFO]   ESPN scores 2026-02-19: 10 final games
+2026-02-23 07:01:11,229 [INFO]   Odds API 2026-02-20: 9 games, remaining=17614
+2026-02-23 07:01:11,916 [INFO]   ESPN scores 2026-02-20: 9 final games
+2026-02-23 07:01:13,372 [INFO]   Odds API 2026-02-21: 6 games, remaining=17594
+2026-02-23 07:01:14,137 [INFO]   ESPN scores 2026-02-21: 6 final games
+2026-02-23 07:01:15,699 [INFO]   Odds API 2026-02-22: 11 games, remaining=17574
+2026-02-23 07:01:16,471 [INFO]   ESPN scores 2026-02-22: 11 final games
+2026-02-23 07:01:16,980 [INFO] Cached 192 total games (+26 new dates)
+2026-02-23 07:01:16,980 [INFO] 
+Total matched games: 192
+2026-02-23 07:01:16,980 [INFO] Dogs that covered: 101/192 (52.6%)
+2026-02-23 07:01:17,864 [INFO] ✅ NBA standings loaded: 89 entries
+2026-02-23 07:01:17,864 [INFO] Standings loaded: 89 entries
+2026-02-23 07:01:17,864 [INFO] 
+======================================================================
+2026-02-23 07:01:17,864 [INFO] GRID SEARCH — 60 parameter combos
+2026-02-23 07:01:17,864 [INFO] ======================================================================
+2026-02-23 07:01:18,039 [INFO] 
+======================================================================
+2026-02-23 07:01:18,039 [INFO] TOP 10 PARAMETER COMBOS (min 5 flagged games)
+2026-02-23 07:01:18,039 [INFO] ======================================================================
+2026-02-23 07:01:18,039 [INFO] 
+#1: Precision=73.1% | ROI=+39.5% | Flagged=26/192 | Hits=19
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.3, form=0.25, splits=0.15 | Threshold=0.5
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1027 on 26 bets | Missed dogs: 82
+2026-02-23 07:01:18,039 [INFO] 
+#2: Precision=73.1% | ROI=+39.5% | Flagged=26/192 | Hits=19
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.35, form=0.25, splits=0.1 | Threshold=0.5
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1027 on 26 bets | Missed dogs: 82
+2026-02-23 07:01:18,039 [INFO] 
+#3: Precision=72.4% | ROI=+38.2% | Flagged=29/192 | Hits=21
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.25, form=0.3, splits=0.15 | Threshold=0.45
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1109 on 29 bets | Missed dogs: 80
+2026-02-23 07:01:18,039 [INFO] 
+#4: Precision=70.8% | ROI=+35.2% | Flagged=24/192 | Hits=17
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.25, form=0.3, splits=0.15 | Threshold=0.5
+2026-02-23 07:01:18,039 [INFO]   Profit: $+845 on 24 bets | Missed dogs: 84
+2026-02-23 07:01:18,039 [INFO] 
+#5: Precision=67.9% | ROI=+29.6% | Flagged=28/192 | Hits=19
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.35, form=0.2, splits=0.15 | Threshold=0.5
+2026-02-23 07:01:18,039 [INFO]   Profit: $+827 on 28 bets | Missed dogs: 82
+2026-02-23 07:01:18,039 [INFO] 
+#6: Precision=66.7% | ROI=+27.3% | Flagged=27/192 | Hits=18
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.3, form=0.2, splits=0.2 | Threshold=0.5
+2026-02-23 07:01:18,039 [INFO]   Profit: $+736 on 27 bets | Missed dogs: 83
+2026-02-23 07:01:18,039 [INFO] 
+#7: Precision=64.3% | ROI=+22.7% | Flagged=84/192 | Hits=54
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.4, form=0.2, splits=0.1 | Threshold=0.3
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1909 on 84 bets | Missed dogs: 47
+2026-02-23 07:01:18,039 [INFO] 
+#8: Precision=64.3% | ROI=+22.7% | Flagged=42/192 | Hits=27
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.3, form=0.25, splits=0.15 | Threshold=0.45
+2026-02-23 07:01:18,039 [INFO]   Profit: $+955 on 42 bets | Missed dogs: 74
+2026-02-23 07:01:18,039 [INFO] 
+#9: Precision=63.9% | ROI=+22.1% | Flagged=86/192 | Hits=55
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.45, form=0.15, splits=0.1 | Threshold=0.3
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1900 on 86 bets | Missed dogs: 46
+2026-02-23 07:01:18,039 [INFO] 
+#10: Precision=63.6% | ROI=+21.5% | Flagged=88/192 | Hits=56
+2026-02-23 07:01:18,039 [INFO]   Weights: disagree=0.5, form=0.1, splits=0.1 | Threshold=0.3
+2026-02-23 07:01:18,039 [INFO]   Profit: $+1891 on 88 bets | Missed dogs: 45
+2026-02-23 07:01:18,047 [INFO] 
+======================================================================
+2026-02-23 07:01:18,047 [INFO] CURRENT SETTINGS: Precision=62.0% | ROI=+18.4% | Flagged=79
+2026-02-23 07:01:18,047 [INFO] 
+======================================================================
+2026-02-23 07:01:18,047 [INFO] BEST COMBO — DETAILED PICKS
+2026-02-23 07:01:18,047 [INFO] ======================================================================
+2026-02-23 07:01:18,047 [INFO]   [+] New York Knicks +1.1 (composite=0.58) — HIT
+2026-02-23 07:01:18,048 [INFO]   [+] Cleveland Cavaliers +1.9 (composite=0.73) — HIT
+2026-02-23 07:01:18,048 [INFO]   [x] Boston Celtics +1.1 (composite=0.73) — MISS
+2026-02-23 07:01:18,048 [INFO]   [+] New York Knicks +1.5 (composite=0.58) — HIT
+2026-02-23 07:01:18,048 [INFO]   [+] San Antonio Spurs +2.6 (composite=0.67) — HIT
+2026-02-23 07:01:18,048 [INFO]   [x] Toronto Raptors +1.7 (composite=0.56) — MISS
+2026-02-23 07:01:18,049 [INFO]   [+] Detroit Pistons +2.5 (composite=0.67) — HIT
+2026-02-23 07:01:18,049 [INFO]   [x] Phoenix Suns +1.5 (composite=0.58) — MISS
+2026-02-23 07:01:18,049 [INFO]   [+] Philadelphia 76ers +2.0 (composite=0.56) — HIT
+2026-02-23 07:01:18,049 [INFO]   [+] Milwaukee Bucks +2.6 (composite=0.62) — HIT
+2026-02-23 07:01:18,049 [INFO]   [+] Philadelphia 76ers +3.2 (composite=0.57) — HIT
+2026-02-23 07:01:18,049 [INFO]   [x] Portland Trail Blazers +2.6 (composite=0.54) — MISS
+2026-02-23 07:01:18,050 [INFO]   [+] Boston Celtics +4.7 (composite=0.58) — HIT
+2026-02-23 07:01:18,050 [INFO]   [+] San Antonio Spurs +1.5 (composite=0.76) — HIT
+2026-02-23 07:01:18,050 [INFO]   [+] Memphis Grizzlies +1.0 (composite=0.51) — HIT
+2026-02-23 07:01:18,050 [INFO]   [+] Charlotte Hornets +3.7 (composite=0.53) — HIT
+2026-02-23 07:01:18,050 [INFO]   [+] Detroit Pistons +1.4 (composite=0.66) — HIT
+2026-02-23 07:01:18,050 [INFO]   [+] Philadelphia 76ers +1.5 (composite=0.63) — HIT
+2026-02-23 07:01:18,051 [INFO]   [+] Cleveland Cavaliers +0.5 (composite=0.73) — HIT
+2026-02-23 07:01:18,051 [INFO]   [+] New York Knicks +2.2 (composite=0.58) — HIT
+2026-02-23 07:01:18,051 [INFO]   [+] Miami Heat +1.1 (composite=0.58) — HIT
+2026-02-23 07:01:18,051 [INFO]   [+] Atlanta Hawks +1.2 (composite=0.51) — HIT
+2026-02-23 07:01:18,051 [INFO]   [x] Portland Trail Blazers +1.5 (composite=0.60) — MISS
+2026-02-23 07:01:18,051 [INFO]   [x] Orlando Magic +1.6 (composite=0.54) — MISS
+2026-02-23 07:01:18,051 [INFO]   [x] Phoenix Suns +3.5 (composite=0.53) — MISS
+2026-02-23 07:01:18,052 [INFO]   [+] Orlando Magic +2.3 (composite=0.54) — HIT
+2026-02-23 07:01:18,052 [INFO] 
+By composite score bucket:
+2026-02-23 07:01:18,052 [INFO]   Score 0.5: 11/16 hit (69%)
+2026-02-23 07:01:18,052 [INFO]   Score 0.6: 5/6 hit (83%)
+2026-02-23 07:01:18,052 [INFO]   Score 0.7: 3/4 hit (75%)
+2026-02-23 07:01:18,111 [INFO] 
+Results saved to backtest_upset_v2_tune_results.json

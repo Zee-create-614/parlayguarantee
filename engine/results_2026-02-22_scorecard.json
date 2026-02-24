@@ -1,0 +1,41 @@
+{
+  "date": "2026-02-22",
+  "scores_loaded": 376,
+  "straight": {
+    "correct": 0,
+    "incorrect": 1,
+    "no_score": 32,
+    "details": [
+      "\u274c  lost (Orlando Magic 111 - LA Clippers 109)"
+    ],
+    "total": 1,
+    "rate": 0.0
+  },
+  "spread": {
+    "correct": 0,
+    "incorrect": 1,
+    "push": 0,
+    "no_score": 32,
+    "details": [],
+    "total": 1,
+    "rate": 0.0
+  },
+  "ou": {
+    "correct": 1,
+    "incorrect": 0,
+    "push": 0,
+    "no_score": 0,
+    "details": [],
+    "total": 1,
+    "rate": 1.0
+  },
+  "ml_results": {
+    "correct": 0,
+    "incorrect": 0,
+    "no_score": 1,
+    "details": [],
+    "total": 0,
+    "rate": 0
+  },
+  "ml_tier_results": {}
+}

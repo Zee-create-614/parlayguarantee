@@ -1,0 +1,1198 @@
+[
+  {
+    "sportId": "australianrules",
+    "name": "Australian Rules",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "677fc75a-19e8-4c23-97ea-e04c0acdb65f",
+        "name": "AFL",
+        "collectionName": "Other",
+        "collectionDisplayOrder": 2147483647,
+        "displayOrder": 2147483647,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 15
+  },
+  {
+    "sportId": "motorsport",
+    "name": "Auto",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "5a83bd2b-3338-4893-b471-d139b39e923b",
+        "name": "NASCAR Autotrader 400",
+        "collectionName": "NASCAR",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 55,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "a0c53471-631b-4731-b712-0d909a385f99",
+        "name": "NASCAR Cup Series Championship",
+        "collectionName": "NASCAR",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 62,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "5b477fae-7688-4936-b653-823fae748fb3",
+        "name": "Australian F1 Grand Prix",
+        "collectionName": "Formula 1",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 12,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "03556f4b-ce72-47c1-8899-785f9cb01a68",
+        "name": "Las Vegas F1 Grand Prix",
+        "collectionName": "Formula 1",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 23,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "79b3567a-c9b7-4ba8-ac72-4b4580357bda",
+        "name": "Formula 1",
+        "collectionName": "Formula 1",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 26,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "469b963a-623d-49db-82a4-288cd938cc22",
+        "name": "CRAFTSMAN Fr8 208",
+        "collectionName": "Truck Series",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 29,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "684ee499-79d9-470d-acd2-1218c64c1138",
+        "name": "O'REILLY AUTO PARTS Bennett 250",
+        "collectionName": "O' Reilly Auto Parts Series",
+        "collectionDisplayOrder": 5,
+        "displayOrder": 0,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "30ee0689-bc68-44c7-bc9a-316697e6b3ff",
+        "name": "INDYCAR Indianapolis 500",
+        "collectionName": "IndyCar",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 3,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "a54f958f-7ee9-4915-b912-e46ecdf85a30",
+        "name": "INDYCAR Championship",
+        "collectionName": "IndyCar",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 14,
+        "displayAsEvent": true,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 4
+  },
+  {
+    "sportId": "baseball",
+    "name": "Baseball",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "04f90892-3afa-4e84-acce-5b89f151063d",
+        "name": "MLB",
+        "collectionName": "MLB",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "f54222e9-678a-4738-93dd-e8a9ee36b36f",
+        "name": "College Baseball",
+        "collectionName": "College Baseball",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "d5c121ac-489b-4f7d-845b-3157f60fae52",
+        "name": "World Baseball Classic",
+        "collectionName": "World Baseball Classic",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 0,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 9
+  },
+  {
+    "sportId": "basketball",
+    "name": "Basketball",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "5806c896-4eec-4de1-874f-afed93114b8c",
+        "name": "NBA",
+        "collectionName": "NBA",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "d246a1dd-72bf-45d1-bc86-efc519fa8e90",
+        "name": "NCAAM",
+        "collectionName": "NCAAM",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "2f09984a-0d36-4326-b6c1-7903df16fa79",
+        "name": "EuroLeague",
+        "collectionName": "Club Competitions",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "e95700bc-4ed2-466c-bc32-b584530ea563",
+        "name": "NCAAW",
+        "collectionName": "NCAAW",
+        "collectionDisplayOrder": 3,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "fa3dd530-9699-4731-8ff2-6b3df29ae403",
+        "name": "WNBA",
+        "collectionName": "WNBA",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "330851c7-a005-4f1c-8148-c3404da0ade3",
+        "name": "Unrivaled",
+        "collectionName": "WNBA",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 2,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 0
+  },
+  {
+    "sportId": "boxing",
+    "name": "Boxing",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "607094e0-fce3-4fae-a357-53fc5c8fc135",
+        "name": "Welterweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "b0c4fe78-4cc6-41f6-ad7d-b60e21f1324c",
+        "name": "Heavyweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "e418c305-a1a3-4c39-b668-d70492e8893f",
+        "name": "Light Heavyweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "4e6b556a-bef7-470f-b760-3bda0dc31946",
+        "name": "Super Middleweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 5,
+        "events": []
+      },
+      {
+        "id": "708eb093-50b1-4389-aa02-49e0d31eeb53",
+        "name": "Featherweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 6,
+        "events": []
+      },
+      {
+        "id": "f682d417-ab8d-4de6-b0be-59c9b120eba3",
+        "name": "Super Lightweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 7,
+        "events": []
+      },
+      {
+        "id": "1c31abb0-7a2f-4e76-8d09-c9a4d701e0bf",
+        "name": "Super Featherweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 9,
+        "events": []
+      },
+      {
+        "id": "f2f345f4-a156-4ebf-b361-a914e16856a1",
+        "name": "Super Welterweight",
+        "collectionName": "Weight Class",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 12,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 12
+  },
+  {
+    "sportId": "cricket",
+    "name": "Cricket",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "c98a166d-2df8-4b1b-867c-242286dba907",
+        "name": "Indian Premier League",
+        "collectionName": "IPL",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "e11b7519-2bef-42f2-bfeb-0b6656610786",
+        "name": "Women's One Day Internationals",
+        "collectionName": "One Day Internationals",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "7dac0f6a-fa4c-4444-8d67-dc89d9e77127",
+        "name": "ICC Twenty20 World Cup",
+        "collectionName": "ICC",
+        "collectionDisplayOrder": 5,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "9e465a29-44b4-4375-9055-44c721bca915",
+        "name": "ICC Cricket World Cup",
+        "collectionName": "Other",
+        "collectionDisplayOrder": 2147483647,
+        "displayOrder": 2147483647,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 16
+  },
+  {
+    "sportId": "cycling",
+    "name": "Cycling",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "33b2fa5b-fcd4-4dab-8856-55ddcdca9a1b",
+        "name": "Tour de France",
+        "collectionName": "Tour de France",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "displayAsEvent": true,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 18
+  },
+  {
+    "sportId": "americanfootball",
+    "name": "Football",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "007d7c61-07a7-4e18-bb40-15104b6eac92",
+        "name": "NFL",
+        "collectionName": "NFL",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "b7eda1b3-0170-4510-9616-1bce561d7aa7",
+        "name": "NCAAF",
+        "collectionName": "College Football",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "6194f275-981a-4070-b522-136908c596ad",
+        "name": "CFL",
+        "collectionName": "CFL",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 0,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 10
+  },
+  {
+    "sportId": "golf",
+    "name": "Golf",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "2c96c2fd-3b76-41ac-8960-94db10ba6156",
+        "name": "The Genesis Invitational",
+        "collectionName": "PGA Tour",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 8,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "db1fb62c-930e-4c7b-8b63-bbf67d182059",
+        "name": "The PLAYERS Championship 2026",
+        "collectionName": "PGA Tour",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 50,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "62b04df7-6176-402b-ba68-49b28a36023a",
+        "name": "FedExCup",
+        "collectionName": "PGA Tour",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 51,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "180e1430-fb55-4335-b572-bbc694f228af",
+        "name": "LIV Golf Hong Kong",
+        "collectionName": "LIV Golf",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 3,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "9adae11e-eb99-4da3-81cd-24dad77dafec",
+        "name": "Magical Kenya Open",
+        "collectionName": "DP World Tour",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 9,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "1bbd08e4-111c-46bc-86a0-4f1b61583fb7",
+        "name": "TGL",
+        "collectionName": "TGL",
+        "collectionDisplayOrder": 3,
+        "displayOrder": 0,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "89b4b637-ea09-4118-b624-4b5e174de904",
+        "name": "Honda LPGA Thailand",
+        "collectionName": "LPGA Tour",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 2,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "45dc215f-66fa-48b8-ade2-494f9657bce5",
+        "name": "CME Group Tour Championship",
+        "collectionName": "LPGA Tour",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 30,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "3d36d01b-7884-4e7e-b221-f4d1efd3a0a7",
+        "name": "The Masters 2026",
+        "collectionName": "Majors",
+        "collectionDisplayOrder": 15,
+        "displayOrder": 4,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "fe8cfe9e-bfda-415e-b7f7-23d393e4076c",
+        "name": "PGA Championship 2026",
+        "collectionName": "Majors",
+        "collectionDisplayOrder": 15,
+        "displayOrder": 5,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "e5712569-8e1c-49bf-a4e1-61c1a34afbee",
+        "name": "US Open 2026",
+        "collectionName": "Majors",
+        "collectionDisplayOrder": 15,
+        "displayOrder": 6,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "74d0318b-49b4-4c92-861b-d66e67637e0e",
+        "name": "Open Championship 2026",
+        "collectionName": "Majors",
+        "collectionDisplayOrder": 15,
+        "displayOrder": 7,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "c4c55236-6b33-492f-bd52-58f5a50dd308",
+        "name": "Major Specials",
+        "collectionName": "Majors",
+        "collectionDisplayOrder": 15,
+        "displayOrder": 9,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "7001f330-e7ff-4ae4-8a75-c8c7a69d0317",
+        "name": "Solheim Cup 2026",
+        "collectionName": "International",
+        "collectionDisplayOrder": 16,
+        "displayOrder": 1,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "38e9ae88-b285-466d-ac02-cd96cba43ac9",
+        "name": "Presidents Cup 2026",
+        "collectionName": "International",
+        "collectionDisplayOrder": 16,
+        "displayOrder": 2,
+        "displayAsEvent": true,
+        "events": []
+      },
+      {
+        "id": "4c188edb-456f-4b49-8be5-acf577c023bb",
+        "name": "Ryder Cup 2027",
+        "collectionName": "International",
+        "collectionDisplayOrder": 16,
+        "displayOrder": 3,
+        "displayAsEvent": true,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 6
+  },
+  {
+    "sportId": "icehockey",
+    "name": "Hockey",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "a29f443e-53ed-4c22-9766-978bccc6ac00",
+        "name": "Winter Olympics Men's Hockey",
+        "collectionName": "Olympics",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "b7b715a9-c7e8-4c47-af0a-77385b525e09",
+        "name": "NHL",
+        "collectionName": "NHL",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "00152ec2-c606-4656-bda2-ac7cdccdaf93",
+        "name": "World Championship",
+        "collectionName": "International",
+        "collectionDisplayOrder": 3,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "8b16f227-9840-4a42-bc2a-55d84da1371d",
+        "name": "Swedish Hockey League",
+        "collectionName": "Europe",
+        "collectionDisplayOrder": 5,
+        "displayOrder": 5,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 2
+  },
+  {
+    "sportId": "lacrosse",
+    "name": "Lacrosse",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "ddfc6382-8dde-4efa-99bc-8f823fa1623e",
+        "name": "NCAA Lacrosse",
+        "collectionName": "College Lacrosse",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "ca9bdfa4-0efe-4327-b6e3-4d72f3f12543",
+        "name": "PLL Championship Series",
+        "collectionName": "Premier Lacrosse League",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 1,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 14
+  },
+  {
+    "sportId": "olympics",
+    "name": "Olympics",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "175226b9-afe6-4fc3-863a-3ebd357867b8",
+        "name": "Biathlon",
+        "collectionName": "Winter Olympics",
+        "collectionDisplayOrder": 43,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "ae7b1c2d-cccb-4778-9cb7-09d563770bc9",
+        "name": "Bobsleigh",
+        "collectionName": "Winter Olympics",
+        "collectionDisplayOrder": 43,
+        "displayOrder": 3,
+        "events": []
+      },
+      {
+        "id": "790c88f7-0438-4c27-aa65-312e68aabe83",
+        "name": "Curling",
+        "collectionName": "Winter Olympics",
+        "collectionDisplayOrder": 43,
+        "displayOrder": 5,
+        "events": []
+      },
+      {
+        "id": "3351493a-16a1-41b2-ad93-8b2dea995dea",
+        "name": "Freestyle Skiing",
+        "collectionName": "Winter Olympics",
+        "collectionDisplayOrder": 43,
+        "displayOrder": 7,
+        "events": []
+      },
+      {
+        "id": "781f3520-a08b-4323-88a5-cd5815d78d8b",
+        "name": "Speed Skating",
+        "collectionName": "Winter Olympics",
+        "collectionDisplayOrder": 43,
+        "displayOrder": 15,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 11
+  },
+  {
+    "sportId": "rugbyleague",
+    "name": "Rugby League",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "8c3172af-cc9c-463e-964b-3fd914b08805",
+        "name": "World Cup",
+        "collectionName": "Other",
+        "collectionDisplayOrder": 2147483647,
+        "displayOrder": 2147483647,
+        "events": []
+      },
+      {
+        "id": "df4353f2-7f68-4110-86cd-003395e521e2",
+        "name": "State of Origin",
+        "collectionName": "Other",
+        "collectionDisplayOrder": 2147483647,
+        "displayOrder": 2147483647,
+        "events": []
+      },
+      {
+        "id": "70b77742-e47d-43e8-8e61-060ce585596b",
+        "name": "NRL",
+        "collectionName": "Other",
+        "collectionDisplayOrder": 2147483647,
+        "displayOrder": 2147483647,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 19
+  },
+  {
+    "sportId": "rugbyunion",
+    "name": "Rugby Union",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "fcf29487-6ecf-4b9d-bc09-c6bc6165b79a",
+        "name": "Rugby World Cup",
+        "collectionName": "World Cup",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 1,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 20
+  },
+  {
+    "sportId": "football",
+    "name": "Soccer",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "00200de2-37f3-4339-9e3d-9bf8cb5eb34b",
+        "name": "English Premier League",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "2f0e0793-6d42-4711-95bf-e62aeb995c9f",
+        "name": "English League Cup",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "92f88f90-bdbd-4bb7-a729-aaa3c45abecb",
+        "name": "English FA Cup",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "3d2884b2-a584-4790-8170-7d7b44bf96d8",
+        "name": "English Championship",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 4,
+        "events": []
+      },
+      {
+        "id": "96883fac-9fb5-45e6-a066-b25717b7b841",
+        "name": "English League One",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 6,
+        "events": []
+      },
+      {
+        "id": "0d13d1a9-02eb-4a50-ae75-730725688beb",
+        "name": "English League Two",
+        "collectionName": "England",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 8,
+        "events": []
+      },
+      {
+        "id": "3b0cbb27-7923-47a9-8117-bcec252162d2",
+        "name": "Spanish La Liga Primera",
+        "collectionName": "Spain",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "e36a8c54-4451-418e-9842-118d8523a421",
+        "name": "Italian Serie A",
+        "collectionName": "Italy",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "63bca1e5-8d8c-4e5a-a64c-625c8a13c9a5",
+        "name": "Coppa Italia",
+        "collectionName": "Italy",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "5cda9342-5f65-4483-af53-4a7b786832e2",
+        "name": "German Bundesliga",
+        "collectionName": "Germany",
+        "collectionDisplayOrder": 3,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "c06e1f2d-c704-47f7-9949-63c536db2b7d",
+        "name": "French Ligue 1",
+        "collectionName": "France",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "51ad2d73-982e-4dd0-ae99-f786cd5bd7d5",
+        "name": "MLS",
+        "collectionName": "United States",
+        "collectionDisplayOrder": 5,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "9749ba20-1aa4-4f10-8014-af726d2c6fc5",
+        "name": "UEFA Champions League",
+        "collectionName": "UEFA Club Competitions",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "d06753e0-2b1f-4863-b55d-6c3ab9d59a36",
+        "name": "UEFA Europa League",
+        "collectionName": "UEFA Club Competitions",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 3,
+        "events": []
+      },
+      {
+        "id": "6159b4f3-ea0d-493b-9c6f-428aaa425fed",
+        "name": "UEFA Conference League",
+        "collectionName": "UEFA Club Competitions",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 5,
+        "events": []
+      },
+      {
+        "id": "35517176-f8db-42c5-9e31-7952269da3f1",
+        "name": "FIFA World Cup",
+        "collectionName": "FIFA World Cup",
+        "collectionDisplayOrder": 7,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "d8942ab9-6b0f-4197-9582-0b285a37c297",
+        "name": "UEFA World Cup Qualifying",
+        "collectionName": "International",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 9,
+        "events": []
+      },
+      {
+        "id": "df4eecb1-d606-4aa9-aed1-22ae4b0a1640",
+        "name": "FIFA World Cup - Qualifying - Inter-Confederation Playoffs",
+        "collectionName": "International",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 41,
+        "events": []
+      },
+      {
+        "id": "dc89bf75-e500-40a7-991e-28b97644bf34",
+        "name": "Greek Super League",
+        "collectionName": "European Leagues",
+        "collectionDisplayOrder": 10,
+        "displayOrder": 54,
+        "events": []
+      },
+      {
+        "id": "408fb992-b07b-41bf-86de-7b76e716cb73",
+        "name": "Portuguese Primeira Liga",
+        "collectionName": "European Leagues",
+        "collectionDisplayOrder": 10,
+        "displayOrder": 94,
+        "events": []
+      },
+      {
+        "id": "82683a82-6c67-4b96-b403-b6948c5e23a0",
+        "name": "Mexican Liga MX",
+        "collectionName": "Mexico",
+        "collectionDisplayOrder": 11,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "87a57a4d-9c12-42aa-a335-59c4dbe49385",
+        "name": "CONCACAF Champions Cup",
+        "collectionName": "North America",
+        "collectionDisplayOrder": 12,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "7653be97-2801-4e67-a712-3206af46b231",
+        "name": "Japanese J-League",
+        "collectionName": "Asia",
+        "collectionDisplayOrder": 14,
+        "displayOrder": 22,
+        "events": []
+      },
+      {
+        "id": "a3d378ca-0f71-4458-a616-0a63f12ae3fd",
+        "name": "Saudi Arabia - Pro League",
+        "collectionName": "Asia",
+        "collectionDisplayOrder": 14,
+        "displayOrder": 43,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 3
+  },
+  {
+    "sportId": "softball",
+    "name": "Softball",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "75707564-c68e-49b6-97dd-bd815d32dd5b",
+        "name": "NCAA Softball",
+        "collectionName": "College Softball",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": false,
+    "displayOrder": 2147483647
+  },
+  {
+    "sportId": "tennis",
+    "name": "Tennis",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "57d75649-ad42-4552-aad4-64e4bea1edd8",
+        "name": "Men's French Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "e3772b50-42a3-4fe8-9232-f5085aeb8083",
+        "name": "Women's French Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "4ab7fdad-e517-4160-8b2a-26524d3900a5",
+        "name": "Men's Wimbledon",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 13,
+        "events": []
+      },
+      {
+        "id": "9465fc22-80fd-4bba-ae65-32556a364e7b",
+        "name": "Women's Wimbledon",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 14,
+        "events": []
+      },
+      {
+        "id": "844fa100-d130-401f-9a36-ce0a489abcd4",
+        "name": "Men's US Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 18,
+        "events": []
+      },
+      {
+        "id": "9d3dd283-28ca-4e9d-aab6-c9e77e5d2395",
+        "name": "Women's US Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 22,
+        "events": []
+      },
+      {
+        "id": "bf52f1b4-1561-4ae2-9403-96b6a5d136bb",
+        "name": "Men's Australian Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 30,
+        "events": []
+      },
+      {
+        "id": "d0e0bcc5-5e7a-4541-a0c8-deb8b403f471",
+        "name": "Women's Australian Open",
+        "collectionName": "Grand Slams",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 31,
+        "events": []
+      },
+      {
+        "id": "7bddc881-e354-4b9e-a7ac-47bbcc8a7113",
+        "name": "ATP Delray Beach",
+        "collectionName": "ATP",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 7,
+        "events": []
+      },
+      {
+        "id": "03f84d9e-6745-43d2-844d-8f0fb9f1ea7d",
+        "name": "ATP Doha",
+        "collectionName": "ATP",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 9,
+        "events": []
+      },
+      {
+        "id": "789d1d9b-612a-4728-bf8b-94c254cd04cb",
+        "name": "ATP Rio de Janeiro",
+        "collectionName": "ATP",
+        "collectionDisplayOrder": 1,
+        "displayOrder": 10,
+        "events": []
+      },
+      {
+        "id": "a443d92b-93e6-4af0-9181-97436db2a9cc",
+        "name": "WTA Dubai",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 9,
+        "events": []
+      },
+      {
+        "id": "3f89424b-ea35-4ded-8414-a75b23c907b7",
+        "name": "WTA Merida",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 10,
+        "events": []
+      },
+      {
+        "id": "52548f60-ce20-445e-83d7-55a16b94a46e",
+        "name": "WTA Austin",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 11,
+        "events": []
+      },
+      {
+        "id": "365c1bab-f0a4-47cb-943c-f55e2c2698ca",
+        "name": "WTA Midland",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 85,
+        "events": []
+      },
+      {
+        "id": "fbe3006a-323c-4378-9cd6-94c4a223db22",
+        "name": "WTA Les Sables D'Olonne",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 157,
+        "events": []
+      },
+      {
+        "id": "e8b7795f-a9ed-473d-9994-0cd2f5354d8c",
+        "name": "WTA Oeiras 2",
+        "collectionName": "WTA",
+        "collectionDisplayOrder": 2,
+        "displayOrder": 158,
+        "events": []
+      },
+      {
+        "id": "ce0ef148-6ff5-40af-975c-9fb01170643d",
+        "name": "ATP Challenger Lille",
+        "collectionName": "Challenger",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 23,
+        "events": []
+      },
+      {
+        "id": "ae40021e-4594-4ebe-9710-383920e7b504",
+        "name": "ATP Challenger Metepec",
+        "collectionName": "Challenger",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 241,
+        "events": []
+      },
+      {
+        "id": "723e312a-2a7f-492b-bd29-9190bc7a8202",
+        "name": "ATP Challenger Tigre",
+        "collectionName": "Challenger",
+        "collectionDisplayOrder": 4,
+        "displayOrder": 242,
+        "events": []
+      },
+      {
+        "id": "4f6b6255-9bac-42a8-b2d0-780d00f810b9",
+        "name": "ATP Santiago Qualifying",
+        "collectionName": "ATP Qualifying",
+        "collectionDisplayOrder": 6,
+        "displayOrder": 13,
+        "events": []
+      },
+      {
+        "id": "5142b1a6-1057-4af8-88cb-c10f72b40d09",
+        "name": "ATP Delray Beach Doubles",
+        "collectionName": "ATP Doubles",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 16,
+        "events": []
+      },
+      {
+        "id": "ad4e2c8b-feac-409d-b61e-969aa628cdaf",
+        "name": "ATP Rio de Janeiro Doubles",
+        "collectionName": "ATP Doubles",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 19,
+        "events": []
+      },
+      {
+        "id": "b6cd1c2a-c35f-4226-a34d-8589a1358567",
+        "name": "ATP Challenger Lille Doubles",
+        "collectionName": "ATP Doubles",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 85,
+        "events": []
+      },
+      {
+        "id": "9e165386-4bd2-4ed5-97b1-37aee27815ad",
+        "name": "ATP Challenger Metepec Doubles",
+        "collectionName": "ATP Doubles",
+        "collectionDisplayOrder": 8,
+        "displayOrder": 88,
+        "events": []
+      },
+      {
+        "id": "5365287c-0ff7-414d-9da9-f0cfe713b5f3",
+        "name": "WTA Dubai Doubles",
+        "collectionName": "WTA Doubles",
+        "collectionDisplayOrder": 9,
+        "displayOrder": 8,
+        "events": []
+      },
+      {
+        "id": "3785fec9-b0c4-4012-97f7-51615d9e21a5",
+        "name": "WTA Midland Doubles",
+        "collectionName": "WTA Doubles",
+        "collectionDisplayOrder": 9,
+        "displayOrder": 12,
+        "events": []
+      },
+      {
+        "id": "ec562192-ccf0-4854-93e7-80d136c82518",
+        "name": "WTA Oeiras 2 Doubles",
+        "collectionName": "WTA Doubles",
+        "collectionDisplayOrder": 9,
+        "displayOrder": 120,
+        "events": []
+      },
+      {
+        "id": "d2a95c97-a039-420f-82fc-c1377659ff75",
+        "name": "WTA Les Sables D'Olonne Doubles",
+        "collectionName": "WTA Doubles",
+        "collectionDisplayOrder": 9,
+        "displayOrder": 121,
+        "events": []
+      },
+      {
+        "id": "1036fd7e-4273-4809-8ba5-1986b4fa1e53",
+        "name": "Men's Tennis Season Specials",
+        "collectionName": "Men's Tennis Specials",
+        "collectionDisplayOrder": 18,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "67f345db-4272-4578-b198-d9fb24982295",
+        "name": "Women's Tennis Season Specials",
+        "collectionName": "Women's Tennis Specials",
+        "collectionDisplayOrder": 19,
+        "displayOrder": 1,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 1
+  },
+  {
+    "sportId": "ufcmma",
+    "name": "UFC/MMA",
+    "eventCount": 0,
+    "competitions": [
+      {
+        "id": "4d8b87e9-ec35-43e3-baad-c889afe0c3b2",
+        "name": "UFC Fight Night: February 21st",
+        "collectionName": "UFC",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 0,
+        "events": []
+      },
+      {
+        "id": "40490196-27eb-48b9-8134-6ef95af6f3ed",
+        "name": "UFC Fight Night: February 28th",
+        "collectionName": "UFC",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 1,
+        "events": []
+      },
+      {
+        "id": "f92094b3-68cf-4ec2-b4e4-ac53b9e95ad2",
+        "name": "UFC 326",
+        "collectionName": "UFC",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 2,
+        "events": []
+      },
+      {
+        "id": "bbc956ad-5d8c-4e70-8a36-e36255d00abc",
+        "name": "UFC Fight Night: March 28th",
+        "collectionName": "UFC",
+        "collectionDisplayOrder": 0,
+        "displayOrder": 3,
+        "events": []
+      }
+    ],
+    "groupedCompetitionsView": true,
+    "displayOrder": 7
+  }
+]

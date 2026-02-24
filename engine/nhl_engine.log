@@ -1,0 +1,28 @@
+2026-02-20 16:58:05,493 INFO NHL Engine: generating picks for 2026-02-20
+2026-02-20 16:58:06,816 INFO Fetched standings for 0 NHL teams
+2026-02-20 16:58:08,127 INFO Odds API: 8 NHL events (remaining: 130)
+2026-02-20 16:58:08,129 INFO Found 0 NHL games for 2026-02-20
+2026-02-20 16:58:08,158 WARNING No NHL games found for this date
+2026-02-20 17:00:55,510 INFO NHL Engine: generating picks for 2026-02-25
+2026-02-20 17:00:57,630 INFO Fetched standings for 32 NHL teams
+2026-02-20 17:00:59,033 INFO Odds API: 8 NHL events (remaining: 119)
+2026-02-20 17:00:59,162 INFO Found 8 NHL games for 2026-02-25
+2026-02-20 17:00:59,163 INFO Found 8 NHL games
+2026-02-20 17:01:00,607 INFO Fetched injuries for 29 NHL teams
+2026-02-20 17:01:08,945 INFO Generated 8 NHL predictions
+2026-02-20 17:01:51,276 INFO NHL Engine: generating picks for 2026-02-25
+2026-02-20 17:01:52,773 INFO Odds API: 8 NHL events (remaining: 107)
+2026-02-20 17:01:52,887 INFO Found 8 NHL games for 2026-02-25
+2026-02-20 17:01:52,887 INFO Found 8 NHL games
+2026-02-20 17:01:55,956 INFO Fetched injuries for 29 NHL teams
+2026-02-20 17:02:04,715 INFO Generated 8 NHL predictions
+2026-02-20 17:03:02,152 INFO NHL Engine: generating picks for 2026-02-20
+2026-02-20 17:03:03,677 INFO Odds API: 8 NHL events (remaining: 102)
+2026-02-20 17:03:03,685 INFO Found 0 NHL games for 2026-02-20
+2026-02-20 17:03:05,052 WARNING No NHL games found for this date
+2026-02-20 17:04:01,766 INFO NHL Engine: generating picks for 2026-02-26
+2026-02-20 17:04:03,533 INFO Odds API: 8 NHL events (remaining: 91)
+2026-02-20 17:04:03,533 INFO Found 0 NHL games for 2026-02-26
+2026-02-20 17:04:05,453 INFO Found 12 NHL games
+2026-02-20 17:04:06,900 INFO Fetched injuries for 29 NHL teams
+2026-02-20 17:04:19,757 INFO Generated 12 NHL predictions

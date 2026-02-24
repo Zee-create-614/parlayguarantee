@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-02-15T17:51:21.217732Z",
+  "date": "2026-02-15",
+  "sport": "NBA",
+  "games_analyzed": 2,
+  "parlays": [
+    {
+      "id": 1,
+      "legs": 5,
+      "type": "5-Leg Parlay",
+      "combined_odds": "+2435",
+      "combined_decimal": 25.4,
+      "confidence": 49,
+      "picks": [
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets -2.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Nuggets road warriors"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics -4.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Celtics strong at home"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Under 225.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive focus"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Over 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "High pace expected"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics ML",
+          "type": "moneyline",
+          "odds": "-110",
+          "reasoning": "Better overall team"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$244",
+        "$25": "$609",
+        "$50": "$1218",
+        "$100": "$2436"
+      }
+    },
+    {
+      "id": 2,
+      "legs": 4,
+      "type": "4-Leg Parlay",
+      "combined_odds": "+1228",
+      "combined_decimal": 13.3,
+      "confidence": 55,
+      "picks": [
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics -4.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Celtics strong at home"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets -2.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Nuggets road warriors"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets ML",
+          "type": "moneyline",
+          "odds": "-110",
+          "reasoning": "Better recent form"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Under 225.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive focus"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$123",
+        "$25": "$307",
+        "$50": "$614",
+        "$100": "$1228"
+      }
+    },
+    {
+      "id": 3,
+      "legs": 2,
+      "type": "2-Leg Parlay",
+      "combined_odds": "+264",
+      "combined_decimal": 3.6,
+      "confidence": 71,
+      "picks": [
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics -4.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Celtics strong at home"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets -2.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Nuggets road warriors"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$26",
+        "$25": "$66",
+        "$50": "$132",
+        "$100": "$264"
+      }
+    },
+    {
+      "id": 4,
+      "legs": 4,
+      "type": "4-Leg Parlay",
+      "combined_odds": "+1228",
+      "combined_decimal": 13.3,
+      "confidence": 54,
+      "picks": [
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets -2.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Nuggets road warriors"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics -4.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Celtics strong at home"
+        },
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Over 220.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "High pace expected"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Under 225.5",
+          "type": "total",
+          "odds": "-110",
+          "reasoning": "Defensive focus"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$123",
+        "$25": "$307",
+        "$50": "$614",
+        "$100": "$1228"
+      }
+    },
+    {
+      "id": 5,
+      "legs": 2,
+      "type": "2-Leg Parlay",
+      "combined_odds": "+264",
+      "combined_decimal": 3.6,
+      "confidence": 71,
+      "picks": [
+        {
+          "game": "Los Angeles Lakers vs Boston Celtics",
+          "pick": "Celtics -4.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Celtics strong at home"
+        },
+        {
+          "game": "Denver Nuggets vs Golden State Warriors",
+          "pick": "Nuggets -2.5",
+          "type": "spread",
+          "odds": "-110",
+          "reasoning": "Nuggets road warriors"
+        }
+      ],
+      "potential_payout": {
+        "$10": "$26",
+        "$25": "$66",
+        "$50": "$132",
+        "$100": "$264"
+      }
+    }
+  ],
+  "track_record_entry": {
+    "date": "2026-02-15",
+    "total_parlays": 5,
+    "results": "pending"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "draftkings": {
+    "nights": 10,
+    "itm_nights": 0,
+    "itm_rate": "0.0%",
+    "avg_best": 0.0,
+    "best_single": 0,
+    "worst_best": 0,
+    "nightly": [
+      {
+        "date": "2024-12-01",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-03",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-05",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-10",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-15",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-20",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-25",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-30",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2025-01-05",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2025-01-10",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      }
+    ]
+  },
+  "fanduel": {
+    "nights": 10,
+    "itm_nights": 0,
+    "itm_rate": "0.0%",
+    "avg_best": 0.0,
+    "best_single": 0,
+    "worst_best": 0,
+    "nightly": [
+      {
+        "date": "2024-12-01",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-03",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-05",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-10",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-15",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-20",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-25",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2024-12-30",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2025-01-05",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      },
+      {
+        "date": "2025-01-10",
+        "best": 0,
+        "itm": false,
+        "lineups": 0
+      }
+    ]
+  }
+}

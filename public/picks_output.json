@@ -1,0 +1,3318 @@
+{
+  "date": "2026-02-23",
+  "generated_at": "2026-02-23T07:27:57.683930-05:00",
+  "total_games": 16,
+  "nba_games": 7,
+  "ncaab_games": 9,
+  "all_games": [
+    {
+      "sport": "NCAAB",
+      "sport_key": "5d3911c69e7101602dccb70cb2ec7bdc",
+      "home": "North Carolina Tar Heels",
+      "away": "Louisville Cardinals",
+      "commence_time": "2026-02-24T00:00:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:00 PM ET",
+      "spread": 2.5,
+      "spread_str": "+2.5",
+      "pick": "North Carolina Tar Heels",
+      "cover_prob": 0.5031,
+      "enhanced_prob": 0.5253,
+      "edge": 0.0031,
+      "ml_pick": "Louisville Cardinals",
+      "ml_prob": 0.5636,
+      "ml_home_prob": 0.4364,
+      "ml_away_prob": 0.5636,
+      "total_line": 162.4,
+      "ou_pick": "Under",
+      "ou_prob": 0.56,
+      "over_prob": 0.43999999999999995,
+      "under_prob": 0.56,
+      "book_count": 10,
+      "upset_score": 0.4432,
+      "upset_reasons": [
+        "Tight spread (+2.5)",
+        "Dog ML strong (44%)",
+        "\ud83c\udfe0 Home dog +0.10"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5056,
+      "ou_model_v3": {
+        "home_team": "North Carolina Tar Heels",
+        "away_team": "Louisville Cardinals",
+        "predicted_total": 160.6,
+        "posted_total": 162.4,
+        "our_raw_total": 157.6,
+        "pick": "UNDER",
+        "edge": -1.8,
+        "confidence": 0.56,
+        "tier": "\ud83d\udcc8 LEAN",
+        "spread": 2.5,
+        "factors": {
+          "game_pace": 72.1,
+          "home_pts": 76.1,
+          "away_pts": 81.4,
+          "our_raw": 157.6,
+          "blended_base": 160.2,
+          "form_adj": 0.4,
+          "spread_adj": 0,
+          "total_adj": 0.4,
+          "predicted": 160.6
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      },
+      "ou_agreement": false
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "4cbfd7c25e8652fb480c05fb1f5ec731",
+      "home": "Northwestern St Demons",
+      "away": "Incarnate Word Cardinals",
+      "commence_time": "2026-02-24T00:30:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:30 PM ET",
+      "spread": -2.5,
+      "spread_str": "+2.5",
+      "pick": "Incarnate Word Cardinals",
+      "cover_prob": 0.5039,
+      "enhanced_prob": 0.5209,
+      "edge": 0.0039,
+      "ml_pick": "Northwestern St Demons",
+      "ml_prob": 0.5695,
+      "ml_home_prob": 0.5695,
+      "ml_away_prob": 0.4305,
+      "total_line": 140.6,
+      "ou_pick": "Over",
+      "ou_prob": 0.5800000000000001,
+      "over_prob": 0.5800000000000001,
+      "under_prob": 0.41999999999999993,
+      "book_count": 9,
+      "upset_score": 0.3402,
+      "upset_reasons": [
+        "Tight spread (-2.5)",
+        "Dog ML strong (43%)"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5024,
+      "ou_model_v3": {
+        "home_team": "Northwestern St Demons",
+        "away_team": "Incarnate Word Cardinals",
+        "predicted_total": 142.1,
+        "posted_total": 140.6,
+        "our_raw_total": 141.8,
+        "pick": "OVER",
+        "edge": 1.5,
+        "confidence": 0.56,
+        "tier": "\ud83d\udcc8 LEAN",
+        "spread": -2.5,
+        "factors": {
+          "game_pace": 64.8,
+          "home_pts": 71.7,
+          "away_pts": 70.2,
+          "our_raw": 141.8,
+          "blended_base": 141.1,
+          "pace_mismatch": 0.6,
+          "form_adj": 0.4,
+          "spread_adj": 0,
+          "total_adj": 1.0,
+          "predicted": 142.1
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      },
+      "ou_agreement": true
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "4fa796430c80b3e2730db4ab5711cad0",
+      "home": "SE Louisiana Lions",
+      "away": "Texas A&M-CC Islanders",
+      "commence_time": "2026-02-24T00:00:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:00 PM ET",
+      "spread": 2.6,
+      "spread_str": "-2.6",
+      "pick": "Texas A&M-CC Islanders",
+      "cover_prob": 0.5065,
+      "enhanced_prob": 0.5065,
+      "edge": 0.0065,
+      "ml_pick": "Texas A&M-CC Islanders",
+      "ml_prob": 0.5793,
+      "ml_home_prob": 0.4207,
+      "ml_away_prob": 0.5793,
+      "total_line": 131.5,
+      "ou_pick": "Over",
+      "ou_prob": 0.5027,
+      "over_prob": 0.5027,
+      "under_prob": 0.4973,
+      "book_count": 9,
+      "upset_score": 0.4354,
+      "upset_reasons": [
+        "Tight spread (+2.6)",
+        "Dog ML strong (42%)",
+        "\ud83c\udfe0 Home dog +0.10"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5027,
+      "ou_model_v3": {
+        "home_team": "SE Louisiana Lions",
+        "away_team": "Texas A&M-CC Islanders",
+        "predicted_total": 132.6,
+        "posted_total": 131.5,
+        "our_raw_total": 136.2,
+        "pick": "PASS",
+        "edge": 1.1,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": 2.6,
+        "factors": {
+          "game_pace": 62.2,
+          "home_pts": 64.4,
+          "away_pts": 71.8,
+          "our_raw": 136.2,
+          "blended_base": 133.6,
+          "form_adj": -1.0,
+          "spread_adj": 0,
+          "total_adj": -1.0,
+          "predicted": 132.6
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      }
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "0b9ed0a5fe66bb03bb7c311ef417db68",
+      "home": "Stephen F. Austin Lumberjacks",
+      "away": "New Orleans Privateers",
+      "commence_time": "2026-02-24T00:30:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:30 PM ET",
+      "spread": -12.8,
+      "spread_str": "-12.8",
+      "pick": "Stephen F. Austin Lumberjacks",
+      "cover_prob": 0.5059,
+      "enhanced_prob": 0.5059,
+      "edge": 0.0059,
+      "ml_pick": "Stephen F. Austin Lumberjacks",
+      "ml_prob": 0.8751,
+      "ml_home_prob": 0.8751,
+      "ml_away_prob": 0.1249,
+      "total_line": 149.8,
+      "ou_pick": "Over",
+      "ou_prob": 0.5031,
+      "over_prob": 0.5031,
+      "under_prob": 0.4969,
+      "book_count": 8,
+      "upset_score": 0,
+      "upset_reasons": [],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5031,
+      "ou_model_v3": {
+        "home_team": "Stephen F. Austin Lumberjacks",
+        "away_team": "New Orleans Privateers",
+        "predicted_total": 151.0,
+        "posted_total": 149.8,
+        "our_raw_total": 146.8,
+        "pick": "PASS",
+        "edge": 1.2,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -12.8,
+        "factors": {
+          "game_pace": 67.2,
+          "home_pts": 78.3,
+          "away_pts": 68.5,
+          "our_raw": 146.8,
+          "blended_base": 148.5,
+          "pace_mismatch": 1.0,
+          "form_adj": 2,
+          "spread_adj": -0.5,
+          "total_adj": 2.5,
+          "predicted": 151.0
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      }
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "8d4d14df09c6317fbb819c3e57877b99",
+      "home": "Grambling St Tigers",
+      "away": "Miss Valley St Delta Devils",
+      "commence_time": "2026-02-24T01:00:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "08:00 PM ET",
+      "spread": -16.6,
+      "spread_str": "-16.6",
+      "pick": "Grambling St Tigers",
+      "cover_prob": 0.5054,
+      "enhanced_prob": 0.5054,
+      "edge": 0.0054,
+      "ml_pick": "Grambling St Tigers",
+      "ml_prob": 0.9251,
+      "ml_home_prob": 0.9251,
+      "ml_away_prob": 0.0749,
+      "total_line": 135.5,
+      "ou_pick": "Over",
+      "ou_prob": 0.5047,
+      "over_prob": 0.5047,
+      "under_prob": 0.4953,
+      "book_count": 8,
+      "upset_score": 0,
+      "upset_reasons": [],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5047,
+      "ou_model_v3": {
+        "home_team": "Grambling St Tigers",
+        "away_team": "Miss Valley St Delta Devils",
+        "predicted_total": 135.6,
+        "posted_total": 135.5,
+        "our_raw_total": 140.3,
+        "pick": "PASS",
+        "edge": 0.1,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -16.6,
+        "factors": {
+          "game_pace": 64.1,
+          "home_pts": 76.9,
+          "away_pts": 63.4,
+          "our_raw": 140.3,
+          "blended_base": 137.7,
+          "form_adj": -0.6,
+          "spread_adj": -1.5,
+          "total_adj": -2.1,
+          "predicted": 135.6
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      }
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "0bd210b80d8411885dccc7164a922234",
+      "home": "Phoenix Suns",
+      "away": "Boston Celtics",
+      "commence_time": "2026-02-25T02:10:00Z",
+      "game_date": "2026-02-24",
+      "game_time": "09:10 PM ET",
+      "spread": 6.5,
+      "spread_str": "-6.5",
+      "pick": "Boston Celtics",
+      "cover_prob": 0.5043,
+      "enhanced_prob": 0.5043,
+      "edge": 0.0043,
+      "ml_pick": "Boston Celtics",
+      "ml_prob": 0.6838,
+      "ml_home_prob": 0.3162,
+      "ml_away_prob": 0.6838,
+      "total_line": 211.0,
+      "ou_pick": "Over",
+      "ou_prob": 0.72,
+      "over_prob": 0.72,
+      "under_prob": 0.28,
+      "book_count": 3,
+      "upset_score": 0.0,
+      "upset_reasons": [
+        "Picking favorite \u2014 not an upset"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Under",
+      "ou_devigged_prob": 0.5,
+      "ou_model_v3": {
+        "home_team": "Phoenix Suns",
+        "away_team": "Boston Celtics",
+        "predicted_total": 219.3,
+        "posted_total": 211.0,
+        "our_raw_total": 228.6,
+        "pick": "OVER",
+        "edge": 8.3,
+        "confidence": 0.72,
+        "tier": "\ud83d\udd12 LOCK",
+        "spread": 6.5,
+        "factors": {
+          "game_pace": 97.5,
+          "home_pts": 108.2,
+          "away_pts": 120.5,
+          "our_raw": 228.6,
+          "blended_base": 218.9,
+          "form_adj": 0.4,
+          "spread_adj": 0,
+          "total_adj": 0.4,
+          "predicted": 219.3
+        },
+        "game_date": "2026-02-24",
+        "sport": "nba"
+      },
+      "ou_agreement": false,
+      "is_upset_play": false
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "00c9e8124927ed480f42af1509d36016",
+      "home": "East Texas A&M Lions",
+      "away": "Houston Christian Huskies",
+      "commence_time": "2026-02-24T00:30:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:30 PM ET",
+      "spread": -2.7,
+      "spread_str": "-2.7",
+      "pick": "East Texas A&M Lions",
+      "cover_prob": 0.5039,
+      "enhanced_prob": 0.5039,
+      "edge": 0.0039,
+      "ml_pick": "East Texas A&M Lions",
+      "ml_prob": 0.5832,
+      "ml_home_prob": 0.5832,
+      "ml_away_prob": 0.4168,
+      "total_line": 136.8,
+      "ou_pick": "Over",
+      "ou_prob": 0.5005,
+      "over_prob": 0.5005,
+      "under_prob": 0.4995,
+      "book_count": 9,
+      "upset_score": 0.3334,
+      "upset_reasons": [
+        "Tight spread (-2.7)",
+        "Dog ML strong (42%)"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5005,
+      "ou_model_v3": {
+        "home_team": "East Texas A&M Lions",
+        "away_team": "Houston Christian Huskies",
+        "predicted_total": 137.6,
+        "posted_total": 136.8,
+        "our_raw_total": 139.4,
+        "pick": "PASS",
+        "edge": 0.8,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -2.7,
+        "factors": {
+          "game_pace": 63.9,
+          "home_pts": 68.8,
+          "away_pts": 70.6,
+          "our_raw": 139.4,
+          "blended_base": 138.0,
+          "form_adj": -0.4,
+          "spread_adj": 0,
+          "total_adj": -0.4,
+          "predicted": 137.6
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      }
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "9f85e2454738cc1bc6a24c4fa35ae3f6",
+      "home": "Kansas Jayhawks",
+      "away": "Houston Cougars",
+      "commence_time": "2026-02-24T02:00:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "09:00 PM ET",
+      "spread": 2.6,
+      "spread_str": "-2.6",
+      "pick": "Houston Cougars",
+      "cover_prob": 0.5033,
+      "enhanced_prob": 0.5033,
+      "edge": 0.0033,
+      "ml_pick": "Houston Cougars",
+      "ml_prob": 0.5788,
+      "ml_home_prob": 0.4212,
+      "ml_away_prob": 0.5788,
+      "total_line": 138.0,
+      "ou_pick": "Over",
+      "ou_prob": 0.65,
+      "over_prob": 0.65,
+      "under_prob": 0.35,
+      "book_count": 10,
+      "upset_score": 0.4356,
+      "upset_reasons": [
+        "Tight spread (+2.6)",
+        "Dog ML strong (42%)",
+        "\ud83c\udfe0 Home dog +0.10"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Under",
+      "ou_devigged_prob": 0.5012,
+      "ou_model_v3": {
+        "home_team": "Kansas Jayhawks",
+        "away_team": "Houston Cougars",
+        "predicted_total": 141.5,
+        "posted_total": 138.0,
+        "our_raw_total": 145.4,
+        "pick": "OVER",
+        "edge": 3.5,
+        "confidence": 0.65,
+        "tier": "\ud83c\udfaf STRONG",
+        "spread": 2.6,
+        "factors": {
+          "game_pace": 66.6,
+          "home_pts": 68.4,
+          "away_pts": 77.0,
+          "our_raw": 145.4,
+          "blended_base": 141.3,
+          "pace_mismatch": 0.8,
+          "form_adj": -0.6,
+          "spread_adj": 0,
+          "total_adj": 0.2,
+          "predicted": 141.5
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      },
+      "ou_agreement": false
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "9309db11d70c5cca506e8df2ce5e1fb3",
+      "home": "Toronto Raptors",
+      "away": "Oklahoma City Thunder",
+      "commence_time": "2026-02-25T00:40:00Z",
+      "game_date": "2026-02-24",
+      "game_time": "07:40 PM ET",
+      "spread": 1.5,
+      "spread_str": "-1.5",
+      "pick": "Oklahoma City Thunder",
+      "cover_prob": 0.5029,
+      "enhanced_prob": 0.5029,
+      "edge": 0.0029,
+      "ml_pick": "Oklahoma City Thunder",
+      "ml_prob": 0.5351,
+      "ml_home_prob": 0.4649,
+      "ml_away_prob": 0.5351,
+      "total_line": 218.2,
+      "ou_pick": "Over",
+      "ou_prob": 0.67,
+      "over_prob": 0.67,
+      "under_prob": 0.32999999999999996,
+      "book_count": 3,
+      "upset_score": 0.0,
+      "upset_reasons": [
+        "Picking favorite \u2014 not an upset"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5014,
+      "ou_model_v3": {
+        "home_team": "Toronto Raptors",
+        "away_team": "Oklahoma City Thunder",
+        "predicted_total": 221.8,
+        "posted_total": 218.2,
+        "our_raw_total": 223.4,
+        "pick": "OVER",
+        "edge": 3.6,
+        "confidence": 0.65,
+        "tier": "\ud83c\udfaf STRONG",
+        "spread": 1.5,
+        "factors": {
+          "game_pace": 100.8,
+          "home_pts": 103.5,
+          "away_pts": 119.9,
+          "our_raw": 223.4,
+          "blended_base": 220.5,
+          "form_adj": 0.8,
+          "spread_adj": 0.5,
+          "total_adj": 1.3,
+          "predicted": 221.8
+        },
+        "game_date": "2026-02-24",
+        "sport": "nba"
+      },
+      "ou_agreement": true,
+      "is_upset_play": false
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "f21cba43c1660e818758a990b2912830",
+      "home": "Memphis Grizzlies",
+      "away": "Sacramento Kings",
+      "commence_time": "2026-02-24T01:10:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "08:10 PM ET",
+      "spread": -4.4,
+      "spread_str": "-4.4",
+      "pick": "Memphis Grizzlies",
+      "cover_prob": 0.5022,
+      "enhanced_prob": 0.5022,
+      "edge": 0.0022,
+      "ml_pick": "Memphis Grizzlies",
+      "ml_prob": 0.6276,
+      "ml_home_prob": 0.6276,
+      "ml_away_prob": 0.3724,
+      "total_line": 233.0,
+      "ou_pick": "Over",
+      "ou_prob": 0.5021,
+      "over_prob": 0.5021,
+      "under_prob": 0.4979,
+      "book_count": 11,
+      "upset_score": 0.0,
+      "upset_reasons": [
+        "Picking favorite \u2014 not an upset"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5021,
+      "ou_model_v3": {
+        "home_team": "Memphis Grizzlies",
+        "away_team": "Sacramento Kings",
+        "predicted_total": 233.3,
+        "posted_total": 233.0,
+        "our_raw_total": 236.5,
+        "pick": "PASS",
+        "edge": 0.3,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -4.4,
+        "factors": {
+          "game_pace": 101.3,
+          "home_pts": 120.3,
+          "away_pts": 116.2,
+          "our_raw": 236.5,
+          "blended_base": 234.6,
+          "pace_mismatch": 0.7,
+          "form_adj": -2,
+          "spread_adj": 0,
+          "total_adj": -1.3,
+          "predicted": 233.3
+        },
+        "game_date": "2026-02-23",
+        "sport": "nba"
+      },
+      "is_upset_play": false
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "b283b125c7b26126854be1e5ad045f3f",
+      "home": "Houston Rockets",
+      "away": "Utah Jazz",
+      "commence_time": "2026-02-24T02:40:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "09:40 PM ET",
+      "spread": -13.6,
+      "spread_str": "+13.6",
+      "pick": "Utah Jazz",
+      "cover_prob": 0.5021,
+      "enhanced_prob": 0.5021,
+      "edge": 0.0021,
+      "ml_pick": "Houston Rockets",
+      "ml_prob": 0.8593,
+      "ml_home_prob": 0.8593,
+      "ml_away_prob": 0.1407,
+      "total_line": 227.3,
+      "ou_pick": "Under",
+      "ou_prob": 0.5015,
+      "over_prob": 0.4985,
+      "under_prob": 0.5015,
+      "book_count": 11,
+      "upset_score": 0.045,
+      "upset_reasons": [
+        "Heavy dog (14% ML) \u2014 no upset value",
+        "\u26a0\ufe0f Dog is tanking (32% W%)"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Under",
+      "ou_devigged_prob": 0.5015,
+      "ou_model_v3": {
+        "home_team": "Houston Rockets",
+        "away_team": "Utah Jazz",
+        "predicted_total": 226.2,
+        "posted_total": 227.3,
+        "our_raw_total": 227.3,
+        "pick": "PASS",
+        "edge": -1.1,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -13.6,
+        "factors": {
+          "game_pace": 99.9,
+          "home_pts": 120.5,
+          "away_pts": 106.8,
+          "our_raw": 227.3,
+          "blended_base": 227.3,
+          "form_adj": -0.6,
+          "spread_adj": -0.5,
+          "total_adj": -1.1,
+          "predicted": 226.2
+        },
+        "game_date": "2026-02-23",
+        "sport": "nba"
+      },
+      "is_upset_play": false
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "680de68669514db0c7a2312442afc2a5",
+      "home": "McNeese Cowboys",
+      "away": "UT Rio Grande Valley Vaqueros",
+      "commence_time": "2026-02-24T00:30:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:30 PM ET",
+      "spread": -11.1,
+      "spread_str": "-11.1",
+      "pick": "McNeese Cowboys",
+      "cover_prob": 0.5016,
+      "enhanced_prob": 0.5016,
+      "edge": 0.0016,
+      "ml_pick": "McNeese Cowboys",
+      "ml_prob": 0.8412,
+      "ml_home_prob": 0.8412,
+      "ml_away_prob": 0.1588,
+      "total_line": 145.0,
+      "ou_pick": "Over",
+      "ou_prob": 0.5018,
+      "over_prob": 0.5018,
+      "under_prob": 0.4982,
+      "book_count": 9,
+      "upset_score": 0,
+      "upset_reasons": [],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5018,
+      "ou_model_v3": {
+        "home_team": "McNeese Cowboys",
+        "away_team": "UT Rio Grande Valley Vaqueros",
+        "predicted_total": 144.8,
+        "posted_total": 145.0,
+        "our_raw_total": 142.6,
+        "pick": "PASS",
+        "edge": -0.2,
+        "confidence": 0.5,
+        "tier": "NO EDGE",
+        "spread": -11.1,
+        "factors": {
+          "game_pace": 65.4,
+          "home_pts": 75.6,
+          "away_pts": 67.0,
+          "our_raw": 142.6,
+          "blended_base": 143.9,
+          "form_adj": 1.4,
+          "spread_adj": -0.5,
+          "total_adj": 0.9,
+          "predicted": 144.8
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      }
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "a4f9fe2c493fda08ff19d7c349948824",
+      "home": "Cleveland Cavaliers",
+      "away": "New York Knicks",
+      "commence_time": "2026-02-25T01:10:00Z",
+      "game_date": "2026-02-24",
+      "game_time": "08:10 PM ET",
+      "spread": -3.5,
+      "spread_str": "+3.5",
+      "pick": "New York Knicks",
+      "cover_prob": 0.5014,
+      "enhanced_prob": 0.5014,
+      "edge": 0.0014,
+      "ml_pick": "Cleveland Cavaliers",
+      "ml_prob": 0.5849,
+      "ml_home_prob": 0.5849,
+      "ml_away_prob": 0.4151,
+      "total_line": 228.8,
+      "ou_pick": "Over",
+      "ou_prob": 0.56,
+      "over_prob": 0.56,
+      "under_prob": 0.43999999999999995,
+      "book_count": 3,
+      "upset_score": 0.405,
+      "upset_reasons": [
+        "Dog has real shot (42% ML)"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Under",
+      "ou_devigged_prob": 0.5,
+      "ou_model_v3": {
+        "home_team": "Cleveland Cavaliers",
+        "away_team": "New York Knicks",
+        "predicted_total": 231.0,
+        "posted_total": 228.8,
+        "our_raw_total": 233.3,
+        "pick": "OVER",
+        "edge": 2.2,
+        "confidence": 0.56,
+        "tier": "\ud83d\udcc8 LEAN",
+        "spread": -3.5,
+        "factors": {
+          "game_pace": 99.0,
+          "home_pts": 119.3,
+          "away_pts": 114.1,
+          "our_raw": 233.3,
+          "blended_base": 230.8,
+          "form_adj": 0.2,
+          "spread_adj": 0,
+          "total_adj": 0.2,
+          "predicted": 231.0
+        },
+        "game_date": "2026-02-24",
+        "sport": "nba"
+      },
+      "ou_agreement": false,
+      "is_upset_play": false
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "19016c4fd819260622e9fbaf8070d66a",
+      "home": "Los Angeles Lakers",
+      "away": "Orlando Magic",
+      "commence_time": "2026-02-25T03:40:00Z",
+      "game_date": "2026-02-24",
+      "game_time": "10:40 PM ET",
+      "spread": -6.5,
+      "spread_str": "+6.5",
+      "pick": "Orlando Magic",
+      "cover_prob": 0.5014,
+      "enhanced_prob": 0.5014,
+      "edge": 0.0014,
+      "ml_pick": "Los Angeles Lakers",
+      "ml_prob": 0.6814,
+      "ml_home_prob": 0.6814,
+      "ml_away_prob": 0.3186,
+      "total_line": 226.8,
+      "ou_pick": "Under",
+      "ou_prob": 0.72,
+      "over_prob": 0.28,
+      "under_prob": 0.72,
+      "book_count": 3,
+      "upset_score": 0.21,
+      "upset_reasons": [
+        "Significant dog (32% ML)"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5014,
+      "ou_model_v3": {
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Orlando Magic",
+        "predicted_total": 220.9,
+        "posted_total": 226.8,
+        "our_raw_total": 213.6,
+        "pick": "UNDER",
+        "edge": -5.9,
+        "confidence": 0.72,
+        "tier": "\ud83d\udd12 LOCK",
+        "spread": -6.5,
+        "factors": {
+          "game_pace": 97.4,
+          "home_pts": 107.4,
+          "away_pts": 106.1,
+          "our_raw": 213.6,
+          "blended_base": 220.9,
+          "form_adj": 0.0,
+          "spread_adj": 0,
+          "total_adj": 0.0,
+          "predicted": 220.9
+        },
+        "game_date": "2026-02-24",
+        "sport": "nba"
+      },
+      "ou_agreement": false,
+      "is_upset_play": false
+    },
+    {
+      "sport": "NBA",
+      "sport_key": "a9dd69be152e9e5ad8597c9b96f16a53",
+      "home": "Detroit Pistons",
+      "away": "San Antonio Spurs",
+      "commence_time": "2026-02-24T00:10:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:10 PM ET",
+      "spread": -1.3,
+      "spread_str": "-1.3",
+      "pick": "Detroit Pistons",
+      "cover_prob": 0.501,
+      "enhanced_prob": 0.501,
+      "edge": 0.001,
+      "ml_pick": "Detroit Pistons",
+      "ml_prob": 0.5217,
+      "ml_home_prob": 0.5217,
+      "ml_away_prob": 0.4783,
+      "total_line": 230.4,
+      "ou_pick": "Over",
+      "ou_prob": 0.5800000000000001,
+      "over_prob": 0.5800000000000001,
+      "under_prob": 0.41999999999999993,
+      "book_count": 11,
+      "upset_score": 0.0,
+      "upset_reasons": [
+        "Picking favorite \u2014 not an upset"
+      ],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5009,
+      "ou_model_v3": {
+        "home_team": "Detroit Pistons",
+        "away_team": "San Antonio Spurs",
+        "predicted_total": 232.6,
+        "posted_total": 230.4,
+        "our_raw_total": 229.8,
+        "pick": "OVER",
+        "edge": 2.2,
+        "confidence": 0.56,
+        "tier": "\ud83d\udcc8 LEAN",
+        "spread": -1.3,
+        "factors": {
+          "game_pace": 100.2,
+          "home_pts": 117.4,
+          "away_pts": 112.4,
+          "our_raw": 229.8,
+          "blended_base": 230.1,
+          "form_adj": 2,
+          "spread_adj": 0.5,
+          "total_adj": 2.5,
+          "predicted": 232.6
+        },
+        "game_date": "2026-02-23",
+        "sport": "nba"
+      },
+      "ou_agreement": true,
+      "is_upset_play": false
+    },
+    {
+      "sport": "NCAAB",
+      "sport_key": "2b71f7ebc09f551b93f5b178dd9a551e",
+      "home": "Lamar Cardinals",
+      "away": "Nicholls St Colonels",
+      "commence_time": "2026-02-24T00:00:00Z",
+      "game_date": "2026-02-23",
+      "game_time": "07:00 PM ET",
+      "spread": -3.9,
+      "spread_str": "+3.9",
+      "pick": "Nicholls St Colonels",
+      "cover_prob": 0.5004,
+      "enhanced_prob": 0.5004,
+      "edge": 0.0004,
+      "ml_pick": "Lamar Cardinals",
+      "ml_prob": 0.6311,
+      "ml_home_prob": 0.6311,
+      "ml_away_prob": 0.3689,
+      "total_line": 145.6,
+      "ou_pick": "Under",
+      "ou_prob": 0.56,
+      "over_prob": 0.43999999999999995,
+      "under_prob": 0.56,
+      "book_count": 9,
+      "upset_score": 0.15,
+      "upset_reasons": [],
+      "upset_flip": false,
+      "home_injuries": [],
+      "away_injuries": [],
+      "ou_devigged_pick": "Over",
+      "ou_devigged_prob": 0.5002,
+      "ou_model_v3": {
+        "home_team": "Lamar Cardinals",
+        "away_team": "Nicholls St Colonels",
+        "predicted_total": 144.0,
+        "posted_total": 145.6,
+        "our_raw_total": 143.7,
+        "pick": "UNDER",
+        "edge": -1.6,
+        "confidence": 0.56,
+        "tier": "\ud83d\udcc8 LEAN",
+        "spread": -3.9,
+        "factors": {
+          "game_pace": 65.7,
+          "home_pts": 72.5,
+          "away_pts": 71.2,
+          "our_raw": 143.7,
+          "blended_base": 144.7,
+          "pace_mismatch": 0.6,
+          "form_adj": -1.4,
+          "spread_adj": 0,
+          "total_adj": -0.8,
+          "predicted": 144.0
+        },
+        "game_date": "2026-02-23",
+        "sport": "ncaab"
+      },
+      "ou_agreement": false
+    }
+  ],
+  "tiers": {
+    "single": {
+      "tier_id": "single",
+      "legs": 1,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.5253,
+          "payout_odds": "+90.37",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.5209,
+          "payout_odds": "+91.98",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.5065,
+          "payout_odds": "+97.43",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.5059,
+          "payout_odds": "+97.67",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.5054,
+          "payout_odds": "+97.86",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.5043,
+          "payout_odds": "+98.29",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "spread",
+              "line": "-2.7",
+              "prob": 0.5039,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.5039,
+          "payout_odds": "+98.45",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Houston Cougars",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5033,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.5033,
+          "payout_odds": "+98.69",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Oklahoma City Thunder",
+              "type": "spread",
+              "line": "-1.5",
+              "prob": 0.5029,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.5029,
+          "payout_odds": "+98.85",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Sacramento Kings @ Memphis Grizzlies",
+              "pick": "Memphis Grizzlies",
+              "type": "spread",
+              "line": "-4.4",
+              "prob": 0.5022,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T01:10:00Z"
+            }
+          ],
+          "combined_prob": 0.5022,
+          "payout_odds": "+99.12",
+          "leg_count": 1
+        }
+      ],
+      "pool_size": 16
+    },
+    "2leg": {
+      "tier_id": "2leg",
+      "legs": 2,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.273629,
+          "payout_odds": "+265.46",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.266064,
+          "payout_odds": "+275.85",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.265749,
+          "payout_odds": "+276.29",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.265487,
+          "payout_odds": "+276.67",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.264909,
+          "payout_odds": "+277.49",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "spread",
+              "line": "-2.7",
+              "prob": 0.5039,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.264699,
+          "payout_odds": "+277.79",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Houston Cougars",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5033,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.264383,
+          "payout_odds": "+278.24",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Oklahoma City Thunder",
+              "type": "spread",
+              "line": "-1.5",
+              "prob": 0.5029,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.264173,
+          "payout_odds": "+278.54",
+          "leg_count": 2
+        }
+      ],
+      "pool_size": 16
+    },
+    "3leg": {
+      "tier_id": "3leg",
+      "legs": 3,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.138593,
+          "payout_odds": "+621.54",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.138429,
+          "payout_odds": "+622.39",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.138292,
+          "payout_odds": "+623.11",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.137991,
+          "payout_odds": "+624.69",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "spread",
+              "line": "-2.7",
+              "prob": 0.5039,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.137882,
+          "payout_odds": "+625.26",
+          "leg_count": 3
+        }
+      ],
+      "pool_size": 16
+    },
+    "4leg": {
+      "tier_id": "4leg",
+      "legs": 4,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.070114,
+          "payout_odds": "+1326.24",
+          "leg_count": 4
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.070045,
+          "payout_odds": "+1327.66",
+          "leg_count": 4
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.069962,
+          "payout_odds": "+1329.35",
+          "leg_count": 4
+        }
+      ],
+      "pool_size": 16
+    },
+    "5leg": {
+      "tier_id": "5leg",
+      "legs": 5,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.035436,
+          "payout_odds": "+2722.01",
+          "leg_count": 5
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.035359,
+          "payout_odds": "+2728.17",
+          "leg_count": 5
+        }
+      ],
+      "pool_size": 16
+    },
+    "6leg": {
+      "tier_id": "6leg",
+      "legs": 6,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.01787,
+          "payout_odds": "+5495.9",
+          "leg_count": 6
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "spread",
+              "line": "-2.7",
+              "prob": 0.5039,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.017856,
+          "payout_odds": "+5500.34",
+          "leg_count": 6
+        }
+      ],
+      "pool_size": 16
+    },
+    "7leg": {
+      "tier_id": "7leg",
+      "legs": 7,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "North Carolina Tar Heels",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5253,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Incarnate Word Cardinals",
+              "type": "spread",
+              "line": "+2.5",
+              "prob": 0.5209,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Texas A&M-CC Islanders @ SE Louisiana Lions",
+              "pick": "Texas A&M-CC Islanders",
+              "type": "spread",
+              "line": "-2.6",
+              "prob": 0.5065,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "spread",
+              "line": "-12.8",
+              "prob": 0.5059,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "spread",
+              "line": "-16.6",
+              "prob": 0.5054,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "spread",
+              "line": "-6.5",
+              "prob": 0.5043,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "spread",
+              "line": "-2.7",
+              "prob": 0.5039,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.009005,
+          "payout_odds": "+11005.18",
+          "leg_count": 7
+        }
+      ],
+      "pool_size": 16
+    }
+  },
+  "ou_tiers": {
+    "single": {
+      "tier_id": "ou_single",
+      "legs": 1,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.72,
+          "payout_odds": "+38.89",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.72,
+          "payout_odds": "+38.89",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.67,
+          "payout_odds": "+49.25",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.65,
+          "payout_odds": "+53.85",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Over",
+              "type": "total",
+              "line": "140.6",
+              "prob": 0.5800000000000001,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.58,
+          "payout_odds": "+72.41",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "San Antonio Spurs @ Detroit Pistons",
+              "pick": "Over",
+              "type": "total",
+              "line": "230.4",
+              "prob": 0.5800000000000001,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T00:10:00Z"
+            }
+          ],
+          "combined_prob": 0.58,
+          "payout_odds": "+72.41",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Louisville Cardinals @ North Carolina Tar Heels",
+              "pick": "Under",
+              "type": "total",
+              "line": "162.4",
+              "prob": 0.56,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.56,
+          "payout_odds": "+78.57",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "New York Knicks @ Cleveland Cavaliers",
+              "pick": "Over",
+              "type": "total",
+              "line": "228.8",
+              "prob": 0.56,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T01:10:00Z"
+            }
+          ],
+          "combined_prob": 0.56,
+          "payout_odds": "+78.57",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Nicholls St Colonels @ Lamar Cardinals",
+              "pick": "Under",
+              "type": "total",
+              "line": "145.6",
+              "prob": 0.56,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.56,
+          "payout_odds": "+78.57",
+          "leg_count": 1
+        }
+      ],
+      "pool_size": 16
+    },
+    "2leg": {
+      "tier_id": "ou_2leg",
+      "legs": 2,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.5184,
+          "payout_odds": "+92.9",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.4824,
+          "payout_odds": "+107.3",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.4824,
+          "payout_odds": "+107.3",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.468,
+          "payout_odds": "+113.68",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.468,
+          "payout_odds": "+113.68",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.4355,
+          "payout_odds": "+129.62",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Over",
+              "type": "total",
+              "line": "140.6",
+              "prob": 0.5800000000000001,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.4176,
+          "payout_odds": "+139.46",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "San Antonio Spurs @ Detroit Pistons",
+              "pick": "Over",
+              "type": "total",
+              "line": "230.4",
+              "prob": 0.5800000000000001,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T00:10:00Z"
+            }
+          ],
+          "combined_prob": 0.4176,
+          "payout_odds": "+139.46",
+          "leg_count": 2
+        }
+      ],
+      "pool_size": 16
+    },
+    "3leg": {
+      "tier_id": "ou_3leg",
+      "legs": 3,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            }
+          ],
+          "combined_prob": 0.347328,
+          "payout_odds": "+187.91",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.33696,
+          "payout_odds": "+196.77",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.31356,
+          "payout_odds": "+218.92",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Oklahoma City Thunder @ Toronto Raptors",
+              "pick": "Over",
+              "type": "total",
+              "line": "218.2",
+              "prob": 0.67,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T00:40:00Z"
+            },
+            {
+              "game": "Houston Cougars @ Kansas Jayhawks",
+              "pick": "Over",
+              "type": "total",
+              "line": "138.0",
+              "prob": 0.65,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T02:00:00Z"
+            }
+          ],
+          "combined_prob": 0.31356,
+          "payout_odds": "+218.92",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Over",
+              "type": "total",
+              "line": "211.0",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Under",
+              "type": "total",
+              "line": "226.8",
+              "prob": 0.72,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            },
+            {
+              "game": "Incarnate Word Cardinals @ Northwestern St Demons",
+              "pick": "Over",
+              "type": "total",
+              "line": "140.6",
+              "prob": 0.5800000000000001,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.300672,
+          "payout_odds": "+232.59",
+          "leg_count": 3
+        }
+      ],
+      "pool_size": 16
+    }
+  },
+  "ml_tiers": {
+    "single": {
+      "tier_id": "ml_single",
+      "legs": 1,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            }
+          ],
+          "combined_prob": 0.9251,
+          "payout_odds": "+8.1",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.8751,
+          "payout_odds": "+14.27",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            }
+          ],
+          "combined_prob": 0.8593,
+          "payout_odds": "+16.37",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.8412,
+          "payout_odds": "+18.88",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "moneyline",
+              "line": "-216",
+              "prob": 0.6838,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.6838,
+          "payout_odds": "+46.24",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Los Angeles Lakers",
+              "type": "moneyline",
+              "line": "-214",
+              "prob": 0.6814,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.6814,
+          "payout_odds": "+46.76",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Nicholls St Colonels @ Lamar Cardinals",
+              "pick": "Lamar Cardinals",
+              "type": "moneyline",
+              "line": "-171",
+              "prob": 0.6311,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:00:00Z"
+            }
+          ],
+          "combined_prob": 0.6311,
+          "payout_odds": "+58.45",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Sacramento Kings @ Memphis Grizzlies",
+              "pick": "Memphis Grizzlies",
+              "type": "moneyline",
+              "line": "-169",
+              "prob": 0.6276,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T01:10:00Z"
+            }
+          ],
+          "combined_prob": 0.6276,
+          "payout_odds": "+59.34",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "New York Knicks @ Cleveland Cavaliers",
+              "pick": "Cleveland Cavaliers",
+              "type": "moneyline",
+              "line": "-141",
+              "prob": 0.5849,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T01:10:00Z"
+            }
+          ],
+          "combined_prob": 0.5849,
+          "payout_odds": "+70.97",
+          "leg_count": 1
+        },
+        {
+          "legs": [
+            {
+              "game": "Houston Christian Huskies @ East Texas A&M Lions",
+              "pick": "East Texas A&M Lions",
+              "type": "moneyline",
+              "line": "-140",
+              "prob": 0.5832,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.5832,
+          "payout_odds": "+71.47",
+          "leg_count": 1
+        }
+      ],
+      "pool_size": 16
+    },
+    "2leg": {
+      "tier_id": "ml_2leg",
+      "legs": 2,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.809555,
+          "payout_odds": "+23.52",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            }
+          ],
+          "combined_prob": 0.794938,
+          "payout_odds": "+25.8",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.778194,
+          "payout_odds": "+28.5",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            }
+          ],
+          "combined_prob": 0.751973,
+          "payout_odds": "+32.98",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.736134,
+          "payout_odds": "+35.84",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.722843,
+          "payout_odds": "+38.34",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "moneyline",
+              "line": "-216",
+              "prob": 0.6838,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.632583,
+          "payout_odds": "+58.08",
+          "leg_count": 2
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Los Angeles Lakers",
+              "type": "moneyline",
+              "line": "-214",
+              "prob": 0.6814,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.630363,
+          "payout_odds": "+58.64",
+          "leg_count": 2
+        }
+      ],
+      "pool_size": 16
+    },
+    "3leg": {
+      "tier_id": "ml_3leg",
+      "legs": 3,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            }
+          ],
+          "combined_prob": 0.695651,
+          "payout_odds": "+43.75",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.680998,
+          "payout_odds": "+46.84",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.668702,
+          "payout_odds": "+49.54",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.63256,
+          "payout_odds": "+58.09",
+          "leg_count": 3
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "moneyline",
+              "line": "-216",
+              "prob": 0.6838,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.553574,
+          "payout_odds": "+80.64",
+          "leg_count": 3
+        }
+      ],
+      "pool_size": 16
+    },
+    "4leg": {
+      "tier_id": "ml_4leg",
+      "legs": 4,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            }
+          ],
+          "combined_prob": 0.585181,
+          "payout_odds": "+70.89",
+          "leg_count": 4
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "moneyline",
+              "line": "-216",
+              "prob": 0.6838,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.475686,
+          "payout_odds": "+110.22",
+          "leg_count": 4
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Los Angeles Lakers",
+              "type": "moneyline",
+              "line": "-214",
+              "prob": 0.6814,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.474016,
+          "payout_odds": "+110.96",
+          "leg_count": 4
+        }
+      ],
+      "pool_size": 16
+    },
+    "5leg": {
+      "tier_id": "ml_5leg",
+      "legs": 5,
+      "picks": [
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Boston Celtics @ Phoenix Suns",
+              "pick": "Boston Celtics",
+              "type": "moneyline",
+              "line": "-216",
+              "prob": 0.6838,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T02:10:00Z"
+            }
+          ],
+          "combined_prob": 0.400147,
+          "payout_odds": "+149.91",
+          "leg_count": 5
+        },
+        {
+          "legs": [
+            {
+              "game": "Miss Valley St Delta Devils @ Grambling St Tigers",
+              "pick": "Grambling St Tigers",
+              "type": "moneyline",
+              "line": "-1235",
+              "prob": 0.9251,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T01:00:00Z"
+            },
+            {
+              "game": "New Orleans Privateers @ Stephen F. Austin Lumberjacks",
+              "pick": "Stephen F. Austin Lumberjacks",
+              "type": "moneyline",
+              "line": "-701",
+              "prob": 0.8751,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Utah Jazz @ Houston Rockets",
+              "pick": "Houston Rockets",
+              "type": "moneyline",
+              "line": "-611",
+              "prob": 0.8593,
+              "sport": "NBA",
+              "commence_time": "2026-02-24T02:40:00Z"
+            },
+            {
+              "game": "UT Rio Grande Valley Vaqueros @ McNeese Cowboys",
+              "pick": "McNeese Cowboys",
+              "type": "moneyline",
+              "line": "-530",
+              "prob": 0.8412,
+              "sport": "NCAAB",
+              "commence_time": "2026-02-24T00:30:00Z"
+            },
+            {
+              "game": "Orlando Magic @ Los Angeles Lakers",
+              "pick": "Los Angeles Lakers",
+              "type": "moneyline",
+              "line": "-214",
+              "prob": 0.6814,
+              "sport": "NBA",
+              "commence_time": "2026-02-25T03:40:00Z"
+            }
+          ],
+          "combined_prob": 0.398743,
+          "payout_odds": "+150.79",
+          "leg_count": 5
+        }
+      ],
+      "pool_size": 16
+    }
+  }
+}

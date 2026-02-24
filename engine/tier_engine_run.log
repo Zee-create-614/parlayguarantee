@@ -1,0 +1,557 @@
+2026-02-19 15:21:41 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-19 15:21:41 INFO Date: 2026-02-19
+2026-02-19 15:21:41 INFO ============================================================
+2026-02-19 15:21:41 INFO TIER ENGINE STARTING
+2026-02-19 15:21:41 INFO Target date: 2026-02-19
+2026-02-19 15:21:41 INFO ============================================================
+2026-02-19 15:21:41 INFO Odds fetcher initialized
+2026-02-19 15:21:41 INFO Generating tier picks for 2026-02-19
+2026-02-19 15:21:41 INFO Fetching games for 2026-02-19
+2026-02-19 15:21:41 INFO Using reliable team mapping: 30 teams
+2026-02-19 15:21:41 INFO Attempt 1: Fetching games for 02/19/2026
+2026-02-19 15:21:41 DEBUG Starting new HTTPS connection (1): stats.nba.com:443
+2026-02-19 15:21:57 WARNING Timeout on attempt 1, retrying...
+2026-02-19 15:21:58 INFO Attempt 2: Fetching games for 02/19/2026
+2026-02-19 15:21:58 DEBUG Starting new HTTPS connection (2): stats.nba.com:443
+2026-02-19 15:24:18 INFO Starting ParlayGuarantee Tier Engine
+2026-02-19 15:24:18 INFO Date: 2026-02-19
+2026-02-19 15:24:18 INFO ============================================================
+2026-02-19 15:24:18 INFO TIER ENGINE STARTING
+2026-02-19 15:24:18 INFO Target date: 2026-02-19
+2026-02-19 15:24:18 INFO ============================================================
+2026-02-19 15:24:18 INFO Odds fetcher initialized
+2026-02-19 15:24:18 INFO Generating tier picks for 2026-02-19
+2026-02-19 15:24:18 INFO Fetching games for 2026-02-19
+2026-02-19 15:24:18 INFO Using reliable team mapping: 30 teams
+2026-02-19 15:24:18 INFO Attempt 1: Fetching games for 02/19/2026
+2026-02-19 15:24:33 WARNING Timeout on attempt 1, retrying...
+2026-02-19 15:25:08 INFO Starting ParlayGuarantee Tier Engine
+2026-02-19 15:25:08 INFO Date: 2026-02-19
+2026-02-19 15:25:08 INFO ============================================================
+2026-02-19 15:25:08 INFO TIER ENGINE STARTING
+2026-02-19 15:25:08 INFO Target date: 2026-02-19
+2026-02-19 15:25:08 INFO ============================================================
+2026-02-19 15:25:08 INFO Odds fetcher initialized
+2026-02-19 15:25:08 INFO Generating tier picks for 2026-02-19
+2026-02-19 15:25:08 INFO Fetching games for 2026-02-19
+2026-02-19 15:25:08 INFO Using reliable team mapping: 30 teams
+2026-02-19 15:25:08 INFO Attempt 1: Fetching games for 02/19/2026
+2026-02-19 15:25:23 WARNING Timeout on attempt 1, retrying...
+2026-02-19 15:25:24 INFO Attempt 2: Fetching games for 02/19/2026
+2026-02-19 15:25:40 WARNING Timeout on attempt 2, retrying...
+2026-02-19 15:25:42 INFO Attempt 3: Fetching games for 02/19/2026
+2026-02-19 15:25:57 WARNING Timeout on attempt 3, retrying...
+2026-02-19 15:26:01 WARNING No games found for 2026-02-19
+2026-02-19 15:26:01 WARNING No games available - returning empty tier structure
+2026-02-19 15:26:01 INFO ============================================================
+2026-02-19 15:26:01 INFO TIER ENGINE RESULTS
+2026-02-19 15:26:01 INFO ============================================================
+2026-02-19 15:26:01 INFO Total games processed: 0
+2026-02-19 15:26:01 INFO 1-Leg Picks: 0 picks
+2026-02-19 15:26:01 INFO 2-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO 3-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO 4-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO 5-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO 6-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO 7-Leg Parlays: 0 picks
+2026-02-19 15:26:01 INFO Generation time: 53.30 seconds
+2026-02-19 15:26:01 INFO Output saved to: picks_output.json
+2026-02-19 15:26:01 INFO ============================================================
+2026-02-19 15:26:01 INFO Attempting market-based confidence boosting...
+2026-02-19 15:26:01 INFO Market boosting skipped for tier format (needs adaptation)
+2026-02-19 15:26:01 WARNING No games found - tier output with no_games flag
+2026-02-19 15:26:01 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-19 15:28:23 INFO Starting ParlayGuarantee Tier Engine
+2026-02-19 15:28:23 INFO Date: 2026-02-19
+2026-02-19 15:28:23 INFO Using Tier Engine v2 (Odds API powered)
+2026-02-19 15:28:23 INFO === TIER ENGINE v2 ===
+2026-02-19 15:28:23 INFO Target date: 2026-02-19
+2026-02-19 15:28:24 INFO Odds API: 13 games, 493 requests remaining
+2026-02-19 15:28:24 INFO Analyzed 13 games total
+2026-02-19 15:28:24 INFO Games for 2026-02-19: 10
+2026-02-19 15:28:24 INFO Games for 2026-02-20: 3
+2026-02-19 15:28:24 INFO   single: 5 picks from 10 games
+2026-02-19 15:28:24 INFO   2leg: 5 picks from 10 games
+2026-02-19 15:28:24 INFO   3leg: 3 picks from 13 games
+2026-02-19 15:28:24 INFO   4leg: 3 picks from 13 games
+2026-02-19 15:28:24 INFO   5leg: 2 picks from 13 games
+2026-02-19 15:28:24 INFO   6leg: 2 picks from 13 games
+2026-02-19 15:28:24 INFO   7leg: 1 picks from 13 games
+2026-02-19 15:28:24 WARNING No games found - tier output with no_games flag
+2026-02-19 15:28:24 WARNING ENGINE_SECRET not set, skipping email notifications
+2026-02-20 07:55:59 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 07:55:59 INFO Date: 2026-02-20
+2026-02-20 07:55:59 INFO ============================================================
+2026-02-20 07:55:59 INFO TIER ENGINE STARTING
+2026-02-20 07:55:59 INFO Target date: 2026-02-20
+2026-02-20 07:55:59 INFO ============================================================
+2026-02-20 07:55:59 INFO Odds fetcher initialized
+2026-02-20 07:55:59 INFO Generating tier picks for 2026-02-20
+2026-02-20 07:55:59 INFO Fetching games for 2026-02-20
+2026-02-20 07:55:59 INFO Using reliable team mapping: 30 teams
+2026-02-20 07:55:59 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 07:56:15 WARNING Timeout on attempt 1, retrying...
+2026-02-20 07:56:16 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 07:56:31 WARNING Timeout on attempt 2, retrying...
+2026-02-20 07:56:33 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 08:15:57 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 08:15:57 INFO Date: 2026-02-20
+2026-02-20 08:15:57 INFO ============================================================
+2026-02-20 08:15:57 INFO TIER ENGINE STARTING
+2026-02-20 08:15:57 INFO Target date: 2026-02-20
+2026-02-20 08:15:57 INFO ============================================================
+2026-02-20 08:15:57 INFO Odds fetcher initialized
+2026-02-20 08:15:57 INFO Generating tier picks for 2026-02-20
+2026-02-20 08:15:57 INFO Fetching games for 2026-02-20
+2026-02-20 08:15:57 INFO Using reliable team mapping: 30 teams
+2026-02-20 08:15:57 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 08:15:57 DEBUG Starting new HTTPS connection (1): stats.nba.com:443
+2026-02-20 08:16:12 WARNING Timeout on attempt 1, retrying...
+2026-02-20 08:16:13 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 08:16:13 DEBUG Starting new HTTPS connection (2): stats.nba.com:443
+2026-02-20 08:18:45 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 08:18:45 INFO Date: 2026-02-20
+2026-02-20 08:18:45 INFO ============================================================
+2026-02-20 08:18:45 INFO TIER ENGINE STARTING
+2026-02-20 08:18:45 INFO Target date: 2026-02-20
+2026-02-20 08:18:45 INFO ============================================================
+2026-02-20 08:18:45 INFO Odds fetcher initialized
+2026-02-20 08:18:45 INFO Generating tier picks for 2026-02-20
+2026-02-20 08:18:45 INFO Fetching games for 2026-02-20
+2026-02-20 08:18:45 INFO Using reliable team mapping: 30 teams
+2026-02-20 08:18:45 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 08:19:01 WARNING Timeout on attempt 1, retrying...
+2026-02-20 08:19:02 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:01:56 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:01:56 INFO Date: 2026-02-20
+2026-02-20 09:01:56 INFO ============================================================
+2026-02-20 09:01:56 INFO TIER ENGINE STARTING
+2026-02-20 09:01:56 INFO Target date: 2026-02-20
+2026-02-20 09:01:56 INFO ============================================================
+2026-02-20 09:01:56 INFO Odds fetcher initialized
+2026-02-20 09:01:56 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:01:56 INFO Fetching games for 2026-02-20
+2026-02-20 09:01:56 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:01:56 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:02:12 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:02:13 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:02:28 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:02:30 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:02:46 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:02:50 WARNING No games found for 2026-02-20
+2026-02-20 09:02:50 WARNING No games available - returning empty tier structure
+2026-02-20 09:02:50 INFO ============================================================
+2026-02-20 09:02:50 INFO 🔥 VALUE ENGINE RESULTS
+2026-02-20 09:02:50 INFO ============================================================
+2026-02-20 09:02:50 INFO Total games processed: 0
+2026-02-20 09:02:50 INFO 1-Leg Picks: 0 picks
+2026-02-20 09:02:50 INFO 2-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO 3-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO 4-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO 5-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO 6-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO 7-Leg Parlays: 0 picks
+2026-02-20 09:02:50 INFO spread_single: 0 picks
+2026-02-20 09:02:50 INFO spread_2leg: 0 picks
+2026-02-20 09:02:50 INFO spread_3leg: 0 picks
+2026-02-20 09:02:50 INFO spread_4leg: 0 picks
+2026-02-20 09:02:50 INFO spread_5leg: 0 picks
+2026-02-20 09:02:50 INFO Fetching games for 2026-02-20
+2026-02-20 09:02:50 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:03:05 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:03:06 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:03:22 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:03:24 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:03:39 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:03:43 WARNING No games found for 2026-02-20
+2026-02-20 09:03:43 INFO 
+============================================================
+2026-02-20 09:03:43 INFO 🕐 Generation time: 53.49 seconds
+2026-02-20 09:03:43 INFO 💾 Output saved to: picks_output.json
+2026-02-20 09:03:43 INFO 🚀 SHARP VALUE PICKS READY!
+2026-02-20 09:03:43 INFO ============================================================
+2026-02-20 09:03:43 INFO 🎯 Attempting market-based confidence boosting...
+2026-02-20 09:03:43 INFO Market boosting skipped for tier format (needs adaptation)
+2026-02-20 09:03:43 WARNING No games found - tier output with no_games flag
+2026-02-20 09:03:43 ERROR Unexpected error: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+2026-02-20 09:34:59 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:34:59 INFO Date: 2026-02-20
+2026-02-20 09:34:59 INFO ============================================================
+2026-02-20 09:34:59 INFO TIER ENGINE STARTING
+2026-02-20 09:34:59 INFO Target date: 2026-02-20
+2026-02-20 09:34:59 INFO ============================================================
+2026-02-20 09:34:59 INFO Odds fetcher initialized
+2026-02-20 09:34:59 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:34:59 INFO Fetching games for 2026-02-20
+2026-02-20 09:34:59 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:34:59 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:35:15 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:35:16 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:35:31 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:35:33 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:35:49 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:35:53 WARNING No games found for 2026-02-20
+2026-02-20 09:35:53 WARNING No games available - returning empty tier structure
+2026-02-20 09:35:53 INFO ============================================================
+2026-02-20 09:35:53 INFO 🔥 VALUE ENGINE RESULTS
+2026-02-20 09:35:53 INFO ============================================================
+2026-02-20 09:35:53 INFO Total games processed: 0
+2026-02-20 09:35:53 INFO 1-Leg Picks: 0 picks
+2026-02-20 09:35:53 INFO 2-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO 3-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO 4-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO 5-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO 6-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO 7-Leg Parlays: 0 picks
+2026-02-20 09:35:53 INFO spread_single: 0 picks
+2026-02-20 09:35:53 INFO spread_2leg: 0 picks
+2026-02-20 09:35:53 INFO spread_3leg: 0 picks
+2026-02-20 09:35:53 INFO spread_4leg: 0 picks
+2026-02-20 09:35:53 INFO spread_5leg: 0 picks
+2026-02-20 09:35:53 INFO Fetching games for 2026-02-20
+2026-02-20 09:35:53 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:37:12 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:37:12 INFO Date: 2026-02-20
+2026-02-20 09:37:12 INFO ============================================================
+2026-02-20 09:37:12 INFO TIER ENGINE STARTING
+2026-02-20 09:37:12 INFO Target date: 2026-02-20
+2026-02-20 09:37:12 INFO ============================================================
+2026-02-20 09:37:12 INFO Odds fetcher initialized
+2026-02-20 09:37:12 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:37:12 INFO Fetching games for 2026-02-20
+2026-02-20 09:37:12 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:37:12 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:37:12 DEBUG Starting new HTTPS connection (1): stats.nba.com:443
+2026-02-20 09:37:27 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:37:28 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:37:28 DEBUG Starting new HTTPS connection (2): stats.nba.com:443
+2026-02-20 09:37:44 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:37:46 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:37:46 DEBUG Starting new HTTPS connection (3): stats.nba.com:443
+2026-02-20 09:38:01 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:38:05 INFO NBA.com failed, trying Odds API fallback...
+2026-02-20 09:38:05 DEBUG Starting new HTTPS connection (1): api.the-odds-api.com:443
+2026-02-20 09:38:06 DEBUG https://api.the-odds-api.com:443 "GET /v4/sports/basketball_nba/odds/?apiKey=5b35ed6fd487a1496a3159a68159f4c3&regions=us&markets=h2h%2Cspreads&oddsFormat=american HTTP/1.1" 200 2365
+2026-02-20 09:38:06 INFO Odds API fallback returned 9 games for 2026-02-20
+2026-02-20 09:38:06 INFO Fetching team statistics...
+2026-02-20 09:38:06 INFO Fetching stats for season: 2024
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-11-22: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-11-25: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-11-28: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-01: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-04: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-07: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-10: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-13: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-16: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-19: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-22: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-25: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-28: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2025-12-31: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-03: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-06: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-09: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-12: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-15: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-18: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-21: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-24: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-27: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-01-30: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-02: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-05: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-08: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-11: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-14: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-17: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 DEBUG Error fetching games for 2026-02-20: 'ReliableDataFetcher' object has no attribute 'balldontlie_base'
+2026-02-20 09:38:06 INFO Calculated stats for 30 teams
+2026-02-20 09:38:06 INFO Fetching injury data...
+2026-02-20 09:38:06 DEBUG Starting new HTTPS connection (1): www.cbssports.com:443
+2026-02-20 09:38:07 DEBUG https://www.cbssports.com:443 "GET /nba/injuries/ HTTP/1.1" 200 61703
+2026-02-20 09:38:07 INFO CBS Sports: scraped 92 injuries
+2026-02-20 09:38:07 INFO Cached 92 injuries to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\injury_cache.json
+2026-02-20 09:38:07 INFO Found 92 injury reports across teams
+2026-02-20 09:38:07 DEBUG Injury adjustment for Charlotte Hornets: 0.515 -> 0.389 (impact: 0.126)
+2026-02-20 09:38:07 DEBUG Injury adjustment for Memphis Grizzlies: 0.515 -> 0.365 (impact: 0.300)
+2026-02-20 09:38:07 DEBUG Injury adjustment for Washington Wizards: 0.515 -> 0.365 (impact: 0.300)
+2026-02-20 09:38:07 DEBUG Injury adjustment for Oklahoma City Thunder: 0.515 -> 0.365 (impact: 0.270)
+2026-02-20 09:38:07 DEBUG Injury adjustment for New Orleans Pelicans: 0.515 -> 0.365 (impact: 0.153)
+2026-02-20 09:38:07 DEBUG Injury adjustment for Portland Trail Blazers: 0.515 -> 0.365 (impact: 0.207)
+2026-02-20 09:38:07 INFO Applying odds-based adjustments...
+2026-02-20 09:38:07 ERROR Error applying odds adjustments: 'OddsFetcher' object has no attribute 'fetch_daily_odds'
+2026-02-20 09:38:07 INFO 🔥 Calculating value scores for each game...
+2026-02-20 09:38:13 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:38:13 INFO Date: 2026-02-20
+2026-02-20 09:38:13 INFO ============================================================
+2026-02-20 09:38:13 INFO TIER ENGINE STARTING
+2026-02-20 09:38:13 INFO Target date: 2026-02-20
+2026-02-20 09:38:13 INFO ============================================================
+2026-02-20 09:38:13 INFO Odds fetcher initialized
+2026-02-20 09:38:13 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:38:13 INFO Fetching games for 2026-02-20
+2026-02-20 09:38:13 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:38:13 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:38:29 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:38:30 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:38:45 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:38:47 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:39:03 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:39:07 INFO NBA.com failed, trying Odds API fallback...
+2026-02-20 09:39:07 INFO Odds API fallback returned 9 games for 2026-02-20
+2026-02-20 09:39:07 INFO Fetching team statistics...
+2026-02-20 09:39:07 INFO Fetching stats for season: 2024
+2026-02-20 09:39:07 INFO Calculated stats for 30 teams
+2026-02-20 09:39:07 INFO Fetching injury data...
+2026-02-20 09:39:07 INFO Using cached injuries (92 entries)
+2026-02-20 09:39:07 INFO Found 92 injury reports across teams
+2026-02-20 09:39:07 INFO Applying odds-based adjustments...
+2026-02-20 09:39:07 ERROR Error applying odds adjustments: 'OddsFetcher' object has no attribute 'fetch_daily_odds'
+2026-02-20 09:39:07 INFO 🔥 Calculating value scores for each game...
+2026-02-20 09:39:07 INFO 💎 Found 9 upset candidates
+2026-02-20 09:39:07 INFO 🔥 VALUE PICK #1: Miami Heat @ Atlanta Hawks
+2026-02-20 09:39:07 INFO    Win Prob: 0.515 | Value Score: 0.855
+2026-02-20 09:39:07 INFO    Edge vs Market: +0.155 | Label: VALUE
+2026-02-20 09:39:07 INFO    Spread: +3.5 | Pick: Atlanta Hawks
+2026-02-20 09:39:07 INFO 🔥 VALUE PICK #2: Cleveland Cavaliers @ Charlotte Hornets
+2026-02-20 09:39:07 INFO    Win Prob: 0.389 | Value Score: 0.677
+2026-02-20 09:39:07 INFO    Edge vs Market: +0.129 | Label: VALUE
+2026-02-20 09:39:07 INFO    Spread: +6.0 | Pick: Charlotte Hornets
+2026-02-20 09:39:07 INFO 🔥 VALUE PICK #3: LA Clippers @ Los Angeles Lakers
+2026-02-20 09:39:07 INFO    Win Prob: 0.515 | Value Score: 0.545
+2026-02-20 09:39:07 INFO    Edge vs Market: -0.245 | Label: LEAN
+2026-02-20 09:39:07 INFO    Spread: -6.5 | Pick: Los Angeles Lakers
+2026-02-20 09:39:07 INFO 🔥 VALUE PICK #4: Dallas Mavericks @ Minnesota Timberwolves
+2026-02-20 09:39:07 INFO    Win Prob: 0.515 | Value Score: 0.495
+2026-02-20 09:39:07 INFO    Edge vs Market: -0.335 | Label: LEAN
+2026-02-20 09:39:07 INFO    Spread: -13.5 | Pick: Minnesota Timberwolves
+2026-02-20 09:39:07 INFO 🔥 VALUE PICK #5: Brooklyn Nets @ Oklahoma City Thunder
+2026-02-20 09:39:07 INFO    Win Prob: 0.365 | Value Score: 0.465
+2026-02-20 09:39:07 INFO    Edge vs Market: -0.485 | Label: LEAN
+2026-02-20 09:39:07 INFO    Spread: -18.0 | Pick: Oklahoma City Thunder
+2026-02-20 09:39:07 INFO Analyzed 9 games with VALUE SCORING
+2026-02-20 09:39:07 INFO Generating 5 picks for single (1 legs)
+2026-02-20 09:39:07 INFO Generated 5 picks for single
+2026-02-20 09:39:07 INFO Generating 5 picks for 2leg (2 legs)
+2026-02-20 09:39:07 INFO Generated 5 picks for 2leg
+2026-02-20 09:39:07 INFO Generating 3 picks for 3leg (3 legs)
+2026-02-20 09:39:07 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:39:07 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:39:07 INFO Generated 3 picks for 3leg
+2026-02-20 09:39:07 INFO Generating 3 picks for 4leg (4 legs)
+2026-02-20 09:39:07 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:39:07 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:39:07 INFO Generated 3 picks for 4leg
+2026-02-20 09:39:07 INFO Generating 2 picks for 5leg (5 legs)
+2026-02-20 09:39:07 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:39:07 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:39:07 INFO Generated 2 picks for 5leg
+2026-02-20 09:39:07 INFO Generating 2 picks for 6leg (6 legs)
+2026-02-20 09:39:07 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:39:07 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:39:07 INFO Generated 2 picks for 6leg
+2026-02-20 09:39:07 INFO Generating 1 picks for 7leg (7 legs)
+2026-02-20 09:39:07 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:39:07 INFO 🎯 Generated 1 diversified parlays
+2026-02-20 09:39:07 INFO Generated 1 picks for 7leg
+2026-02-20 09:39:07 ERROR Unexpected error: name 'away_team' is not defined
+2026-02-20 09:40:27 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:40:27 INFO Date: 2026-02-20
+2026-02-20 09:40:27 INFO ============================================================
+2026-02-20 09:40:27 INFO TIER ENGINE STARTING
+2026-02-20 09:40:27 INFO Target date: 2026-02-20
+2026-02-20 09:40:27 INFO ============================================================
+2026-02-20 09:40:27 INFO Odds fetcher initialized
+2026-02-20 09:40:27 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:40:27 INFO Fetching games for 2026-02-20
+2026-02-20 09:40:27 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:40:27 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:40:42 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:40:43 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:40:59 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:41:01 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:41:16 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:41:20 INFO NBA.com failed, trying Odds API fallback...
+2026-02-20 09:41:21 INFO Odds API fallback returned 9 games for 2026-02-20
+2026-02-20 09:41:21 INFO Fetching team statistics...
+2026-02-20 09:41:21 INFO Fetching stats for season: 2024
+2026-02-20 09:41:21 INFO Calculated stats for 30 teams
+2026-02-20 09:41:21 INFO Fetching injury data...
+2026-02-20 09:41:21 INFO Using cached injuries (92 entries)
+2026-02-20 09:41:21 INFO Found 92 injury reports across teams
+2026-02-20 09:41:21 INFO Applying odds-based adjustments...
+2026-02-20 09:41:21 ERROR Error applying odds adjustments: 'OddsFetcher' object has no attribute 'fetch_daily_odds'
+2026-02-20 09:41:21 INFO 🔥 Calculating value scores for each game...
+2026-02-20 09:41:21 INFO 💎 Found 9 upset candidates
+2026-02-20 09:41:21 INFO 🔥 VALUE PICK #1: Miami Heat @ Atlanta Hawks
+2026-02-20 09:41:21 INFO    Win Prob: 0.515 | Value Score: 0.855
+2026-02-20 09:41:21 INFO    Edge vs Market: +0.155 | Label: VALUE
+2026-02-20 09:41:21 INFO    Spread: +3.5 | Pick: Atlanta Hawks
+2026-02-20 09:41:21 INFO 🔥 VALUE PICK #2: Cleveland Cavaliers @ Charlotte Hornets
+2026-02-20 09:41:21 INFO    Win Prob: 0.389 | Value Score: 0.677
+2026-02-20 09:41:21 INFO    Edge vs Market: +0.129 | Label: VALUE
+2026-02-20 09:41:21 INFO    Spread: +6.0 | Pick: Charlotte Hornets
+2026-02-20 09:41:21 INFO 🔥 VALUE PICK #3: LA Clippers @ Los Angeles Lakers
+2026-02-20 09:41:21 INFO    Win Prob: 0.515 | Value Score: 0.545
+2026-02-20 09:41:21 INFO    Edge vs Market: -0.245 | Label: LEAN
+2026-02-20 09:41:21 INFO    Spread: -6.5 | Pick: Los Angeles Lakers
+2026-02-20 09:41:21 INFO 🔥 VALUE PICK #4: Dallas Mavericks @ Minnesota Timberwolves
+2026-02-20 09:41:21 INFO    Win Prob: 0.515 | Value Score: 0.495
+2026-02-20 09:41:21 INFO    Edge vs Market: -0.335 | Label: LEAN
+2026-02-20 09:41:21 INFO    Spread: -13.5 | Pick: Minnesota Timberwolves
+2026-02-20 09:41:21 INFO 🔥 VALUE PICK #5: Brooklyn Nets @ Oklahoma City Thunder
+2026-02-20 09:41:21 INFO    Win Prob: 0.365 | Value Score: 0.465
+2026-02-20 09:41:21 INFO    Edge vs Market: -0.485 | Label: LEAN
+2026-02-20 09:41:21 INFO    Spread: -18.0 | Pick: Oklahoma City Thunder
+2026-02-20 09:41:21 INFO Analyzed 9 games with VALUE SCORING
+2026-02-20 09:41:21 INFO Generating 5 picks for single (1 legs)
+2026-02-20 09:41:21 INFO Generated 5 picks for single
+2026-02-20 09:41:21 INFO Generating 5 picks for 2leg (2 legs)
+2026-02-20 09:41:21 INFO Generated 5 picks for 2leg
+2026-02-20 09:41:21 INFO Generating 3 picks for 3leg (3 legs)
+2026-02-20 09:41:21 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:41:21 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:41:21 INFO Generated 3 picks for 3leg
+2026-02-20 09:41:21 INFO Generating 3 picks for 4leg (4 legs)
+2026-02-20 09:41:21 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:41:21 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:41:21 INFO Generated 3 picks for 4leg
+2026-02-20 09:41:21 INFO Generating 2 picks for 5leg (5 legs)
+2026-02-20 09:41:21 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:41:21 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:41:21 INFO Generated 2 picks for 5leg
+2026-02-20 09:41:21 INFO Generating 2 picks for 6leg (6 legs)
+2026-02-20 09:41:21 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:41:21 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:41:21 INFO Generated 2 picks for 6leg
+2026-02-20 09:41:21 INFO Generating 1 picks for 7leg (7 legs)
+2026-02-20 09:41:21 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:41:21 INFO 🎯 Generated 1 diversified parlays
+2026-02-20 09:41:21 INFO Generated 1 picks for 7leg
+2026-02-20 09:41:21 ERROR Unexpected error: name 'away_team' is not defined
+2026-02-20 09:42:42 INFO 🚀 Starting ParlayGuarantee Tier Engine
+2026-02-20 09:42:42 INFO Date: 2026-02-20
+2026-02-20 09:42:42 INFO ============================================================
+2026-02-20 09:42:42 INFO TIER ENGINE STARTING
+2026-02-20 09:42:42 INFO Target date: 2026-02-20
+2026-02-20 09:42:42 INFO ============================================================
+2026-02-20 09:42:42 INFO Odds fetcher initialized
+2026-02-20 09:42:42 INFO Generating tier picks for 2026-02-20
+2026-02-20 09:42:42 INFO Fetching games for 2026-02-20
+2026-02-20 09:42:42 INFO Using reliable team mapping: 30 teams
+2026-02-20 09:42:42 INFO Attempt 1: Fetching games for 02/20/2026
+2026-02-20 09:42:57 WARNING Timeout on attempt 1, retrying...
+2026-02-20 09:42:58 INFO Attempt 2: Fetching games for 02/20/2026
+2026-02-20 09:43:14 WARNING Timeout on attempt 2, retrying...
+2026-02-20 09:43:16 INFO Attempt 3: Fetching games for 02/20/2026
+2026-02-20 09:43:31 WARNING Timeout on attempt 3, retrying...
+2026-02-20 09:43:35 INFO NBA.com failed, trying Odds API fallback...
+2026-02-20 09:43:36 INFO Odds API fallback returned 9 games for 2026-02-20
+2026-02-20 09:43:36 INFO Fetching team statistics...
+2026-02-20 09:43:36 INFO Fetching stats for season: 2024
+2026-02-20 09:43:36 INFO Calculated stats for 30 teams
+2026-02-20 09:43:36 INFO Fetching injury data...
+2026-02-20 09:43:36 INFO Using cached injuries (92 entries)
+2026-02-20 09:43:36 INFO Found 92 injury reports across teams
+2026-02-20 09:43:36 INFO Applying odds-based adjustments...
+2026-02-20 09:43:36 ERROR Error applying odds adjustments: 'OddsFetcher' object has no attribute 'fetch_daily_odds'
+2026-02-20 09:43:36 INFO 🔥 Calculating value scores for each game...
+2026-02-20 09:43:36 INFO 💎 Found 9 upset candidates
+2026-02-20 09:43:36 INFO 🔥 VALUE PICK #1: Miami Heat @ Atlanta Hawks
+2026-02-20 09:43:36 INFO    Win Prob: 0.515 | Value Score: 0.855
+2026-02-20 09:43:36 INFO    Edge vs Market: +0.155 | Label: VALUE
+2026-02-20 09:43:36 INFO    Spread: +3.5 | Pick: Atlanta Hawks
+2026-02-20 09:43:36 INFO 🔥 VALUE PICK #2: Cleveland Cavaliers @ Charlotte Hornets
+2026-02-20 09:43:36 INFO    Win Prob: 0.389 | Value Score: 0.677
+2026-02-20 09:43:36 INFO    Edge vs Market: +0.129 | Label: VALUE
+2026-02-20 09:43:36 INFO    Spread: +6.0 | Pick: Charlotte Hornets
+2026-02-20 09:43:36 INFO 🔥 VALUE PICK #3: LA Clippers @ Los Angeles Lakers
+2026-02-20 09:43:36 INFO    Win Prob: 0.515 | Value Score: 0.545
+2026-02-20 09:43:36 INFO    Edge vs Market: -0.245 | Label: LEAN
+2026-02-20 09:43:36 INFO    Spread: -6.5 | Pick: Los Angeles Lakers
+2026-02-20 09:43:36 INFO 🔥 VALUE PICK #4: Dallas Mavericks @ Minnesota Timberwolves
+2026-02-20 09:43:36 INFO    Win Prob: 0.515 | Value Score: 0.495
+2026-02-20 09:43:36 INFO    Edge vs Market: -0.335 | Label: LEAN
+2026-02-20 09:43:36 INFO    Spread: -13.5 | Pick: Minnesota Timberwolves
+2026-02-20 09:43:36 INFO 🔥 VALUE PICK #5: Brooklyn Nets @ Oklahoma City Thunder
+2026-02-20 09:43:36 INFO    Win Prob: 0.365 | Value Score: 0.465
+2026-02-20 09:43:36 INFO    Edge vs Market: -0.485 | Label: LEAN
+2026-02-20 09:43:36 INFO    Spread: -18.0 | Pick: Oklahoma City Thunder
+2026-02-20 09:43:36 INFO Analyzed 9 games with VALUE SCORING
+2026-02-20 09:43:36 INFO Generating 5 picks for single (1 legs)
+2026-02-20 09:43:36 INFO Generated 5 picks for single
+2026-02-20 09:43:36 INFO Generating 5 picks for 2leg (2 legs)
+2026-02-20 09:43:36 INFO Generated 5 picks for 2leg
+2026-02-20 09:43:36 INFO Generating 3 picks for 3leg (3 legs)
+2026-02-20 09:43:36 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:43:36 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:43:36 INFO Generated 3 picks for 3leg
+2026-02-20 09:43:36 INFO Generating 3 picks for 4leg (4 legs)
+2026-02-20 09:43:36 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:43:36 INFO 🎯 Generated 3 diversified parlays
+2026-02-20 09:43:36 INFO Generated 3 picks for 4leg
+2026-02-20 09:43:36 INFO Generating 2 picks for 5leg (5 legs)
+2026-02-20 09:43:36 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:43:36 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:43:36 INFO Generated 2 picks for 5leg
+2026-02-20 09:43:36 INFO Generating 2 picks for 6leg (6 legs)
+2026-02-20 09:43:36 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:43:36 INFO 🎯 Generated 2 diversified parlays
+2026-02-20 09:43:36 INFO Generated 2 picks for 6leg
+2026-02-20 09:43:36 INFO Generating 1 picks for 7leg (7 legs)
+2026-02-20 09:43:36 INFO 🎯 Diversified parlay pool: 0 LOCKS, 2 VALUE, 0 UPSETS, 7 LEANS
+2026-02-20 09:43:36 INFO 🎯 Generated 1 diversified parlays
+2026-02-20 09:43:36 INFO Generated 1 picks for 7leg
+2026-02-20 09:43:36 INFO Built 9 spread pick candidates
+2026-02-20 09:43:36 INFO Generating 5 picks for spread_single (1 legs, spread)
+2026-02-20 09:43:36 INFO Generated 5 spread picks for spread_single
+2026-02-20 09:43:36 INFO Generating 5 picks for spread_2leg (2 legs, spread)
+2026-02-20 09:43:36 INFO Generated 5 spread picks for spread_2leg
+2026-02-20 09:43:36 INFO Generating 3 picks for spread_3leg (3 legs, spread)
+2026-02-20 09:43:36 INFO Generated 3 spread picks for spread_3leg
+2026-02-20 09:43:36 INFO Generating 2 picks for spread_4leg (4 legs, spread)
+2026-02-20 09:43:36 INFO Generated 2 spread picks for spread_4leg
+2026-02-20 09:43:36 INFO Generating 1 picks for spread_5leg (5 legs, spread)
+2026-02-20 09:43:36 INFO Generated 1 spread picks for spread_5leg
+2026-02-20 09:43:36 INFO Tier pick generation complete
+2026-02-20 09:43:36 INFO ============================================================
+2026-02-20 09:43:36 INFO 🔥 VALUE ENGINE RESULTS
+2026-02-20 09:43:36 INFO ============================================================
+2026-02-20 09:43:36 INFO Total games processed: 9
+2026-02-20 09:43:36 INFO 1-Leg Picks: 5 picks
+2026-02-20 09:43:36 INFO 2-Leg Parlays: 5 picks
+2026-02-20 09:43:36 INFO 3-Leg Parlays: 3 picks
+2026-02-20 09:43:36 INFO 4-Leg Parlays: 3 picks
+2026-02-20 09:43:36 INFO 5-Leg Parlays: 2 picks
+2026-02-20 09:43:36 INFO 6-Leg Parlays: 2 picks
+2026-02-20 09:43:36 INFO 7-Leg Parlays: 1 picks
+2026-02-20 09:43:36 INFO Spread 1-Leg Picks: 5 picks
+2026-02-20 09:43:36 INFO Spread 2-Leg Parlays: 5 picks
+2026-02-20 09:43:36 INFO Spread 3-Leg Parlays: 3 picks
+2026-02-20 09:43:36 INFO Spread 4-Leg Parlays: 2 picks
+2026-02-20 09:43:36 INFO Spread 5-Leg Parlays: 1 picks
+2026-02-20 09:43:36 INFO 
+============================================================
+2026-02-20 09:43:36 INFO 🔍 SAMPLE GAME ANALYSIS
+2026-02-20 09:43:36 INFO ============================================================
+2026-02-20 09:43:36 INFO 🏀 Cleveland Cavaliers @ Charlotte Hornets
+2026-02-20 09:43:36 INFO 📊 Basic Pick: Charlotte Hornets (38.9%)
+2026-02-20 09:43:36 INFO 🔥 Value Score: 0.677
+2026-02-20 09:43:36 INFO 📈 Edge vs Market: +12.9%
+2026-02-20 09:43:36 INFO 🏷️ Label: VALUE
+2026-02-20 09:43:36 INFO    Our model gives Charlotte Hornets a 38.9% chance to win
+2026-02-20 09:43:36 INFO    Market spread: Charlotte Hornets +6.0
+2026-02-20 09:43:36 INFO    Market implies Charlotte Hornets has ~26.0% win probability
+2026-02-20 09:43:36 INFO    VALUE! We have +12.9% edge vs market
+2026-02-20 09:43:36 INFO    UPSET CANDIDATE! Reasons: Home underdog, Model likes underdog
+2026-02-20 09:43:36 INFO 
+============================================================
+2026-02-20 09:43:36 INFO 🕐 Generation time: 54.08 seconds
+2026-02-20 09:43:36 INFO 💾 Output saved to: picks_output.json
+2026-02-20 09:43:36 INFO 🚀 SHARP VALUE PICKS READY!
+2026-02-20 09:43:36 INFO ============================================================
+2026-02-20 09:43:36 INFO 📊 Saved 9 analyzed games to analyzed_games.json
+2026-02-20 09:43:36 INFO 🎯 Attempting market-based confidence boosting...
+2026-02-20 09:43:36 INFO Market boosting skipped for tier format (needs adaptation)
+2026-02-20 09:43:36 WARNING ENGINE_SECRET not set, skipping email notifications

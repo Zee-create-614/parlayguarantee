@@ -1,0 +1,38 @@
+2026-02-15 18:19:01,291 - __main__ - INFO - Simple Backtester initialized for 2024-12-01 to 2024-12-05
+2026-02-15 18:19:01,292 - __main__ - INFO - 
+Starting backtest: 2024-12-01 to 2024-12-05
+2026-02-15 18:19:01,292 - __main__ - INFO - 
+Backtesting 2024-12-01
+2026-02-15 18:19:01,292 - __main__ - INFO - Fetching games for 12/01/2024
+2026-02-15 18:19:02,581 - __main__ - INFO - Found 10 completed games
+2026-02-15 18:19:02,581 - __main__ - INFO - Generated 8 parlays
+2026-02-15 18:19:02,581 - __main__ - INFO - Results: 1/8 hit (12.5%)
+2026-02-15 18:19:02,582 - __main__ - INFO - Deposit KEPT
+2026-02-15 18:19:02,583 - __main__ - INFO - 
+Backtesting 2024-12-02
+2026-02-15 18:19:02,583 - __main__ - INFO - Fetching games for 12/02/2024
+2026-02-15 18:19:03,278 - __main__ - INFO - Found 4 completed games
+2026-02-15 18:19:03,278 - __main__ - INFO - Generated 4 parlays
+2026-02-15 18:19:03,279 - __main__ - INFO - Results: 3/4 hit (75.0%)
+2026-02-15 18:19:03,279 - __main__ - INFO - Deposit KEPT
+2026-02-15 18:19:03,279 - __main__ - INFO - 
+Backtesting 2024-12-03
+2026-02-15 18:19:03,279 - __main__ - INFO - Fetching games for 12/03/2024
+2026-02-15 18:19:03,986 - __main__ - INFO - Found 11 completed games
+2026-02-15 18:19:03,987 - __main__ - INFO - Generated 9 parlays
+2026-02-15 18:19:03,987 - __main__ - INFO - Results: 3/9 hit (33.3%)
+2026-02-15 18:19:03,987 - __main__ - INFO - Deposit KEPT
+2026-02-15 18:19:03,987 - __main__ - INFO - 
+Backtesting 2024-12-04
+2026-02-15 18:19:03,987 - __main__ - INFO - Fetching games for 12/04/2024
+2026-02-15 18:19:04,719 - __main__ - INFO - Found 6 completed games
+2026-02-15 18:19:04,720 - __main__ - INFO - Generated 6 parlays
+2026-02-15 18:19:04,720 - __main__ - INFO - Results: 1/6 hit (16.7%)
+2026-02-15 18:19:04,721 - __main__ - INFO - Deposit KEPT
+2026-02-15 18:19:04,721 - __main__ - INFO - 
+Backtesting 2024-12-05
+2026-02-15 18:19:04,721 - __main__ - INFO - Fetching games for 12/05/2024
+2026-02-15 18:19:05,450 - __main__ - INFO - Found 8 completed games
+2026-02-15 18:19:05,451 - __main__ - INFO - Generated 7 parlays
+2026-02-15 18:19:05,451 - __main__ - INFO - Results: 1/7 hit (14.3%)
+2026-02-15 18:19:05,452 - __main__ - INFO - Deposit KEPT

@@ -1,0 +1,219 @@
+{
+  "date": "2026-02-20",
+  "nba_ou": {
+    "sport": "NBA O/U",
+    "date": "2026-02-20",
+    "results": [
+      {
+        "matchup": "Miami Heat @ Atlanta Hawks",
+        "pick": "UNDER",
+        "edge": -3.7,
+        "posted": 244.1,
+        "predicted": 240.4,
+        "actual": 225,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Cleveland Cavaliers @ Charlotte Hornets",
+        "pick": "OVER",
+        "edge": 3.0,
+        "posted": 230.1,
+        "predicted": 233.1,
+        "actual": 231,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Los Angeles Clippers @ Los Angeles Lakers",
+        "pick": "OVER",
+        "edge": 0.6,
+        "posted": 226.1,
+        "predicted": 226.7,
+        "actual": 247,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Utah Jazz @ Memphis Grizzlies",
+        "pick": "OVER",
+        "edge": 7.3,
+        "posted": 236.6,
+        "predicted": 243.9,
+        "actual": 237,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Dallas Mavericks @ Minnesota Timberwolves",
+        "pick": "UNDER",
+        "edge": -7.0,
+        "posted": 239.6,
+        "predicted": 232.6,
+        "actual": 233,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Milwaukee Bucks @ New Orleans Pelicans",
+        "pick": "OVER",
+        "edge": 9.4,
+        "posted": 223.4,
+        "predicted": 232.8,
+        "actual": 257,
+        "result": "HIT"
+      },
+      {
+        "matchup": "Brooklyn Nets @ Oklahoma City Thunder",
+        "pick": "OVER",
+        "edge": 4.5,
+        "posted": 213.2,
+        "predicted": 217.7,
+        "actual": 191,
+        "result": "MISS"
+      },
+      {
+        "matchup": "Denver Nuggets @ Portland Trail Blazers",
+        "pick": "UNDER",
+        "edge": -3.7,
+        "posted": 241.7,
+        "predicted": 238.0,
+        "actual": 260,
+        "result": "MISS"
+      },
+      {
+        "matchup": "Indiana Pacers @ Washington Wizards",
+        "pick": "OVER",
+        "edge": 5.9,
+        "posted": 229.1,
+        "predicted": 235.0,
+        "actual": 249,
+        "result": "HIT"
+      }
+    ],
+    "correct": 7,
+    "total": 9,
+    "accuracy": 0.7777777777777778
+  },
+  "ncaab_ou": {
+    "sport": "NCAAB O/U",
+    "date": "2026-02-20",
+    "results": [
+      {
+        "matchup": "Akron Zips @ Ball State Cardinals",
+        "pick": "UNDER",
+        "edge": -3.9,
+        "posted": 147.3,
+        "predicted": 143.4,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Princeton Tigers @ Brown Bears",
+        "pick": "OVER",
+        "edge": 11.2,
+        "posted": 130.4,
+        "predicted": 141.6,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Milwaukee Panthers @ Detroit Mercy Titans",
+        "pick": "UNDER",
+        "edge": -8.4,
+        "posted": 152.3,
+        "predicted": 143.9,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Sacred Heart Pioneers @ Fairfield Stags",
+        "pick": "UNDER",
+        "edge": -14.5,
+        "posted": 159.0,
+        "predicted": 144.5,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Saint Peter's Peacocks @ Iona Gaels",
+        "pick": "OVER",
+        "edge": 1.9,
+        "posted": 140.1,
+        "predicted": 142.0,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Marist Red Foxes @ Manhattan Jaspers",
+        "pick": "OVER",
+        "edge": 0.9,
+        "posted": 142.1,
+        "predicted": 143.0,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Siena Saints @ Merrimack Warriors",
+        "pick": "OVER",
+        "edge": 9.6,
+        "posted": 132.1,
+        "predicted": 141.7,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Bowling Green Falcons @ Miami (OH) RedHawks",
+        "pick": "UNDER",
+        "edge": -4.7,
+        "posted": 153.7,
+        "predicted": 149.0,
+        "actual": 168,
+        "result": "MISS"
+      },
+      {
+        "matchup": "Niagara Purple Eagles @ Mt. St. Mary's Mountaineers",
+        "pick": "OVER",
+        "edge": 11.7,
+        "posted": 128.8,
+        "predicted": 140.5,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Green Bay Phoenix @ Oakland Golden Grizzlies",
+        "pick": "UNDER",
+        "edge": -8.2,
+        "posted": 154.0,
+        "predicted": 145.8,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "Indiana Hoosiers @ Purdue Boilermakers",
+        "pick": "UNDER",
+        "edge": -3.6,
+        "posted": 150.1,
+        "predicted": 146.5,
+        "actual": 157,
+        "result": "MISS"
+      },
+      {
+        "matchup": "Canisius Golden Griffins @ Rider Broncs",
+        "pick": "OVER",
+        "edge": 6.4,
+        "posted": 131.4,
+        "predicted": 137.8,
+        "actual": null,
+        "result": "NO SCORE"
+      },
+      {
+        "matchup": "VCU Rams @ Saint Louis Billikens",
+        "pick": "UNDER",
+        "edge": -15.7,
+        "posted": 164.6,
+        "predicted": 148.9,
+        "actual": 163,
+        "result": "HIT"
+      }
+    ],
+    "correct": 1,
+    "total": 3,
+    "accuracy": 0.3333333333333333
+  }
+}

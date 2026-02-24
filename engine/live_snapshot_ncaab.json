@@ -1,0 +1,1786 @@
+{
+  "sport": "ncaab",
+  "timestamp": "2026-02-21T14:33:11.852623+00:00",
+  "sources": {
+    "FanDuel": 148,
+    "Odds API": 148
+  },
+  "games": {
+    "Iowa State@BYU": {
+      "home_team": "BYU",
+      "away_team": "Iowa State",
+      "spread": 3.5,
+      "total": 155.5,
+      "home_odds": 138,
+      "away_odds": -166,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Southern Illinois@Northern Iowa": {
+      "home_team": "Northern Iowa",
+      "away_team": "Southern Illinois",
+      "spread": -6.5,
+      "total": 132.5,
+      "home_odds": -305,
+      "away_odds": 252,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Missouri@Arkansas": {
+      "home_team": "Arkansas",
+      "away_team": "Missouri",
+      "spread": -10.0,
+      "total": 160.0,
+      "home_odds": -527,
+      "away_odds": 392,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Wake Forest@Virginia Tech": {
+      "home_team": "Virginia Tech",
+      "away_team": "Wake Forest",
+      "spread": -4.5,
+      "total": 151.5,
+      "home_odds": -225,
+      "away_odds": 188,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Creighton@St. John's": {
+      "home_team": "St. John's",
+      "away_team": "Creighton",
+      "spread": -12.5,
+      "total": 154.5,
+      "home_odds": -1000,
+      "away_odds": 640,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Rutgers@Minnesota": {
+      "home_team": "Minnesota",
+      "away_team": "Rutgers",
+      "spread": -7.5,
+      "total": 133.5,
+      "home_odds": -385,
+      "away_odds": 300,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Florida State@Clemson": {
+      "home_team": "Clemson",
+      "away_team": "Florida State",
+      "spread": -8.5,
+      "total": 144.5,
+      "home_odds": -450,
+      "away_odds": 340,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Carolina@Syracuse": {
+      "home_team": "Syracuse",
+      "away_team": "North Carolina",
+      "spread": 1.5,
+      "total": 153.5,
+      "home_odds": 100,
+      "away_odds": -120,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Mississippi State@South Carolina": {
+      "home_team": "South Carolina",
+      "away_team": "Mississippi State",
+      "spread": -1.5,
+      "total": 151.5,
+      "home_odds": -128,
+      "away_odds": 106,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Cincinnati@Kansas": {
+      "home_team": "Kansas",
+      "away_team": "Cincinnati",
+      "spread": -10.5,
+      "total": 139.0,
+      "home_odds": -625,
+      "away_odds": 462,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Xavier@Butler": {
+      "home_team": "Butler",
+      "away_team": "Xavier",
+      "spread": -3.5,
+      "total": 159.5,
+      "home_odds": -176,
+      "away_odds": 146,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Tennessee@Vanderbilt": {
+      "home_team": "Vanderbilt",
+      "away_team": "Tennessee",
+      "spread": -3.5,
+      "total": 150.5,
+      "home_odds": -189,
+      "away_odds": 156,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Penn State@Nebraska": {
+      "home_team": "Nebraska",
+      "away_team": "Penn State",
+      "spread": -18.5,
+      "total": 148.5,
+      "home_odds": -4000,
+      "away_odds": 1400,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Miami (FL)@Virginia": {
+      "home_team": "Virginia",
+      "away_team": "Miami (FL)",
+      "spread": -7.5,
+      "total": 145.5,
+      "home_odds": -385,
+      "away_odds": 290,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Notre Dame@Pittsburgh": {
+      "home_team": "Pittsburgh",
+      "away_team": "Notre Dame",
+      "spread": -1.5,
+      "total": 137.5,
+      "home_odds": -128,
+      "away_odds": 106,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Georgia Tech@Louisville": {
+      "home_team": "Louisville",
+      "away_team": "Georgia Tech",
+      "spread": -23.5,
+      "total": 164.5,
+      "home_odds": -10000,
+      "away_odds": 2400,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Kansas State@Texas Tech": {
+      "home_team": "Texas Tech",
+      "away_team": "Kansas State",
+      "spread": -12.5,
+      "total": 158.5,
+      "home_odds": -950,
+      "away_odds": 610,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Arizona@Houston": {
+      "home_team": "Houston",
+      "away_team": "Arizona",
+      "spread": -5.5,
+      "total": 141.5,
+      "home_odds": -285,
+      "away_odds": 230,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Washington@Maryland": {
+      "home_team": "Maryland",
+      "away_team": "Washington",
+      "spread": 3.5,
+      "total": 145.5,
+      "home_odds": 146,
+      "away_odds": -176,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Texas@Georgia": {
+      "home_team": "Georgia",
+      "away_team": "Texas",
+      "spread": -2.5,
+      "total": 163.5,
+      "home_odds": -156,
+      "away_odds": 130,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Oklahoma State@Colorado": {
+      "home_team": "Colorado",
+      "away_team": "Oklahoma State",
+      "spread": -4.5,
+      "total": 163.5,
+      "home_odds": -210,
+      "away_odds": 172,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Boston College@SMU": {
+      "home_team": "SMU",
+      "away_team": "Boston College",
+      "spread": -15.5,
+      "total": 150.5,
+      "home_odds": -2100,
+      "away_odds": 1000,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Oregon@USC": {
+      "home_team": "USC",
+      "away_team": "Oregon",
+      "spread": -5.5,
+      "total": 146.5,
+      "home_odds": -260,
+      "away_odds": 205,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Arizona State@Baylor": {
+      "home_team": "Baylor",
+      "away_team": "Arizona State",
+      "spread": -7.5,
+      "total": 158.5,
+      "home_odds": -360,
+      "away_odds": 280,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "West Virginia@TCU": {
+      "home_team": "TCU",
+      "away_team": "West Virginia",
+      "spread": -5.5,
+      "total": 131.5,
+      "home_odds": -260,
+      "away_odds": 210,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UConn@Villanova": {
+      "home_team": "Villanova",
+      "away_team": "UConn",
+      "spread": 2.5,
+      "total": 140.5,
+      "home_odds": 132,
+      "away_odds": -160,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Alabama@LSU": {
+      "home_team": "LSU",
+      "away_team": "Alabama",
+      "spread": 7.5,
+      "total": 172.5,
+      "home_odds": 265,
+      "away_odds": -335,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Georgetown@Seton Hall": {
+      "home_team": "Seton Hall",
+      "away_team": "Georgetown",
+      "spread": -4.5,
+      "total": 135.5,
+      "home_odds": -235,
+      "away_odds": 190,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Stanford@California": {
+      "home_team": "California",
+      "away_team": "Stanford",
+      "spread": -1.5,
+      "total": 148.5,
+      "home_odds": -114,
+      "away_odds": -105,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Illinois@UCLA": {
+      "home_team": "UCLA",
+      "away_team": "Illinois",
+      "spread": 6.5,
+      "total": 145.5,
+      "home_odds": 245,
+      "away_odds": -310,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Providence@DePaul": {
+      "home_team": "DePaul",
+      "away_team": "Providence",
+      "spread": -1.5,
+      "total": 154.5,
+      "home_odds": -126,
+      "away_odds": 105,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Texas A&M@Oklahoma": {
+      "home_team": "Oklahoma",
+      "away_team": "Texas A&M",
+      "spread": -1.5,
+      "total": 165.5,
+      "home_odds": -110,
+      "away_odds": -110,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Kentucky@Auburn": {
+      "home_team": "Auburn",
+      "away_team": "Kentucky",
+      "spread": -3.5,
+      "total": 158.5,
+      "home_odds": -192,
+      "away_odds": 158,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Central Florida@Utah": {
+      "home_team": "Utah",
+      "away_team": "Central Florida",
+      "spread": 2.5,
+      "total": 155.5,
+      "home_odds": 116,
+      "away_odds": -140,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Harvard@Cornell": {
+      "home_team": "Cornell",
+      "away_team": "Harvard",
+      "spread": -4.5,
+      "total": 154.5,
+      "home_odds": -200,
+      "away_odds": 160,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Dartmouth@Columbia": {
+      "home_team": "Columbia",
+      "away_team": "Dartmouth",
+      "spread": -6.5,
+      "total": 150.5,
+      "home_odds": -290,
+      "away_odds": 225,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Samford@Mercer": {
+      "home_team": "Mercer",
+      "away_team": "Samford",
+      "spread": -3.5,
+      "total": 154.5,
+      "home_odds": -192,
+      "away_odds": 154,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Kansas City@North Dakota State": {
+      "home_team": "North Dakota State",
+      "away_team": "Kansas City",
+      "spread": -18.5,
+      "total": 147.5,
+      "home_odds": -6000,
+      "away_odds": 1600,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Delaware@Middle Tennessee": {
+      "home_team": "Middle Tennessee",
+      "away_team": "Delaware",
+      "spread": -7.5,
+      "total": 136.5,
+      "home_odds": -420,
+      "away_odds": 310,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "SIU Edwardsville@Tennessee State": {
+      "home_team": "Tennessee State",
+      "away_team": "SIU Edwardsville",
+      "spread": -4.0,
+      "total": 143.5,
+      "home_odds": -205,
+      "away_odds": 164,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Hofstra@Northeastern": {
+      "home_team": "Northeastern",
+      "away_team": "Hofstra",
+      "spread": 9.5,
+      "total": 148.5,
+      "home_odds": 360,
+      "away_odds": -500,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Old Dominion@Southern Miss": {
+      "home_team": "Southern Miss",
+      "away_team": "Old Dominion",
+      "spread": -3.5,
+      "total": 147.5,
+      "home_odds": -188,
+      "away_odds": 152,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Ohio@Northern Illinois": {
+      "home_team": "Northern Illinois",
+      "away_team": "Ohio",
+      "spread": 5.5,
+      "total": 150.5,
+      "home_odds": 205,
+      "away_odds": -260,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Missouri State@FIU": {
+      "home_team": "FIU",
+      "away_team": "Missouri State",
+      "spread": -4.0,
+      "total": 155.5,
+      "home_odds": -184,
+      "away_odds": 148,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Dakota@South Dakota State": {
+      "home_team": "South Dakota State",
+      "away_team": "North Dakota",
+      "spread": -6.5,
+      "total": 151.5,
+      "home_odds": -290,
+      "away_odds": 225,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Arkansas State@Louisiana-Monroe": {
+      "home_team": "Louisiana-Monroe",
+      "away_team": "Arkansas State",
+      "spread": 14.5,
+      "total": 164.5,
+      "home_odds": 980,
+      "away_odds": -2200,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Jacksonville State@Sam Houston State": {
+      "home_team": "Sam Houston State",
+      "away_team": "Jacksonville State",
+      "spread": -7.5,
+      "total": 149.5,
+      "home_odds": -375,
+      "away_odds": 285,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Southern Utah@Abilene Christian": {
+      "home_team": "Abilene Christian",
+      "away_team": "Southern Utah",
+      "spread": -6.5,
+      "total": 145.5,
+      "home_odds": -290,
+      "away_odds": 225,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UNC Wilmington@Campbell": {
+      "home_team": "Campbell",
+      "away_team": "UNC Wilmington",
+      "spread": 2.5,
+      "total": 151.0,
+      "home_odds": 124,
+      "away_odds": -152,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Monmouth@College of Charleston": {
+      "home_team": "College of Charleston",
+      "away_team": "Monmouth",
+      "spread": -4.5,
+      "total": 148.0,
+      "home_odds": -215,
+      "away_odds": 172,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "James Madison@Georgia State": {
+      "home_team": "Georgia State",
+      "away_team": "James Madison",
+      "spread": 1.5,
+      "total": 143.0,
+      "home_odds": 106,
+      "away_odds": -130,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Troy@South Alabama": {
+      "home_team": "South Alabama",
+      "away_team": "Troy",
+      "spread": 1.5,
+      "total": 142.5,
+      "home_odds": 101,
+      "away_odds": -122,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Hampton@Stony Brook": {
+      "home_team": "Stony Brook",
+      "away_team": "Hampton",
+      "spread": -5.5,
+      "total": 135.5,
+      "home_odds": -235,
+      "away_odds": 186,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Southeast Missouri State@Little Rock": {
+      "home_team": "Little Rock",
+      "away_team": "Southeast Missouri State",
+      "spread": 2.0,
+      "total": 142.5,
+      "home_odds": 114,
+      "away_odds": -140,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Lindenwood@Tennessee Tech": {
+      "home_team": "Tennessee Tech",
+      "away_team": "Lindenwood",
+      "spread": 1.5,
+      "total": 153.5,
+      "home_odds": 108,
+      "away_odds": -131,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "East Tennessee State@UNC Greensboro": {
+      "home_team": "UNC Greensboro",
+      "away_team": "East Tennessee State",
+      "spread": 6.0,
+      "total": 149.0,
+      "home_odds": 240,
+      "away_odds": -310,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Southern@Eastern Illinois": {
+      "home_team": "Eastern Illinois",
+      "away_team": "Southern",
+      "spread": -4.5,
+      "total": 134.0,
+      "home_odds": -200,
+      "away_odds": 160,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Morehead State@Western Illinois": {
+      "home_team": "Western Illinois",
+      "away_team": "Morehead State",
+      "spread": 8.5,
+      "total": 144.5,
+      "home_odds": 310,
+      "away_odds": -420,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Louisiana Tech@Kennesaw State": {
+      "home_team": "Kennesaw State",
+      "away_team": "Louisiana Tech",
+      "spread": -5.5,
+      "total": 147.5,
+      "home_odds": -290,
+      "away_odds": 225,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Eastern Michigan@Toledo": {
+      "home_team": "Toledo",
+      "away_team": "Eastern Michigan",
+      "spread": -8.5,
+      "total": 146.0,
+      "home_odds": -480,
+      "away_odds": 350,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Western Michigan@Central Michigan": {
+      "home_team": "Central Michigan",
+      "away_team": "Western Michigan",
+      "spread": -4.0,
+      "total": 151.5,
+      "home_odds": -184,
+      "away_odds": 148,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UC Davis@UC Riverside": {
+      "home_team": "UC Riverside",
+      "away_team": "UC Davis",
+      "spread": 3.0,
+      "total": 148.5,
+      "home_odds": 138,
+      "away_odds": -170,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Eastern Washington@Portland State": {
+      "home_team": "Portland State",
+      "away_team": "Eastern Washington",
+      "spread": -6.0,
+      "total": 146.5,
+      "home_odds": -265,
+      "away_odds": 210,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Utah Tech@Tarleton State": {
+      "home_team": "Tarleton State",
+      "away_team": "Utah Tech",
+      "spread": -2.0,
+      "total": 141.5,
+      "home_odds": -134,
+      "away_odds": 110,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Montana State@Idaho State": {
+      "home_team": "Idaho State",
+      "away_team": "Montana State",
+      "spread": 3.5,
+      "total": 144.5,
+      "home_odds": 137,
+      "away_odds": -166,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Buffalo@Massachusetts": {
+      "home_team": "Massachusetts",
+      "away_team": "Buffalo",
+      "spread": -7.5,
+      "total": 156.5,
+      "home_odds": -355,
+      "away_odds": 270,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "St. Thomas (MN)@Denver": {
+      "home_team": "Denver",
+      "away_team": "St. Thomas (MN)",
+      "spread": 4.5,
+      "total": 168.0,
+      "home_odds": 172,
+      "away_odds": -215,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Carolina A&T@Elon": {
+      "home_team": "Elon",
+      "away_team": "North Carolina A&T",
+      "spread": -7.5,
+      "total": 151.5,
+      "home_odds": -385,
+      "away_odds": 290,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "CSU Northridge@Long Beach State": {
+      "home_team": "Long Beach State",
+      "away_team": "CSU Northridge",
+      "spread": 5.5,
+      "total": 158.5,
+      "home_odds": 186,
+      "away_odds": -235,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Furman@Wofford": {
+      "home_team": "Wofford",
+      "away_team": "Furman",
+      "spread": -1.5,
+      "total": 151.5,
+      "home_odds": -110,
+      "away_odds": -110,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Pepperdine@Oregon": {
+      "home_team": "Oregon",
+      "away_team": "Pepperdine",
+      "spread": -9.5,
+      "total": 147.5,
+      "home_odds": -500,
+      "away_odds": 360,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Northern Arizona@Northern Colorado": {
+      "home_team": "Northern Colorado",
+      "away_team": "Northern Arizona",
+      "spread": -12.5,
+      "total": 148.5,
+      "home_odds": -850,
+      "away_odds": 540,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Loyola Marymount@San Diego": {
+      "home_team": "San Diego",
+      "away_team": "Loyola Marymount",
+      "spread": 2.0,
+      "total": 150.5,
+      "home_odds": 121,
+      "away_odds": -146,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "South Dakota@Oral Roberts": {
+      "home_team": "Oral Roberts",
+      "away_team": "South Dakota",
+      "spread": -1.5,
+      "total": 152.5,
+      "home_odds": -115,
+      "away_odds": -105,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Indiana State@Belmont": {
+      "home_team": "Belmont",
+      "away_team": "Indiana State",
+      "spread": -13.5,
+      "total": 156.5,
+      "home_odds": -1050,
+      "away_odds": 630,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "CSU Fullerton@CSU Bakersfield": {
+      "home_team": "CSU Bakersfield",
+      "away_team": "CSU Fullerton",
+      "spread": 5.5,
+      "total": 160.5,
+      "home_odds": 205,
+      "away_odds": -260,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Loyola Chicago@St. Joseph's": {
+      "home_team": "St. Joseph's",
+      "away_team": "Loyola Chicago",
+      "spread": -9.5,
+      "total": 143.5,
+      "home_odds": -500,
+      "away_odds": 385,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "East Carolina@Charlotte": {
+      "home_team": "Charlotte",
+      "away_team": "East Carolina",
+      "spread": -5.0,
+      "total": 145.5,
+      "home_odds": -242,
+      "away_odds": 197,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Montana@Weber State": {
+      "home_team": "Weber State",
+      "away_team": "Montana",
+      "spread": -1.5,
+      "total": 152.5,
+      "home_odds": -132,
+      "away_odds": 108,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Georgia Southern@Appalachian State": {
+      "home_team": "Appalachian State",
+      "away_team": "Georgia Southern",
+      "spread": -7.5,
+      "total": 148.0,
+      "home_odds": -325,
+      "away_odds": 285,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Idaho@CS Sacramento": {
+      "home_team": "CS Sacramento",
+      "away_team": "Idaho",
+      "spread": 3.5,
+      "total": 162.5,
+      "home_odds": 140,
+      "away_odds": -172,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Western Carolina@VMI": {
+      "home_team": "VMI",
+      "away_team": "Western Carolina",
+      "spread": 9.5,
+      "total": 154.5,
+      "home_odds": 365,
+      "away_odds": -482,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Chattanooga@The Citadel": {
+      "home_team": "The Citadel",
+      "away_team": "Chattanooga",
+      "spread": 4.5,
+      "total": 143.0,
+      "home_odds": 159,
+      "away_odds": -192,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Texas State@Louisiana": {
+      "home_team": "Louisiana",
+      "away_team": "Texas State",
+      "spread": 3.5,
+      "total": 134.5,
+      "home_odds": 160,
+      "away_odds": -194,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Marshall@Coastal Carolina": {
+      "home_team": "Coastal Carolina",
+      "away_team": "Marshall",
+      "spread": 1.5,
+      "total": 153.5,
+      "home_odds": 105,
+      "away_odds": -126,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Navy@Army": {
+      "home_team": "Army",
+      "away_team": "Navy",
+      "spread": 9.5,
+      "total": 138.5,
+      "home_odds": 440,
+      "away_odds": -610,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Duquesne@Dayton": {
+      "home_team": "Dayton",
+      "away_team": "Duquesne",
+      "spread": -6.0,
+      "total": 148.5,
+      "home_odds": -280,
+      "away_odds": 225,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Penn@Yale": {
+      "home_team": "Yale",
+      "away_team": "Penn",
+      "spread": -9.5,
+      "total": 152.5,
+      "home_odds": -490,
+      "away_odds": 365,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Davidson@Fordham": {
+      "home_team": "Fordham",
+      "away_team": "Davidson",
+      "spread": -1.5,
+      "total": 132.5,
+      "home_odds": -120,
+      "away_odds": 100,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Rhode Island@La Salle": {
+      "home_team": "La Salle",
+      "away_team": "Rhode Island",
+      "spread": 4.5,
+      "total": 136.0,
+      "home_odds": 168,
+      "away_odds": -205,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UNLV@Air Force": {
+      "home_team": "Air Force",
+      "away_team": "UNLV",
+      "spread": 16.5,
+      "total": 152.0,
+      "home_odds": 1100,
+      "away_odds": -2500,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Valparaiso@UIC": {
+      "home_team": "UIC",
+      "away_team": "Valparaiso",
+      "spread": -7.5,
+      "total": 138.5,
+      "home_odds": -365,
+      "away_odds": 285,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Utah Valley@UT Arlington": {
+      "home_team": "UT Arlington",
+      "away_team": "Utah Valley",
+      "spread": 6.5,
+      "total": 140.0,
+      "home_odds": 240,
+      "away_odds": -300,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "San Jose State@Boise State": {
+      "home_team": "Boise State",
+      "away_team": "San Jose State",
+      "spread": -16.0,
+      "total": 144.5,
+      "home_odds": -2300,
+      "away_odds": 1060,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Western Kentucky@Liberty": {
+      "home_team": "Liberty",
+      "away_team": "Western Kentucky",
+      "spread": -8.0,
+      "total": 146.5,
+      "home_odds": -410,
+      "away_odds": 315,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Evansville@Murray State": {
+      "home_team": "Murray State",
+      "away_team": "Evansville",
+      "spread": -15.0,
+      "total": 154.5,
+      "home_odds": -1600,
+      "away_odds": 890,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Temple@Wichita State": {
+      "home_team": "Wichita State",
+      "away_team": "Temple",
+      "spread": -8.5,
+      "total": 142.0,
+      "home_odds": -410,
+      "away_odds": 330,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "San Diego State@Colorado State": {
+      "home_team": "Colorado State",
+      "away_team": "San Diego State",
+      "spread": 3.0,
+      "total": 137.0,
+      "home_odds": 135,
+      "away_odds": -162,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "St. Bonaventure@Richmond": {
+      "home_team": "Richmond",
+      "away_team": "St. Bonaventure",
+      "spread": -2.5,
+      "total": 150.5,
+      "home_odds": -154,
+      "away_odds": 128,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "West Georgia@Queens University": {
+      "home_team": "Queens University",
+      "away_team": "West Georgia",
+      "spread": -11.5,
+      "total": 162.5,
+      "home_odds": -900,
+      "away_odds": 570,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Florida@Stetson": {
+      "home_team": "Stetson",
+      "away_team": "North Florida",
+      "spread": -3.5,
+      "total": 162.5,
+      "home_odds": -168,
+      "away_odds": 136,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Maine@New Hampshire": {
+      "home_team": "New Hampshire",
+      "away_team": "Maine",
+      "spread": -3.5,
+      "total": 137.0,
+      "home_odds": -176,
+      "away_odds": 142,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Delaware State@Morgan State": {
+      "home_team": "Morgan State",
+      "away_team": "Delaware State",
+      "spread": -5.5,
+      "total": 147.5,
+      "home_odds": -245,
+      "away_odds": 194,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Longwood@Charleston Southern": {
+      "home_team": "Charleston Southern",
+      "away_team": "Longwood",
+      "spread": -4.0,
+      "total": 152.5,
+      "home_odds": -188,
+      "away_odds": 152,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "South Carolina State@Norfolk State": {
+      "home_team": "Norfolk State",
+      "away_team": "South Carolina State",
+      "spread": -10.5,
+      "total": 147.0,
+      "home_odds": -650,
+      "away_odds": 440,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Illinois State@Bradley": {
+      "home_team": "Bradley",
+      "away_team": "Illinois State",
+      "spread": -3.5,
+      "total": 143.5,
+      "home_odds": -196,
+      "away_odds": 162,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "New Mexico@Fresno State": {
+      "home_team": "Fresno State",
+      "away_team": "New Mexico",
+      "spread": 8.5,
+      "total": 155.5,
+      "home_odds": 330,
+      "away_odds": -430,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Wyoming@Grand Canyon": {
+      "home_team": "Grand Canyon",
+      "away_team": "Wyoming",
+      "spread": -8.5,
+      "total": 145.5,
+      "home_odds": -490,
+      "away_odds": 365,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Pacific@Gonzaga": {
+      "home_team": "Gonzaga",
+      "away_team": "Pacific",
+      "spread": -21.5,
+      "total": 144.5,
+      "home_odds": -7000,
+      "away_odds": 2000,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UTEP@New Mexico State": {
+      "home_team": "New Mexico State",
+      "away_team": "UTEP",
+      "spread": -6.5,
+      "total": 141.5,
+      "home_odds": -345,
+      "away_odds": 270,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Albany@UMBC": {
+      "home_team": "UMBC",
+      "away_team": "Albany",
+      "spread": -6.5,
+      "total": 144.5,
+      "home_odds": -265,
+      "away_odds": 210,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Loyola Maryland@Colgate": {
+      "home_team": "Colgate",
+      "away_team": "Loyola Maryland",
+      "spread": -8.5,
+      "total": 152.5,
+      "home_odds": -420,
+      "away_odds": 310,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Binghamton@UMass Lowell": {
+      "home_team": "UMass Lowell",
+      "away_team": "Binghamton",
+      "spread": -9.5,
+      "total": 146.5,
+      "home_odds": -500,
+      "away_odds": 360,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Central Connecticut@Chicago State": {
+      "home_team": "Chicago State",
+      "away_team": "Central Connecticut",
+      "spread": 3.5,
+      "total": 139.5,
+      "home_odds": 160,
+      "away_odds": -196,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Portland@Seattle": {
+      "home_team": "Seattle",
+      "away_team": "Portland",
+      "spread": -7.5,
+      "total": 140.5,
+      "home_odds": -375,
+      "away_odds": 290,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Saint Mary's@Washington": {
+      "home_team": "Washington",
+      "away_team": "Saint Mary's",
+      "spread": 8.5,
+      "total": 149.5,
+      "home_odds": 340,
+      "away_odds": -450,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Central Arkansas@Florida Gulf Coast": {
+      "home_team": "Florida Gulf Coast",
+      "away_team": "Central Arkansas",
+      "spread": 1.5,
+      "total": 151.5,
+      "home_odds": 110,
+      "away_odds": -132,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Le Moyne@Stonehill": {
+      "home_team": "Stonehill",
+      "away_team": "Le Moyne",
+      "spread": 2.5,
+      "total": 137.5,
+      "home_odds": 120,
+      "away_odds": -148,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Wagner@St. Francis (PA)": {
+      "home_team": "St. Francis (PA)",
+      "away_team": "Wagner",
+      "spread": 1.5,
+      "total": 150.5,
+      "home_odds": 108,
+      "away_odds": -132,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Santa Clara@San Francisco": {
+      "home_team": "San Francisco",
+      "away_team": "Santa Clara",
+      "spread": 7.5,
+      "total": 157.5,
+      "home_odds": 290,
+      "away_odds": -375,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Utah State@Nevada": {
+      "home_team": "Nevada",
+      "away_team": "Utah State",
+      "spread": 5.5,
+      "total": 148.5,
+      "home_odds": 195,
+      "away_odds": -240,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Alabama State@Florida A&M": {
+      "home_team": "Florida A&M",
+      "away_team": "Alabama State",
+      "spread": 1.5,
+      "total": 143.5,
+      "home_odds": 102,
+      "away_odds": -123,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Grambling@Southern": {
+      "home_team": "Southern",
+      "away_team": "Grambling",
+      "spread": -5.5,
+      "total": 141.5,
+      "home_odds": -250,
+      "away_odds": 198,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Radford@UNC Asheville": {
+      "home_team": "UNC Asheville",
+      "away_team": "Radford",
+      "spread": -1.5,
+      "total": 149.0,
+      "home_odds": -122,
+      "away_odds": 101,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "LIU@Mercyhurst": {
+      "home_team": "Mercyhurst",
+      "away_team": "LIU",
+      "spread": 2.5,
+      "total": 135.5,
+      "home_odds": 126,
+      "away_odds": -154,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UC San Diego@UC Irvine": {
+      "home_team": "UC Irvine",
+      "away_team": "UC San Diego",
+      "spread": -4.5,
+      "total": 140.5,
+      "home_odds": -225,
+      "away_odds": 184,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Presbyterian@SC Upstate": {
+      "home_team": "SC Upstate",
+      "away_team": "Presbyterian",
+      "spread": 1.5,
+      "total": 141.5,
+      "home_odds": -102,
+      "away_odds": -119,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Incarnate Word@Texas A&M-Commerce": {
+      "home_team": "Texas A&M-Commerce",
+      "away_team": "Incarnate Word",
+      "spread": -2.0,
+      "total": 146.5,
+      "home_odds": -131,
+      "away_odds": 108,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Maryland-Eastern Shore@Coppin State": {
+      "home_team": "Coppin State",
+      "away_team": "Maryland-Eastern Shore",
+      "spread": 3.5,
+      "total": 127.5,
+      "home_odds": 138,
+      "away_odds": -170,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Alabama A&M@Bethune-Cookman": {
+      "home_team": "Bethune-Cookman",
+      "away_team": "Alabama A&M",
+      "spread": -6.5,
+      "total": 143.0,
+      "home_odds": -320,
+      "away_odds": 245,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UC Santa Barbara@Hawaii": {
+      "home_team": "Hawaii",
+      "away_team": "UC Santa Barbara",
+      "spread": -3.5,
+      "total": 146.5,
+      "home_odds": -192,
+      "away_odds": 158,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "UT Rio Grande Valley@Southeastern Louisiana": {
+      "home_team": "Southeastern Louisiana",
+      "away_team": "UT Rio Grande Valley",
+      "spread": 4.0,
+      "total": 134.5,
+      "home_odds": 154,
+      "away_odds": -192,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Alabama@Lipscomb": {
+      "home_team": "Lipscomb",
+      "away_team": "North Alabama",
+      "spread": -12.5,
+      "total": 147.5,
+      "home_odds": -1300,
+      "away_odds": 730,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Nicholls@Stephen F. Austin": {
+      "home_team": "Stephen F. Austin",
+      "away_team": "Nicholls",
+      "spread": -13.5,
+      "total": 146.5,
+      "home_odds": -1600,
+      "away_odds": 820,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Jackson State@Alcorn State": {
+      "home_team": "Alcorn State",
+      "away_team": "Jackson State",
+      "spread": 1.5,
+      "total": 149.5,
+      "home_odds": 102,
+      "away_odds": -124,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Houston Christian@Northwestern State": {
+      "home_team": "Northwestern State",
+      "away_team": "Houston Christian",
+      "spread": -2.5,
+      "total": 133.0,
+      "home_odds": -151,
+      "away_odds": 125,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Winthrop@High Point": {
+      "home_team": "High Point",
+      "away_team": "Winthrop",
+      "spread": -8.5,
+      "total": 164.5,
+      "home_odds": -420,
+      "away_odds": 310,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "North Carolina Central@Howard": {
+      "home_team": "Howard",
+      "away_team": "North Carolina Central",
+      "spread": -12.5,
+      "total": 143.0,
+      "home_odds": -1100,
+      "away_odds": 680,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Vermont@NJIT": {
+      "home_team": "NJIT",
+      "away_team": "Vermont",
+      "spread": 4.5,
+      "total": 141.5,
+      "home_odds": 160,
+      "away_odds": -200,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "New Orleans@Lamar": {
+      "home_team": "Lamar",
+      "away_team": "New Orleans",
+      "spread": -4.0,
+      "total": 146.5,
+      "home_odds": -198,
+      "away_odds": 160,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Texas A&M-Corpus Christi@McNeese": {
+      "home_team": "McNeese",
+      "away_team": "Texas A&M-Corpus Christi",
+      "spread": -14.5,
+      "total": 139.5,
+      "home_odds": -2200,
+      "away_odds": 980,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Austin Peay@Jacksonville": {
+      "home_team": "Jacksonville",
+      "away_team": "Austin Peay",
+      "spread": 6.5,
+      "total": 141.5,
+      "home_odds": 260,
+      "away_odds": -340,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Eastern Kentucky@Bellarmine": {
+      "home_team": "Bellarmine",
+      "away_team": "Eastern Kentucky",
+      "spread": -2.5,
+      "total": 156.5,
+      "home_odds": -144,
+      "away_odds": 118,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Prairie View A&M@Arkansas-Pine Bluff": {
+      "home_team": "Arkansas-Pine Bluff",
+      "away_team": "Prairie View A&M",
+      "spread": -3.5,
+      "total": 158.5,
+      "home_odds": -166,
+      "away_odds": 137,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "New Haven@Fairleigh Dickinson": {
+      "home_team": "Fairleigh Dickinson",
+      "away_team": "New Haven",
+      "spread": -2.5,
+      "total": 122.5,
+      "home_odds": -162,
+      "away_odds": 132,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Florida@Ole Miss": {
+      "home_team": "Ole Miss",
+      "away_team": "Florida",
+      "spread": 13.5,
+      "total": 150.5,
+      "home_odds": 720,
+      "away_odds": -1050,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Michigan@Duke": {
+      "home_team": "Duke",
+      "away_team": "Michigan",
+      "spread": 2.5,
+      "total": 151.5,
+      "home_odds": 132,
+      "away_odds": -160,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    },
+    "Texas Southern@Mississippi Valley State": {
+      "home_team": "Mississippi Valley State",
+      "away_team": "Texas Southern",
+      "spread": 12.5,
+      "total": 144.5,
+      "home_odds": 590,
+      "away_odds": -750,
+      "books": [
+        "FanDuel",
+        "Odds API"
+      ]
+    }
+  }
+}

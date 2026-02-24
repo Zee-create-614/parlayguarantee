@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "start_date": "2024-10-22",
+    "end_date": "2025-01-14",
+    "total_dates_attempted": 43
+  },
+  "draftkings": {
+    "nights_tested": 42,
+    "itm_nights": 42,
+    "itm_rate_pct": 100.0,
+    "avg_best_score": 337.0,
+    "avg_all_scores": 330.8,
+    "max_best_score": 372.0,
+    "min_best_score": 293.0,
+    "total_lineups": 210,
+    "successful_lineups": 210,
+    "strategy_hits": {
+      "value_greedy": 42,
+      "stars_first": 42,
+      "randomized": 126
+    }
+  },
+  "fanduel": {
+    "nights_tested": 42,
+    "itm_nights": 42,
+    "itm_rate_pct": 100.0,
+    "avg_best_score": 435.5,
+    "avg_all_scores": 430.6,
+    "max_best_score": 531.3,
+    "min_best_score": 298.4,
+    "total_lineups": 210,
+    "successful_lineups": 210,
+    "strategy_hits": {
+      "value_greedy": 42,
+      "stars_first": 42,
+      "randomized": 126
+    }
+  }
+}

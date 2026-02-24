@@ -1,0 +1,937 @@
+{
+  "date": "2026-02-20",
+  "generated_at": "2026-02-19T15:23:25.996214",
+  "total_games": 8,
+  "tiers": {
+    "single": {
+      "tier_id": "single",
+      "tier_name": "1-Leg Picks",
+      "legs": 1,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "single",
+          "legs": 1,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.72,
+          "implied_payout": "1.4x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "single",
+          "legs": 1,
+          "games": [
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            }
+          ],
+          "combined_prob": 0.68,
+          "implied_payout": "1.5x",
+          "earliest_game_time": "2026-02-19 22:30"
+        },
+        {
+          "pick_number": 3,
+          "type": "single",
+          "legs": 1,
+          "games": [
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.65,
+          "implied_payout": "1.5x",
+          "earliest_game_time": "2026-02-19 21:00"
+        },
+        {
+          "pick_number": 4,
+          "type": "single",
+          "legs": 1,
+          "games": [
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.61,
+          "implied_payout": "1.6x",
+          "earliest_game_time": "2026-02-19 21:00"
+        },
+        {
+          "pick_number": 5,
+          "type": "single",
+          "legs": 1,
+          "games": [
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.59,
+          "implied_payout": "1.7x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 5
+    },
+    "2leg": {
+      "tier_id": "2leg",
+      "tier_name": "2-Leg Parlays",
+      "legs": 2,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 2,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            }
+          ],
+          "combined_prob": 0.4896,
+          "implied_payout": "2.0x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "parlay",
+          "legs": 2,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.468,
+          "implied_payout": "2.1x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 3,
+          "type": "parlay",
+          "legs": 2,
+          "games": [
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.442,
+          "implied_payout": "2.3x",
+          "earliest_game_time": "2026-02-19 21:00"
+        },
+        {
+          "pick_number": 4,
+          "type": "parlay",
+          "legs": 2,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.4392,
+          "implied_payout": "2.3x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 5,
+          "type": "parlay",
+          "legs": 2,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.4248,
+          "implied_payout": "2.4x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 5
+    },
+    "3leg": {
+      "tier_id": "3leg",
+      "tier_name": "3-Leg Parlays",
+      "legs": 3,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 3,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.3182,
+          "implied_payout": "3.1x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "parlay",
+          "legs": 3,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.2987,
+          "implied_payout": "3.3x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 3,
+          "type": "parlay",
+          "legs": 3,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.2889,
+          "implied_payout": "3.5x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 3
+    },
+    "4leg": {
+      "tier_id": "4leg",
+      "tier_name": "4-Leg Parlays",
+      "legs": 4,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 4,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.1941,
+          "implied_payout": "5.2x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "parlay",
+          "legs": 4,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.1878,
+          "implied_payout": "5.3x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 3,
+          "type": "parlay",
+          "legs": 4,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Dallas Mavericks",
+              "away": "Portland Trail Blazers",
+              "pick": "Dallas Mavericks",
+              "win_prob": 0.57,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:30",
+              "game_id": "mock_006",
+              "game_status": "8:30 pm ET"
+            }
+          ],
+          "combined_prob": 0.1814,
+          "implied_payout": "5.5x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 3
+    },
+    "5leg": {
+      "tier_id": "5leg",
+      "tier_name": "5-Leg Parlays",
+      "legs": 5,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 5,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.1145,
+          "implied_payout": "8.7x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "parlay",
+          "legs": 5,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Dallas Mavericks",
+              "away": "Portland Trail Blazers",
+              "pick": "Dallas Mavericks",
+              "win_prob": 0.57,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:30",
+              "game_id": "mock_006",
+              "game_status": "8:30 pm ET"
+            }
+          ],
+          "combined_prob": 0.1107,
+          "implied_payout": "9.0x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 2
+    },
+    "6leg": {
+      "tier_id": "6leg",
+      "tier_name": "6-Leg Parlays",
+      "legs": 6,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 6,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Dallas Mavericks",
+              "away": "Portland Trail Blazers",
+              "pick": "Dallas Mavericks",
+              "win_prob": 0.57,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:30",
+              "game_id": "mock_006",
+              "game_status": "8:30 pm ET"
+            }
+          ],
+          "combined_prob": 0.0653,
+          "implied_payout": "15.3x",
+          "earliest_game_time": "2026-02-19 20:00"
+        },
+        {
+          "pick_number": 2,
+          "type": "parlay",
+          "legs": 6,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Utah Jazz",
+              "away": "Orlando Magic",
+              "pick": "Utah Jazz",
+              "win_prob": 0.54,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_007",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.0618,
+          "implied_payout": "16.2x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 2
+    },
+    "7leg": {
+      "tier_id": "7leg",
+      "tier_name": "7-Leg Parlays",
+      "legs": 7,
+      "picks": [
+        {
+          "pick_number": 1,
+          "type": "parlay",
+          "legs": 7,
+          "games": [
+            {
+              "home": "Boston Celtics",
+              "away": "Los Angeles Lakers",
+              "pick": "Boston Celtics",
+              "win_prob": 0.72,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_001",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Golden State Warriors",
+              "away": "Miami Heat",
+              "pick": "Golden State Warriors",
+              "win_prob": 0.68,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 22:30",
+              "game_id": "mock_002",
+              "game_status": "10:30 pm ET"
+            },
+            {
+              "home": "Denver Nuggets",
+              "away": "Philadelphia 76ers",
+              "pick": "Denver Nuggets",
+              "win_prob": 0.65,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_003",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Phoenix Suns",
+              "away": "Chicago Bulls",
+              "pick": "Phoenix Suns",
+              "win_prob": 0.61,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_004",
+              "game_status": "9:00 pm ET"
+            },
+            {
+              "home": "Milwaukee Bucks",
+              "away": "Atlanta Hawks",
+              "pick": "Milwaukee Bucks",
+              "win_prob": 0.59,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:00",
+              "game_id": "mock_005",
+              "game_status": "8:00 pm ET"
+            },
+            {
+              "home": "Dallas Mavericks",
+              "away": "Portland Trail Blazers",
+              "pick": "Dallas Mavericks",
+              "win_prob": 0.57,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 20:30",
+              "game_id": "mock_006",
+              "game_status": "8:30 pm ET"
+            },
+            {
+              "home": "Utah Jazz",
+              "away": "Orlando Magic",
+              "pick": "Utah Jazz",
+              "win_prob": 0.54,
+              "game_date": "2026-02-19",
+              "game_time": "2026-02-19 21:00",
+              "game_id": "mock_007",
+              "game_status": "9:00 pm ET"
+            }
+          ],
+          "combined_prob": 0.0353,
+          "implied_payout": "28.4x",
+          "earliest_game_time": "2026-02-19 20:00"
+        }
+      ],
+      "total_picks": 1
+    }
+  },
+  "_metadata": {
+    "engine_version": "tier_engine_v1.0",
+    "generation_duration_seconds": 0.0,
+    "total_tiers": 7,
+    "tier_order": [
+      "single",
+      "2leg",
+      "3leg",
+      "4leg",
+      "5leg",
+      "6leg",
+      "7leg"
+    ]
+  }
+}

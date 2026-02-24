@@ -1,0 +1,23 @@
+2026-02-21 09:01:46,321 INFO Scraping all sources for ncaab consensus...
+2026-02-21 09:01:46,644 INFO Phase 1: API scrapers...
+2026-02-21 09:01:48,084 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 09:01:48,161 INFO FanDuel: got 148 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 09:01:48,291 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 09:01:48,333 INFO OddsAPI: got 148 games
+2026-02-21 09:01:48,333 INFO fanduel: 148 games
+2026-02-21 09:01:48,333 INFO odds_api: 148 games
+2026-02-21 09:01:48,333 INFO Phase 2: Playwright scrapers...
+2026-02-21 09:02:23,372 INFO DraftKings: 100 games scraped via Playwright
+2026-02-21 09:02:23,372 INFO draftkings: 100 games
+2026-02-21 09:02:58,384 INFO Caesars: 0 games scraped via Playwright
+2026-02-21 09:02:58,384 WARNING caesars: 0 games (WAF blocked)
+2026-02-21 09:03:40,055 ERROR betmgm failed: 'str' object has no attribute 'get'
+2026-02-21 09:03:40,062 INFO Sources: fanduel=148, odds_api=148, draftkings=100
+2026-02-21 09:03:44,246 INFO Cached 178 consensus games to consensus_ncaab_2026-02-21.json
+2026-02-21 09:03:44,263 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 09:03:44,272 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 09:03:44,320 INFO Using cached consensus (0m old, 178 games)
+2026-02-21 09:03:44,320 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 09:03:44,320 INFO Using CONSENSUS data: 178 games from multiple books
+2026-02-21 09:03:44,320 INFO Found 178 NCAAB games
+2026-02-21 09:09:39,669 INFO Generated 178 predictions

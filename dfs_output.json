@@ -1,0 +1,537 @@
+{
+  "date": "2026-02-19",
+  "generated_at": "2026-02-19T17:35:38.721321",
+  "lineups": {
+    "draftkings": [
+      {
+        "platform": "draftkings",
+        "strategy": "Max Projection",
+        "players": [
+          {
+            "name": "Nikola Joki\u0107",
+            "team": "DEN",
+            "position": "PG",
+            "salary": 10500,
+            "projected": 69.4,
+            "value": 6.61
+          },
+          {
+            "name": "Zach LaVine",
+            "team": "SAC",
+            "position": "SG",
+            "salary": 7500,
+            "projected": 37.2,
+            "value": 4.96
+          },
+          {
+            "name": "Malcolm Brogdon",
+            "team": "WAS",
+            "position": "SF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.46
+          },
+          {
+            "name": "Karl-Anthony Towns",
+            "team": "NYK",
+            "position": "PF",
+            "salary": 9500,
+            "projected": 49.6,
+            "value": 5.22
+          },
+          {
+            "name": "Evan Mobley",
+            "team": "CLE",
+            "position": "C",
+            "salary": 7500,
+            "projected": 39.5,
+            "value": 5.27
+          },
+          {
+            "name": "Justin Edwards",
+            "team": "PHI",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.8,
+            "value": 5.66
+          },
+          {
+            "name": "Trendon Watford",
+            "team": "BKN",
+            "position": "SF",
+            "salary": 3500,
+            "projected": 19.8,
+            "value": 5.66
+          },
+          {
+            "name": "Julian Champagnie",
+            "team": "SAS",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.7,
+            "value": 5.64
+          }
+        ],
+        "total_salary": 50000,
+        "salary_cap": 50000,
+        "projected_points": 279.5
+      },
+      {
+        "platform": "draftkings",
+        "strategy": "Value Play",
+        "players": [
+          {
+            "name": "Nikola Joki\u0107",
+            "team": "DEN",
+            "position": "PG",
+            "salary": 10500,
+            "projected": 69.4,
+            "value": 6.61
+          },
+          {
+            "name": "Justin Edwards",
+            "team": "PHI",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.8,
+            "value": 5.66
+          },
+          {
+            "name": "Trendon Watford",
+            "team": "BKN",
+            "position": "SF",
+            "salary": 3500,
+            "projected": 19.8,
+            "value": 5.66
+          },
+          {
+            "name": "Isaiah Jackson",
+            "team": "IND",
+            "position": "PF",
+            "salary": 3500,
+            "projected": 19.4,
+            "value": 5.54
+          },
+          {
+            "name": "Amen Thompson",
+            "team": "HOU",
+            "position": "C",
+            "salary": 6500,
+            "projected": 34.6,
+            "value": 5.33
+          },
+          {
+            "name": "Julian Champagnie",
+            "team": "SAS",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.7,
+            "value": 5.64
+          },
+          {
+            "name": "Malcolm Brogdon",
+            "team": "WAS",
+            "position": "SF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.46
+          },
+          {
+            "name": "Corey Kispert",
+            "team": "WAS",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.6,
+            "value": 5.6
+          }
+        ],
+        "total_salary": 39000,
+        "salary_cap": 50000,
+        "projected_points": 226.8
+      },
+      {
+        "platform": "draftkings",
+        "strategy": "Balanced",
+        "players": [
+          {
+            "name": "Nikola Joki\u0107",
+            "team": "DEN",
+            "position": "PG",
+            "salary": 10500,
+            "projected": 69.4,
+            "value": 6.61
+          },
+          {
+            "name": "Khris Middleton",
+            "team": "WAS",
+            "position": "SG",
+            "salary": 4500,
+            "projected": 24.8,
+            "value": 5.51
+          },
+          {
+            "name": "Malcolm Brogdon",
+            "team": "WAS",
+            "position": "SF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.46
+          },
+          {
+            "name": "Jonas Valan\u010di\u016bnas",
+            "team": "SAC",
+            "position": "PF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.45
+          },
+          {
+            "name": "Amen Thompson",
+            "team": "HOU",
+            "position": "C",
+            "salary": 6500,
+            "projected": 34.6,
+            "value": 5.33
+          },
+          {
+            "name": "Bradley Beal",
+            "team": "PHX",
+            "position": "SG",
+            "salary": 5500,
+            "projected": 29.9,
+            "value": 5.43
+          },
+          {
+            "name": "Jusuf Nurki\u0107",
+            "team": "CHA",
+            "position": "PF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.43
+          },
+          {
+            "name": "Devin Vassell",
+            "team": "SAS",
+            "position": "SG",
+            "salary": 5500,
+            "projected": 29.8,
+            "value": 5.42
+          }
+        ],
+        "total_salary": 46000,
+        "salary_cap": 50000,
+        "projected_points": 262.0
+      },
+      {
+        "platform": "draftkings",
+        "strategy": "Usage Heavy",
+        "players": [
+          {
+            "name": "Nikola Joki\u0107",
+            "team": "DEN",
+            "position": "PG",
+            "salary": 10500,
+            "projected": 69.4,
+            "value": 6.61
+          },
+          {
+            "name": "Zach LaVine",
+            "team": "SAC",
+            "position": "SG",
+            "salary": 7500,
+            "projected": 37.2,
+            "value": 4.96
+          },
+          {
+            "name": "Malcolm Brogdon",
+            "team": "WAS",
+            "position": "SF",
+            "salary": 4500,
+            "projected": 24.5,
+            "value": 5.46
+          },
+          {
+            "name": "Karl-Anthony Towns",
+            "team": "NYK",
+            "position": "PF",
+            "salary": 9500,
+            "projected": 49.6,
+            "value": 5.22
+          },
+          {
+            "name": "Evan Mobley",
+            "team": "CLE",
+            "position": "C",
+            "salary": 7500,
+            "projected": 39.5,
+            "value": 5.27
+          },
+          {
+            "name": "Justin Edwards",
+            "team": "PHI",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.8,
+            "value": 5.66
+          },
+          {
+            "name": "Peyton Watson",
+            "team": "DEN",
+            "position": "SF",
+            "salary": 3500,
+            "projected": 18.6,
+            "value": 5.31
+          },
+          {
+            "name": "Corey Kispert",
+            "team": "WAS",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 19.6,
+            "value": 5.6
+          }
+        ],
+        "total_salary": 50000,
+        "salary_cap": 50000,
+        "projected_points": 278.2
+      },
+      {
+        "platform": "draftkings",
+        "strategy": "Contrarian",
+        "players": [
+          {
+            "name": "Killian Hayes",
+            "team": "BKN",
+            "position": "PG",
+            "salary": 4500,
+            "projected": 23.2,
+            "value": 5.17
+          },
+          {
+            "name": "Seth Curry",
+            "team": "CHA",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 11.3,
+            "value": 3.24
+          },
+          {
+            "name": "Terance Mann",
+            "team": "ATL",
+            "position": "SF",
+            "salary": 3500,
+            "projected": 16.0,
+            "value": 4.59
+          },
+          {
+            "name": "Jalen Smith",
+            "team": "CHI",
+            "position": "PF",
+            "salary": 3500,
+            "projected": 18.9,
+            "value": 5.41
+          },
+          {
+            "name": "Marcus Bagley",
+            "team": "PHI",
+            "position": "C",
+            "salary": 4500,
+            "projected": 21.0,
+            "value": 4.68
+          },
+          {
+            "name": "KJ Simpson",
+            "team": "CHA",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 18.0,
+            "value": 5.16
+          },
+          {
+            "name": "Gary Payton II",
+            "team": "GSW",
+            "position": "SF",
+            "salary": 3500,
+            "projected": 14.3,
+            "value": 4.1
+          },
+          {
+            "name": "Sam Hauser",
+            "team": "BOS",
+            "position": "SG",
+            "salary": 3500,
+            "projected": 16.4,
+            "value": 4.7
+          }
+        ],
+        "total_salary": 30000,
+        "salary_cap": 50000,
+        "projected_points": 139.1
+      }
+    ],
+    "fanduel": [
+      {
+        "platform": "fanduel",
+        "strategy": "Value Play",
+        "players": [
+          {
+            "name": "Nikola Joki\u0107",
+            "team": "DEN",
+            "position": "PG",
+            "salary": 11000,
+            "projected": 64.0,
+            "value": 5.82
+          },
+          {
+            "name": "Trae Young",
+            "team": "ATL",
+            "position": "PG",
+            "salary": 9000,
+            "projected": 44.8,
+            "value": 4.98
+          },
+          {
+            "name": "Kris Dunn",
+            "team": "LAC",
+            "position": "SG",
+            "salary": 4000,
+            "projected": 20.0,
+            "value": 5.0
+          },
+          {
+            "name": "Zach LaVine",
+            "team": "SAC",
+            "position": "SG",
+            "salary": 7000,
+            "projected": 35.0,
+            "value": 4.99
+          },
+          {
+            "name": "Peyton Watson",
+            "team": "DEN",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 19.8,
+            "value": 4.94
+          },
+          {
+            "name": "Trendon Watford",
+            "team": "BKN",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 19.2,
+            "value": 4.81
+          },
+          {
+            "name": "Kelly Oubre Jr.",
+            "team": "PHI",
+            "position": "PF",
+            "salary": 6000,
+            "projected": 29.8,
+            "value": 4.97
+          },
+          {
+            "name": "Isaiah Stewart",
+            "team": "DET",
+            "position": "PF",
+            "salary": 4000,
+            "projected": 19.6,
+            "value": 4.91
+          },
+          {
+            "name": "Evan Mobley",
+            "team": "CLE",
+            "position": "C",
+            "salary": 8000,
+            "projected": 40.0,
+            "value": 5.0
+          }
+        ],
+        "total_salary": 57000,
+        "salary_cap": 60000,
+        "projected_points": 292.2
+      },
+      {
+        "platform": "fanduel",
+        "strategy": "Contrarian",
+        "players": [
+          {
+            "name": "Ben Simmons",
+            "team": "LAC",
+            "position": "PG",
+            "salary": 5000,
+            "projected": 20.6,
+            "value": 4.13
+          },
+          {
+            "name": "Tyus Jones",
+            "team": "PHX",
+            "position": "PG",
+            "salary": 5000,
+            "projected": 22.9,
+            "value": 4.59
+          },
+          {
+            "name": "V\u00edt Krej\u010d\u00ed",
+            "team": "ATL",
+            "position": "SG",
+            "salary": 4000,
+            "projected": 16.7,
+            "value": 4.19
+          },
+          {
+            "name": "Mouhamed Gueye",
+            "team": "ATL",
+            "position": "SG",
+            "salary": 4000,
+            "projected": 17.1,
+            "value": 4.29
+          },
+          {
+            "name": "P.J. Tucker",
+            "team": "NYK",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 7.7,
+            "value": 1.94
+          },
+          {
+            "name": "Jeff Dowtin Jr.",
+            "team": "PHI",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 13.9,
+            "value": 3.49
+          },
+          {
+            "name": "Moussa Diabat\u00e9",
+            "team": "CHA",
+            "position": "PF",
+            "salary": 4000,
+            "projected": 17.0,
+            "value": 4.26
+          },
+          {
+            "name": "Richaun Holmes",
+            "team": "WAS",
+            "position": "PF",
+            "salary": 4000,
+            "projected": 18.6,
+            "value": 4.66
+          },
+          {
+            "name": "Marcus Bagley",
+            "team": "PHI",
+            "position": "C",
+            "salary": 5000,
+            "projected": 22.2,
+            "value": 4.44
+          }
+        ],
+        "total_salary": 39000,
+        "salary_cap": 60000,
+        "projected_points": 156.7
+      }
+    ]
+  }
+}

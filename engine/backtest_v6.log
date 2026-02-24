@@ -1,0 +1,39 @@
+2026-02-15 20:25:22,602 INFO Fetching 2024-25 team stats...
+2026-02-15 20:25:23,134 INFO Loaded stats for 30 teams
+2026-02-15 20:25:24,635 INFO Pre-fetching all game dates...
+2026-02-15 20:25:33,007 INFO   Fetched 10 dates...
+2026-02-15 20:25:41,381 INFO   Fetched 20 dates...
+2026-02-15 20:25:49,822 INFO   Fetched 30 dates...
+2026-02-15 20:25:58,134 INFO   Fetched 40 dates...
+2026-02-15 20:26:06,546 INFO   Fetched 50 dates...
+2026-02-15 20:26:14,843 INFO   Fetched 60 dates...
+2026-02-15 20:26:23,194 INFO   Fetched 70 dates...
+2026-02-15 20:26:31,579 INFO   Fetched 80 dates...
+2026-02-15 20:26:36,654 INFO Fetched 86 dates total
+2026-02-15 20:26:36,656 INFO 
+=== Building Weekday Wraps ===
+2026-02-15 20:26:36,657 INFO Weekday 2024-10-28 to 2024-11-01: 7/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,657 INFO Weekday 2024-11-04 to 2024-11-08: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,657 INFO Weekday 2024-11-11 to 2024-11-15: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,658 INFO Weekday 2024-11-18 to 2024-11-22: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,658 INFO Weekday 2024-11-25 to 2024-11-29: 7/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,659 INFO Weekday 2024-12-02 to 2024-12-06: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,659 INFO Weekday 2024-12-09 to 2024-12-13: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,659 INFO Weekday 2024-12-16 to 2024-12-20: 7/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,660 INFO Weekday 2024-12-23 to 2024-12-27: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,660 INFO Weekday 2024-12-30 to 2025-01-03: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,661 INFO Weekday 2025-01-06 to 2025-01-10: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,661 INFO 
+=== Building Weekend Wraps ===
+2026-02-15 20:26:36,661 INFO Weekend 2024-10-25 to 2024-10-27: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,662 INFO Weekend 2024-11-01 to 2024-11-03: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,662 INFO Weekend 2024-11-08 to 2024-11-10: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,662 INFO Weekend 2024-11-15 to 2024-11-17: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,662 INFO Weekend 2024-11-22 to 2024-11-24: 7/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,662 INFO Weekend 2024-11-29 to 2024-12-01: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,663 INFO Weekend 2024-12-06 to 2024-12-08: 5/10 (thresh 7) -> LOST
+2026-02-15 20:26:36,663 INFO Weekend 2024-12-13 to 2024-12-15: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,663 INFO Weekend 2024-12-20 to 2024-12-22: 9/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,663 INFO Weekend 2024-12-27 to 2024-12-29: 8/10 (thresh 7) -> KEPT
+2026-02-15 20:26:36,663 INFO Weekend 2025-01-03 to 2025-01-05: 6/10 (thresh 7) -> LOST
+2026-02-15 20:26:36,663 INFO Weekend 2025-01-10 to 2025-01-12: 8/10 (thresh 7) -> KEPT

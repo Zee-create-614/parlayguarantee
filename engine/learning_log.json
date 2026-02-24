@@ -1,0 +1,422 @@
+{
+  "run_date": "2026-02-23T09:51:44.879988",
+  "dry_run": true,
+  "phases": {
+    "1_results_audit": {
+      "total_picks": 54,
+      "ml_correct": 33,
+      "ml_accuracy": 61.1,
+      "spread_correct": 19,
+      "spread_total": 32,
+      "spread_accuracy": 59.4,
+      "unscored_picks": 0,
+      "days_analyzed": 2,
+      "daily_breakdown": [
+        {
+          "date": "2026-02-20",
+          "picks": 44,
+          "correct": 27,
+          "accuracy": 61.4
+        },
+        {
+          "date": "2026-02-19",
+          "picks": 10,
+          "correct": 6,
+          "accuracy": 60.0
+        }
+      ]
+    },
+    "2_factor_analysis": {
+      "predictions_analyzed": 43,
+      "factors_analyzed": 34,
+      "top_factors": {
+        "away_win_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.228,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "offensive_rating": {
+          "accuracy": 0.535,
+          "correlation": 0.2127,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "home_win_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.162,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "division_rivalry": {
+          "accuracy": 0.535,
+          "correlation": 0.1359,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "three_pt_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.1272,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        }
+      },
+      "bottom_factors": {
+        "last_5_record": {
+          "accuracy": 0.535,
+          "correlation": -0.0687,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "pace": {
+          "accuracy": 0.535,
+          "correlation": -0.0816,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "days_since_last": {
+          "accuracy": 0.535,
+          "correlation": -0.0989,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "day_of_week": {
+          "accuracy": 0.535,
+          "correlation": -0.1512,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "defensive_activity": {
+          "accuracy": 0.535,
+          "correlation": -0.2037,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        }
+      },
+      "harmful_factors": [
+        "last_10_record",
+        "last_5_record",
+        "pace",
+        "day_of_week",
+        "days_since_last",
+        "defensive_activity"
+      ],
+      "all_factors": {
+        "away_win_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.228,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "offensive_rating": {
+          "accuracy": 0.535,
+          "correlation": 0.2127,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "home_win_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.162,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "division_rivalry": {
+          "accuracy": 0.535,
+          "correlation": 0.1359,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "three_pt_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.1272,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "rebound_diff": {
+          "accuracy": 0.535,
+          "correlation": 0.1241,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "defensive_rating": {
+          "accuracy": 0.535,
+          "correlation": 0.0855,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "ppg": {
+          "accuracy": 0.535,
+          "correlation": 0.05,
+          "sample_size": 43,
+          "predictive": true,
+          "harmful": false
+        },
+        "net_rating": {
+          "accuracy": 0.535,
+          "correlation": 0.0155,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "conference_game": {
+          "accuracy": 0.535,
+          "correlation": 0.0153,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "clutch_performance": {
+          "accuracy": 0.535,
+          "correlation": 0.0146,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "season_win_pct": {
+          "accuracy": 0.535,
+          "correlation": 0.0064,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "rest_days": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "game_time": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "travel_distance": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "head_to_head": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "strength_of_schedule": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "turnover_diff": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "ft_rate_diff": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "key_player_status": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "star_player_penalty": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "line_movement": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "public_betting": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "closing_line_value": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "home_court": {
+          "accuracy": 0.535,
+          "correlation": 0,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "assists_pg": {
+          "accuracy": 0.535,
+          "correlation": -0.0025,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "timezone_change": {
+          "accuracy": 0.535,
+          "correlation": -0.029,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "points_allowed": {
+          "accuracy": 0.535,
+          "correlation": -0.0335,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": false
+        },
+        "last_10_record": {
+          "accuracy": 0.535,
+          "correlation": -0.0657,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "last_5_record": {
+          "accuracy": 0.535,
+          "correlation": -0.0687,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "pace": {
+          "accuracy": 0.535,
+          "correlation": -0.0816,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "days_since_last": {
+          "accuracy": 0.535,
+          "correlation": -0.0989,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "day_of_week": {
+          "accuracy": 0.535,
+          "correlation": -0.1512,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        },
+        "defensive_activity": {
+          "accuracy": 0.535,
+          "correlation": -0.2037,
+          "sample_size": 43,
+          "predictive": false,
+          "harmful": true
+        }
+      }
+    },
+    "3_calibration": {
+      "average_calibration_error": 0.084,
+      "calibration_score": 0.916,
+      "bins": {
+        "50%": {
+          "predicted": 0.5,
+          "actual": 0.5,
+          "error": 0.0,
+          "n": 6,
+          "verdict": "calibrated"
+        },
+        "60%": {
+          "predicted": 0.6,
+          "actual": 0.5,
+          "error": -0.1,
+          "n": 8,
+          "verdict": "overconfident"
+        },
+        "70%": {
+          "predicted": 0.7,
+          "actual": 0.552,
+          "error": -0.148,
+          "n": 29,
+          "verdict": "overconfident"
+        },
+        "80%": {
+          "predicted": 0.8,
+          "actual": 0.889,
+          "error": 0.089,
+          "n": 9,
+          "verdict": "underconfident"
+        },
+        "90%": {
+          "predicted": 0.9,
+          "actual": 1.0,
+          "error": 0.1,
+          "n": 2,
+          "verdict": "underconfident"
+        }
+      },
+      "total_predictions": 54
+    },
+    "4_roster_impact": {
+      "total_events": 0,
+      "recent_changes": 0,
+      "most_impacted_teams": {}
+    },
+    "5_weight_adjustments": {
+      "changes_proposed": 13,
+      "changes": [
+        "\u2191 home_win_pct: 0.0330 \u2192 0.0346 (corr=0.162, BOOST)",
+        "\u2191 away_win_pct: 0.0333 \u2192 0.0349 (corr=0.228, BOOST)",
+        "\u2193 last_10_record: 0.0401 \u2192 0.0393 (corr=-0.066, REDUCE)",
+        "\u2193 last_5_record: 0.0264 \u2192 0.0259 (corr=-0.069, REDUCE)",
+        "\u2191 offensive_rating: 0.0267 \u2192 0.0281 (corr=0.213, BOOST)",
+        "\u2191 defensive_rating: 0.0330 \u2192 0.0338 (corr=0.086, BOOST)",
+        "\u2193 pace: 0.0006 \u2192 0.0006 (corr=-0.082, REDUCE)",
+        "\u2193 day_of_week: 0.0066 \u2192 0.0063 (corr=-0.151, REDUCE)",
+        "\u2193 days_since_last: 0.0132 \u2192 0.0128 (corr=-0.099, REDUCE)",
+        "\u2191 division_rivalry: 0.0136 \u2192 0.0142 (corr=0.136, BOOST)",
+        "\u2191 rebound_diff: 0.0199 \u2192 0.0206 (corr=0.124, BOOST)",
+        "\u2191 three_pt_pct: 0.0197 \u2192 0.0205 (corr=0.127, BOOST)",
+        "\u2193 defensive_activity: 0.0136 \u2192 0.0129 (corr=-0.204, REDUCE)"
+      ],
+      "weights_saved": false
+    }
+  }
+}

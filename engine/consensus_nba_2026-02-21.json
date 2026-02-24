@@ -1,0 +1,250 @@
+{
+  "sport": "nba",
+  "generated_at": "2026-02-21T14:33:14.022351+00:00",
+  "sources": {
+    "fanduel": 6,
+    "odds_api": 6
+  },
+  "games": [
+    {
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Philadelphia 76ers",
+      "start_time": "2026-02-22T00:10:00.000Z",
+      "spread_home": 3.5,
+      "spread_away": -3.5,
+      "total": 232.5,
+      "moneyline_home": 138,
+      "moneyline_away": -164,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "New Orleans Pelicans",
+          "away_team": "Philadelphia 76ers",
+          "start_time": "2026-02-22T00:10:00.000Z",
+          "spread_home": 3.5,
+          "spread_away": -3.5,
+          "total": 232.5,
+          "moneyline_home": 138,
+          "moneyline_away": -164,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "New Orleans Pelicans",
+          "away_team": "Philadelphia 76ers",
+          "start_time": "2026-02-22T00:10:00Z",
+          "spread_home": 3.5,
+          "spread_away": -3.5,
+          "total": 232.5,
+          "moneyline_home": 138,
+          "moneyline_away": -164,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Miami Heat",
+      "away_team": "Memphis Grizzlies",
+      "start_time": "2026-02-22T01:10:00.000Z",
+      "spread_home": -10.5,
+      "spread_away": 10.5,
+      "total": 234.5,
+      "moneyline_home": -500,
+      "moneyline_away": 385,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Miami Heat",
+          "away_team": "Memphis Grizzlies",
+          "start_time": "2026-02-22T01:10:00.000Z",
+          "spread_home": -10.5,
+          "spread_away": 10.5,
+          "total": 234.5,
+          "moneyline_home": -500,
+          "moneyline_away": 385,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Miami Heat",
+          "away_team": "Memphis Grizzlies",
+          "start_time": "2026-02-22T01:10:00Z",
+          "spread_home": -10.5,
+          "spread_away": 10.5,
+          "total": 234.5,
+          "moneyline_home": -500,
+          "moneyline_away": 385,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Phoenix Suns",
+      "away_team": "Orlando Magic",
+      "start_time": "2026-02-21T22:10:00.000Z",
+      "spread_home": -1.5,
+      "spread_away": 1.5,
+      "total": 219.5,
+      "moneyline_home": -124,
+      "moneyline_away": 106,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Phoenix Suns",
+          "away_team": "Orlando Magic",
+          "start_time": "2026-02-21T22:10:00.000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 219.5,
+          "moneyline_home": -124,
+          "moneyline_away": 106,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Phoenix Suns",
+          "away_team": "Orlando Magic",
+          "start_time": "2026-02-21T22:10:00Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 219.5,
+          "moneyline_home": -124,
+          "moneyline_away": 106,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "San Antonio Spurs",
+      "away_team": "Sacramento Kings",
+      "start_time": "2026-02-22T01:10:00.000Z",
+      "spread_home": -18.0,
+      "spread_away": 18.0,
+      "total": 230.5,
+      "moneyline_home": -2200,
+      "moneyline_away": 1100,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "San Antonio Spurs",
+          "away_team": "Sacramento Kings",
+          "start_time": "2026-02-22T01:10:00.000Z",
+          "spread_home": -18.0,
+          "spread_away": 18.0,
+          "total": 230.5,
+          "moneyline_home": -2200,
+          "moneyline_away": 1100,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "San Antonio Spurs",
+          "away_team": "Sacramento Kings",
+          "start_time": "2026-02-22T01:10:00Z",
+          "spread_home": -18.0,
+          "spread_away": 18.0,
+          "total": 230.5,
+          "moneyline_home": -2200,
+          "moneyline_away": 1100,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Chicago Bulls",
+      "away_team": "Detroit Pistons",
+      "start_time": "2026-02-22T01:10:00.000Z",
+      "spread_home": 10.5,
+      "spread_away": -10.5,
+      "total": 232.5,
+      "moneyline_home": 410,
+      "moneyline_away": -550,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Chicago Bulls",
+          "away_team": "Detroit Pistons",
+          "start_time": "2026-02-22T01:10:00.000Z",
+          "spread_home": 10.5,
+          "spread_away": -10.5,
+          "total": 232.5,
+          "moneyline_home": 410,
+          "moneyline_away": -550,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Chicago Bulls",
+          "away_team": "Detroit Pistons",
+          "start_time": "2026-02-22T01:10:00Z",
+          "spread_home": 10.5,
+          "spread_away": -10.5,
+          "total": 232.5,
+          "moneyline_home": 410,
+          "moneyline_away": -550,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "New York Knicks",
+      "away_team": "Houston Rockets",
+      "start_time": "2026-02-22T01:40:00.000Z",
+      "spread_home": -3.5,
+      "spread_away": 3.5,
+      "total": 217.5,
+      "moneyline_home": -162,
+      "moneyline_away": 136,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "New York Knicks",
+          "away_team": "Houston Rockets",
+          "start_time": "2026-02-22T01:40:00.000Z",
+          "spread_home": -3.5,
+          "spread_away": 3.5,
+          "total": 217.5,
+          "moneyline_home": -162,
+          "moneyline_away": 136,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "New York Knicks",
+          "away_team": "Houston Rockets",
+          "start_time": "2026-02-22T01:40:00Z",
+          "spread_home": -3.5,
+          "spread_away": 3.5,
+          "total": 217.5,
+          "moneyline_home": -162,
+          "moneyline_away": 136,
+          "source": "odds_api"
+        }
+      }
+    }
+  ]
+}

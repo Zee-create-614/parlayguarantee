@@ -1,0 +1,52 @@
+2026-02-21 08:48:17,269 INFO === STEP 1: Consensus Fetch ===
+2026-02-21 08:48:17,605 INFO Using cached consensus (22m old, 178 games)
+2026-02-21 08:48:17,637 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 08:48:17,640 INFO Got 178 consensus games in 0.3s
+2026-02-21 08:48:17,640 INFO === STEP 2: NCAAB Engine ===
+2026-02-21 08:48:18,419 INFO Games with odds: 178 / 178
+2026-02-21 08:48:18,441 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 08:48:18,460 INFO Using cached consensus (22m old, 178 games)
+2026-02-21 08:48:18,466 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 08:48:18,466 INFO Using CONSENSUS data: 178 games from multiple books
+2026-02-21 08:48:18,466 INFO Found 178 NCAAB games
+2026-02-21 08:54:28,176 INFO Generated 178 predictions
+2026-02-21 08:54:28,176 INFO Generated 178 predictions in 370.5s
+2026-02-21 08:54:28,256 INFO Saved to ncaab_picks_2026-02-21.json
+2026-02-21 08:54:28,256 INFO === TOP 10 PICKS ===
+2026-02-21 08:54:28,256 INFO   #1: Missouri @ Arkansas | PICK: Arkansas (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,256 INFO   #2: Miami (FL) @ Virginia | PICK: Virginia (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,256 INFO   #3: Oregon @ USC | PICK: USC (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,256 INFO   #4: Arizona State @ Baylor | PICK: Baylor (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #5: West Virginia @ TCU | PICK: TCU (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #6: Delaware @ Middle Tennessee | PICK: Middle Tennessee (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #7: Jacksonville State @ Sam Houston State | PICK: Sam Houston State (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #8: Louisiana Tech @ Kennesaw State | PICK: Kennesaw State (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #9: Eastern Michigan @ Toledo | PICK: Toledo (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO   #10: Georgia Southern @ Appalachian State | PICK: Appalachian State (85.0%) spread=? books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 08:54:28,263 INFO === DONE in 371.0s total ===
+2026-02-21 08:55:49,172 INFO === STEP 1: Consensus Fetch ===
+2026-02-21 08:55:49,428 INFO Using cached consensus (29m old, 178 games)
+2026-02-21 08:55:49,454 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 08:55:49,461 INFO Got 178 consensus games in 0.3s
+2026-02-21 08:55:49,461 INFO === STEP 2: NCAAB Engine ===
+2026-02-21 08:55:50,259 INFO Games with odds: 178 / 178
+2026-02-21 08:55:50,283 INFO NCAAB Engine: predicting games for 2026-02-21
+2026-02-21 08:55:50,293 INFO Using cached consensus (29m old, 178 games)
+2026-02-21 08:55:50,299 INFO Returning 178 NCAAB games for 2026-02-21
+2026-02-21 08:55:50,299 INFO Using CONSENSUS data: 178 games from multiple books
+2026-02-21 08:55:50,299 INFO Found 178 NCAAB games
+2026-02-21 09:02:03,421 INFO Generated 178 predictions
+2026-02-21 09:02:03,423 INFO Generated 178 predictions in 374.0s
+2026-02-21 09:02:03,557 INFO Saved to ncaab_picks_2026-02-21.json
+2026-02-21 09:02:03,557 INFO === TOP 10 PICKS ===
+2026-02-21 09:02:03,560 INFO   #1: Missouri @ Arkansas | PICK: Arkansas (85.0%) spread=-9.8 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,560 INFO   #2: Miami (FL) @ Virginia | PICK: Virginia (85.0%) spread=-8.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #3: Oregon @ USC | PICK: USC (85.0%) spread=-5.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #4: Arizona State @ Baylor | PICK: Baylor (85.0%) spread=-7.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #5: West Virginia @ TCU | PICK: TCU (85.0%) spread=-5.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #6: Delaware @ Middle Tennessee | PICK: Middle Tennessee (85.0%) spread=-8.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #7: Jacksonville State @ Sam Houston State | PICK: Sam Houston State (85.0%) spread=-7.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #8: Louisiana Tech @ Kennesaw State | PICK: Kennesaw State (85.0%) spread=-7.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,562 INFO   #9: Eastern Michigan @ Toledo | PICK: Toledo (85.0%) spread=-8.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,569 INFO   #10: Georgia Southern @ Appalachian State | PICK: Appalachian State (85.0%) spread=-7.5 books=['FanDuel', 'Odds API', 'DraftKings']
+2026-02-21 09:02:03,569 INFO === DONE in 374.4s total ===

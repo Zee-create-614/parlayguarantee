@@ -1,0 +1,302 @@
+{
+  "Indiana Pacers": {
+    "win_pct": 0.25862068,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6466.0,
+    "points_allowed": 6900.0,
+    "streak": -3.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Brooklyn Nets": {
+    "win_pct": 0.26785713,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 5980.0,
+    "points_allowed": 6423.0,
+    "streak": -4.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Washington Wizards": {
+    "win_pct": 0.2857143,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6299.0,
+    "points_allowed": 6878.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Chicago Bulls": {
+    "win_pct": 0.41379312,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6733.0,
+    "points_allowed": 6975.0,
+    "streak": -9.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Milwaukee Bucks": {
+    "win_pct": 0.43636364,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6158.0,
+    "points_allowed": 6345.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Charlotte Hornets": {
+    "win_pct": 0.46551725,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6706.0,
+    "points_allowed": 6594.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Atlanta Hawks": {
+    "win_pct": 0.47457626,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6898.0,
+    "points_allowed": 6982.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Orlando Magic": {
+    "win_pct": 0.53571427,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6450.0,
+    "points_allowed": 6424.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Miami Heat": {
+    "win_pct": 0.5344828,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6961.0,
+    "points_allowed": 6779.0,
+    "streak": 3.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Philadelphia 76ers": {
+    "win_pct": 0.54385966,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6626.0,
+    "points_allowed": 6610.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Toronto Raptors": {
+    "win_pct": 0.5964912,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6490.0,
+    "points_allowed": 6369.0,
+    "streak": 2.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Cleveland Cavaliers": {
+    "win_pct": 0.62068963,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6941.0,
+    "points_allowed": 6693.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "New York Knicks": {
+    "win_pct": 0.63793105,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6815.0,
+    "points_allowed": 6483.0,
+    "streak": 2.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Boston Celtics": {
+    "win_pct": 0.66071427,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6456.0,
+    "points_allowed": 6050.0,
+    "streak": 3.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Detroit Pistons": {
+    "win_pct": 0.76363635,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6466.0,
+    "points_allowed": 6013.0,
+    "streak": 5.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Sacramento Kings": {
+    "win_pct": 0.20689656,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6384.0,
+    "points_allowed": 7025.0,
+    "streak": -16.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "New Orleans Pelicans": {
+    "win_pct": 0.27586207,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6661.0,
+    "points_allowed": 6993.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Utah Jazz": {
+    "win_pct": 0.31578946,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6736.0,
+    "points_allowed": 7175.0,
+    "streak": -2.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Dallas Mavericks": {
+    "win_pct": 0.35714287,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6398.0,
+    "points_allowed": 6592.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Memphis Grizzlies": {
+    "win_pct": 0.38181818,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6352.0,
+    "points_allowed": 6476.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "LA Clippers": {
+    "win_pct": 0.47368422,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6389.0,
+    "points_allowed": 6416.0,
+    "streak": -2.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Portland Trail Blazers": {
+    "win_pct": 0.4827586,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6709.0,
+    "points_allowed": 6858.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Golden State Warriors": {
+    "win_pct": 0.5263158,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6592.0,
+    "points_allowed": 6491.0,
+    "streak": 1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Phoenix Suns": {
+    "win_pct": 0.5689655,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6533.0,
+    "points_allowed": 6474.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Los Angeles Lakers": {
+    "win_pct": 0.60714287,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6479.0,
+    "points_allowed": 6498.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Minnesota Timberwolves": {
+    "win_pct": 0.6034483,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6932.0,
+    "points_allowed": 6672.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Houston Rockets": {
+    "win_pct": 0.6181818,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6287.0,
+    "points_allowed": 6019.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Denver Nuggets": {
+    "win_pct": 0.62068963,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 7008.0,
+    "points_allowed": 6744.0,
+    "streak": -1.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "San Antonio Spurs": {
+    "win_pct": 0.71428573,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6639.0,
+    "points_allowed": 6273.0,
+    "streak": 8.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  },
+  "Oklahoma City Thunder": {
+    "win_pct": 0.7586207,
+    "home_win_pct": 0,
+    "away_win_pct": 0,
+    "ppg": 6929.0,
+    "points_allowed": 6249.0,
+    "streak": 2.0,
+    "last_10_wins": 5,
+    "games_played": 40
+  }
+}

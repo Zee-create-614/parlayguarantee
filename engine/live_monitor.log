@@ -1,0 +1,68 @@
+2026-02-21 09:31:54,750 INFO --- NCAAB scrape ---
+2026-02-21 09:31:54,753 INFO Scraping all sources for ncaab consensus...
+2026-02-21 09:31:55,570 ERROR Consensus scrape failed: asyncio.run() cannot be called from a running event loop
+2026-02-21 09:31:55,570 INFO Falling back to Odds API only...
+2026-02-21 09:31:55,570 ERROR Odds API fallback also failed: asyncio.run() cannot be called from a running event loop
+2026-02-21 09:31:55,670 WARNING ncaab: 0 games returned
+2026-02-21 09:31:55,670 INFO --- NBA scrape ---
+2026-02-21 09:31:55,672 INFO Scraping all sources for nba consensus...
+2026-02-21 09:31:55,672 ERROR Consensus scrape failed: asyncio.run() cannot be called from a running event loop
+2026-02-21 09:31:55,672 INFO Falling back to Odds API only...
+2026-02-21 09:31:55,672 ERROR Odds API fallback also failed: asyncio.run() cannot be called from a running event loop
+2026-02-21 09:31:55,672 WARNING nba: 0 games returned
+2026-02-21 09:32:53,260 INFO --- NCAAB scrape ---
+2026-02-21 09:32:53,262 INFO Scraping all sources for ncaab consensus...
+2026-02-21 09:32:54,058 INFO Phase 1: API scrapers...
+2026-02-21 09:32:56,789 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 09:32:56,822 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 09:32:56,839 INFO OddsAPI: got 148 games
+2026-02-21 09:32:56,921 INFO FanDuel: got 148 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 09:32:56,921 INFO fanduel: 148 games
+2026-02-21 09:32:56,921 INFO odds_api: 148 games
+2026-02-21 09:32:56,921 INFO Sources: fanduel=148, odds_api=148
+2026-02-21 09:32:57,105 INFO Cached 148 consensus games to consensus_ncaab_2026-02-21.json
+2026-02-21 09:32:57,111 INFO Returning 148 NCAAB games for 2026-02-21
+2026-02-21 09:32:57,128 INFO   NCAAB: 148 games, sources: {'FanDuel': 148, 'Odds API': 148}
+2026-02-21 09:32:57,128 INFO --- NBA scrape ---
+2026-02-21 09:32:57,128 INFO Scraping all sources for nba consensus...
+2026-02-21 09:32:57,135 INFO Phase 1: API scrapers...
+2026-02-21 09:32:59,190 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_nba/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 09:32:59,192 INFO OddsAPI: got 6 games
+2026-02-21 09:32:59,244 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=nba&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 09:32:59,375 INFO FanDuel: got 6 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 09:32:59,375 INFO fanduel: 6 games
+2026-02-21 09:32:59,375 INFO odds_api: 6 games
+2026-02-21 09:32:59,375 INFO Sources: fanduel=6, odds_api=6
+2026-02-21 09:32:59,383 INFO Cached 6 consensus games to consensus_nba_2026-02-21.json
+2026-02-21 09:32:59,383 INFO Returning 6 NBA games for 2026-02-21
+2026-02-21 09:32:59,383 INFO   NBA: 6 games, sources: {'FanDuel': 6, 'Odds API': 6}
+2026-02-21 09:33:08,093 INFO Starting live odds monitor: sports=['ncaab', 'nba'], interval=300s, playwright=False
+2026-02-21 09:33:08,115 INFO --- NCAAB scrape ---
+2026-02-21 09:33:08,156 INFO Scraping all sources for ncaab consensus...
+2026-02-21 09:33:08,948 INFO Phase 1: API scrapers...
+2026-02-21 09:33:11,539 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 09:33:11,636 INFO FanDuel: got 148 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 09:33:11,638 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 09:33:11,646 INFO OddsAPI: got 148 games
+2026-02-21 09:33:11,646 INFO fanduel: 148 games
+2026-02-21 09:33:11,654 INFO odds_api: 148 games
+2026-02-21 09:33:11,654 INFO Sources: fanduel=148, odds_api=148
+2026-02-21 09:33:11,835 INFO Cached 148 consensus games to consensus_ncaab_2026-02-21.json
+2026-02-21 09:33:11,852 INFO Returning 148 NCAAB games for 2026-02-21
+2026-02-21 09:33:11,860 INFO   No significant movements
+2026-02-21 09:33:11,869 INFO   NCAAB: 148 games, sources: {'FanDuel': 148, 'Odds API': 148}
+2026-02-21 09:33:11,869 INFO --- NBA scrape ---
+2026-02-21 09:33:11,913 INFO Scraping all sources for nba consensus...
+2026-02-21 09:33:11,913 INFO Phase 1: API scrapers...
+2026-02-21 09:33:13,914 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=nba&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-21 09:33:13,957 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_nba/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-21 09:33:13,964 INFO OddsAPI: got 6 games
+2026-02-21 09:33:14,022 INFO FanDuel: got 6 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-21 09:33:14,022 INFO fanduel: 6 games
+2026-02-21 09:33:14,022 INFO odds_api: 6 games
+2026-02-21 09:33:14,022 INFO Sources: fanduel=6, odds_api=6
+2026-02-21 09:33:14,030 INFO Cached 6 consensus games to consensus_nba_2026-02-21.json
+2026-02-21 09:33:14,032 INFO Returning 6 NBA games for 2026-02-21
+2026-02-21 09:33:14,034 INFO   No significant movements
+2026-02-21 09:33:14,034 INFO   NBA: 6 games, sources: {'FanDuel': 6, 'Odds API': 6}
+2026-02-21 09:33:14,034 INFO Next scrape in 300s...
