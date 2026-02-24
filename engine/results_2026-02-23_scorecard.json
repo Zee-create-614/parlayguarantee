@@ -1,0 +1,104 @@
+{
+  "date": "2026-02-23",
+  "scores_loaded": 93,
+  "straight": {
+    "correct": 5,
+    "incorrect": 11,
+    "no_score": 0,
+    "details": [
+      "\u274c Louisville Cardinals lost (Louisville Cardinals 74 - North Carolina Tar Heels 77)",
+      "\u2705 Northwestern St Demons won (Incarnate Word Cardinals 49 - Northwestern St Demons 54)",
+      "\u2705 Texas A&M-CC Islanders won (Texas A&M-CC Islanders 73 - SE Louisiana Lions 68)",
+      "\u274c Stephen F. Austin Lumberjacks lost (New Orleans Privateers 77 - Stephen F. Austin Lumberjacks 73)",
+      "\u2705 Grambling St Tigers won (Miss Valley St Delta Devils 62 - Grambling St Tigers 83)",
+      "\u274c Boston Celtics lost (Portland Trail Blazers 92 - Phoenix Suns 77)",
+      "\u274c East Texas A&M Lions lost (Houston Christian Huskies 69 - East Texas A&M Lions 68)",
+      "\u274c Houston Cougars lost (Houston Cougars 56 - Kansas Jayhawks 69)",
+      "\u274c Oklahoma City Thunder lost (Toronto Raptors 122 - Milwaukee Bucks 94)",
+      "\u274c Memphis Grizzlies lost (Sacramento Kings 123 - Memphis Grizzlies 114)",
+      "\u2705 Houston Rockets won (Utah Jazz 105 - Houston Rockets 125)",
+      "\u2705 McNeese Cowboys won (UT Rio Grande Valley Vaqueros 68 - McNeese Cowboys 75)",
+      "\u274c Cleveland Cavaliers lost (Cleveland Cavaliers 113 - Oklahoma City Thunder 121)",
+      "\u274c Los Angeles Lakers lost (Boston Celtics 111 - Los Angeles Lakers 89)",
+      "\u274c Detroit Pistons lost (San Antonio Spurs 114 - Detroit Pistons 103)",
+      "\u274c Lamar Cardinals lost (Nicholls St Colonels 53 - Lamar Cardinals 52)"
+    ],
+    "total": 16,
+    "rate": 0.3125
+  },
+  "spread": {
+    "correct": 7,
+    "incorrect": 9,
+    "push": 0,
+    "no_score": 0,
+    "details": [],
+    "total": 16,
+    "rate": 0.4375
+  },
+  "ou": {
+    "correct": 9,
+    "incorrect": 7,
+    "push": 0,
+    "no_score": 0,
+    "details": [],
+    "total": 16,
+    "rate": 0.5625
+  },
+  "ml_results": {
+    "correct": 5,
+    "incorrect": 11,
+    "no_score": 0,
+    "details": [
+      "\u274c ML Louisville Cardinals lost (Louisville Cardinals 74 - North Carolina Tar Heels 77)",
+      "\u2705 ML Northwestern St Demons won (Incarnate Word Cardinals 49 - Northwestern St Demons 54)",
+      "\u2705 ML Texas A&M-CC Islanders won (Texas A&M-CC Islanders 73 - SE Louisiana Lions 68)",
+      "\u274c ML Stephen F. Austin Lumberjacks lost (New Orleans Privateers 77 - Stephen F. Austin Lumberjacks 73)",
+      "\u2705 ML Grambling St Tigers won (Miss Valley St Delta Devils 62 - Grambling St Tigers 83)",
+      "\u274c ML Boston Celtics lost (Portland Trail Blazers 92 - Phoenix Suns 77)",
+      "\u274c ML East Texas A&M Lions lost (Houston Christian Huskies 69 - East Texas A&M Lions 68)",
+      "\u274c ML Houston Cougars lost (Houston Cougars 56 - Kansas Jayhawks 69)",
+      "\u274c ML Oklahoma City Thunder lost (Toronto Raptors 122 - Milwaukee Bucks 94)",
+      "\u274c ML Memphis Grizzlies lost (Sacramento Kings 123 - Memphis Grizzlies 114)",
+      "\u2705 ML Houston Rockets won (Utah Jazz 105 - Houston Rockets 125)",
+      "\u2705 ML McNeese Cowboys won (UT Rio Grande Valley Vaqueros 68 - McNeese Cowboys 75)",
+      "\u274c ML Cleveland Cavaliers lost (Cleveland Cavaliers 113 - Oklahoma City Thunder 121)",
+      "\u274c ML Los Angeles Lakers lost (Boston Celtics 111 - Los Angeles Lakers 89)",
+      "\u274c ML Detroit Pistons lost (San Antonio Spurs 114 - Detroit Pistons 103)",
+      "\u274c ML Lamar Cardinals lost (Nicholls St Colonels 53 - Lamar Cardinals 52)"
+    ],
+    "total": 16,
+    "rate": 0.3125
+  },
+  "ml_tier_results": {
+    "single": {
+      "wins": 4,
+      "losses": 6,
+      "total": 10,
+      "rate": 0.4
+    },
+    "2leg": {
+      "wins": 4,
+      "losses": 4,
+      "total": 8,
+      "rate": 0.5
+    },
+    "3leg": {
+      "wins": 1,
+      "losses": 4,
+      "total": 5,
+      "rate": 0.2
+    },
+    "4leg": {
+      "wins": 0,
+      "losses": 3,
+      "total": 3,
+      "rate": 0.0
+    },
+    "5leg": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "rate": 0.0
+    }
+  }
+}

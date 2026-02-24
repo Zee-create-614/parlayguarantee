@@ -42,6 +42,7 @@ create_stmts = [
         game_time TEXT,
         commence_time TEXT,
         book_count INTEGER,
+        bookmakers TEXT,
         raw_json TEXT,
         created_at TEXT DEFAULT (datetime('now'))
     )""", None),
@@ -74,6 +75,8 @@ create_stmts = [
     )""", None),
     ("CREATE INDEX IF NOT EXISTS idx_picks_date ON daily_picks(pick_date)", None),
     ("CREATE INDEX IF NOT EXISTS idx_results_date ON pick_results(date)", None),
+    # Add bookmakers column if missing (safe for existing tables)
+    ("ALTER TABLE daily_picks ADD COLUMN bookmakers TEXT", None),
 ]
 result = execute(create_stmts)
 print(f"Tables created. Response has {len(result.get('results',[]))} results")

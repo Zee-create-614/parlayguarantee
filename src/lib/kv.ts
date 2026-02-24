@@ -215,6 +215,29 @@ export async function saveBettingConfig(email: string, config: any): Promise<voi
   }
 }
 
+// ─── Instant Purchase Tracking (bypass Stripe search delay) ───
+export async function recordPurchaseInstant(email: string, paymentIntentId: string, tier: string, pickIds: string[], parlayData: any): Promise<void> {
+  const r = getRedis()
+  const today = new Date().toISOString().split('T')[0]
+  const key = `purchases:${email}:${today}`
+  const purchase = { paymentIntentId, tier, pickIds, parlayData, createdAt: new Date().toISOString() }
+  await r.rpush(key, JSON.stringify(purchase))
+  await r.expire(key, 172800)
+}
+
+export async function getInstantPurchases(email: string): Promise<Array<{ paymentIntentId: string; tier: string; pickIds: string[]; parlayData: any; createdAt: string }>> {
+  const r = getRedis()
+  const today = new Date().toISOString().split('T')[0]
+  const key = `purchases:${email}:${today}`
+  const items = await r.lrange(key, 0, -1)
+  return items.map((item: any) => typeof item === 'string' ? JSON.parse(item) : item)
+}
+
+export async function getInstantPickIds(email: string): Promise<string[]> {
+  const purchases = await getInstantPurchases(email)
+  return purchases.flatMap(p => p.pickIds || [])
+}
+
 export async function getBettingConfig(email: string): Promise<any> {
   try {
     const r = getRedis()

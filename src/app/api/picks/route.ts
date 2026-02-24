@@ -12,14 +12,7 @@ import {
   PRODUCT_IDS,
 } from '../../../lib/parlay-engine'
 
-// Filter games to only those available on a specific sportsbook
-function filterBySportsbook(games: any[], sportsbook: string): any[] {
-  if (!sportsbook) return games
-  return games.filter((g: any) => {
-    const books: string[] = g.available_books || g.availableBooks || []
-    return books.some((b: string) => b.toLowerCase() === sportsbook.toLowerCase())
-  })
-}
+// Sportsbook filtering is now handled inside generateUserParlays via the sportsbook parameter
 
 const PICKS_FILE = path.join(process.cwd(), 'engine', 'picks_output.json')
 const ANALYZED_GAMES_FILE = path.join(process.cwd(), 'engine', 'analyzed_games.json')
@@ -63,6 +56,7 @@ async function fetchGamesFromTurso(pickDate: string): Promise<any[] | null> {
         game_time: row.game_time,
         commence_time: row.commence_time,
         book_count: row.book_count,
+        bookmakers: row.bookmakers || '',
         game_date: row.pick_date,
       }
     })
@@ -128,10 +122,6 @@ export async function GET(request: NextRequest) {
           const raw = await fs.readFile(ANALYZED_GAMES_FILE, 'utf-8')
           analyzedGames = JSON.parse(raw)
         }
-        // (analyzedGames is already defined)
-        if (sportsbook && Array.isArray(analyzedGames)) {
-          analyzedGames = filterBySportsbook(analyzedGames, sportsbook)
-        }
         if (Array.isArray(analyzedGames) && analyzedGames.length >= 2) {
           const userProducts: Record<string, EngineProduct> = {}
 
@@ -140,7 +130,7 @@ export async function GET(request: NextRequest) {
             : PRODUCT_IDS.filter(k => !product || k === product)
 
           for (const prodId of productsToGen) {
-            const picks = generateUserParlays(analyzedGames, userId, prodId, today)
+            const picks = generateUserParlays(analyzedGames, userId, prodId, today, sportsbook || undefined)
             const isML = prodId.includes('parlay-ml')
             // Transform engine fields → UI fields
             const uiPicks = picks.map((pick: any) => ({

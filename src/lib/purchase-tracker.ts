@@ -3,6 +3,7 @@
 
 import Stripe from 'stripe'
 import { TIER_CONFIGS, ML_TIER_CONFIGS } from './tier-config'
+import { getInstantPickIds } from './kv'
 
 function getStripe() {
   return new Stripe((process.env.STRIPE_SECRET_KEY || '').trim(), {
@@ -92,7 +93,13 @@ export async function getUserDailyPickIds(email: string): Promise<string[]> {
     }
   }
 
-  return pickIds
+  // Also check instant Redis tracking (no search delay)
+  try {
+    const instantIds = await getInstantPickIds(email)
+    pickIds.push(...instantIds)
+  } catch {}
+
+  return [...new Set(pickIds)]
 }
 
 /**

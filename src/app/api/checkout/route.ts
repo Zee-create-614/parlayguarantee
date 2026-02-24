@@ -5,6 +5,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import { getTierConfig } from '../../../lib/tier-config'
 import { canUserPurchase, getUserDailyPickIds } from '../../../lib/purchase-tracker'
+import { recordPurchaseInstant, getInstantPickIds } from '../../../lib/kv'
 import { getClient } from '../../../../engine/db'
 import { generateUserParlays, gameConf } from '../../../lib/parlay-engine'
 
@@ -39,7 +40,7 @@ async function fetchAnalyzedGames(pickDate: string): Promise<any[]> {
           total_line: row.total_line, ou_pick: row.ou_pick, ou_prob: row.ou_prob,
           upset_score: row.upset_score, upset_flip: row.upset_flip === 1,
           game_time: row.game_time, commence_time: row.commence_time,
-          book_count: row.book_count, game_date: row.pick_date,
+          book_count: row.book_count, bookmakers: row.bookmakers || '', game_date: row.pick_date,
         }
       })
     }
@@ -104,7 +105,14 @@ export async function POST(req: NextRequest) {
     }
 
     const today = new Date().toISOString().split('T')[0]
-    const excludePickIds = await getUserDailyPickIds(email)
+    const stripePickIds = await getUserDailyPickIds(email)
+    const instantPickIds = await getInstantPickIds(email)
+    const excludePickIds = [...new Set([...stripePickIds, ...instantPickIds])]
+
+    // Count existing purchases to generate a unique parlay set per purchase
+    const { getInstantPurchases } = await import('../../../lib/kv')
+    const existingPurchases = await getInstantPurchases(email)
+    const purchaseIndex = existingPurchases.length
 
     // Fetch engine's analyzed games (same Turso-first source as /api/picks)
     const analyzedGames = await fetchAnalyzedGames(today)
@@ -112,7 +120,19 @@ export async function POST(req: NextRequest) {
     // ─── Use the SAME generateUserParlays function as /api/picks ───
     // This guarantees the user gets exactly the picks they were shown on the site.
     const productId = tierToProductId(tier)
-    const allParlays = generateUserParlays(analyzedGames, email, productId, today)
+    const allParlays = generateUserParlays(analyzedGames, email, productId, today, sportsbook || undefined, purchaseIndex)
+
+    // Build set of previously purchased parlay signatures to prevent exact duplicates
+    const prevParlaySignatures = new Set<string>()
+    for (const purchase of existingPurchases) {
+      if (purchase.parlayData?.legs) {
+        const sig = purchase.parlayData.legs
+          .map((l: any) => `${l.team}|${l.bet}`)
+          .sort()
+          .join('::')
+        prevParlaySignatures.add(sig)
+      }
+    }
 
     // Find a parlay matching the requested leg count that doesn't overlap with prior purchases
     const targetLegs = config.legs
@@ -121,8 +141,21 @@ export async function POST(req: NextRequest) {
     for (const p of allParlays) {
       if (p.legs !== targetLegs) continue
 
+      // Check for exact duplicate with previously purchased parlays
+      const parlayGames = p.games || []
+      const isML = tier.startsWith('ml-') || p.pick_mode === 'moneyline'
+      const sig = parlayGames
+        .map((g: any) => {
+          const pick = isML ? (g.ml_pick || g.pick) : g.pick
+          const bet = isML ? `${pick} ML` : `${pick} ${g.spread_str || 'ATS'}`
+          return `${pick}|${bet}`
+        })
+        .sort()
+        .join('::')
+      if (prevParlaySignatures.has(sig)) continue
+
       // Check for overlap with already-purchased picks
-      const parlayPickIds = (p.games || []).map((g: any) =>
+      const parlayPickIds = parlayGames.map((g: any) =>
         `${g.home || g.home_team}_${g.away || g.away_team}_${g.game_date || today}`
       )
       const hasOverlap = parlayPickIds.some((id: string) => excludePickIds.includes(id))
@@ -132,9 +165,50 @@ export async function POST(req: NextRequest) {
       break
     }
 
-    // Fallback: if no non-overlapping parlay found, take the first matching leg count
+    // Fallback: skip overlap check but still enforce no exact duplicates
     if (!selectedParlay) {
-      selectedParlay = allParlays.find((p: any) => p.legs === targetLegs)
+      for (const p of allParlays) {
+        if (p.legs !== targetLegs) continue
+        const parlayGames = p.games || []
+        const isML = tier.startsWith('ml-') || p.pick_mode === 'moneyline'
+        const sig = parlayGames
+          .map((g: any) => {
+            const pick = isML ? (g.ml_pick || g.pick) : g.pick
+            const bet = isML ? `${pick} ML` : `${pick} ${g.spread_str || 'ATS'}`
+            return `${pick}|${bet}`
+          })
+          .sort()
+          .join('::')
+        if (!prevParlaySignatures.has(sig)) {
+          selectedParlay = p
+          break
+        }
+      }
+    }
+
+    // Last resort: try with incremented purchaseIndex to generate fresh combos
+    if (!selectedParlay) {
+      for (let extra = 1; extra <= 5; extra++) {
+        const freshParlays = generateUserParlays(analyzedGames, email, productId, today, sportsbook || undefined, purchaseIndex + extra)
+        for (const p of freshParlays) {
+          if (p.legs !== targetLegs) continue
+          const parlayGames = p.games || []
+          const isML = tier.startsWith('ml-') || p.pick_mode === 'moneyline'
+          const sig = parlayGames
+            .map((g: any) => {
+              const pick = isML ? (g.ml_pick || g.pick) : g.pick
+              const bet = isML ? `${pick} ML` : `${pick} ${g.spread_str || 'ATS'}`
+              return `${pick}|${bet}`
+            })
+            .sort()
+            .join('::')
+          if (!prevParlaySignatures.has(sig)) {
+            selectedParlay = p
+            break
+          }
+        }
+        if (selectedParlay) break
+      }
     }
 
     if (!selectedParlay) {
@@ -217,6 +291,14 @@ export async function POST(req: NextRequest) {
       },
       ...(email ? { receipt_email: email } : {}),
     })
+
+    try {
+      await recordPurchaseInstant(email, paymentIntent.id, tier, pickIds, {
+        legs: legs.map((l: any) => ({ team: l.team, bet: l.bet, odds: l.odds, sport: l.sport, homeTeam: l.homeTeam, awayTeam: l.awayTeam, confidence: l.confidence, commence_time: l.commence_time, game_time: l.game_time, line: l.line, type: l.type })),
+        combinedOdds: (combinedAmerican >= 0 ? '+' : '') + combinedAmerican,
+        confidence: Math.round(avgConf),
+      })
+    } catch (e) { console.error('Failed to record instant purchase:', e) }
 
     return NextResponse.json({
       clientSecret: paymentIntent.client_secret,

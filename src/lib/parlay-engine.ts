@@ -210,20 +210,66 @@ export const PRODUCT_IDS = [
   'parlay-ml-value',
 ]
 
+// ─── Sportsbook name mapping (user-facing → Odds API key) ───
+const SPORTSBOOK_MAP: Record<string, string> = {
+  'DraftKings': 'draftkings',
+  'draftkings': 'draftkings',
+  'FanDuel': 'fanduel',
+  'fanduel': 'fanduel',
+  'BetMGM': 'betmgm',
+  'betmgm': 'betmgm',
+  'Caesars': 'caesars',
+  'caesars': 'caesars',
+  'PointsBet': 'pointsbet',
+  'pointsbet': 'pointsbet',
+  'BetRivers': 'betrivers',
+  'betrivers': 'betrivers',
+}
+
+function filterGamesBySportsbook(games: any[], sportsbook?: string): any[] {
+  if (!sportsbook || sportsbook === 'Other' || sportsbook === 'other' || sportsbook === 'all') return games
+  const key = SPORTSBOOK_MAP[sportsbook] || sportsbook.toLowerCase()
+  return games.filter(g => {
+    const bk = g.bookmakers || ''
+    if (!bk) return true  // no bookmaker data = include by default
+    return bk.split(',').some((b: string) => b.trim() === key)
+  })
+}
+
+// ─── Overlap checker ───
+function overlapFraction(a: number[], b: number[]): number {
+  let shared = 0
+  for (const x of a) if (b.includes(x)) shared++
+  return shared / Math.max(a.length, b.length)
+}
+
+// ─── Shuffle top portion of array using seeded RNG ───
+function seededShuffle(arr: any[], rng: () => number): any[] {
+  const out = [...arr]
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]]
+  }
+  return out
+}
+
 // ─── Main generation function ───
 export function generateUserParlays(
   analyzedGames: any[],
   userId: string,
   productMix: string,
-  dateStr: string
+  dateStr: string,
+  sportsbook?: string,
+  purchaseIndex: number = 0,
 ): any[] {
-  const eligible = analyzedGames
-    .filter(isSpreadPick)
-    .filter(isGameEligibleForParlay)
+  const eligible = filterGamesBySportsbook(
+    analyzedGames.filter(isSpreadPick).filter(isGameEligibleForParlay),
+    sportsbook
+  )
 
   if (eligible.length < 2) return []
 
-  const seed = userSeed(userId, dateStr)
+  const seed = userSeed(userId, dateStr) + purchaseIndex * 7919
   const pool = [...eligible].sort((a, b) => gameConf(b) - gameConf(a))
   const nbaGames = pool.filter(g => gameSport(g) === 'nba')
   const ncaabGames = pool.filter(g => gameSport(g) === 'ncaab')
@@ -236,10 +282,10 @@ export function generateUserParlays(
   const isMLValue = productMix === 'parlay-ml-value'
 
   if (isMLProduct) {
-    const mlPool = analyzedGames
-      .filter(isGameEligibleForParlay)
-      .filter((g: any) => g.ml_pick && g.ml_prob > 0.55)
-      .sort((a: any, b: any) => (b.ml_prob || 0) - (a.ml_prob || 0))
+    const mlPool = filterGamesBySportsbook(
+      analyzedGames.filter(isGameEligibleForParlay).filter((g: any) => g.ml_pick && g.ml_prob > 0.55),
+      sportsbook
+    ).sort((a: any, b: any) => (b.ml_prob || 0) - (a.ml_prob || 0))
 
     if (mlPool.length < 2) return []
 
@@ -265,12 +311,22 @@ export function generateUserParlays(
       }
 
       allCombos.sort((a, b) => b.prob - a.prob)
-      const rng = mulberry32(seed + k * 2000)
-      const candidates = allCombos.slice(0, limit * 2)
-      for (const c of candidates) c.prob += (rng() - 0.5) * 0.001
+      const rng = mulberry32(seed + k * 2000 + purchaseIndex * 4391)
+      const candidates = allCombos.slice(0, limit * 4)
+      for (const c of candidates) c.prob += (rng() - 0.5) * 0.10
       candidates.sort((a, b) => b.prob - a.prob)
 
-      for (const c of candidates.slice(0, limit)) {
+      const mlSelectedIndices: number[][] = []
+      for (const c of candidates) {
+        if (mlSelectedIndices.length >= limit) break
+        const tooSimilar = mlSelectedIndices.some(prev => overlapFraction(c.indices, prev) > 0.5)
+        if (tooSimilar) continue
+        mlSelectedIndices.push(c.indices)
+      }
+
+      for (const idxSet of mlSelectedIndices) {
+        const c = { indices: idxSet, prob: 1 }
+        for (const i of idxSet) c.prob *= (topPool[i].ml_prob || 0.5)
         const games = c.indices.map(i => topPool[i])
         let combinedProb = 1
         for (const g of games) combinedProb *= (g.ml_prob || 0.5)
@@ -297,10 +353,10 @@ export function generateUserParlays(
   const isConsistent = productMix.includes('consistent')
 
   const limits: Record<number, number> = isConsistent
-    ? { 2: 25, 3: 15, 4: 8, 5: 4, 6: 2 }
+    ? { 2: 25, 3: 15, 4: 8, 5: 4, 6: 2, 7: 2, 8: 1 }
     : isMoonshot
     ? { 2: 20, 3: 15, 4: 10, 5: 5, 6: 3, 7: 2, 8: 1 }
-    : { 2: 20, 3: 12, 4: 8, 5: 4, 6: 2 }
+    : { 2: 20, 3: 12, 4: 8, 5: 4, 6: 2, 7: 2, 8: 1 }
 
   const parlays: any[] = []
   let pickNum = 0
@@ -358,51 +414,63 @@ export function generateUserParlays(
   for (const k of legCounts) {
     const limit = limits[k] || 5
 
+    // Use top 80% of pool for diverse selection
+    const topN = Math.min(n, Math.max(k + 2, Math.ceil(n * 0.8)))
+    const rng = mulberry32(seed + k * 1000 + purchaseIndex * 3571)
+    // Shuffle the pool for this leg count to get genuinely different combos
+    const shuffledPool = seededShuffle(pool.slice(0, topN), mulberry32(seed + k * 1337 + purchaseIndex * 5003))
+
     if (k >= 4 && hasBothSports) {
       const mixedCombos: { prob: number; indices: number[] }[] = []
-      const topN = Math.min(n, k <= 4 ? 30 : 20)
-      const topPool = pool.slice(0, topN)
 
       for (const combo of combinations(topN, k)) {
-        const games = combo.map(i => topPool[i])
+        const games = combo.map(i => shuffledPool[i])
         if (!isMixedSportCombo(games)) continue
         let prob = 1
         for (const g of games) prob *= gameConf(g)
         mixedCombos.push({ prob, indices: combo })
-        if (mixedCombos.length >= limit * 3) break
+        if (mixedCombos.length >= limit * 10) break
       }
 
       mixedCombos.sort((a, b) => b.prob - a.prob)
-      const topCombos = mixedCombos.slice(0, limit)
-      const rng = mulberry32(seed + k * 1000)
-      for (const c of topCombos) c.prob += (rng() - 0.5) * 0.001
-      topCombos.sort((a, b) => b.prob - a.prob)
+      // Apply meaningful perturbation (±0.05)
+      const candidates = mixedCombos.slice(0, limit * 4)
+      for (const c of candidates) c.prob += (rng() - 0.5) * 0.10
+      candidates.sort((a, b) => b.prob - a.prob)
 
-      for (const c of topCombos.slice(0, limit)) {
-        const topPoolLocal = pool.slice(0, Math.min(n, k <= 4 ? 30 : 20))
-        parlays.push(buildParlay(c.indices.map(i => topPoolLocal[i]), true))
+      // Select with max 50% overlap enforcement
+      const selectedIndices: number[][] = []
+      for (const c of candidates) {
+        if (selectedIndices.length >= limit) break
+        const tooSimilar = selectedIndices.some(prev => overlapFraction(c.indices, prev) > 0.5)
+        if (tooSimilar) continue
+        selectedIndices.push(c.indices)
+        parlays.push(buildParlay(c.indices.map(i => shuffledPool[i]), true))
       }
     } else {
       const allCombos: { prob: number; indices: number[] }[] = []
-      const topN = Math.min(n, k <= 3 ? 35 : 25)
-      const topPool = pool.slice(0, topN)
 
       for (const combo of combinations(topN, k)) {
         let prob = 1
-        for (const i of combo) prob *= gameConf(topPool[i])
+        for (const i of combo) prob *= gameConf(shuffledPool[i])
         allCombos.push({ prob, indices: combo })
-        if (allCombos.length >= limit * 5) break
+        if (allCombos.length >= limit * 10) break
       }
 
       allCombos.sort((a, b) => b.prob - a.prob)
-      const rng = mulberry32(seed + k * 1000)
-      const candidates = allCombos.slice(0, limit * 2)
-      for (const c of candidates) c.prob += (rng() - 0.5) * 0.001
+      // Apply meaningful perturbation (±0.05)
+      const candidates = allCombos.slice(0, limit * 4)
+      for (const c of candidates) c.prob += (rng() - 0.5) * 0.10
       candidates.sort((a, b) => b.prob - a.prob)
 
-      for (const c of candidates.slice(0, limit)) {
-        const topPoolLocal = pool.slice(0, topN)
-        parlays.push(buildParlay(c.indices.map(i => topPoolLocal[i])))
+      // Select with max 50% overlap enforcement
+      const selectedIndices: number[][] = []
+      for (const c of candidates) {
+        if (selectedIndices.length >= limit) break
+        const tooSimilar = selectedIndices.some(prev => overlapFraction(c.indices, prev) > 0.5)
+        if (tooSimilar) continue
+        selectedIndices.push(c.indices)
+        parlays.push(buildParlay(c.indices.map(i => shuffledPool[i])))
       }
     }
   }

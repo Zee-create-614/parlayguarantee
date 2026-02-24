@@ -31,3 +31,11 @@
 2026-02-24 01:00:31,899 [INFO] Fetching requires_capture payment intents from Stripe...
 2026-02-24 01:00:31,901 [DEBUG] Starting new HTTPS connection (1): api.stripe.com:443
 2026-02-24 01:00:32,376 [DEBUG] https://api.stripe.com:443 "GET /v1/payment_intents?limit=100&expand%5B%5D= HTTP/1.1" 401 342
+2026-02-24 10:02:53,068 [WARNING] ⚠️ STRIPE_SECRET_KEY not found — auto-capture disabled.
+2026-02-24 10:02:53,068 [INFO] ============================================================
+2026-02-24 10:02:53,072 [INFO] AUTO CAPTURE — 2026-02-24 10:02 EST
+2026-02-24 10:02:53,072 [INFO] Mode: LIVE
+2026-02-24 10:02:53,072 [INFO] ============================================================
+2026-02-24 10:02:53,072 [INFO] Fetching requires_capture payment intents from Stripe...
+2026-02-24 10:02:53,081 [DEBUG] Starting new HTTPS connection (1): api.stripe.com:443
+2026-02-24 10:02:54,661 [DEBUG] https://api.stripe.com:443 "GET /v1/payment_intents?limit=100&expand%5B%5D= HTTP/1.1" 401 342

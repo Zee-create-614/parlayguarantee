@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken'
 import Stripe from 'stripe'
 import { TIER_CONFIGS } from '../../../lib/tier-config'
 import { getDFSLineupsForPurchases } from '../../../lib/dfs-tier-mapping'
-import { getUser, getReferralCount, getBettingConfig, getFreePick, saveFreePick } from '../../../lib/kv'
+import { getUser, getReferralCount, getBettingConfig, getFreePick, saveFreePick, getInstantPurchases } from '../../../lib/kv'
 import { generateUniqueParlay } from '../../../lib/parlay-engine'
 import { Redis } from '@upstash/redis'
 import { promises as fs } from 'fs'
@@ -96,10 +96,14 @@ export async function GET(request: NextRequest) {
         }
 
         if (pi.status === 'canceled') {
-          // Manual capture expired or was voided = refund (no charge)
+          // Manual capture expired or was voided = refund (no charge/guarantee)
           status = 'refunded'
           totalRefunds += (pi.amount || 0) / 100
           losses++
+        } else if (pi.status === 'succeeded') {
+          // Auto-captured = all legs won (auto_capture.py only captures winners)
+          status = 'won'
+          wins++
         } else if (pi.latest_charge) {
           try {
             const charge = await stripe.charges.retrieve(pi.latest_charge as string)
@@ -111,7 +115,7 @@ export async function GET(request: NextRequest) {
           } catch {}
         }
 
-        if (status === 'pending' && (pi.status === 'succeeded' || pi.status === 'requires_capture')) {
+        if (status === 'pending' && pi.status === 'requires_capture') {
           pending++
         }
 
@@ -138,6 +142,32 @@ export async function GET(request: NextRequest) {
     } catch (e) {
       console.error('Stripe error:', e)
     }
+
+    // Merge instant purchases not yet in Stripe search results
+    try {
+      const instantPurchases = await getInstantPurchases(email)
+      const existingPiIds = new Set(purchases.map((p: any) => p.id))
+      for (const ip of instantPurchases) {
+        if (existingPiIds.has(ip.paymentIntentId)) continue
+        const tierConfig = TIER_CONFIGS[ip.tier]
+        const pd = ip.parlayData || {}
+        purchases.push({
+          id: ip.paymentIntentId,
+          tier: ip.tier,
+          tierName: tierConfig?.name || ip.tier,
+          type: 'purchase',
+          sport: '',
+          price: tierConfig ? tierConfig.price : 0,
+          date: new Date(ip.createdAt).toLocaleDateString('en-US'),
+          status: 'pending',
+          legs: (pd.legs || []).map((l: any) => ({ team: l.team || `${l.awayTeam} @ ${l.homeTeam}`, bet: l.bet, odds: l.odds, type: l.type, sport: l.sport, result: undefined })),
+          combinedOdds: pd.combinedOdds || '',
+          confidence: pd.confidence || 0,
+        })
+        totalSpent += tierConfig ? tierConfig.price : 0
+        pending++
+      }
+    } catch (e) { console.error('Instant purchase merge error:', e) }
 
     // Check KV for free pick (and detect stale picks from previous days)
     if (!freeSignupPick) {
@@ -337,61 +367,10 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Match purchases against actual results from KV
-    try {
-      const kvUrl = (process.env.UPSTASH_REDIS_REST_URL || '').trim()
-      const kvToken = (process.env.UPSTASH_REDIS_REST_TOKEN || '').trim()
-      if (kvUrl && kvToken) {
-        const kvRedis = new Redis({ url: kvUrl, token: kvToken })
-        const exportData = await kvRedis.get<{ pick_results: any[]; daily_summaries: any[] }>('results:export')
-        if (exportData?.pick_results) {
-          // Build a lookup: date → { predicted_winner → correct (0/1/null) }
-          const resultLookup: Record<string, Record<string, number | null>> = {}
-          for (const pr of exportData.pick_results) {
-            const d = pr.date
-            if (!resultLookup[d]) resultLookup[d] = {}
-            resultLookup[d][pr.predicted_winner] = pr.correct
-          }
-
-          // Update purchase statuses based on results
-          wins = 0; losses = 0; pending = 0
-          for (const purchase of purchases) {
-            if (purchase.status === 'refunded') continue
-            const purchaseDate = new Date(purchase.date)
-            const dateKey = purchaseDate.toISOString().split('T')[0]
-            
-            // Check if any leg results exist for this purchase date
-            const dayResults = resultLookup[dateKey]
-            if (!dayResults) { pending++; continue }
-
-            // Check legs
-            let allResolved = true
-            let allCorrect = true
-            for (const leg of purchase.legs) {
-              const team = leg.team?.split(' @ ') || []
-              const pick = leg.bet?.replace(' ML', '') || ''
-              if (dayResults[pick] === 1) {
-                leg.result = 'won'
-              } else if (dayResults[pick] === 0) {
-                leg.result = 'lost'
-                allCorrect = false
-              } else {
-                allResolved = false
-              }
-            }
-
-            if (allResolved && purchase.legs.length > 0) {
-              purchase.status = allCorrect ? 'won' : 'lost'
-              if (allCorrect) wins++; else losses++
-            } else {
-              pending++
-            }
-          }
-        }
-      }
-    } catch (e) {
-      console.error('KV result matching error:', e)
-    }
+    // Win/loss is determined by Stripe PI status:
+    // - succeeded (captured by auto_capture.py) = all legs WON
+    // - canceled (voided by auto_capture.py) = a leg LOST (guarantee refund)
+    // - requires_capture = games still PENDING
 
     // DFS lineups
     let dfsLineups: any[] = []

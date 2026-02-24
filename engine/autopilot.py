@@ -385,8 +385,9 @@ def analyze_game(game: dict, sport_label: str) -> Optional[dict]:
     # Edge: how far from 50/50
     edge = round(cover_prob - 0.5, 4)
 
-    # Book count
+    # Book count + bookmaker keys
     book_count = len(game.get('bookmakers', []))
+    bookmaker_keys = ','.join(sorted(set(bk.get('key', '') for bk in game.get('bookmakers', []) if bk.get('key'))))
 
     # Upset score (basic — enhanced in step 4)
     upset_score = 0
@@ -434,6 +435,7 @@ def analyze_game(game: dict, sport_label: str) -> Optional[dict]:
         'upset_flip': False,
         'home_injuries': [],
         'away_injuries': [],
+        'bookmakers': bookmaker_keys,
     }
 
 
@@ -925,6 +927,7 @@ def _load_spread_picks_for_turso(picks_dir: Path, fallback_games: list) -> list:
                     'upset_score': p.get('upset_composite_score', match.get('upset_score', 0) if match else 0),
                     'upset_flip': p.get('is_upset_play', False),
                     'book_count': match.get('book_count', 0) if match else 0,
+                    'bookmakers': match.get('bookmakers', '') if match else '',
                 }
                 merged.append(game)
         except Exception as e:
@@ -962,8 +965,8 @@ def push_to_turso(games: list, pick_date: str):
                     (pick_date, sport, home, away, spread, spread_str, pick,
                      cover_prob, enhanced_prob, ml_pick, ml_prob, total_line,
                      ou_pick, ou_prob, upset_score, upset_flip, game_time,
-                     commence_time, book_count, raw_json)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                     commence_time, book_count, bookmakers, raw_json)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 "args": [
                     _turso_arg(pick_date),
                     _turso_arg(g.get('sport', '')),
@@ -984,6 +987,7 @@ def push_to_turso(games: list, pick_date: str):
                     _turso_arg(g.get('game_time', '')),
                     _turso_arg(g.get('commence_time', '')),
                     _turso_arg(g.get('book_count'), "integer"),
+                    _turso_arg(g.get('bookmakers', '')),
                     _turso_arg(raw_json),
                 ]
             }
