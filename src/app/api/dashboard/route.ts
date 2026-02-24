@@ -139,11 +139,64 @@ export async function GET(request: NextRequest) {
       console.error('Stripe error:', e)
     }
 
-    // Check KV for free pick
+    // Check KV for free pick (and detect stale picks from previous days)
     if (!freeSignupPick) {
       try {
         const kvPick = await getFreePick(email)
         if (kvPick) {
+          // Check if pick is stale (created on a previous day)
+          const pickDate = kvPick.createdAt ? new Date(kvPick.createdAt).toISOString().split('T')[0] : null
+          const today = new Date().toISOString().split('T')[0]
+          const isStale = pickDate && pickDate < today
+
+          if (isStale && kvPick.status === 'pending') {
+            // Stale pending pick — regenerate with today's games
+            console.log(`Free pick for ${email} is stale (${pickDate}), regenerating...`)
+            try {
+              const freshParlay = await generateUniqueParlay(3)
+              if (freshParlay) {
+                const freshData = {
+                  parlayData: freshParlay.legs.map((l: any) => ({
+                    home: l.homeTeam || '',
+                    away: l.awayTeam || '',
+                    pick: l.team,
+                    win_prob: l.confidence ? l.confidence / 100 : 0.5,
+                  })),
+                  legs: freshParlay.legs,
+                  combinedOdds: freshParlay.combinedOdds,
+                  confidence: freshParlay.confidence,
+                  sport: freshParlay.sport || 'NBA',
+                  status: 'pending',
+                }
+                await saveFreePick(email, freshData)
+                // Build display from fresh data instead of stale kvPick
+                freeSignupPick = {
+                  id: 'free_signup',
+                  tier: '3leg',
+                  tierName: '3-Leg Parlay (Free)',
+                  type: 'free_signup',
+                  sport: freshParlay.sport || 'NBA',
+                  price: 0,
+                  date: new Date().toLocaleDateString('en-US'),
+                  status: 'pending',
+                  legs: freshParlay.legs.map((l: any) => ({
+                    team: `${l.awayTeam} @ ${l.homeTeam}`,
+                    bet: l.bet,
+                    odds: l.odds,
+                    type: l.type,
+                    sport: l.sport,
+                    result: undefined,
+                  })),
+                  combinedOdds: freshParlay.combinedOdds,
+                  confidence: freshParlay.confidence,
+                }
+              }
+            } catch (regenErr) {
+              console.warn('Free pick regeneration failed, showing stale:', regenErr)
+            }
+          }
+
+          if (!freeSignupPick && kvPick) {
           // Handle both old format ({away, home, pick, win_prob}) and new format ({away_team, home_team, bet, odds, team})
           const legs = (kvPick.parlayData || kvPick.legs || []).map((g: any) => {
             // New format from live parlay engine
@@ -186,6 +239,7 @@ export async function GET(request: NextRequest) {
             legs,
             combinedOdds: kvPick.combinedOdds || '',
             confidence: kvPick.confidence || 0,
+          }
           }
         }
       } catch {}
