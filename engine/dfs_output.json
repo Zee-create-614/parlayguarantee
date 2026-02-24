@@ -1,6 +1,6 @@
 {
-  "date": "2026-02-20",
-  "generated_at": "2026-02-20T17:02:02.118697",
+  "date": "2026-02-24",
+  "generated_at": "2026-02-24T06:57:57.558279",
   "lineups": {
     "draftkings": [
       {
@@ -8,12 +8,12 @@
         "strategy": "Max Projection",
         "players": [
           {
-            "name": "Nikola Joki\u0107",
-            "team": "DEN",
+            "name": "Giannis Antetokounmpo",
+            "team": "MIL",
             "position": "PG",
             "salary": 10500,
-            "projected": 69.4,
-            "value": 6.61
+            "projected": 59.3,
+            "value": 5.65
           },
           {
             "name": "Kyrie Irving",
@@ -32,12 +32,12 @@
             "value": 5.46
           },
           {
-            "name": "Anthony Edwards",
-            "team": "MIN",
+            "name": "Karl-Anthony Towns",
+            "team": "NYK",
             "position": "PF",
             "salary": 9500,
-            "projected": 45.5,
-            "value": 4.79
+            "projected": 49.6,
+            "value": 5.22
           },
           {
             "name": "Isaiah Hartenstein",
@@ -48,12 +48,12 @@
             "value": 5.34
           },
           {
-            "name": "Cole Anthony",
-            "team": "MEM",
+            "name": "Justin Edwards",
+            "team": "PHI",
             "position": "SG",
             "salary": 3500,
-            "projected": 19.7,
-            "value": 5.63
+            "projected": 19.8,
+            "value": 5.66
           },
           {
             "name": "Trendon Watford",
@@ -74,27 +74,27 @@
         ],
         "total_salary": 50000,
         "salary_cap": 50000,
-        "projected_points": 274.8
+        "projected_points": 268.9
       },
       {
         "platform": "draftkings",
         "strategy": "Value Play",
         "players": [
           {
-            "name": "Nikola Joki\u0107",
-            "team": "DEN",
+            "name": "Giannis Antetokounmpo",
+            "team": "MIL",
             "position": "PG",
             "salary": 10500,
-            "projected": 69.4,
-            "value": 6.61
+            "projected": 59.3,
+            "value": 5.65
           },
           {
-            "name": "Cole Anthony",
-            "team": "MEM",
+            "name": "Justin Edwards",
+            "team": "PHI",
             "position": "SG",
             "salary": 3500,
-            "projected": 19.7,
-            "value": 5.63
+            "projected": 19.8,
+            "value": 5.66
           },
           {
             "name": "Trendon Watford",
@@ -121,12 +121,12 @@
             "value": 5.44
           },
           {
-            "name": "Giannis Antetokounmpo",
-            "team": "MIL",
+            "name": "Elfrid Payton",
+            "team": "NOP",
             "position": "PG",
-            "salary": 10500,
-            "projected": 59.3,
-            "value": 5.65
+            "salary": 3500,
+            "projected": 19.7,
+            "value": 5.64
           },
           {
             "name": "Jaime Jaquez Jr.",
@@ -137,29 +137,29 @@
             "value": 5.6
           },
           {
-            "name": "Elfrid Payton",
-            "team": "NOP",
-            "position": "PG",
+            "name": "Nickeil Alexander-Walker",
+            "team": "MIN",
+            "position": "SG",
             "salary": 3500,
             "projected": 19.7,
-            "value": 5.64
+            "value": 5.63
           }
         ],
-        "total_salary": 43000,
+        "total_salary": 36000,
         "salary_cap": 50000,
-        "projected_points": 251.4
+        "projected_points": 201.8
       },
       {
         "platform": "draftkings",
         "strategy": "Balanced",
         "players": [
           {
-            "name": "Nikola Joki\u0107",
-            "team": "DEN",
+            "name": "Giannis Antetokounmpo",
+            "team": "MIL",
             "position": "PG",
             "salary": 10500,
-            "projected": 69.4,
-            "value": 6.61
+            "projected": 59.3,
+            "value": 5.65
           },
           {
             "name": "Khris Middleton",
@@ -194,45 +194,45 @@
             "value": 5.44
           },
           {
-            "name": "Giannis Antetokounmpo",
-            "team": "MIL",
-            "position": "PG",
-            "salary": 10500,
-            "projected": 59.3,
-            "value": 5.65
-          },
-          {
-            "name": "Deni Avdija",
-            "team": "POR",
-            "position": "PF",
-            "salary": 6500,
-            "projected": 34.4,
-            "value": 5.29
-          },
-          {
             "name": "Herbert Jones",
             "team": "NOP",
             "position": "SG",
             "salary": 4500,
             "projected": 24.6,
             "value": 5.46
+          },
+          {
+            "name": "Kelly Oubre Jr.",
+            "team": "PHI",
+            "position": "PF",
+            "salary": 5500,
+            "projected": 29.4,
+            "value": 5.34
+          },
+          {
+            "name": "Bradley Beal",
+            "team": "PHX",
+            "position": "SG",
+            "salary": 5500,
+            "projected": 29.9,
+            "value": 5.43
           }
         ],
-        "total_salary": 50000,
+        "total_salary": 44000,
         "salary_cap": 50000,
-        "projected_points": 286.0
+        "projected_points": 241.5
       },
       {
         "platform": "draftkings",
         "strategy": "Usage Heavy",
         "players": [
           {
-            "name": "Nikola Joki\u0107",
-            "team": "DEN",
+            "name": "Giannis Antetokounmpo",
+            "team": "MIL",
             "position": "PG",
             "salary": 10500,
-            "projected": 69.4,
-            "value": 6.61
+            "projected": 59.3,
+            "value": 5.65
           },
           {
             "name": "Kyrie Irving",
@@ -251,12 +251,12 @@
             "value": 5.46
           },
           {
-            "name": "Anthony Edwards",
-            "team": "MIN",
+            "name": "Karl-Anthony Towns",
+            "team": "NYK",
             "position": "PF",
             "salary": 9500,
-            "projected": 45.5,
-            "value": 4.79
+            "projected": 49.6,
+            "value": 5.22
           },
           {
             "name": "Rudy Gobert",
@@ -283,17 +283,17 @@
             "value": 5.35
           },
           {
-            "name": "Kentavious Caldwell-Pope",
-            "team": "MEM",
+            "name": "Max Christie",
+            "team": "DAL",
             "position": "SG",
             "salary": 3500,
-            "projected": 17.9,
-            "value": 5.11
+            "projected": 19.2,
+            "value": 5.48
           }
         ],
         "total_salary": 50000,
         "salary_cap": 50000,
-        "projected_points": 269.9
+        "projected_points": 265.2
       },
       {
         "platform": "draftkings",
@@ -324,20 +324,20 @@
             "value": 2.93
           },
           {
-            "name": "Robert Williams III",
-            "team": "POR",
+            "name": "Jalen Smith",
+            "team": "CHI",
             "position": "PF",
             "salary": 3500,
-            "projected": 19.2,
-            "value": 5.49
+            "projected": 18.9,
+            "value": 5.41
           },
           {
-            "name": "Clint Capela",
-            "team": "ATL",
+            "name": "Marcus Bagley",
+            "team": "PHI",
             "position": "C",
             "salary": 4500,
-            "projected": 23.9,
-            "value": 5.32
+            "projected": 21.0,
+            "value": 4.68
           },
           {
             "name": "Haywood Highsmith",
@@ -366,7 +366,7 @@
         ],
         "total_salary": 29000,
         "salary_cap": 50000,
-        "projected_points": 128.2
+        "projected_points": 125.0
       }
     ],
     "fanduel": [
@@ -374,14 +374,6 @@
         "platform": "fanduel",
         "strategy": "Value Play",
         "players": [
-          {
-            "name": "Nikola Joki\u0107",
-            "team": "DEN",
-            "position": "PG",
-            "salary": 11000,
-            "projected": 64.0,
-            "value": 5.82
-          },
           {
             "name": "Giannis Antetokounmpo",
             "team": "MIL",
@@ -391,12 +383,12 @@
             "value": 5.24
           },
           {
-            "name": "Kris Dunn",
-            "team": "LAC",
-            "position": "SG",
-            "salary": 4000,
-            "projected": 20.0,
-            "value": 5.0
+            "name": "Trae Young",
+            "team": "ATL",
+            "position": "PG",
+            "salary": 9000,
+            "projected": 44.8,
+            "value": 4.98
           },
           {
             "name": "Brandon Miller",
@@ -407,20 +399,28 @@
             "value": 4.98
           },
           {
-            "name": "Peyton Watson",
-            "team": "DEN",
-            "position": "SF",
+            "name": "Davion Mitchell",
+            "team": "MIA",
+            "position": "SG",
             "salary": 4000,
-            "projected": 19.8,
-            "value": 4.94
+            "projected": 19.9,
+            "value": 4.98
           },
           {
-            "name": "Brandon Clarke",
-            "team": "MEM",
+            "name": "Jaime Jaquez Jr.",
+            "team": "MIA",
             "position": "SF",
             "salary": 4000,
-            "projected": 19.5,
-            "value": 4.88
+            "projected": 19.4,
+            "value": 4.86
+          },
+          {
+            "name": "Trendon Watford",
+            "team": "BKN",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 19.2,
+            "value": 4.81
           },
           {
             "name": "Bam Adebayo",
@@ -431,25 +431,25 @@
             "value": 5.0
           },
           {
-            "name": "Bobby Portis",
-            "team": "MIL",
+            "name": "Kelly Oubre Jr.",
+            "team": "PHI",
             "position": "PF",
             "salary": 6000,
-            "projected": 29.5,
-            "value": 4.92
+            "projected": 29.8,
+            "value": 4.97
           },
           {
-            "name": "Zach Edey",
-            "team": "MEM",
+            "name": "Chet Holmgren",
+            "team": "OKC",
             "position": "C",
-            "salary": 5000,
-            "projected": 24.8,
-            "value": 4.95
+            "salary": 7000,
+            "projected": 34.5,
+            "value": 4.93
           }
         ],
         "total_salary": 60000,
         "salary_cap": 60000,
-        "projected_points": 310.1
+        "projected_points": 300.1
       },
       {
         "platform": "fanduel",
@@ -464,12 +464,12 @@
             "value": 4.95
           },
           {
-            "name": "Ben Simmons",
-            "team": "LAC",
+            "name": "Tyus Jones",
+            "team": "PHX",
             "position": "PG",
             "salary": 5000,
-            "projected": 20.6,
-            "value": 4.13
+            "projected": 22.9,
+            "value": 4.59
           },
           {
             "name": "Antonio Reeves",
@@ -488,20 +488,20 @@
             "value": 4.19
           },
           {
+            "name": "P.J. Tucker",
+            "team": "NYK",
+            "position": "SF",
+            "salary": 4000,
+            "projected": 7.7,
+            "value": 1.94
+          },
+          {
             "name": "Cam Reddish",
             "team": "LAL",
             "position": "SF",
             "salary": 4000,
             "projected": 10.1,
             "value": 2.54
-          },
-          {
-            "name": "Javonte Green",
-            "team": "CLE",
-            "position": "SF",
-            "salary": 4000,
-            "projected": 14.1,
-            "value": 3.54
           },
           {
             "name": "Moussa Diabat\u00e9",
@@ -530,7 +530,7 @@
         ],
         "total_salary": 38000,
         "salary_cap": 60000,
-        "projected_points": 150.7
+        "projected_points": 146.6
       }
     ]
   }

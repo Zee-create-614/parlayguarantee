@@ -1,685 +1,411 @@
-// Parlay Engine - Live Odds Version
-// Fetches real data from The Odds API via /api/odds
+/**
+ * Shared parlay generation engine — single source of truth.
+ * Used by both /api/picks and /api/checkout to ensure identical pick generation.
+ */
+import crypto from 'crypto'
 
-export type Sport = 'nba' | 'nfl' | 'mlb' | 'nhl' | 'ufc' | 'soccer' | 'ncaab' | 'ncaaf'
-
-export interface Game {
-  id: string
-  sport: Sport
-  homeTeam: string
-  awayTeam: string
-  startTime: string
-  status: 'scheduled' | 'live' | 'completed'
-  venue?: string
-}
-
-export interface LiveOddsEvent {
-  id: string
-  sport: Sport
-  homeTeam: string
-  awayTeam: string
-  startTime: string
-  status: 'scheduled'
-  moneyline: { home: number; away: number }
-  spread: { home: number; away: number; homeOdds: number; awayOdds: number }
-  total: { over: number; under: number; overOdds: number; underOdds: number }
-  bookmaker: string
-}
-
-export interface Odds {
-  gameId: string
-  spread: { home: number; away: number; odds: number }
-  total: { over: number; under: number; overOdds: number; underOdds: number }
-  moneyline: { home: number; away: number }
-}
-
-export interface PlayerProp {
-  gameId: string
-  playerId: string
-  playerName: string
-  team: string
-  props: {
-    [key: string]: { line: number; overOdds: number; underOdds: number } | { odds: number }
+// ─── Seeded PRNG (mulberry32) ───
+export function mulberry32(seed: number) {
+  return function () {
+    seed |= 0; seed = seed + 0x6D2B79F5 | 0
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed)
+    t = t + Math.imul(t ^ (t >>> 7), 61 | t) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
   }
 }
 
-export interface ParlayLeg {
-  gameId: string
-  sport: Sport
-  team: string
-  bet: string
-  odds: number
-  line: number | null // spread point (e.g. +3.5), total line (e.g. 220.5), or null for ML
-  type: 'spread' | 'total' | 'moneyline' | 'player_prop' | 'fight_method' | 'rounds'
-  homeTeam?: string
-  awayTeam?: string
+export function userSeed(userId: string, dateStr: string): number {
+  const raw = `${userId}:${dateStr}:parlayguarantee`
+  const hash = crypto.createHash('sha256').update(raw).digest('hex')
+  return parseInt(hash.slice(0, 10), 16)
 }
 
-export type ParlayWindow = 'early' | 'late' | 'full_slate'
+// ─── Time-window helpers ───
+const PARLAY_BUFFER_MINUTES = 60
 
-export interface Parlay {
-  id: number
-  sport?: Sport
-  legs: ParlayLeg[]
-  combinedOdds: string
-  confidence: number
-  expectedValue: number
-  teams: string[]
-  window?: ParlayWindow
-  windowLabel?: string
-  payout: {
-    bet10: number
-    bet25: number
-    bet50: number
-    bet100: number
-  }
-}
-
-// ---- Time Window Logic ----
-// Buffer: games must start at least this many minutes after now
-const BUFFER_MINUTES = 15
-
-function classifyWindow(startTimeISO: string): ParlayWindow {
-  const dt = new Date(startTimeISO)
-  // Convert to ET (UTC-5)
+export function classifyGameWindow(game: any): string {
+  const ct = game.commence_time || game.game_time
+  if (!ct) return 'late'
+  const dt = new Date(ct)
+  if (isNaN(dt.getTime())) return 'late'
   const etHour = (dt.getUTCHours() - 5 + 24) % 24
   if (etHour >= 12 && etHour < 18) return 'early'
   return 'late'
 }
 
-function windowLabel(w: ParlayWindow): string {
-  const labels: Record<ParlayWindow, string> = {
+export function isGameEligibleForParlay(game: any): boolean {
+  const ct = game.commence_time
+  if (!ct) return true
+  const start = new Date(ct)
+  if (isNaN(start.getTime())) return true
+  const cutoff = new Date(Date.now() + PARLAY_BUFFER_MINUTES * 60_000)
+  return start > cutoff
+}
+
+// ─── Confidence scoring ───
+export function gameConf(g: any): number {
+  const cp = g.cover_prob || 0.5
+  const ep = g.enhanced_prob || cp
+  const mp = g.ml_prob || 0.5
+  if (cp < 0.52) {
+    const mlContrib = Math.min(mp, 0.65)
+    return 0.3 * cp + 0.4 * ep + 0.3 * mlContrib
+  }
+  return cp
+}
+
+export function computeHomAwayProb(g: any): { home_probability: number; away_probability: number } {
+  const pick = g.pick || ''
+  const home = g.home || g.home_team || ''
+  const coverProb = gameConf(g)
+  const pickIsHome = pick.toLowerCase() === home.toLowerCase()
+  if (g.ml_home_prob && g.ml_away_prob) {
+    return { home_probability: g.ml_home_prob, away_probability: g.ml_away_prob }
+  }
+  if (pickIsHome) {
+    return { home_probability: coverProb, away_probability: 1 - coverProb }
+  } else {
+    return { home_probability: 1 - coverProb, away_probability: coverProb }
+  }
+}
+
+// ─── Helpers ───
+export function gameSport(g: any): string {
+  const s = (g.sport || '').toLowerCase()
+  if (s.includes('ncaa') || s.includes('cbb') || s.includes('college')) return 'ncaab'
+  if (s.includes('nba')) return 'nba'
+  if (s.includes('nhl')) return 'nhl'
+  if (s.includes('mlb')) return 'mlb'
+  if (s.includes('nfl')) return 'nfl'
+  return s || 'unknown'
+}
+
+export function isSpreadPick(g: any): boolean {
+  const pt = (g.pick_type || '').toLowerCase()
+  return pt !== 'total' && pt !== 'over_under' && pt !== 'ou'
+}
+
+export function* combinations(n: number, k: number): Generator<number[]> {
+  if (k > n) return
+  const indices = Array.from({ length: k }, (_, i) => i)
+  yield [...indices]
+  while (true) {
+    let i = k - 1
+    while (i >= 0 && indices[i] === i + n - k) i--
+    if (i < 0) return
+    indices[i]++
+    for (let j = i + 1; j < k; j++) indices[j] = indices[j - 1] + 1
+    yield [...indices]
+  }
+}
+
+export function isMixedSportCombo(games: any[]): boolean {
+  const sports = new Set(games.map(gameSport))
+  return sports.has('nba') && sports.has('ncaab')
+}
+
+// ─── Get count of eligible games (used by purchase-limits) ───
+export async function getAvailableGameCount(sportFilter?: string): Promise<number> {
+  const { getClient } = await import('../../engine/db')
+  const { promises: fs } = await import('fs')
+  const path = await import('path')
+
+  const today = new Date().toISOString().split('T')[0]
+  let games: any[] = []
+
+  try {
+    const client = getClient()
+    const result = await client.execute({
+      sql: 'SELECT * FROM daily_picks WHERE pick_date = ?',
+      args: [today],
+    })
+    if (result.rows && result.rows.length > 0) {
+      games = result.rows.map((row: any) => {
+        if (row.raw_json) {
+          try { return JSON.parse(row.raw_json) } catch {}
+        }
+        return { sport: row.sport, commence_time: row.commence_time, pick_type: row.pick_type || 'spread' }
+      })
+    }
+  } catch {}
+
+  if (games.length === 0) {
+    try {
+      const filePath = path.join(process.cwd(), 'engine', 'analyzed_games.json')
+      const raw = await fs.readFile(filePath, 'utf-8')
+      games = JSON.parse(raw)
+    } catch { return 0 }
+  }
+
+  let eligible = games.filter(isSpreadPick).filter(isGameEligibleForParlay)
+  if (sportFilter) {
+    const sf = sportFilter.toLowerCase()
+    eligible = eligible.filter(g => {
+      const s = gameSport(g)
+      return s === sf || (sf === 'mixed' && (s === 'nba' || s === 'ncaab'))
+    })
+  }
+  return eligible.length
+}
+
+// ─── Convenience: generate a single unique parlay of N legs ───
+// Used by dashboard and auth flows for free/bonus parlays.
+export async function generateUniqueParlay(numLegs: number, userId?: string): Promise<any | null> {
+  // Dynamic import to avoid circular deps with engine/db
+  const { getClient } = await import('../../engine/db')
+  const { promises: fs } = await import('fs')
+  const path = await import('path')
+
+  const today = new Date().toISOString().split('T')[0]
+  let games: any[] = []
+
+  try {
+    const client = getClient()
+    const result = await client.execute({
+      sql: 'SELECT * FROM daily_picks WHERE pick_date = ?',
+      args: [today],
+    })
+    if (result.rows && result.rows.length > 0) {
+      games = result.rows.map((row: any) => {
+        if (row.raw_json) {
+          try { return JSON.parse(row.raw_json) } catch {}
+        }
+        return {
+          sport: row.sport, home: row.home, away: row.away,
+          spread: row.spread, spread_str: row.spread_str,
+          pick: row.pick, cover_prob: row.cover_prob,
+          enhanced_prob: row.enhanced_prob,
+          ml_pick: row.ml_pick, ml_prob: row.ml_prob,
+          total_line: row.total_line, ou_pick: row.ou_pick, ou_prob: row.ou_prob,
+          upset_score: row.upset_score, upset_flip: row.upset_flip === 1,
+          game_time: row.game_time, commence_time: row.commence_time,
+          book_count: row.book_count, game_date: row.pick_date,
+        }
+      })
+    }
+  } catch {}
+
+  if (games.length === 0) {
+    try {
+      const filePath = path.join(process.cwd(), 'engine', 'analyzed_games.json')
+      const raw = await fs.readFile(filePath, 'utf-8')
+      games = JSON.parse(raw)
+    } catch { return null }
+  }
+
+  const parlays = generateUserParlays(games, userId || 'bonus_default', 'parlay-consistent', today)
+  const match = parlays.find((p: any) => p.legs === numLegs)
+  return match || null
+}
+
+// ─── Product IDs ───
+export const PRODUCT_IDS = [
+  'parlay-consistent',
+  'parlay-moonshot',
+  'parlay-mixed',
+  'parlay-weekday',
+  'parlay-weekend',
+  'referral-bundle',
+  'parlay-ml-safe',
+  'parlay-ml-value',
+]
+
+// ─── Main generation function ───
+export function generateUserParlays(
+  analyzedGames: any[],
+  userId: string,
+  productMix: string,
+  dateStr: string
+): any[] {
+  const eligible = analyzedGames
+    .filter(isSpreadPick)
+    .filter(isGameEligibleForParlay)
+
+  if (eligible.length < 2) return []
+
+  const seed = userSeed(userId, dateStr)
+  const pool = [...eligible].sort((a, b) => gameConf(b) - gameConf(a))
+  const nbaGames = pool.filter(g => gameSport(g) === 'nba')
+  const ncaabGames = pool.filter(g => gameSport(g) === 'ncaab')
+  const hasBothSports = nbaGames.length > 0 && ncaabGames.length > 0
+  const n = pool.length
+
+  // ML parlay products
+  const isMLProduct = productMix.includes('parlay-ml')
+  const isMLSafe = productMix === 'parlay-ml-safe'
+  const isMLValue = productMix === 'parlay-ml-value'
+
+  if (isMLProduct) {
+    const mlPool = analyzedGames
+      .filter(isGameEligibleForParlay)
+      .filter((g: any) => g.ml_pick && g.ml_prob > 0.55)
+      .sort((a: any, b: any) => (b.ml_prob || 0) - (a.ml_prob || 0))
+
+    if (mlPool.length < 2) return []
+
+    const mlLimits: Record<number, number> = isMLSafe
+      ? { 2: 15, 3: 10 }
+      : { 3: 12, 4: 8, 5: 5 }
+
+    const mlParlays: any[] = []
+    let mlPickNum = 0
+    const mlN = mlPool.length
+
+    for (const k of Object.keys(mlLimits).map(Number).filter(k => k <= mlN)) {
+      const limit = mlLimits[k] || 5
+      const topN = Math.min(mlN, k <= 3 ? 30 : 20)
+      const topPool = mlPool.slice(0, topN)
+      const allCombos: { prob: number; indices: number[] }[] = []
+
+      for (const combo of combinations(topN, k)) {
+        let prob = 1
+        for (let ii = 0; ii < combo.length; ii++) prob *= (topPool[combo[ii]].ml_prob || 0.5)
+        allCombos.push({ prob, indices: combo })
+        if (allCombos.length >= limit * 5) break
+      }
+
+      allCombos.sort((a, b) => b.prob - a.prob)
+      const rng = mulberry32(seed + k * 2000)
+      const candidates = allCombos.slice(0, limit * 2)
+      for (const c of candidates) c.prob += (rng() - 0.5) * 0.001
+      candidates.sort((a, b) => b.prob - a.prob)
+
+      for (const c of candidates.slice(0, limit)) {
+        const games = c.indices.map(i => topPool[i])
+        let combinedProb = 1
+        for (const g of games) combinedProb *= (g.ml_prob || 0.5)
+        const payout = combinedProb > 0 ? 1 / combinedProb : 1
+        mlPickNum++
+
+        mlParlays.push({
+          pick_number: mlPickNum,
+          type: 'parlay',
+          pick_mode: 'moneyline',
+          legs: games.length,
+          games,
+          combined_prob: Math.round(combinedProb * 10000) / 10000,
+          implied_payout: `${payout.toFixed(1)}x`,
+        })
+      }
+    }
+
+    return mlParlays
+  }
+
+  // Spread-based products
+  const isMoonshot = productMix.includes('moonshot')
+  const isConsistent = productMix.includes('consistent')
+
+  const limits: Record<number, number> = isConsistent
+    ? { 2: 25, 3: 15, 4: 8, 5: 4, 6: 2 }
+    : isMoonshot
+    ? { 2: 20, 3: 15, 4: 10, 5: 5, 6: 3, 7: 2, 8: 1 }
+    : { 2: 20, 3: 12, 4: 8, 5: 4, 6: 2 }
+
+  const parlays: any[] = []
+  let pickNum = 0
+
+  const windowLabels: Record<string, string> = {
     early: 'Early Window (12-6 PM ET)',
     late: 'Late Window (6 PM+ ET)',
     full_slate: 'Full Slate',
   }
-  return labels[w] || w
-}
 
-function isGameEligible(event: LiveOddsEvent): boolean {
-  const cutoff = new Date(Date.now() + BUFFER_MINUTES * 60_000)
-  const start = new Date(event.startTime)
-  return start > cutoff
-}
+  function buildParlay(games: any[], forceMixedLabel: boolean = false) {
+    let combinedProb = 1
+    for (const g of games) combinedProb *= gameConf(g)
+    const payout = combinedProb > 0 ? 1 / combinedProb : 1
 
-function groupEventsByWindow(events: LiveOddsEvent[]): Record<ParlayWindow, LiveOddsEvent[]> {
-  const eligible = events.filter(isGameEligible)
-  const groups: Record<ParlayWindow, LiveOddsEvent[]> = { early: [], late: [], full_slate: [] }
-  for (const ev of eligible) {
-    const w = classifyWindow(ev.startTime)
-    groups[w].push(ev)
-  }
-  // full_slate = all eligible if there are games in both windows
-  if (groups.early.length > 0 && groups.late.length > 0) {
-    groups.full_slate = [...groups.early, ...groups.late]
-  } else if (groups.early.length === 0) {
-    groups.full_slate = [...groups.late]
-  }
-  return groups
-}
+    const gameTimes = games.map((g: any) => g.game_time || g.commence_time).filter(Boolean)
+    const earliestGameTime = gameTimes.length ? gameTimes.sort()[0] : ''
 
-// American odds to decimal
-export function americanToDecimal(americanOdds: number): number {
-  if (americanOdds > 0) return americanOdds / 100 + 1
-  return 100 / Math.abs(americanOdds) + 1
-}
-
-// Combined parlay odds
-export function calculateParlayOdds(legs: ParlayLeg[]): { decimal: number; american: string } {
-  const decimalOdds = legs.reduce((acc, leg) => acc * americanToDecimal(leg.odds), 1)
-  const americanOdds =
-    decimalOdds >= 2
-      ? Math.round((decimalOdds - 1) * 100)
-      : Math.round(-100 / (decimalOdds - 1))
-  return {
-    decimal: decimalOdds,
-    american: americanOdds > 0 ? `+${americanOdds}` : americanOdds.toString(),
-  }
-}
-
-export function calculatePayouts(americanOdds: string, betAmounts: number[]): number[] {
-  const odds = parseInt(americanOdds.replace('+', ''))
-  return betAmounts.map((bet) => {
-    if (odds > 0) return +(bet + (bet * odds) / 100).toFixed(2)
-    return +(bet + (bet * 100) / Math.abs(odds)).toFixed(2)
-  })
-}
-
-// ---------- Live data fetching ----------
-
-const ODDS_API_KEY = (process.env.ODDS_API_KEY || 'f3c9f91dc369f56dea1b523d3071e1f1').trim()
-const ODDS_BASE_URL = 'https://api.the-odds-api.com/v4'
-
-const SPORT_KEY_MAP: Record<string, string> = {
-  nba: 'basketball_nba',
-  nhl: 'icehockey_nhl',
-  mlb: 'baseball_mlb',
-  ufc: 'mma_mixed_martial_arts',
-  soccer: 'soccer_epl',
-  ncaab: 'basketball_ncaab',
-}
-
-const REVERSE_SPORT_MAP: Record<string, string> = {
-  basketball_nba: 'nba',
-  icehockey_nhl: 'nhl',
-  baseball_mlb: 'mlb',
-  mma_mixed_martial_arts: 'ufc',
-  soccer_epl: 'soccer',
-  basketball_ncaab: 'ncaab',
-}
-
-// In-memory cache for server-side
-let oddsCache: { data: LiveOddsEvent[]; timestamp: number } | null = null
-const ODDS_CACHE_TTL = 5 * 60 * 1000
-
-function parseOddsEvent(event: any): LiveOddsEvent | null {
-  const book = event.bookmakers?.[0]
-  if (!book) return null
-  const markets: Record<string, any[]> = {}
-  for (const m of book.markets || []) markets[m.key] = m.outcomes
-
-  const h2h = markets.h2h || []
-  const spreads = markets.spreads || []
-  const totals = markets.totals || []
-
-  const homeH2h = h2h.find((o: any) => o.name === event.home_team)
-  const awayH2h = h2h.find((o: any) => o.name === event.away_team)
-  const homeSpread = spreads.find((o: any) => o.name === event.home_team)
-  const awaySpread = spreads.find((o: any) => o.name === event.away_team)
-  const over = totals.find((o: any) => o.name === 'Over')
-  const under = totals.find((o: any) => o.name === 'Under')
-
-  return {
-    id: event.id,
-    sport: (REVERSE_SPORT_MAP[event.sport_key] || event.sport_key) as Sport,
-    homeTeam: event.home_team,
-    awayTeam: event.away_team,
-    startTime: event.commence_time,
-    status: 'scheduled',
-    moneyline: { home: homeH2h?.price ?? 0, away: awayH2h?.price ?? 0 },
-    spread: {
-      home: homeSpread?.point ?? 0,
-      away: awaySpread?.point ?? 0,
-      homeOdds: homeSpread?.price ?? -110,
-      awayOdds: awaySpread?.price ?? -110,
-    },
-    total: {
-      over: over?.point ?? 0,
-      under: under?.point ?? 0,
-      overOdds: over?.price ?? -110,
-      underOdds: under?.price ?? -110,
-    },
-    bookmaker: book.title || 'N/A',
-  }
-}
-
-async function fetchLiveEvents(sport?: Sport): Promise<LiveOddsEvent[]> {
-  // Try direct Odds API call (works reliably on Vercel serverless)
-  if (typeof window === 'undefined') {
-    // Check cache
-    if (oddsCache && Date.now() - oddsCache.timestamp < ODDS_CACHE_TTL) {
-      const cached = oddsCache.data
-      return sport ? cached.filter(e => e.sport === sport) : cached
-    }
-
-    const sportKeys = sport
-      ? [SPORT_KEY_MAP[sport]].filter(Boolean)
-      : ['basketball_nba', 'basketball_ncaab'] // Only fetch working sports
-
-    const allEvents: LiveOddsEvent[] = []
-    const results = await Promise.allSettled(
-      sportKeys.map(async (sk) => {
-        const url = `${ODDS_BASE_URL}/sports/${sk}/odds/?apiKey=${ODDS_API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american`
-        const res = await fetch(url)
-        if (!res.ok) { console.error(`Odds API ${sk}: ${res.status}`); return [] }
-        const events = await res.json()
-        return (events as any[]).map(parseOddsEvent).filter(Boolean) as LiveOddsEvent[]
+    const commenceTimes = games.map((g: any) => g.commence_time).filter(Boolean)
+    let parlayWindow = 'late'
+    if (commenceTimes.length > 0) {
+      const hasEarly = commenceTimes.some((ct: string) => {
+        const h = (new Date(ct).getUTCHours() - 5 + 24) % 24
+        return h >= 12 && h < 18
       })
-    )
-    for (const r of results) {
-      if (r.status === 'fulfilled') allEvents.push(...r.value)
+      const hasLate = commenceTimes.some((ct: string) => {
+        const h = (new Date(ct).getUTCHours() - 5 + 24) % 24
+        return h >= 18 || h < 4
+      })
+      if (hasEarly && !hasLate) parlayWindow = 'early'
+      else if (hasEarly && hasLate) parlayWindow = 'full_slate'
     }
 
-    oddsCache = { data: allEvents, timestamp: Date.now() }
-    return sport ? allEvents.filter(e => e.sport === sport) : allEvents
-  }
+    const isMixed = isMixedSportCombo(games)
+    pickNum++
 
-  // Client-side: use internal API
-  const url = sport ? `/api/odds?sport=${sport}` : `/api/odds`
-  const res = await fetch(url, { next: { revalidate: 300 } })
-  if (!res.ok) return []
-  const json = await res.json()
-  return json.events || []
-}
-
-export async function fetchGames(sport?: Sport): Promise<Game[]> {
-  const events = await fetchLiveEvents(sport)
-  return events.map((e) => ({
-    id: e.id,
-    sport: e.sport as Sport,
-    homeTeam: e.homeTeam,
-    awayTeam: e.awayTeam,
-    startTime: e.startTime,
-    status: e.status,
-  }))
-}
-
-export async function fetchOdds(sport?: Sport): Promise<Odds[]> {
-  const events = await fetchLiveEvents(sport)
-  return events.map((e) => ({
-    gameId: e.id,
-    spread: { home: e.spread.home, away: e.spread.away, odds: e.spread.homeOdds },
-    total: e.total,
-    moneyline: e.moneyline,
-  }))
-}
-
-// ---------- Parlay generation from live odds ----------
-
-function buildLeg(event: LiveOddsEvent, betType: 'moneyline' | 'spread' | 'total', side: 'home' | 'away' | 'over' | 'under'): ParlayLeg | null {
-  if (betType === 'moneyline') {
-    const isHome = side === 'home'
-    const team = isHome ? event.homeTeam : event.awayTeam
-    const odds = isHome ? event.moneyline.home : event.moneyline.away
-    if (!odds) return null
-    return { gameId: event.id, sport: event.sport as Sport, team, bet: `Moneyline ${team}`, odds, line: null, type: 'moneyline', homeTeam: event.homeTeam, awayTeam: event.awayTeam }
-  }
-  if (betType === 'spread') {
-    const isHome = side === 'home'
-    const team = isHome ? event.homeTeam : event.awayTeam
-    const point = isHome ? event.spread.home : event.spread.away
-    const odds = isHome ? event.spread.homeOdds : event.spread.awayOdds
-    if (!point && point !== 0) return null
-    const sign = point > 0 ? '+' : ''
-    return { gameId: event.id, sport: event.sport as Sport, team, bet: `Spread ${sign}${point}`, odds, line: point, type: 'spread', homeTeam: event.homeTeam, awayTeam: event.awayTeam }
-  }
-  if (betType === 'total') {
-    const isOver = side === 'over'
-    const line = event.total.over || event.total.under
-    if (!line) return null
-    const odds = isOver ? event.total.overOdds : event.total.underOdds
     return {
-      gameId: event.id,
-      sport: event.sport as Sport,
-      team: `${event.homeTeam} vs ${event.awayTeam}`,
-      bet: `${isOver ? 'Over' : 'Under'} ${line}`,
-      odds,
-      line,
-      type: 'total',
-      homeTeam: event.homeTeam,
-      awayTeam: event.awayTeam,
+      pick_number: pickNum,
+      type: 'parlay',
+      legs: games.length,
+      games,
+      combined_prob: Math.round(combinedProb * 10000) / 10000,
+      implied_payout: `${payout.toFixed(1)}x`,
+      earliest_game_time: earliestGameTime,
+      window: parlayWindow,
+      window_label: windowLabels[parlayWindow] || parlayWindow,
+      recommended: isMixed && games.length >= 4,
+      mixed_sport: isMixed,
+      mixed_label: isMixed ? 'Mixed Parlay (NBA + NCAAB) - Higher hit probability' : undefined,
     }
   }
-  return null
-}
 
-// Simple confidence heuristic: favor slight favorites, moderate totals
-function legConfidence(leg: ParlayLeg): number {
-  const dec = americanToDecimal(leg.odds)
-  // Implied probability
-  const impliedProb = 1 / dec
-  // Convert to 0-100 confidence, capped
-  return Math.min(95, Math.max(40, impliedProb * 100 + (Math.random() * 10 - 5)))
-}
+  const legCounts = Object.keys(limits).map(Number).filter(k => k <= n)
 
-export async function generateParlays(numPicks: number = 10, sport?: Sport): Promise<Parlay[]> {
-  const events = await fetchLiveEvents(sport)
-  if (events.length === 0) return []
+  for (const k of legCounts) {
+    const limit = limits[k] || 5
 
-  // Group events by time window (only eligible games)
-  const windowGroups = groupEventsByWindow(events)
+    if (k >= 4 && hasBothSports) {
+      const mixedCombos: { prob: number; indices: number[] }[] = []
+      const topN = Math.min(n, k <= 4 ? 30 : 20)
+      const topPool = pool.slice(0, topN)
 
-  // Build leg pools per window
-  const buildLegsForEvents = (evts: LiveOddsEvent[]): ParlayLeg[] => {
-    const pool: ParlayLeg[] = []
-    for (const ev of evts) {
-      const candidates: [('moneyline' | 'spread' | 'total'), ('home' | 'away' | 'over' | 'under')][] = [
-        ['moneyline', 'home'], ['moneyline', 'away'],
-        ['spread', 'home'], ['spread', 'away'],
-        ['total', 'over'], ['total', 'under'],
-      ]
-      for (const [bt, side] of candidates) {
-        const leg = buildLeg(ev, bt, side)
-        if (leg && leg.odds !== 0) pool.push(leg)
-      }
-    }
-    return pool
-  }
-
-  const shuffle = <T,>(arr: T[]): T[] => {
-    const a = [...arr]
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[a[i], a[j]] = [a[j], a[i]]
-    }
-    return a
-  }
-
-  const parlays: Parlay[] = []
-  const legCounts = [2, 2, 3, 3, 4, 2, 3, 4, 5, 6]
-
-  // Generate parlays per window — ensures all legs are placeable together
-  const windowOrder: ParlayWindow[] = ['late', 'early', 'full_slate']
-  let parlayIdx = 0
-
-  for (const windowName of windowOrder) {
-    const windowEvents = windowGroups[windowName]
-    if (!windowEvents || windowEvents.length === 0) continue
-
-    const legPool = buildLegsForEvents(windowEvents)
-    if (legPool.length < 2) continue
-
-    // Allocate picks proportionally
-    const picksForWindow = Math.max(2, Math.round(numPicks / windowOrder.filter(w => (windowGroups[w]?.length || 0) > 0).length))
-
-    for (let i = 0; i < picksForWindow && parlayIdx < numPicks; i++) {
-      const targetLegs = legCounts[parlayIdx % legCounts.length]
-      const shuffled = shuffle(legPool)
-
-      const usedGames = new Set<string>()
-      const selectedLegs: ParlayLeg[] = []
-      for (const leg of shuffled) {
-        if (usedGames.has(leg.gameId)) continue
-        selectedLegs.push(leg)
-        usedGames.add(leg.gameId)
-        if (selectedLegs.length >= targetLegs) break
+      for (const combo of combinations(topN, k)) {
+        const games = combo.map(i => topPool[i])
+        if (!isMixedSportCombo(games)) continue
+        let prob = 1
+        for (const g of games) prob *= gameConf(g)
+        mixedCombos.push({ prob, indices: combo })
+        if (mixedCombos.length >= limit * 3) break
       }
 
-      if (selectedLegs.length < 2) continue
+      mixedCombos.sort((a, b) => b.prob - a.prob)
+      const topCombos = mixedCombos.slice(0, limit)
+      const rng = mulberry32(seed + k * 1000)
+      for (const c of topCombos) c.prob += (rng() - 0.5) * 0.001
+      topCombos.sort((a, b) => b.prob - a.prob)
 
-      const { decimal, american } = calculateParlayOdds(selectedLegs)
-      const [p10, p25, p50, p100] = calculatePayouts(american, [10, 25, 50, 100])
-
-      const avgConf = selectedLegs.reduce((s, l) => s + legConfidence(l), 0) / selectedLegs.length
-      const ev = (avgConf / 100) * decimal - 1
-
-      const sports = [...new Set(selectedLegs.map((l) => l.sport))]
-      const parlaySport = sports.length === 1 ? sports[0] : undefined
-
-      parlays.push({
-        id: parlayIdx + 1,
-        sport: parlaySport,
-        legs: selectedLegs,
-        combinedOdds: american,
-        confidence: Math.round(avgConf),
-        expectedValue: +ev.toFixed(2),
-        window: windowName,
-        windowLabel: windowLabel(windowName),
-        teams: selectedLegs.map((l) =>
-          l.type === 'total' ? l.team : `${l.team} (${l.sport.toUpperCase()})`
-        ),
-        payout: { bet10: p10, bet25: p25, bet50: p50, bet100: p100 },
-      })
-      parlayIdx++
-    }
-  }
-
-  parlays.sort((a, b) => b.confidence - a.confidence)
-  return parlays.slice(0, numPicks)
-}
-
-// ---------- Engine Picks Loader ----------
-
-interface EngineLeg {
-  game: string
-  pick: string
-  type: string
-  line: string
-  prob: number
-  sport: string
-  commence_time: string
-}
-
-interface EnginePick {
-  legs: EngineLeg[]
-  combined_prob: number
-  payout_odds: string
-  leg_count: number
-}
-
-async function loadEnginePicks(): Promise<{ tiers: Record<string, { picks: EnginePick[] }>, ml_tiers?: Record<string, { picks: EnginePick[] }> } | null> {
-  if (typeof window !== 'undefined') return null
-  try {
-    const fs = await import('fs')
-    const path = await import('path')
-    const filePath = path.join(process.cwd(), 'engine', 'picks_output.json')
-    const data = await fs.promises.readFile(filePath, 'utf-8')
-    return JSON.parse(data)
-  } catch {
-    return null
-  }
-}
-
-function engineLegToParlay(eLeg: EngineLeg): ParlayLeg & { confidence: number; pickId: string } {
-  // Parse "Dallas Mavericks @ Indiana Pacers" format
-  const parts = eLeg.game.split(' @ ')
-  const awayTeam = parts[0]?.trim() || ''
-  const homeTeam = parts[1]?.trim() || ''
-  
-  // Determine odds from probability
-  const prob = eLeg.prob
-  let odds: number
-  if (prob >= 0.5) {
-    odds = Math.round(-100 * prob / (1 - prob))
-  } else {
-    odds = Math.round(100 * (1 - prob) / prob)
-  }
-
-  const line = eLeg.line ? parseFloat(eLeg.line) : null
-  const betType = eLeg.type?.toLowerCase() || 'spread'
-  const sign = line && line > 0 ? '+' : ''
-  const betLabel = betType === 'moneyline' 
-    ? `Moneyline ${eLeg.pick}` 
-    : betType === 'total'
-    ? `${eLeg.pick} ${line}`
-    : `Spread ${sign}${line}`
-
-  const gameId = `${awayTeam}_${homeTeam}_${eLeg.commence_time}`.replace(/\s/g, '_')
-  const pickId = `engine_${gameId}_${betType}_${eLeg.pick.replace(/\s/g, '_')}`
-
-  return {
-    gameId,
-    sport: (eLeg.sport?.toLowerCase() || 'nba') as Sport,
-    team: eLeg.pick,
-    bet: betLabel,
-    odds,
-    line,
-    type: betType as 'moneyline' | 'spread' | 'total',
-    homeTeam,
-    awayTeam,
-    confidence: Math.round(prob * 100),
-    pickId,
-  }
-}
-
-// ---------- N-Leg Parlay Generation for Tier System ----------
-
-/**
- * Generate a unique N-leg parlay using ENGINE picks first.
- * Falls back to Odds API only if engine picks unavailable.
- * 
- * @param numLegs - Number of legs (1-7)
- * @param sport - Optional sport filter
- * @param excludePickIds - Pick IDs already assigned to this user today
- * @param tierPriority - Higher number = access to better picks (2-leg=1, 6-leg=5)
- */
-export async function generateUniqueParlay(
-  numLegs: number,
-  sport?: Sport,
-  excludePickIds: string[] = [],
-  tierPriority: number = 1,
-  preferredWindow?: ParlayWindow,
-  betTypeFilter?: 'moneyline' | 'spread' | 'total',
-): Promise<Parlay | null> {
-
-  // ========== STEP 1: Try engine picks first ==========
-  const engineData = await loadEnginePicks()
-  if (engineData) {
-    const isML = betTypeFilter === 'moneyline'
-    const tierKey = isML
-      ? (numLegs === 1 ? 'ml-single' : `ml-${numLegs}leg`)
-      : (numLegs === 1 ? 'single' : `${numLegs}leg`)
-    
-    const tierSource = isML ? engineData.ml_tiers : engineData.tiers
-    const tierData = tierSource?.[tierKey]
-    
-    if (tierData?.picks?.length) {
-      // Collect all engine legs from all picks in this tier, filter by sport
-      const allEngineLegs: (ParlayLeg & { confidence: number; pickId: string })[] = []
-      
-      for (const pick of tierData.picks) {
-        for (const eLeg of pick.legs) {
-          // Sport filter
-          const legSport = (eLeg.sport?.toLowerCase() || 'nba') as Sport
-          if (sport && sport !== 'nba' && sport !== 'ncaab') continue // unknown sport
-          if (sport && legSport !== sport) continue
-          
-          const converted = engineLegToParlay(eLeg)
-          if (!excludePickIds.includes(converted.pickId)) {
-            allEngineLegs.push(converted)
-          }
-        }
+      for (const c of topCombos.slice(0, limit)) {
+        const topPoolLocal = pool.slice(0, Math.min(n, k <= 4 ? 30 : 20))
+        parlays.push(buildParlay(c.indices.map(i => topPoolLocal[i]), true))
       }
-      
-      // Sort by confidence (engine probability) descending
-      allEngineLegs.sort((a, b) => b.confidence - a.confidence)
-      
-      // Select from different games
-      const usedGames = new Set<string>()
-      const selectedLegs: (ParlayLeg & { confidence: number; pickId: string })[] = []
-      
-      for (const leg of allEngineLegs) {
-        if (usedGames.has(leg.gameId)) continue
-        selectedLegs.push(leg)
-        usedGames.add(leg.gameId)
-        if (selectedLegs.length >= numLegs) break
-      }
-      
-      if (selectedLegs.length >= numLegs) {
-        const { decimal, american } = calculateParlayOdds(selectedLegs)
-        const [p10, p25, p50, p100] = calculatePayouts(american, [10, 25, 50, 100])
-        const avgConf = selectedLegs.reduce((s, l) => s + l.confidence, 0) / selectedLegs.length
-        const ev = (avgConf / 100) * decimal - 1
-        const sports = [...new Set(selectedLegs.map((l) => l.sport))]
-
-        return {
-          id: Date.now(),
-          sport: sports.length === 1 ? sports[0] : undefined,
-          legs: selectedLegs,
-          combinedOdds: american,
-          confidence: Math.round(avgConf),
-          expectedValue: +ev.toFixed(2),
-          window: 'late',
-          windowLabel: windowLabel('late'),
-          teams: selectedLegs.map((l) =>
-            l.type === 'total' ? l.team : `${l.team} (${l.sport.toUpperCase()})`
-          ),
-          payout: { bet10: p10, bet25: p25, bet50: p50, bet100: p100 },
-          _pickIds: selectedLegs.map(l => l.pickId),
-        } as Parlay & { _pickIds: string[] }
-      }
-    }
-  }
-
-  // ========== STEP 2: Fallback to Odds API if engine picks unavailable ==========
-  console.log('[parlay-engine] Engine picks unavailable or insufficient, falling back to Odds API')
-  
-  const events = await fetchLiveEvents(sport)
-  if (events.length < numLegs) return null
-
-  const eligibleEvents = events.filter(isGameEligible)
-  if (eligibleEvents.length < numLegs) return null
-
-  let targetEvents = eligibleEvents
-  if (preferredWindow && preferredWindow !== 'full_slate') {
-    const windowed = eligibleEvents.filter(ev => classifyWindow(ev.startTime) === preferredWindow)
-    if (windowed.length >= numLegs) {
-      targetEvents = windowed
-    }
-  }
-
-  const allLegs: (ParlayLeg & { confidence: number; pickId: string })[] = []
-  for (const ev of targetEvents) {
-    let candidates: [('moneyline' | 'spread' | 'total'), ('home' | 'away' | 'over' | 'under')][]
-    if (betTypeFilter === 'moneyline') {
-      candidates = [['moneyline', 'home'], ['moneyline', 'away']]
-    } else if (betTypeFilter === 'spread') {
-      candidates = [['spread', 'home'], ['spread', 'away']]
-    } else if (betTypeFilter === 'total') {
-      candidates = [['total', 'over'], ['total', 'under']]
-    } else if (numLegs === 1) {
-      candidates = [['moneyline', 'home'], ['moneyline', 'away']]
     } else {
-      candidates = [
-        ['moneyline', 'home'], ['moneyline', 'away'],
-        ['spread', 'home'], ['spread', 'away'],
-        ['total', 'over'], ['total', 'under'],
-      ]
-    }
-    for (const [bt, side] of candidates) {
-      const leg = buildLeg(ev, bt, side)
-      if (leg && leg.odds !== 0) {
-        const pickId = `${ev.id}_${bt}_${side}`
-        if (!excludePickIds.includes(pickId)) {
-          allLegs.push({ ...leg, confidence: legConfidence(leg), pickId })
-        }
+      const allCombos: { prob: number; indices: number[] }[] = []
+      const topN = Math.min(n, k <= 3 ? 35 : 25)
+      const topPool = pool.slice(0, topN)
+
+      for (const combo of combinations(topN, k)) {
+        let prob = 1
+        for (const i of combo) prob *= gameConf(topPool[i])
+        allCombos.push({ prob, indices: combo })
+        if (allCombos.length >= limit * 5) break
+      }
+
+      allCombos.sort((a, b) => b.prob - a.prob)
+      const rng = mulberry32(seed + k * 1000)
+      const candidates = allCombos.slice(0, limit * 2)
+      for (const c of candidates) c.prob += (rng() - 0.5) * 0.001
+      candidates.sort((a, b) => b.prob - a.prob)
+
+      for (const c of candidates.slice(0, limit)) {
+        const topPoolLocal = pool.slice(0, topN)
+        parlays.push(buildParlay(c.indices.map(i => topPoolLocal[i])))
       }
     }
   }
 
-  allLegs.sort((a, b) => b.confidence - a.confidence)
-
-  const usedGames = new Set<string>()
-  const selectedLegs: (ParlayLeg & { confidence: number; pickId: string })[] = []
-  for (const leg of allLegs) {
-    if (usedGames.has(leg.gameId)) continue
-    selectedLegs.push(leg)
-    usedGames.add(leg.gameId)
-    if (selectedLegs.length >= numLegs) break
-  }
-
-  if (selectedLegs.length < numLegs) return null
-
-  const { decimal, american } = calculateParlayOdds(selectedLegs)
-  const [p10, p25, p50, p100] = calculatePayouts(american, [10, 25, 50, 100])
-  const avgConf = selectedLegs.reduce((s, l) => s + l.confidence, 0) / selectedLegs.length
-  const ev = (avgConf / 100) * decimal - 1
-  const sports = [...new Set(selectedLegs.map((l) => l.sport))]
-
-  return {
-    id: Date.now(),
-    sport: sports.length === 1 ? sports[0] : undefined,
-    legs: selectedLegs,
-    combinedOdds: american,
-    confidence: Math.round(avgConf),
-    expectedValue: +ev.toFixed(2),
-    window: preferredWindow || 'late',
-    windowLabel: windowLabel(preferredWindow || 'late'),
-    teams: selectedLegs.map((l) =>
-      l.type === 'total' ? l.team : `${l.team} (${l.sport.toUpperCase()})`
-    ),
-    payout: { bet10: p10, bet25: p25, bet50: p50, bet100: p100 },
-    _pickIds: selectedLegs.map(l => l.pickId),
-  } as Parlay & { _pickIds: string[] }
-}
-
-/**
- * Get the number of available games for a sport (used to disable tiers).
- */
-export async function getAvailableGameCount(sport?: Sport): Promise<number> {
-  const events = await fetchLiveEvents(sport)
-  return events.filter(isGameEligible).length
-}
-
-export async function fetchPlayerStats(sport?: Sport): Promise<PlayerProp[]> {
-  // Player props require a separate API tier — return empty for now
-  return []
-}
-
-export async function evaluateResults(
-  parlayId: number,
-  finalScores: any[]
-): Promise<{ win: boolean; legsWon: number; totalLegs: number; payout: number }> {
-  // TODO: implement with real score data
-  return { win: false, legsWon: 0, totalLegs: 0, payout: 0 }
+  return parlays
 }

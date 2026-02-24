@@ -336,15 +336,30 @@ def analyze_game(game: dict, sport_label: str) -> Optional[dict]:
     else:
         ml_pick, ml_prob = away, away_prob
 
-    # Spread pick: who covers?
-    if home_cover > away_cover:
+    # Spread pick: ALWAYS pick the favorite by default.
+    # The favorite is the side with the negative spread (laying points).
+    # Upset composite in enhance_game() can flip this later if upset_score >= 0.8.
+    # This matches the dk_saturday_run engine logic so Turso/website picks
+    # are consistent with what the Telegram summary shows.
+    if spread < 0:
+        # Home is favored
         spread_pick = home
         cover_prob = home_cover
         spread_str = f"{spread:+.1f}" if spread != 0 else "PK"
-    else:
+    elif spread > 0:
+        # Away is favored (home getting points)
         spread_pick = away
         cover_prob = away_cover
         spread_str = f"{-spread:+.1f}" if spread != 0 else "PK"
+    else:
+        # Pick'em — use cover prob
+        if home_cover > away_cover:
+            spread_pick = home
+            cover_prob = home_cover
+        else:
+            spread_pick = away
+            cover_prob = away_cover
+        spread_str = "PK"
 
     # O/U pick
     if total_line:
@@ -354,6 +369,18 @@ def analyze_game(game: dict, sport_label: str) -> Optional[dict]:
             ou_pick, ou_prob = 'Under', under_prob
     else:
         ou_pick, ou_prob = None, 0.5
+
+    # Compute spread-based confidence (matches dk_saturday_run formula)
+    # Base: 50% + spread size * 1.5%, capped at 78%, with deterministic jitter
+    import hashlib as _hashlib
+    _base_conf = 0.5 + abs(spread) * 0.015
+    _base_conf = min(_base_conf, 0.78)
+    _seed = _hashlib.md5(f"{home}{away}{game_date}".encode()).hexdigest()
+    _jitter = (int(_seed[:4], 16) % 100 - 50) / 500  # ±0.10
+    spread_confidence = round(max(0.45, min(0.82, _base_conf + _jitter)), 4)
+    
+    # Use spread_confidence as cover_prob so enhanced_prob inherits it
+    cover_prob = spread_confidence
 
     # Edge: how far from 50/50
     edge = round(cover_prob - 0.5, 4)
@@ -836,6 +863,81 @@ def _turso_arg(value, typ="text"):
     return {"type": "text", "value": str(value)}
 
 
+def _load_spread_picks_for_turso(picks_dir: Path, fallback_games: list) -> list:
+    """Load spread_picks files and transform to Turso-compatible format.
+    
+    The spread_picks files (ncaab_spread_picks.json, nba_spread_picks.json) use the
+    dk_saturday_run engine output with fields: predicted_winner, confidence, pick_spread.
+    The Turso schema expects: pick, cover_prob, enhanced_prob, spread_str.
+    
+    This ensures the website serves the SAME picks as the Telegram summary.
+    Falls back to autopilot's own analysis if spread_picks files don't exist.
+    """
+    merged = []
+    found_any = False
+    
+    for sport_file in ['nba_spread_picks.json', 'ncaab_spread_picks.json']:
+        fp = picks_dir / sport_file
+        if not fp.exists():
+            continue
+        try:
+            raw = json.loads(fp.read_text(encoding='utf-8'))
+            picks = raw if isinstance(raw, list) else raw.get('picks', raw.get('games', []))
+            found_any = True
+            
+            for p in picks:
+                # Map from dk_saturday_run format → Turso format
+                home = p.get('home_team', '')
+                away = p.get('away_team', '')
+                predicted_winner = p.get('predicted_winner', '')
+                confidence = p.get('confidence', 0.5)
+                pick_spread = p.get('pick_spread', 0)
+                sport = p.get('sport', 'NBA' if 'nba' in sport_file else 'NCAAB')
+                
+                # Find matching autopilot game for additional fields (ml, ou, etc.)
+                match = None
+                for g in fallback_games:
+                    if g.get('home') == home and g.get('away') == away:
+                        match = g
+                        break
+                    # Try fuzzy match
+                    if home and away and home in g.get('home', '') and away in g.get('away', ''):
+                        match = g
+                        break
+                
+                game = {
+                    'sport': sport,
+                    'home': home,
+                    'away': away,
+                    'commence_time': p.get('commence_time', match.get('commence_time', '') if match else ''),
+                    'game_date': p.get('date', match.get('game_date', '') if match else ''),
+                    'game_time': match.get('game_time', '') if match else '',
+                    'spread': p.get('spread_home', match.get('spread', 0) if match else 0),
+                    'spread_str': f"{pick_spread:+.1f}" if pick_spread else '',
+                    'pick': predicted_winner,
+                    'cover_prob': round(confidence, 4),
+                    'enhanced_prob': round(confidence, 4),
+                    'ml_pick': match.get('ml_pick', '') if match else '',
+                    'ml_prob': match.get('ml_prob', 0.5) if match else 0.5,
+                    'total_line': p.get('total', match.get('total_line', 0) if match else 0),
+                    'ou_pick': match.get('ou_pick') if match else None,
+                    'ou_prob': match.get('ou_prob', 0.5) if match else 0.5,
+                    'upset_score': p.get('upset_composite_score', match.get('upset_score', 0) if match else 0),
+                    'upset_flip': p.get('is_upset_play', False),
+                    'book_count': match.get('book_count', 0) if match else 0,
+                }
+                merged.append(game)
+        except Exception as e:
+            log.warning(f"Failed to load {sport_file}: {e}")
+    
+    if found_any and merged:
+        log.info(f"📋 Loaded {len(merged)} picks from spread_picks files for Turso push (matches Telegram)")
+        return merged
+    
+    log.warning("⚠️ No spread_picks files found — falling back to autopilot analysis for Turso push")
+    return fallback_games
+
+
 def push_to_turso(games: list, pick_date: str):
     """Push analyzed games to Turso cloud DB via HTTP pipeline API."""
     log.info(f"\n☁️ Pushing {len(games)} games to Turso for {pick_date}...")
@@ -1131,9 +1233,12 @@ def run_picks_pipeline() -> dict:
             with open(sport_file, 'w', encoding='utf-8') as f:
                 json.dump({'sport': sport.upper(), 'date': TODAY, 'picks': games}, f, indent=2, default=str)
 
-    # ─── Push to Turso cloud DB ───
+    # ─── Push to Turso cloud DB (use spread_picks files as source of truth) ───
+    # The spread_picks files (from dk_saturday_run) are what the Telegram summary uses.
+    # We must push THOSE picks to Turso so the website serves the SAME picks.
+    turso_games = _load_spread_picks_for_turso(PICKS_DIR, target_games)
     try:
-        push_to_turso(target_games, TODAY)
+        push_to_turso(turso_games, TODAY)
     except Exception as e:
         log.error(f"Turso push failed (non-fatal): {e}")
         summary['errors'].append(f"Turso push: {str(e)}")

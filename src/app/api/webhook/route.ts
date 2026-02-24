@@ -84,6 +84,24 @@ export async function POST(req: NextRequest) {
       break
     }
 
+    // ─── Auto-capture: completes the auth+capture flow ───
+    // When capture_method is 'manual', Stripe fires this event after authorization.
+    // We immediately capture so payment_intent.succeeded fires next → ticket creation.
+    // NOTE: Ensure 'payment_intent.amount_capturable_updated' is enabled in your
+    // Stripe Dashboard → Developers → Webhooks → select endpoint → Add events.
+    case 'payment_intent.amount_capturable_updated': {
+      const pi = event.data.object as Stripe.PaymentIntent
+      console.log(`💳 Authorization hold placed: ${pi.id} — $${pi.amount / 100}. Auto-capturing...`)
+      try {
+        const captured = await stripe.paymentIntents.capture(pi.id)
+        console.log(`✅ Auto-captured ${captured.id} — $${captured.amount / 100}`)
+      } catch (captureErr: any) {
+        console.error(`❌ Auto-capture failed for ${pi.id}:`, captureErr.message)
+        // Don't return error — Stripe will retry the webhook
+      }
+      break
+    }
+
     case 'payment_intent.canceled': {
       const pi = event.data.object as Stripe.PaymentIntent
       console.log(`❌ Payment canceled: ${pi.id}`)

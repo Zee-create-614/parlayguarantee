@@ -3,10 +3,10 @@ import Stripe from 'stripe'
 import jwt from 'jsonwebtoken'
 import { promises as fs } from 'fs'
 import path from 'path'
-import crypto from 'crypto'
 import { getTierConfig } from '../../../lib/tier-config'
 import { canUserPurchase, getUserDailyPickIds } from '../../../lib/purchase-tracker'
 import { getClient } from '../../../../engine/db'
+import { generateUserParlays, gameConf } from '../../../lib/parlay-engine'
 
 const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-key-here'
 const ANALYZED_GAMES_FILE = path.join(process.cwd(), 'engine', 'analyzed_games.json')
@@ -17,9 +17,8 @@ function getStripe() {
   })
 }
 
-// ─── Fetch analyzed games from our engine (Turso primary, local JSON fallback) ───
+// ─── Fetch analyzed games (Turso primary, local JSON fallback) ───
 async function fetchAnalyzedGames(pickDate: string): Promise<any[]> {
-  // Try Turso first
   try {
     const client = getClient()
     const result = await client.execute({
@@ -47,7 +46,6 @@ async function fetchAnalyzedGames(pickDate: string): Promise<any[]> {
   } catch (e) {
     console.error('Turso fetch failed:', e)
   }
-  // Fallback to local JSON
   try {
     const raw = await fs.readFile(ANALYZED_GAMES_FILE, 'utf-8')
     return JSON.parse(raw)
@@ -56,139 +54,12 @@ async function fetchAnalyzedGames(pickDate: string): Promise<any[]> {
   }
 }
 
-// ─── Filter to games that haven't started yet (60-min buffer) ───
-function isGameEligible(game: any): boolean {
-  const ct = game.commence_time
-  if (!ct) return true
-  const start = new Date(ct)
-  if (isNaN(start.getTime())) return true
-  return start > new Date(Date.now() + 60 * 60_000)
-}
-
-// ─── Seeded PRNG for per-user deterministic parlays ───
-function mulberry32(seed: number) {
-  return function () {
-    seed |= 0; seed = seed + 0x6D2B79F5 | 0
-    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed)
-    t = t + Math.imul(t ^ (t >>> 7), 61 | t) ^ t
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
-  }
-}
-
-function userSeed(email: string, dateStr: string, purchaseNum: number = 0): number {
-  const raw = `${email}:${dateStr}:${purchaseNum}:checkout:parlayguarantee`
-  const hash = crypto.createHash('sha256').update(raw).digest('hex')
-  return parseInt(hash.slice(0, 10), 16)
-}
-
-// ─── Build a parlay from our engine's analyzed games ───
-function buildParlayFromEngine(
-  games: any[],
-  numLegs: number,
-  email: string,
-  dateStr: string,
-  purchaseCount: number = 0,
-  sportFilter?: string,
-  betType?: 'moneyline' | 'spread',
-  excludePickIds: string[] = [],
-): any | null {
-  // Filter eligible future games
-  let pool = games.filter(isGameEligible)
-
-  // Sport filter
-  if (sportFilter) {
-    const sf = sportFilter.toLowerCase()
-    const sportPool = pool.filter(g => {
-      const s = (g.sport || '').toLowerCase()
-      if (sf === 'nba') return s.includes('nba')
-      if (sf === 'ncaab') return s.includes('ncaa') || s.includes('cbb') || s.includes('college')
-      return s.includes(sf)
-    })
-    if (sportPool.length >= numLegs) pool = sportPool
-  }
-
-  // Exclude already-purchased picks
-  pool = pool.filter(g => {
-    const pickId = `${g.home}_${g.away}_${g.game_date}`
-    return !excludePickIds.includes(pickId)
-  })
-
-  if (pool.length < numLegs) return null
-
-  // Sort strictly by confidence — NO shuffle. Engine rankings are the product.
-  pool.sort((a: any, b: any) => {
-    const aConf = a.enhanced_prob || a.cover_prob || 0.5
-    const bConf = b.enhanced_prob || b.cover_prob || 0.5
-    return bConf - aConf
-  })
-
-  // Take the top N picks by confidence — deterministic, engine-driven
-  const selected = pool.slice(0, numLegs)
-  
-  console.log(`[ENGINE PICKS] ${numLegs}-leg parlay for ${email}:`, 
-    selected.map((g: any) => `${g.pick} (${((g.enhanced_prob || g.cover_prob || 0.5) * 100).toFixed(1)}%)`).join(', '))
-
-  // Build legs from ENGINE picks (spread or ML — always use what our model picked)
-  const legs = selected.map((g: any) => {
-    const isML = betType === 'moneyline'
-    const pick = isML ? (g.ml_pick || g.pick) : g.pick
-    const prob = isML ? (g.ml_prob || 0.5) : (g.enhanced_prob || g.cover_prob || 0.5)
-
-    // Convert probability to American odds
-    let odds: number
-    if (prob >= 0.5) {
-      odds = Math.round(-100 * prob / (1 - prob))
-    } else {
-      odds = Math.round(100 * (1 - prob) / prob)
-    }
-
-    return {
-      gameId: `${g.home}_${g.away}`,
-      team: pick || g.home,
-      bet: isML
-        ? `${pick} ML`
-        : `${pick} ${g.spread_str || 'ATS'}`,
-      odds,
-      line: isML ? null : (g.spread || 0),
-      type: isML ? 'moneyline' : 'spread',
-      sport: g.sport || 'nba',
-      homeTeam: g.home || '',
-      awayTeam: g.away || '',
-      confidence: Math.round(prob * 100),
-      commence_time: g.commence_time,
-      game_time: g.game_time,
-    }
-  })
-
-  // Combined odds (multiply decimal odds)
-  let decimalOdds = 1
-  for (const leg of legs) {
-    const dec = leg.odds > 0 ? (leg.odds / 100) + 1 : (100 / Math.abs(leg.odds)) + 1
-    decimalOdds *= dec
-  }
-  const combinedAmerican = decimalOdds >= 2
-    ? Math.round((decimalOdds - 1) * 100)
-    : Math.round(-100 / (decimalOdds - 1))
-
-  const avgConf = legs.reduce((s: number, l: any) => s + l.confidence, 0) / legs.length
-
-  const pickIds = legs.map((l: any) => `${l.homeTeam}_${l.awayTeam}_${dateStr}`)
-
-  return {
-    id: Date.now(),
-    legs,
-    combinedOdds: (combinedAmerican >= 0 ? '+' : '') + combinedAmerican,
-    confidence: Math.round(avgConf),
-    expectedValue: 0,
-    teams: legs.map((l: any) => l.team),
-    payout: {
-      bet10: Math.round(10 * decimalOdds * 100) / 100,
-      bet25: Math.round(25 * decimalOdds * 100) / 100,
-      bet50: Math.round(50 * decimalOdds * 100) / 100,
-      bet100: Math.round(100 * decimalOdds * 100) / 100,
-    },
-    _pickIds: pickIds,
-  }
+// ─── Map checkout tier → picks product ID ───
+// This ensures checkout generates picks using the EXACT same algorithm as /api/picks
+function tierToProductId(tier: string): string {
+  if (tier.startsWith('ml-')) return 'parlay-ml-safe'
+  // Default spread tiers use 'parlay-consistent' — the highest-confidence product
+  return 'parlay-consistent'
 }
 
 export async function POST(req: NextRequest) {
@@ -234,38 +105,88 @@ export async function POST(req: NextRequest) {
 
     const today = new Date().toISOString().split('T')[0]
     const excludePickIds = await getUserDailyPickIds(email)
-    
-    // Get current purchase count for unique seed per purchase
-    const { getUserDailyPurchases } = await import('../../../lib/purchase-tracker')
-    const dailyCounts = await getUserDailyPurchases(email)
-    const purchaseCount = Object.values(dailyCounts).reduce((a, b) => a + b, 0)
 
-    // Fetch OUR engine's analyzed games (not random Odds API)
+    // Fetch engine's analyzed games (same Turso-first source as /api/picks)
     const analyzedGames = await fetchAnalyzedGames(today)
 
-    const rawSport = sportsList[0]
-    const sportKey = rawSport === 'Mixed (NBA + NCAAB)' ? undefined : rawSport?.toLowerCase().replace('ufc / mma', 'ufc').replace(/ /g, '')
-    const isMLTier = tier.startsWith('ml-')
-    const betType = isMLTier ? 'moneyline' as const : 'spread' as const
+    // ─── Use the SAME generateUserParlays function as /api/picks ───
+    // This guarantees the user gets exactly the picks they were shown on the site.
+    const productId = tierToProductId(tier)
+    const allParlays = generateUserParlays(analyzedGames, email, productId, today)
 
-    let parlay = buildParlayFromEngine(
-      analyzedGames, config.legs, email, today, purchaseCount, sportKey, betType, excludePickIds
-    )
+    // Find a parlay matching the requested leg count that doesn't overlap with prior purchases
+    const targetLegs = config.legs
+    let selectedParlay: any = null
 
-    // Fallback: try without sport filter
-    if (!parlay && sportKey) {
-      parlay = buildParlayFromEngine(
-        analyzedGames, config.legs, email, today, purchaseCount, undefined, betType, excludePickIds
+    for (const p of allParlays) {
+      if (p.legs !== targetLegs) continue
+
+      // Check for overlap with already-purchased picks
+      const parlayPickIds = (p.games || []).map((g: any) =>
+        `${g.home || g.home_team}_${g.away || g.away_team}_${g.game_date || today}`
       )
+      const hasOverlap = parlayPickIds.some((id: string) => excludePickIds.includes(id))
+      if (hasOverlap) continue
+
+      selectedParlay = p
+      break
     }
 
-    if (!parlay) {
+    // Fallback: if no non-overlapping parlay found, take the first matching leg count
+    if (!selectedParlay) {
+      selectedParlay = allParlays.find((p: any) => p.legs === targetLegs)
+    }
+
+    if (!selectedParlay) {
       return NextResponse.json({
-        error: `Not enough games available to build ${config.legs === 1 ? 'a single pick' : `a ${config.legs}-leg parlay`}. Try a smaller tier or check back later.`,
+        error: `Not enough games available to build ${targetLegs === 1 ? 'a single pick' : `a ${targetLegs}-leg parlay`}. Try a smaller tier or check back later.`,
       }, { status: 400 })
     }
 
-    const pickIds = parlay._pickIds || []
+    // ─── Build response legs from engine parlay (same format as before) ───
+    const isML = tier.startsWith('ml-') || selectedParlay.pick_mode === 'moneyline'
+    const legs = (selectedParlay.games || []).map((g: any) => {
+      const pick = isML ? (g.ml_pick || g.pick) : g.pick
+      const prob = isML ? (g.ml_prob || 0.5) : gameConf(g)
+
+      let odds: number
+      if (prob >= 0.5) {
+        odds = Math.round(-100 * prob / (1 - prob))
+      } else {
+        odds = Math.round(100 * (1 - prob) / prob)
+      }
+
+      return {
+        gameId: `${g.home || g.home_team}_${g.away || g.away_team}`,
+        team: pick || g.home || g.home_team || '',
+        bet: isML
+          ? `${pick} ML`
+          : `${pick} ${g.spread_str || 'ATS'}`,
+        odds,
+        line: isML ? null : (g.spread || 0),
+        type: isML ? 'moneyline' : 'spread',
+        sport: g.sport || 'nba',
+        homeTeam: g.home || g.home_team || '',
+        awayTeam: g.away || g.away_team || '',
+        confidence: Math.round(prob * 100),
+        commence_time: g.commence_time,
+        game_time: g.game_time,
+      }
+    })
+
+    // Combined odds
+    let decimalOdds = 1
+    for (const leg of legs) {
+      const dec = leg.odds > 0 ? (leg.odds / 100) + 1 : (100 / Math.abs(leg.odds)) + 1
+      decimalOdds *= dec
+    }
+    const combinedAmerican = decimalOdds >= 2
+      ? Math.round((decimalOdds - 1) * 100)
+      : Math.round(-100 / (decimalOdds - 1))
+
+    const avgConf = legs.reduce((s: number, l: any) => s + l.confidence, 0) / legs.length
+
+    const pickIds = legs.map((l: any) => `${l.homeTeam}_${l.awayTeam}_${today}`)
 
     const stripe = getStripe()
 
@@ -282,14 +203,14 @@ export async function POST(req: NextRequest) {
         label: config.name,
         pick_ids: pickIds.join(','),
         parlay_data: JSON.stringify({
-          legs: parlay.legs.map((l: any) => ({
+          legs: legs.map((l: any) => ({
             team: l.team,
             bet: l.bet,
             odds: l.odds,
             sport: l.sport,
           })),
-          combinedOdds: parlay.combinedOdds,
-          confidence: parlay.confidence,
+          combinedOdds: (combinedAmerican >= 0 ? '+' : '') + combinedAmerican,
+          confidence: Math.round(avgConf),
         }).slice(0, 500),
         sportsbook: sportsbook || 'unknown',
         purchase_date: today,
@@ -303,11 +224,16 @@ export async function POST(req: NextRequest) {
       tier: tier,
       amount: config.priceInCents,
       parlay: {
-        legs: parlay.legs,
-        combinedOdds: parlay.combinedOdds,
-        confidence: parlay.confidence,
-        payout: parlay.payout,
-        teams: parlay.teams,
+        legs,
+        combinedOdds: (combinedAmerican >= 0 ? '+' : '') + combinedAmerican,
+        confidence: Math.round(avgConf),
+        payout: {
+          bet10: Math.round(10 * decimalOdds * 100) / 100,
+          bet25: Math.round(25 * decimalOdds * 100) / 100,
+          bet50: Math.round(50 * decimalOdds * 100) / 100,
+          bet100: Math.round(100 * decimalOdds * 100) / 100,
+        },
+        teams: legs.map((l: any) => l.team),
       },
     })
   } catch (error) {
