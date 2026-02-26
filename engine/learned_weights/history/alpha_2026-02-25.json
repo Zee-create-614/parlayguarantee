@@ -1,0 +1,123 @@
+{
+  "weights": {
+    "ml_divergence": 0.152116,
+    "home_away": 0.063849,
+    "form": 0.100476,
+    "upset": 0.082211,
+    "injury": 0.054643,
+    "net_rating": 0.101246,
+    "rest_btb": 0.072858,
+    "ats_trends": 0.004603,
+    "player_impact": 0.063751,
+    "lineup_impact": 0.054643,
+    "travel_fatigue": 0.035362,
+    "referee": 0.027321,
+    "pace_matchup": 0.004603,
+    "public_betting": 0.027321,
+    "motivation": 0.05932,
+    "sos": 0.027321,
+    "coaching": 0.004603,
+    "quarter_pattern": 0.018215,
+    "clutch": 0.027321,
+    "ft_rate": 0.018215
+  },
+  "meta": {
+    "engine": "alpha",
+    "last_update": "2026-02-25",
+    "total_games_learned": 18,
+    "today_record": "5/9",
+    "today_accuracy": 0.5556,
+    "factor_performance": {
+      "ml_divergence": {
+        "accuracy": 0.8333,
+        "correct": 10.0,
+        "incorrect": 2.0,
+        "games": 18,
+        "old_weight": 0.131904,
+        "new_weight": 0.165237,
+        "adjustment": 0.033333
+      },
+      "home_away": {
+        "accuracy": 0.6,
+        "correct": 6.0,
+        "incorrect": 4.0,
+        "games": 18,
+        "old_weight": 0.059357,
+        "new_weight": 0.069357,
+        "adjustment": 0.01
+      },
+      "form": {
+        "accuracy": 0.8,
+        "correct": 8.0,
+        "incorrect": 2.0,
+        "games": 18,
+        "old_weight": 0.079143,
+        "new_weight": 0.109143,
+        "adjustment": 0.03
+      },
+      "upset": {
+        "accuracy": 0.75,
+        "correct": 6.0,
+        "incorrect": 2.0,
+        "games": 18,
+        "old_weight": 0.064303,
+        "new_weight": 0.089303,
+        "adjustment": 0.025
+      },
+      "net_rating": {
+        "accuracy": 0.5556,
+        "correct": 10.0,
+        "incorrect": 8.0,
+        "games": 18,
+        "old_weight": 0.104424,
+        "new_weight": 0.10998,
+        "adjustment": 0.005556
+      },
+      "ats_trends": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "incorrect": 2.0,
+        "games": 18,
+        "old_weight": 0.029678,
+        "new_weight": 0.005,
+        "adjustment": -0.05
+      },
+      "travel_fatigue": {
+        "accuracy": 0.4444,
+        "correct": 8.0,
+        "incorrect": 10.0,
+        "games": 18,
+        "old_weight": 0.043968,
+        "new_weight": 0.038412,
+        "adjustment": -0.005556
+      },
+      "pace_matchup": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "incorrect": 2.0,
+        "games": 18,
+        "old_weight": 0.004946,
+        "new_weight": 0.005,
+        "adjustment": -0.05
+      },
+      "motivation": {
+        "accuracy": 0.625,
+        "correct": 10.0,
+        "incorrect": 6.0,
+        "games": 18,
+        "old_weight": 0.051937,
+        "new_weight": 0.064437,
+        "adjustment": 0.0125
+      },
+      "coaching": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "incorrect": 6.0,
+        "games": 18,
+        "old_weight": 0.004946,
+        "new_weight": 0.005,
+        "adjustment": -0.05
+      }
+    }
+  }
+}

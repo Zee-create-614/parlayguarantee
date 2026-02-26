@@ -1,0 +1,92 @@
+🐺 ALPHA NBA v3 — Tuesday Feb 24, 2026
+20-factor edge model | 6/10 data sources
+Spread floor: 51% | ML floor: 53%
+10 PICKS | 3 PASSES | 13 games
+
+── PICKS ──
+
+1. Washington Wizards @ Atlanta Hawks — 07:40 PM ET
+   ML: Atlanta Hawks (84.2%)
+   Spread: Atlanta Hawks -12.6 (56.2%) [mkt: 59.9%] [6F]
+   O/U: Under 236.4 (62.0%)
+   → ML conviction 84% vs spread 60% = +24% edge
+   → Net rating edge: Atlanta Hawks +-1.4 vs Washington Wizards -10.4
+   → Playoff bubble team — high motivation
+   → Division rival — extra intensity
+
+2. Philadelphia 76ers @ Indiana Pacers — 07:10 PM ET
+   ML: Philadelphia 76ers (78.5%)
+   Spread: Philadelphia 76ers -10.0 (54.0%) [mkt: 73.6%] [7F]
+   O/U: Under 233.1 (62.0%)
+   → Net rating edge: Philadelphia 76ers +0.3 vs Indiana Pacers -7.3
+   → Playoff bubble team — high motivation
+
+3. Charlotte Hornets @ Chicago Bulls — 08:10 PM ET
+   ML: Charlotte Hornets (73.7%)
+   Spread: Charlotte Hornets -8.5 (53.2%) [mkt: 71.0%] [5F]
+   O/U: Under 232.2 (65.0%)
+   → Charlotte Hornets hot L10 (7-3)
+   → Net rating edge: Charlotte Hornets +2.0 vs Chicago Bulls -4.4
+   → Playoff bubble team — high motivation
+
+4. Boston Celtics @ Phoenix Suns — 09:10 PM ET
+   ML: Boston Celtics (65.0%)
+   Spread: Boston Celtics -5.3 (53.1%) [mkt: 49.1%] [7F]
+   O/U: Over 206.9 (74.0%)
+   → ML conviction 65% vs spread 49% = +16% edge
+   → Boston Celtics strong road (66%)
+   → Boston Celtics hot L10 (8-2)
+   → Net rating edge: Boston Celtics +7.9 vs Phoenix Suns +0.9
+
+5. Orlando Magic @ Los Angeles Lakers — 10:40 PM ET
+   ML: Los Angeles Lakers (65.0%)
+   Spread: Los Angeles Lakers -5.4 (52.3%) [mkt: 55.5%] [6F]
+   O/U: Under 230.4 (74.0%)
+   → Travel/fatigue edge: opp fatigue 0.59 vs ours 0.10
+
+6. Boston Celtics @ Denver Nuggets — 10:10 PM ET
+   ML: Denver Nuggets (56.8%) 🔥UPSET
+   Spread: Boston Celtics +3.2 (52.1%) [mkt: 38.8%] [7F]
+   O/U: Over 229.5 (60.0%)
+   → Boston Celtics strong road (66%)
+   → Boston Celtics hot L10 (8-2)
+   → Upset composite FIRED (0.62)
+
+7. Golden State Warriors @ New Orleans Pelicans — 08:10 PM ET
+   ML: Golden State Warriors (52.2%)
+   Spread: Golden State Warriors -1.4 (51.8%) [mkt: 53.7%] [7F]
+   O/U: Over 227.4 (50.0%)
+   → Net rating edge: Golden State Warriors +1.7 vs New Orleans Pelicans -5.6
+   → Playoff bubble team — high motivation
+
+8. Miami Heat @ Milwaukee Bucks — 08:10 PM ET
+   ML: Miami Heat (67.4%)
+   Spread: Miami Heat -6.4 (51.8%) [mkt: 66.4%] [6F]
+   O/U: Under 228.3 (62.0%)
+   → Net rating edge: Miami Heat +2.8 vs Milwaukee Bucks -3.3
+   → Playoff bubble team — high motivation
+
+9. Minnesota Timberwolves @ Portland Trail Blazers — 10:10 PM ET
+   ML: Minnesota Timberwolves (69.6%)
+   Spread: Minnesota Timberwolves -6.9 (51.3%) [mkt: 68.2%] [6F]
+   O/U: Under 235.5 (74.0%)
+   → Net rating edge: Minnesota Timberwolves +4.1 vs Portland Trail Blazers -2.6
+   → Division rival — extra intensity
+
+10. New York Knicks @ Cleveland Cavaliers — 07:40 PM ET
+   ML: Cleveland Cavaliers (60.3%)
+   Spread: Cleveland Cavaliers -4.1 (51.1%) [mkt: 51.3%] [7F]
+   O/U: Over 232.2 (50.2%)
+   → Cleveland Cavaliers strong home (63%)
+   → Cleveland Cavaliers hot L10 (8-2)
+
+── PASSES ──
+
+PASS: Dallas Mavericks @ Brooklyn Nets
+  ML: Dallas Mavericks (53.2%) | Alpha: 50.5%
+
+PASS: Oklahoma City Thunder @ Detroit Pistons
+  ML: Detroit Pistons (64.5%) | Alpha: 49.8%
+
+PASS: Oklahoma City Thunder @ Toronto Raptors
+  ML: Toronto Raptors (55.9%) | Alpha: 48.3%

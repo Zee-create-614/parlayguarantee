@@ -1,0 +1,26 @@
+{
+  "engine": "tempo",
+  "last_update": "2026-02-25",
+  "total_games_learned": 9,
+  "today_record": "4/9",
+  "today_accuracy": 0.4444,
+  "weights": {
+    "pace_mismatch": 0.075525,
+    "ortg_matchup": 0.089438,
+    "drtg_matchup": 0.089438,
+    "recent_form": 0.0954,
+    "rest_b2b": 0.051675,
+    "spread_context": 0.059625,
+    "home_away_splits": 0.03975,
+    "streak_momentum": 0.0477,
+    "referee_tendency": 0.005963,
+    "injury_scoring": 0.051675,
+    "market_deviation": 0.069847,
+    "pace_trend": 0.0159,
+    "tempo_variance": 0.051675,
+    "conference_style": 0.089438,
+    "home_court_college": 0.07155,
+    "three_pt_variance": 0.027825,
+    "rivalry_factor": 0.067575
+  }
+}

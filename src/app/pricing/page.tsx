@@ -9,7 +9,7 @@ import { TIER_CONFIGS, TIER_ORDER, ML_TIER_CONFIGS, ML_TIER_ORDER } from '../../
 const faqs = [
   {
     q: 'How does pricing work?',
-    a: 'Each tier is a one-time charge. You pick the parlay size you want (single pick up to 7 legs), select your sport, pay, and get your AI-curated picks instantly. If any leg of your parlay loses, you get a full refund — no questions asked.',
+    a: 'Pricing details coming soon! Each tier will be a one-time charge with a full refund guarantee if any leg loses. Sign up now to be notified when we launch.',
   },
   {
     q: 'How are picks assigned?',
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'What are the daily limits?',
-    a: 'You can buy up to 3 two-leg parlays per day, and 1 each of all other tiers per day. This ensures every customer gets unique, high-quality picks.',
+    a: 'Daily purchase limits coming soon. Each tier will have limits to ensure every customer gets unique, high-quality picks.',
   },
   {
     q: 'Will I get duplicate picks if I buy multiple parlays?',
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'Do I get a free pick when I sign up?',
-    a: 'Yes! Every new account gets a FREE 3-leg parlay — no purchase required. Just sign up, select your sport, and your free pick is assigned instantly.',
+    a: 'Yes! Every early access signup will get a FREE 3-leg parlay when we launch for March Madness. Sign up now to claim yours.',
   },
   {
     q: 'How do referrals work?',
@@ -71,12 +71,18 @@ export default function PricingPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            AI-Powered Picks. <span className="text-gradient">Guaranteed Refund.</span>
+            AI-Powered Picks. <span className="text-gradient">Launching for March Madness.</span>
           </h1>
           <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto">
-            Choose your tier. Every pick is AI-curated and auto-assigned.
-            If any leg loses — full refund, every time.
+            Preview our tiers below. Sign up now for early access and be first in line when picks go live.
           </p>
+
+          {/* March Madness Banner */}
+          <div className="mb-8 bg-gradient-to-r from-orange-500/20 via-accent-gold/20 to-orange-500/20 border-2 border-orange-500/40 rounded-2xl p-6 max-w-3xl mx-auto">
+            <p className="text-2xl font-extrabold text-orange-400">
+              🏀 March Madness Launch — Sign up now for early access and a FREE 3-leg parlay when we go live!
+            </p>
+          </div>
 
           <div className="flex flex-wrap gap-4 justify-center mb-8">
             <div className="guarantee-badge">
@@ -174,10 +180,9 @@ export default function PricingPage() {
                   </p>
 
                   <div className="mb-3">
-                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent-green to-accent-gold mb-1">
-                      ${tier.price}
+                    <div className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent-green to-accent-gold mb-1">
+                      Prices Coming Soon
                     </div>
-                    <div className="text-xs text-text-muted">one-time charge</div>
                   </div>
 
                   <p className="text-sm text-text-muted mb-3">{tier.description}</p>
@@ -208,17 +213,17 @@ export default function PricingPage() {
 
                   {/* CTA */}
                   <Link
-                    href={buildCheckoutUrl(tier.id)}
+                    href="/auth/signin"
                     className={`w-full py-2.5 px-4 rounded-lg font-bold text-sm text-center transition-all inline-block ${
                       isHighlighted
                         ? 'bg-gradient-to-r from-accent-green to-emerald-400 text-black hover:opacity-90'
                         : 'btn-primary'
                     }`}
                   >
-                    Get {tier.name} <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
+                    Join Waitlist <ArrowRight className="w-3.5 h-3.5 inline ml-1" />
                   </Link>
                   <p className="text-[10px] text-text-muted mt-2">
-                    Charged ${tier.price}. Full refund within 24h if {tier.legs === 1 ? 'it loses' : 'any leg loses'}.
+                    Coming soon — sign up for early access!
                   </p>
                 </div>
               </div>
@@ -292,18 +297,13 @@ export default function PricingPage() {
 
         {/* Final CTA */}
         <div className="text-center bg-gradient-to-r from-accent-green/10 to-accent-gold/10 rounded-2xl p-12">
-          <h2 className="text-3xl font-bold mb-4">Start With a Single Pick for $5</h2>
+          <h2 className="text-3xl font-bold mb-4">🏀 Be First When We Launch</h2>
           <p className="text-xl text-text-muted mb-8">
-            No subscription. No commitment. AI-curated picks with a full refund guarantee.
+            Sign up now for early access. Get a FREE 3-leg parlay when March Madness picks go live.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/checkout?tier=single&sports=NBA" className="btn-primary text-lg py-4 px-8">
-              Get Today&apos;s Pick — $5
-            </Link>
-            <Link href="/auth/signin" className="btn-secondary text-lg py-4 px-8">
-              Sign Up for Free Pick
-            </Link>
-          </div>
+          <Link href="/auth/signin" className="btn-primary text-lg py-4 px-8">
+            Join the Waitlist →
+          </Link>
         </div>
 
         {/* Legal */}

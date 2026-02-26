@@ -1,0 +1,285 @@
+{
+  "weights": {
+    "net_ranking": 0.046547,
+    "win_pct": 0.032856,
+    "conf_strength": 0.024642,
+    "off_efficiency": 0.046547,
+    "def_efficiency": 0.046547,
+    "sos_base": 0.030118,
+    "fg_pct": 0.035594,
+    "three_pct": 0.030118,
+    "ft_pct_base": 0.025816,
+    "turnovers_base": 0.015462,
+    "assists": 0.020294,
+    "tempo_base": 0.030118,
+    "rebounding": 0.024642,
+    "last10_record": 0.024642,
+    "streak": 0.008214,
+    "momentum_trend": 0.008214,
+    "home_court_base": 0.022687,
+    "rest_days_base": 0.016428,
+    "implied_prob": 0.038724,
+    "spread_signal": 0.022295,
+    "line_value": 0.010561,
+    "adv_net_rating": 0.049285,
+    "adv_barthag": 0.032856,
+    "schedule_density": 0.035843,
+    "ats_season": 0.024642,
+    "ats_situational": 0.016428,
+    "player_impact": 0.004107,
+    "travel_fatigue": 0.010952,
+    "ref_tendency": 0.0,
+    "pace_matchup": 0.024642,
+    "public_fade": 0.016428,
+    "motivation": 0.031487,
+    "adv_sos": 0.038332,
+    "coaching": 0.03051,
+    "home_court_magnitude": 0.022687,
+    "conf_vs_nonconf": 0.03051,
+    "ft_clutch": 0.038332,
+    "turnover_diff": 0.03189
+  },
+  "meta": {
+    "engine": "rex",
+    "last_update": "2026-02-25",
+    "total_games_learned": 21,
+    "today_record": "10/21",
+    "today_accuracy": 0.4762,
+    "factor_performance": {
+      "net_ranking": {
+        "accuracy": 0.6667,
+        "correct": 4.0,
+        "incorrect": 2.0,
+        "games": 21,
+        "old_weight": 0.04,
+        "new_weight": 0.056667,
+        "adjustment": 0.016667
+      },
+      "win_pct": {
+        "accuracy": 0.6,
+        "correct": 12.0,
+        "incorrect": 8.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.04,
+        "adjustment": 0.01
+      },
+      "off_efficiency": {
+        "accuracy": 0.6667,
+        "correct": 14.0,
+        "incorrect": 7.0,
+        "games": 21,
+        "old_weight": 0.04,
+        "new_weight": 0.056667,
+        "adjustment": 0.016667
+      },
+      "def_efficiency": {
+        "accuracy": 0.6667,
+        "correct": 12.0,
+        "incorrect": 6.0,
+        "games": 21,
+        "old_weight": 0.04,
+        "new_weight": 0.056667,
+        "adjustment": 0.016667
+      },
+      "fg_pct": {
+        "accuracy": 0.7333,
+        "correct": 11.0,
+        "incorrect": 4.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.043333,
+        "adjustment": 0.023333
+      },
+      "three_pct": {
+        "accuracy": 0.6667,
+        "correct": 10.0,
+        "incorrect": 5.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.036667,
+        "adjustment": 0.016667
+      },
+      "assists": {
+        "accuracy": 0.6471,
+        "correct": 11.0,
+        "incorrect": 6.0,
+        "games": 21,
+        "old_weight": 0.01,
+        "new_weight": 0.024706,
+        "adjustment": 0.014706
+      },
+      "rebounding": {
+        "accuracy": 0.6,
+        "correct": 12.0,
+        "incorrect": 8.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.03,
+        "adjustment": 0.01
+      },
+      "implied_prob": {
+        "accuracy": 0.5714,
+        "correct": 12.0,
+        "incorrect": 9.0,
+        "games": 21,
+        "old_weight": 0.04,
+        "new_weight": 0.047143,
+        "adjustment": 0.007143
+      },
+      "spread_signal": {
+        "accuracy": 0.5714,
+        "correct": 12.0,
+        "incorrect": 9.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.027143,
+        "adjustment": 0.007143
+      },
+      "line_value": {
+        "accuracy": 0.4286,
+        "correct": 9.0,
+        "incorrect": 12.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.012857,
+        "adjustment": -0.007143
+      },
+      "sos_base": {
+        "accuracy": 0.6667,
+        "correct": 12.0,
+        "incorrect": 6.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.036667,
+        "adjustment": 0.016667
+      },
+      "ft_pct_base": {
+        "accuracy": 0.7143,
+        "correct": 10.0,
+        "incorrect": 4.0,
+        "games": 21,
+        "old_weight": 0.01,
+        "new_weight": 0.031429,
+        "adjustment": 0.021429
+      },
+      "turnovers_base": {
+        "accuracy": 0.5882,
+        "correct": 10.0,
+        "incorrect": 7.0,
+        "games": 21,
+        "old_weight": 0.01,
+        "new_weight": 0.018824,
+        "adjustment": 0.008824
+      },
+      "tempo_base": {
+        "accuracy": 0.6667,
+        "correct": 12.0,
+        "incorrect": 6.0,
+        "games": 21,
+        "old_weight": 0.02,
+        "new_weight": 0.036667,
+        "adjustment": 0.016667
+      },
+      "home_court_base": {
+        "accuracy": 0.4762,
+        "correct": 10.0,
+        "incorrect": 11.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.027619,
+        "adjustment": -0.002381
+      },
+      "schedule_density": {
+        "accuracy": 0.6364,
+        "correct": 7.0,
+        "incorrect": 4.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.043636,
+        "adjustment": 0.013636
+      },
+      "player_impact": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "incorrect": 1.0,
+        "games": 21,
+        "old_weight": 0.04,
+        "new_weight": 0.005,
+        "adjustment": -0.05
+      },
+      "travel_fatigue": {
+        "accuracy": 0.3333,
+        "correct": 2.0,
+        "incorrect": 4.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.013333,
+        "adjustment": -0.016667
+      },
+      "motivation": {
+        "accuracy": 0.5833,
+        "correct": 7.0,
+        "incorrect": 5.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.038333,
+        "adjustment": 0.008333
+      },
+      "adv_sos": {
+        "accuracy": 0.6667,
+        "correct": 12.0,
+        "incorrect": 6.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.046667,
+        "adjustment": 0.016667
+      },
+      "coaching": {
+        "accuracy": 0.5714,
+        "correct": 4.0,
+        "incorrect": 3.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.037143,
+        "adjustment": 0.007143
+      },
+      "home_court_magnitude": {
+        "accuracy": 0.4762,
+        "correct": 10.0,
+        "incorrect": 11.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.027619,
+        "adjustment": -0.002381
+      },
+      "conf_vs_nonconf": {
+        "accuracy": 0.5714,
+        "correct": 12.0,
+        "incorrect": 9.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.037143,
+        "adjustment": 0.007143
+      },
+      "ft_clutch": {
+        "accuracy": 0.6667,
+        "correct": 8.0,
+        "incorrect": 4.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.046667,
+        "adjustment": 0.016667
+      },
+      "turnover_diff": {
+        "accuracy": 0.5882,
+        "correct": 10.0,
+        "incorrect": 7.0,
+        "games": 21,
+        "old_weight": 0.03,
+        "new_weight": 0.038824,
+        "adjustment": 0.008824
+      }
+    }
+  }
+}

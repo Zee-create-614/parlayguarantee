@@ -1,0 +1,18 @@
+2026-02-25 18:02:20,977 INFO === Advanced Data Refresh — 2026-02-25 18:02 ET ===
+2026-02-25 18:02:20,977 INFO Refreshing NBA data (Alpha V3)...
+2026-02-25 18:02:41,622 WARNING NBA.com stats API failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-25 18:02:43,425 WARNING HTTP GET failed https://www.basketball-reference.com/leagues/NBA_2026.html: 403 Client Error: Forbidden for url: https://www.basketball-reference.com/leagues/NBA_2026.html
+2026-02-25 18:02:43,431 INFO   NBA team_ratings: 0 items in 22.2s
+2026-02-25 18:02:43,432 WARNING   NBA schedule_rest FAILED: fetch_schedule_rest() missing 1 required positional argument: 'target_date'
+2026-02-25 18:02:45,268 WARNING HTTP GET failed https://www.teamrankings.com/nba/trends/home_ats_trends/: 404 Client Error: Not Found for url: https://www.teamrankings.com/nba/trends/home_ats_trends/
+2026-02-25 18:02:46,015 WARNING HTTP GET failed https://www.teamrankings.com/nba/trends/away_ats_trends/: 404 Client Error: Not Found for url: https://www.teamrankings.com/nba/trends/away_ats_trends/
+2026-02-25 18:02:46,020 INFO ATS trends for 30 teams
+2026-02-25 18:02:46,020 INFO   NBA ats_trends: 30 items in 2.6s
+2026-02-25 18:03:06,576 WARNING NBA.com player stats failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=20)
+2026-02-25 18:03:06,576 INFO   NBA player_advanced_stats: 0 items in 20.6s
+2026-02-25 18:03:06,576 WARNING   NBA referee_data FAILED: fetch_referee_data() missing 1 required positional argument: 'target_date'
+2026-02-25 18:03:07,320 INFO   NBA public_betting: 0 items in 0.7s
+2026-02-25 18:03:08,616 INFO SOS data for 30 teams
+2026-02-25 18:03:08,618 INFO   NBA strength_of_schedule: 30 items in 1.3s
+2026-02-25 18:03:09,134 WARNING HTTP GET failed https://www.basketball-reference.com/leagues/NBA_2026.html: 403 Client Error: Forbidden for url: https://www.basketball-reference.com/leagues/NBA_2026.html
+2026-02-25 18:03:09,136 INFO   NBA quarter_patterns: 0 items in 0.5s

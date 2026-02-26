@@ -64,6 +64,7 @@ function tierToProductId(tier: string): string {
 }
 
 export async function POST(req: NextRequest) {
+  return NextResponse.json({ error: 'Purchasing is temporarily disabled. Sign up for early access!' }, { status: 503 })
   try {
     const body = await req.json()
     const { tier, sports, email: bodyEmail, sportsbook } = body

@@ -1,0 +1,21 @@
+{
+  "engine": "pulse",
+  "last_update": "2026-02-25",
+  "total_games_learned": 8,
+  "today_record": "3/8",
+  "today_accuracy": 0.375,
+  "weights": {
+    "pace_mismatch": 0.146686,
+    "ortg_matchup": 0.120108,
+    "drtg_matchup": 0.120108,
+    "recent_form": 0.084782,
+    "rest_b2b": 0.075362,
+    "spread_context": 0.103622,
+    "home_away_splits": 0.056521,
+    "streak_momentum": 0.037681,
+    "referee_tendency": 0.028261,
+    "injury_scoring": 0.075362,
+    "market_deviation": 0.082427,
+    "pace_trend": 0.069082
+  }
+}

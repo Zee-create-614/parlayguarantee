@@ -1,0 +1,300 @@
+{
+  "date": "2026-02-24",
+  "engine": "Rex",
+  "version": "1.0",
+  "spread_floor": 0.55,
+  "ml_floor": 0.58,
+  "total_games": 36,
+  "spread_picks": 26,
+  "spread_passes": 10,
+  "picks_summary": [
+    {
+      "game": "Minnesota @ Michigan",
+      "spread_pick": "Minnesota +21.5",
+      "spread_confidence": 0.85,
+      "ml_pick": "Michigan",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Duke @ Notre Dame",
+      "spread_pick": "Notre Dame +17.5",
+      "spread_confidence": 0.85,
+      "ml_pick": "Duke",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Buffalo @ Akron",
+      "spread_pick": "Buffalo +16.5",
+      "spread_confidence": 0.85,
+      "ml_pick": "Akron",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Iowa State @ Utah",
+      "spread_pick": "Utah +13.5",
+      "spread_confidence": 0.8467,
+      "ml_pick": "Iowa State",
+      "ml_confidence": 0.8283,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "San Jose State @ Air Force",
+      "spread_pick": "Air Force +7.5",
+      "spread_confidence": 0.7968,
+      "ml_pick": "San Jose State",
+      "ml_confidence": 0.5782,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Western Michigan @ Bowling Green",
+      "spread_pick": "Western Michigan +12.5",
+      "spread_confidence": 0.775,
+      "ml_pick": "Bowling Green",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Central Florida @ BYU",
+      "spread_pick": "Central Florida +11.5",
+      "spread_confidence": 0.7393,
+      "ml_pick": "BYU",
+      "ml_confidence": 0.8357,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Northern Illinois @ Toledo",
+      "spread_pick": "Northern Illinois +11.5",
+      "spread_confidence": 0.725,
+      "ml_pick": "Toledo",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Louisiana @ Troy",
+      "spread_pick": "Louisiana +11.5",
+      "spread_confidence": 0.725,
+      "ml_pick": "Troy",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "West Virginia @ Oklahoma State",
+      "spread_pick": "Oklahoma State -1.5",
+      "spread_confidence": 0.699,
+      "ml_pick": "Oklahoma State",
+      "ml_confidence": 0.774,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Auburn @ Oklahoma",
+      "spread_pick": "Oklahoma +2.5",
+      "spread_confidence": 0.6805,
+      "ml_pick": "Oklahoma",
+      "ml_confidence": 0.5555,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Central Michigan @ Kent State",
+      "spread_pick": "Central Michigan +10.5",
+      "spread_confidence": 0.675,
+      "ml_pick": "Kent State",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Kentucky @ South Carolina",
+      "spread_pick": "South Carolina +7.2",
+      "spread_confidence": 0.6723,
+      "ml_pick": "Kentucky",
+      "ml_confidence": 0.6877,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Arizona @ Baylor",
+      "spread_pick": "Baylor +8.5",
+      "spread_confidence": 0.6516,
+      "ml_pick": "Arizona",
+      "ml_confidence": 0.7734,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Southern @ Morehead State",
+      "spread_pick": "Southern +8.5",
+      "spread_confidence": 0.6493,
+      "ml_pick": "Morehead State",
+      "ml_confidence": 0.7757,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Miami (OH) @ Eastern Michigan",
+      "spread_pick": "Eastern Michigan +9.5",
+      "spread_confidence": 0.6445,
+      "ml_pick": "Miami (OH)",
+      "ml_confidence": 0.8305,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "USC @ UCLA",
+      "spread_pick": "USC +7.5",
+      "spread_confidence": 0.6436,
+      "ml_pick": "UCLA",
+      "ml_confidence": 0.7314,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Fresno State @ Colorado State",
+      "spread_pick": "Fresno State +8.5",
+      "spread_confidence": 0.6249,
+      "ml_pick": "Colorado State",
+      "ml_confidence": 0.8001,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Washington @ Rutgers",
+      "spread_pick": "Rutgers +4.5",
+      "spread_confidence": 0.6006,
+      "ml_pick": "Washington",
+      "ml_confidence": 0.6244,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Northwestern @ Indiana",
+      "spread_pick": "Northwestern +8.5",
+      "spread_confidence": 0.575,
+      "ml_pick": "Indiana",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Wyoming @ Boise State",
+      "spread_pick": "Wyoming +8.5",
+      "spread_confidence": 0.575,
+      "ml_pick": "Boise State",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Southern Miss @ Arkansas State",
+      "spread_pick": "Southern Miss +8.5",
+      "spread_confidence": 0.575,
+      "ml_pick": "Arkansas State",
+      "ml_confidence": 0.85,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "George Washington @ La Salle",
+      "spread_pick": "La Salle +6.5",
+      "spread_confidence": 0.575,
+      "ml_pick": "George Washington",
+      "ml_confidence": 0.75,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Miami (FL) @ Florida State",
+      "spread_pick": "Florida State +2.5",
+      "spread_confidence": 0.574,
+      "ml_pick": "Miami (FL)",
+      "ml_confidence": 0.551,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "St. Francis (PA) @ New Haven",
+      "spread_pick": "St. Francis (PA) +6.8",
+      "spread_confidence": 0.5649,
+      "ml_pick": "New Haven",
+      "ml_confidence": 0.7751,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Marquette @ Georgetown",
+      "spread_pick": "Georgetown -3.5",
+      "spread_confidence": 0.5617,
+      "ml_pick": "Georgetown",
+      "ml_confidence": 0.7367,
+      "spread_status": "PICK"
+    },
+    {
+      "game": "Cincinnati @ Texas Tech",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Texas Tech",
+      "ml_confidence": 0.85,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Arizona State @ TCU",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "TCU",
+      "ml_confidence": 0.85,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Old Dominion @ Marshall",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Marshall",
+      "ml_confidence": 0.85,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "NC State @ Virginia",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Virginia",
+      "ml_confidence": 0.8001,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Saint Louis @ Dayton",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Saint Louis",
+      "ml_confidence": 0.7159,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Massachusetts @ Ball State",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Massachusetts",
+      "ml_confidence": 0.694,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Bradley @ UIC",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "UIC",
+      "ml_confidence": 0.6545,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Tennessee @ Missouri",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Tennessee",
+      "ml_confidence": 0.626,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "New Mexico @ Nevada",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Nevada",
+      "ml_confidence": 0.5577,
+      "spread_status": "PASS"
+    },
+    {
+      "game": "Coastal Carolina @ Georgia State",
+      "spread_pick": null,
+      "spread_confidence": 0,
+      "ml_pick": "Coastal Carolina",
+      "ml_confidence": 0.549,
+      "spread_status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+2026-02-25 07:53:09,790 INFO [tempo] No learned weights found — using defaults
+2026-02-25 07:53:09,790 INFO Tempo weights loaded (learned=False)
+2026-02-25 07:53:09,790 INFO Tempo NCAAB O/U engine running for 2026-02-25
+2026-02-25 07:53:11,868 INFO ESPN NCAAB: 365 teams
+2026-02-25 07:53:18,073 INFO Odds API remaining: 17480
+2026-02-25 07:53:18,095 INFO Found 54 NCAAB games for 2026-02-25
+2026-02-25 07:53:19,149 INFO Saved 54 picks to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\picks_2026-02-25\ncaab_ou_tempo_picks.json
+2026-02-25 07:53:19,158 INFO 0 actionable from 54 games
+2026-02-25 08:04:44,002 INFO [tempo] No learned weights found — using defaults
+2026-02-25 08:04:44,002 INFO Tempo weights loaded (learned=False)
+2026-02-25 08:04:44,002 INFO Tempo NCAAB O/U engine running for 2026-02-24
+2026-02-25 08:04:45,392 INFO ESPN NCAAB: 365 teams
+2026-02-25 08:04:49,460 INFO Odds API remaining: 17478
+2026-02-25 08:04:49,467 INFO Found 0 NCAAB games for 2026-02-24
+2026-02-25 08:04:54,979 INFO [tempo] No learned weights found — using defaults
+2026-02-25 08:04:54,979 INFO Tempo weights loaded (learned=False)
+2026-02-25 08:06:09,308 INFO [tempo] Loaded learned weights (trained on 0 games, last update: unknown)
+2026-02-25 08:06:09,310 INFO Tempo weights loaded (learned=True)
+2026-02-25 08:06:09,310 INFO Tempo NCAAB O/U engine running for 2026-02-25
+2026-02-25 08:06:11,463 INFO ESPN NCAAB: 365 teams
+2026-02-25 08:06:18,094 INFO Odds API remaining: 17476
+2026-02-25 08:06:18,111 INFO Found 54 NCAAB games for 2026-02-25
+2026-02-25 08:06:19,223 INFO Saved 54 picks to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\picks_2026-02-25\ncaab_ou_tempo_picks.json
+2026-02-25 08:06:19,225 INFO 0 actionable from 54 games
+2026-02-25 08:07:26,702 INFO [tempo] Loaded learned weights (trained on 0 games, last update: unknown)
+2026-02-25 08:07:26,702 INFO Tempo weights loaded (learned=True)
+2026-02-25 08:07:26,702 INFO Tempo NCAAB O/U engine running for 2026-02-25
+2026-02-25 08:07:29,035 INFO ESPN NCAAB: 365 teams
+2026-02-25 08:07:34,636 INFO Odds API remaining: 17474
+2026-02-25 08:07:34,659 INFO Found 54 NCAAB games for 2026-02-25
+2026-02-25 08:07:35,678 INFO Saved 54 picks to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\picks_2026-02-25\ncaab_ou_tempo_picks.json
+2026-02-25 08:07:35,678 INFO 46 actionable from 54 games
+2026-02-25 10:16:05,342 INFO [tempo] Loaded learned weights (trained on 0 games, last update: unknown)
+2026-02-25 10:16:05,343 INFO Tempo weights loaded (learned=True)
+2026-02-25 10:16:05,343 INFO Tempo NCAAB O/U engine running for 2026-02-25
+2026-02-25 10:16:07,121 INFO ESPN NCAAB: 365 teams
+2026-02-25 10:16:12,154 INFO Odds API remaining: 17450
+2026-02-25 10:16:12,174 INFO Found 54 NCAAB games for 2026-02-25
+2026-02-25 10:16:13,242 INFO Saved 54 picks to C:\Users\joshs\.openclaw\workspace\parlayguarantee\engine\picks_2026-02-25\ncaab_ou_tempo_picks.json
+2026-02-25 10:16:13,242 INFO 46 actionable from 54 games

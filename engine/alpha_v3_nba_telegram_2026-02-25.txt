@@ -1,0 +1,51 @@
+🐺 ALPHA NBA v3 — Wednesday Feb 25, 2026
+20-factor edge model | 6/10 data sources
+Spread floor: 51% | ML floor: 53%
+5 PICKS | 1 PASSES | 6 games
+
+── PICKS ──
+
+1. Sacramento Kings @ Houston Rockets — 08:10 PM ET
+   ML: Houston Rockets (87.2%)
+   Spread: Houston Rockets -15.0 (62.4%) [mkt: 67.1%] [7F]
+   → ML conviction 87% vs spread 67% = +20% edge
+   → Houston Rockets strong home (73%)
+   → Net rating edge: Houston Rockets +5.1 vs Sacramento Kings -10.4
+   → Travel/fatigue edge: opp fatigue 0.46 vs ours 0.10
+
+2. San Antonio Spurs @ Toronto Raptors — 07:40 PM ET
+   ML: San Antonio Spurs (71.9%)
+   Spread: San Antonio Spurs -7.5 (56.6%) [mkt: 59.9%] [8F]
+   → ML conviction 72% vs spread 60% = +12% edge
+   → San Antonio Spurs strong road (66%)
+   → San Antonio Spurs hot L10 (9-1)
+   → Opponent on B2B, we have 1 rest days
+
+3. Cleveland Cavaliers @ Milwaukee Bucks — 08:10 PM ET
+   ML: Cleveland Cavaliers (75.4%)
+   Spread: Cleveland Cavaliers -8.9 (54.9%) [mkt: 55.5%] [7F]
+   → ML conviction 75% vs spread 56% = +20% edge
+   → Cleveland Cavaliers strong road (61%)
+   → Cleveland Cavaliers hot L10 (8-2)
+   → Net rating edge: Cleveland Cavaliers +4.4 vs Milwaukee Bucks -3.3
+
+4. Oklahoma City Thunder @ Detroit Pistons — 07:10 PM ET
+   ML: Detroit Pistons (71.5%)
+   Spread: Detroit Pistons -7.2 (54.4%) [mkt: 54.8%] [5F]
+   → ML conviction 72% vs spread 55% = +17% edge
+   → Detroit Pistons strong home (75%)
+   → Detroit Pistons hot L10 (8-2)
+   → Opponent on B2B, we have 1 rest days
+
+5. Boston Celtics @ Denver Nuggets — 10:10 PM ET
+   ML: Denver Nuggets (59.8%) 🔥UPSET
+   Spread: Boston Celtics +3.6 (53.4%) [mkt: 38.2%] [8F]
+   → Boston Celtics strong road (67%)
+   → Boston Celtics hot L10 (9-1)
+   → Upset composite FIRED (0.58)
+   → We're on B2B, opponent has 2 rest days — risk
+
+── PASSES ──
+
+PASS: Golden State Warriors @ Memphis Grizzlies
+  ML: Golden State Warriors (61.2%) | Alpha: 50.6%

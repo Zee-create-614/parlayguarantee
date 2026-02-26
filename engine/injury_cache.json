@@ -1,12 +1,21 @@
 {
   "injuries": [
     {
-      "player": "Jonathan Kuminga",
+      "player": "Jalen Johnson",
       "team": "Atlanta Hawks",
-      "status": "Out",
+      "status": "GTD",
+      "injury": "Hip",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Jaylen Brown",
+      "team": "Boston Celtics",
+      "status": "GTD",
       "injury": "Knee",
-      "position": "PF",
-      "updated": "Wed, Feb 18",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -19,57 +28,21 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Nicolas Claxton",
-      "team": "Brooklyn Nets",
-      "status": "GTD",
-      "injury": "Ankle",
-      "position": "C",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Ziaire Williams",
-      "team": "Brooklyn Nets",
-      "status": "GTD",
-      "injury": "Personal",
-      "position": "SF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Coby White",
-      "team": "Charlotte Hornets",
-      "status": "GTD",
-      "injury": "Calf",
-      "position": "PG",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Grant Williams",
-      "team": "Charlotte Hornets",
-      "status": "GTD",
-      "injury": "Knee",
-      "position": "PF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
       "player": "Liam McNeeley",
       "team": "Charlotte Hornets",
       "status": "GTD",
       "injury": "Ankle",
       "position": "SF",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
-      "player": "Leonard Miller",
+      "player": "Jalen Smith",
       "team": "Chicago Bulls",
       "status": "GTD",
-      "injury": "Wrist",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
+      "injury": "Calf",
+      "position": "PF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -91,30 +64,12 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Guerschon Yabusele",
-      "team": "Chicago Bulls",
-      "status": "GTD",
-      "injury": "Calf",
-      "position": "PF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
       "player": "Noa Essengue",
       "team": "Chicago Bulls",
       "status": "Out",
       "injury": "Shoulder",
       "position": "PF",
       "updated": "Wed, Dec 3",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Evan Mobley",
-      "team": "Cleveland Cavaliers",
-      "status": "GTD",
-      "injury": "Calf",
-      "position": "PF",
-      "updated": "Fri, Feb 20",
       "source": "CBS Sports"
     },
     {
@@ -127,39 +82,21 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Caleb Martin",
+      "player": "PJ Washington",
       "team": "Dallas Mavericks",
       "status": "GTD",
       "injury": "Ankle",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Daniel Gafford",
-      "team": "Dallas Mavericks",
-      "status": "GTD",
-      "injury": "Ankle",
-      "position": "C",
-      "updated": "Sat, Feb 21",
+      "position": "PF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
       "player": "Cooper Flagg",
       "team": "Dallas Mavericks",
-      "status": "Out",
+      "status": "GTD",
       "injury": "Foot",
       "position": "SF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Max Christie",
-      "team": "Dallas Mavericks",
-      "status": "GTD",
-      "injury": "Ankle",
-      "position": "SG",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -178,6 +115,33 @@
       "injury": "Foot",
       "position": "C",
       "updated": "Wed, Dec 10",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Jamal Murray",
+      "team": "Denver Nuggets",
+      "status": "GTD",
+      "injury": "Hamstring",
+      "position": "PG",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Jalen Pickett",
+      "team": "Denver Nuggets",
+      "status": "Out",
+      "injury": "Knee",
+      "position": "PG",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Julian Strawther",
+      "team": "Denver Nuggets",
+      "status": "GTD",
+      "injury": "Toe",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -208,12 +172,21 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Isaac Jones",
+      "player": "Isaiah Stewart",
       "team": "Detroit Pistons",
       "status": "Out",
-      "injury": "Coach's Decision",
+      "injury": "Suspension",
       "position": "PF",
-      "updated": "Sat, Feb 21",
+      "updated": "Wed, Feb 25",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Al Horford",
+      "team": "Golden State Warriors",
+      "status": "GTD",
+      "injury": "Toe",
+      "position": "C",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -222,7 +195,16 @@
       "status": "GTD",
       "injury": "Hamstring",
       "position": "PG",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Kristaps Porzingis",
+      "team": "Golden State Warriors",
+      "status": "Out",
+      "injury": "Illness",
+      "position": "C",
+      "updated": "Mon, Feb 23",
       "source": "CBS Sports"
     },
     {
@@ -253,6 +235,24 @@
       "source": "CBS Sports"
     },
     {
+      "player": "Amen Thompson",
+      "team": "Houston Rockets",
+      "status": "Out",
+      "injury": "Quadriceps",
+      "position": "SG",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Jae'Sean Tate",
+      "team": "Houston Rockets",
+      "status": "Out",
+      "injury": "Knee",
+      "position": "SF",
+      "updated": "Mon, Feb 23",
+      "source": "CBS Sports"
+    },
+    {
       "player": "Steven Adams",
       "team": "Houston Rockets",
       "status": "Out",
@@ -274,27 +274,18 @@
       "player": "Pascal Siakam",
       "team": "Indiana Pacers",
       "status": "GTD",
-      "injury": "Hamstring",
+      "injury": "Wrist",
       "position": "PF",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
       "player": "Aaron Nesmith",
       "team": "Indiana Pacers",
-      "status": "GTD",
+      "status": "Out",
       "injury": "Ankle",
       "position": "SF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Andrew Nembhard",
-      "team": "Indiana Pacers",
-      "status": "GTD",
-      "injury": "Back",
-      "position": "PG",
-      "updated": "Fri, Feb 20",
+      "updated": "Sun, Feb 22",
       "source": "CBS Sports"
     },
     {
@@ -339,16 +330,7 @@
       "status": "GTD",
       "injury": "Head",
       "position": "PF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Kawhi Leonard",
-      "team": "Los Angeles Clippers",
-      "status": "GTD",
-      "injury": "Ankle",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
+      "updated": "Mon, Feb 23",
       "source": "CBS Sports"
     },
     {
@@ -370,21 +352,21 @@
       "source": "CBS Sports"
     },
     {
+      "player": "Jaxson Hayes",
+      "team": "Los Angeles Lakers",
+      "status": "GTD",
+      "injury": "Ankle",
+      "position": "C",
+      "updated": "Wed, Feb 25",
+      "source": "CBS Sports"
+    },
+    {
       "player": "Santi Aldama",
       "team": "Memphis Grizzlies",
       "status": "Out",
       "injury": "Knee",
       "position": "C",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Kyle Anderson",
-      "team": "Memphis Grizzlies",
-      "status": "GTD",
-      "injury": "Knee",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -393,16 +375,16 @@
       "status": "Out",
       "injury": "Knee",
       "position": "SG",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
-      "player": "Walter Clayton Jr.",
+      "player": "Kyle Anderson",
       "team": "Memphis Grizzlies",
       "status": "GTD",
-      "injury": "Calf",
-      "position": "PG",
-      "updated": "Fri, Feb 20",
+      "injury": "Knee",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -447,43 +429,7 @@
       "status": "GTD",
       "injury": "Back",
       "position": "PF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Tyler Herro",
-      "team": "Miami Heat",
-      "status": "GTD",
-      "injury": "Ribs",
-      "position": "PG",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Dru Smith",
-      "team": "Miami Heat",
-      "status": "GTD",
-      "injury": "Calf",
-      "position": "SG",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Davion Mitchell",
-      "team": "Miami Heat",
-      "status": "GTD",
-      "injury": "Illness",
-      "position": "PG",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Norman Powell",
-      "team": "Miami Heat",
-      "status": "GTD",
-      "injury": "Illness",
-      "position": "SG",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -498,19 +444,10 @@
     {
       "player": "Giannis Antetokounmpo",
       "team": "Milwaukee Bucks",
-      "status": "Out",
-      "injury": "Calf",
-      "position": "PF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Myles Turner",
-      "team": "Milwaukee Bucks",
       "status": "GTD",
       "injury": "Calf",
-      "position": "C",
-      "updated": "Fri, Feb 20",
+      "position": "PF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -523,39 +460,30 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Yves Missi",
+      "player": "Trey Murphy III",
       "team": "New Orleans Pelicans",
-      "status": "Out",
-      "injury": "Calf",
-      "position": "C",
-      "updated": "Sat, Feb 21",
+      "status": "GTD",
+      "injury": "Shoulder",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
       "player": "Micah Peavy",
       "team": "New Orleans Pelicans",
-      "status": "Out",
+      "status": "GTD",
       "injury": "Toe",
       "position": "SF",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
-      "player": "Trey Murphy III",
-      "team": "New Orleans Pelicans",
-      "status": "Out",
-      "injury": "Shoulder",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Dejounte Murray",
+      "player": "Yves Missi",
       "team": "New Orleans Pelicans",
       "status": "GTD",
-      "injury": "Achilles",
-      "position": "PG",
-      "updated": "Fri, Feb 20",
+      "injury": "Calf",
+      "position": "C",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -606,10 +534,10 @@
     {
       "player": "Jalen Suggs",
       "team": "Orlando Magic",
-      "status": "Out",
+      "status": "GTD",
       "injury": "Back",
       "position": "SG",
-      "updated": "Sat, Feb 21",
+      "updated": "Wed, Feb 25",
       "source": "CBS Sports"
     },
     {
@@ -622,12 +550,57 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Joel Embiid",
+      "player": "MarJon Beauchamp",
+      "team": "Philadelphia 76ers",
+      "status": "GTD",
+      "injury": "Illness",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Johni Broome",
       "team": "Philadelphia 76ers",
       "status": "Out",
-      "injury": "Lower Leg",
-      "position": "C",
-      "updated": "Fri, Feb 20",
+      "injury": "Knee",
+      "position": "PF",
+      "updated": "Sun, Feb 22",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Paul George",
+      "team": "Philadelphia 76ers",
+      "status": "Out",
+      "injury": "Suspension",
+      "position": "SF",
+      "updated": "Sat, Jan 31",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Cole Anthony",
+      "team": "Phoenix Suns",
+      "status": "GTD",
+      "injury": "Not Injury Related",
+      "position": "PG",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Jordan Goodwin",
+      "team": "Phoenix Suns",
+      "status": "Out",
+      "injury": "Calf",
+      "position": "SG",
+      "updated": "Mon, Feb 23",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Dillon Brooks",
+      "team": "Phoenix Suns",
+      "status": "Out",
+      "injury": "Hand",
+      "position": "SF",
+      "updated": "Sun, Feb 22",
       "source": "CBS Sports"
     },
     {
@@ -640,15 +613,6 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Cole Anthony",
-      "team": "Phoenix Suns",
-      "status": "Out",
-      "injury": "Not Injury Related",
-      "position": "PG",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
       "player": "Haywood Highsmith",
       "team": "Phoenix Suns",
       "status": "Out",
@@ -658,12 +622,30 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Shaedon Sharpe",
+      "player": "Deni Avdija",
       "team": "Portland Trail Blazers",
       "status": "GTD",
+      "injury": "Back",
+      "position": "SG",
+      "updated": "Wed, Feb 25",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Robert Williams III",
+      "team": "Portland Trail Blazers",
+      "status": "GTD",
+      "injury": "Foot",
+      "position": "C",
+      "updated": "Wed, Feb 25",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Shaedon Sharpe",
+      "team": "Portland Trail Blazers",
+      "status": "Out",
       "injury": "Calf",
       "position": "SG",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -673,6 +655,15 @@
       "injury": "Achilles",
       "position": "PG",
       "updated": "Tue, Oct 28",
+      "source": "CBS Sports"
+    },
+    {
+      "player": "Devin Carter",
+      "team": "Sacramento Kings",
+      "status": "GTD",
+      "injury": "Back",
+      "position": "SG",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -694,15 +685,6 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Domantas Sabonis",
-      "team": "Sacramento Kings",
-      "status": "Out",
-      "injury": "Knee",
-      "position": "C",
-      "updated": "Wed, Feb 18",
-      "source": "CBS Sports"
-    },
-    {
       "player": "Dylan Cardwell",
       "team": "Sacramento Kings",
       "status": "Out",
@@ -712,12 +694,12 @@
       "source": "CBS Sports"
     },
     {
-      "player": "Lindy Waters III",
-      "team": "San Antonio Spurs",
+      "player": "Domantas Sabonis",
+      "team": "Sacramento Kings",
       "status": "Out",
       "injury": "Knee",
-      "position": "SF",
-      "updated": "Sat, Feb 21",
+      "position": "C",
+      "updated": "Wed, Feb 18",
       "source": "CBS Sports"
     },
     {
@@ -726,7 +708,7 @@
       "status": "Out",
       "injury": "Not Injury Related",
       "position": "C",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -739,30 +721,39 @@
       "source": "CBS Sports"
     },
     {
+      "player": "Jakob Poeltl",
+      "team": "Toronto Raptors",
+      "status": "GTD",
+      "injury": "Back",
+      "position": "C",
+      "updated": "Tue, Feb 24",
+      "source": "CBS Sports"
+    },
+    {
       "player": "Scottie Barnes",
       "team": "Toronto Raptors",
       "status": "GTD",
-      "injury": "Personal",
+      "injury": "Quadriceps",
       "position": "PF",
-      "updated": "Sat, Feb 21",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
       "player": "Chucky Hepburn",
       "team": "Toronto Raptors",
-      "status": "Out",
+      "status": "GTD",
       "injury": "Knee",
       "position": "PG",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
-      "player": "Lauri Markkanen",
+      "player": "Vince Williams Jr.",
       "team": "Utah Jazz",
-      "status": "GTD",
-      "injury": "Illness",
-      "position": "PF",
-      "updated": "Fri, Feb 20",
+      "status": "Out",
+      "injury": "Knee",
+      "position": "SF",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
@@ -771,16 +762,16 @@
       "status": "GTD",
       "injury": "Ankle",
       "position": "SG",
-      "updated": "Fri, Feb 20",
+      "updated": "Tue, Feb 24",
       "source": "CBS Sports"
     },
     {
       "player": "Jusuf Nurkic",
       "team": "Utah Jazz",
-      "status": "GTD",
+      "status": "Out",
       "injury": "Nose",
       "position": "C",
-      "updated": "Fri, Feb 20",
+      "updated": "Mon, Feb 23",
       "source": "CBS Sports"
     },
     {
@@ -799,33 +790,6 @@
       "injury": "Shoulder",
       "position": "C",
       "updated": "Wed, Nov 5",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Tristan Vukcevic",
-      "team": "Washington Wizards",
-      "status": "GTD",
-      "injury": "Hand",
-      "position": "PF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Justin Champagnie",
-      "team": "Washington Wizards",
-      "status": "GTD",
-      "injury": "Knee",
-      "position": "SF",
-      "updated": "Fri, Feb 20",
-      "source": "CBS Sports"
-    },
-    {
-      "player": "Kyshawn George",
-      "team": "Washington Wizards",
-      "status": "GTD",
-      "injury": "Toe",
-      "position": "SF",
-      "updated": "Fri, Feb 20",
       "source": "CBS Sports"
     },
     {
@@ -883,21 +847,30 @@
       "source": "CBS Sports"
     }
   ],
-  "last_updated": "2026-02-21T16:54:18.642867",
-  "source_count": 98,
+  "last_updated": "2026-02-25T10:15:39.892808",
+  "source_count": 94,
   "by_team": {
     "Atlanta Hawks": [
       {
-        "player": "Jonathan Kuminga",
+        "player": "Jalen Johnson",
         "team": "Atlanta Hawks",
-        "status": "Out",
-        "injury": "Knee",
-        "position": "PF",
-        "updated": "Wed, Feb 18",
+        "status": "GTD",
+        "injury": "Hip",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       }
     ],
     "Boston Celtics": [
+      {
+        "player": "Jaylen Brown",
+        "team": "Boston Celtics",
+        "status": "GTD",
+        "injury": "Knee",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
       {
         "player": "Jayson Tatum",
         "team": "Boston Celtics",
@@ -908,63 +881,25 @@
         "source": "CBS Sports"
       }
     ],
-    "Brooklyn Nets": [
-      {
-        "player": "Nicolas Claxton",
-        "team": "Brooklyn Nets",
-        "status": "GTD",
-        "injury": "Ankle",
-        "position": "C",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Ziaire Williams",
-        "team": "Brooklyn Nets",
-        "status": "GTD",
-        "injury": "Personal",
-        "position": "SF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      }
-    ],
     "Charlotte Hornets": [
-      {
-        "player": "Coby White",
-        "team": "Charlotte Hornets",
-        "status": "GTD",
-        "injury": "Calf",
-        "position": "PG",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Grant Williams",
-        "team": "Charlotte Hornets",
-        "status": "GTD",
-        "injury": "Knee",
-        "position": "PF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
       {
         "player": "Liam McNeeley",
         "team": "Charlotte Hornets",
         "status": "GTD",
         "injury": "Ankle",
         "position": "SF",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       }
     ],
     "Chicago Bulls": [
       {
-        "player": "Leonard Miller",
+        "player": "Jalen Smith",
         "team": "Chicago Bulls",
         "status": "GTD",
-        "injury": "Wrist",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
+        "injury": "Calf",
+        "position": "PF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -986,15 +921,6 @@
         "source": "CBS Sports"
       },
       {
-        "player": "Guerschon Yabusele",
-        "team": "Chicago Bulls",
-        "status": "GTD",
-        "injury": "Calf",
-        "position": "PF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
         "player": "Noa Essengue",
         "team": "Chicago Bulls",
         "status": "Out",
@@ -1005,15 +931,6 @@
       }
     ],
     "Cleveland Cavaliers": [
-      {
-        "player": "Evan Mobley",
-        "team": "Cleveland Cavaliers",
-        "status": "GTD",
-        "injury": "Calf",
-        "position": "PF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
       {
         "player": "Max Strus",
         "team": "Cleveland Cavaliers",
@@ -1026,39 +943,21 @@
     ],
     "Dallas Mavericks": [
       {
-        "player": "Caleb Martin",
+        "player": "PJ Washington",
         "team": "Dallas Mavericks",
         "status": "GTD",
         "injury": "Ankle",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Daniel Gafford",
-        "team": "Dallas Mavericks",
-        "status": "GTD",
-        "injury": "Ankle",
-        "position": "C",
-        "updated": "Sat, Feb 21",
+        "position": "PF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
         "player": "Cooper Flagg",
         "team": "Dallas Mavericks",
-        "status": "Out",
+        "status": "GTD",
         "injury": "Foot",
         "position": "SF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Max Christie",
-        "team": "Dallas Mavericks",
-        "status": "GTD",
-        "injury": "Ankle",
-        "position": "SG",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1081,6 +980,33 @@
       }
     ],
     "Denver Nuggets": [
+      {
+        "player": "Jamal Murray",
+        "team": "Denver Nuggets",
+        "status": "GTD",
+        "injury": "Hamstring",
+        "position": "PG",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Jalen Pickett",
+        "team": "Denver Nuggets",
+        "status": "Out",
+        "injury": "Knee",
+        "position": "PG",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Julian Strawther",
+        "team": "Denver Nuggets",
+        "status": "GTD",
+        "injury": "Toe",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
       {
         "player": "Peyton Watson",
         "team": "Denver Nuggets",
@@ -1111,23 +1037,41 @@
     ],
     "Detroit Pistons": [
       {
-        "player": "Isaac Jones",
+        "player": "Isaiah Stewart",
         "team": "Detroit Pistons",
         "status": "Out",
-        "injury": "Coach's Decision",
+        "injury": "Suspension",
         "position": "PF",
-        "updated": "Sat, Feb 21",
+        "updated": "Wed, Feb 25",
         "source": "CBS Sports"
       }
     ],
     "Golden State Warriors": [
+      {
+        "player": "Al Horford",
+        "team": "Golden State Warriors",
+        "status": "GTD",
+        "injury": "Toe",
+        "position": "C",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
       {
         "player": "L.J. Cryer",
         "team": "Golden State Warriors",
         "status": "GTD",
         "injury": "Hamstring",
         "position": "PG",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Kristaps Porzingis",
+        "team": "Golden State Warriors",
+        "status": "Out",
+        "injury": "Illness",
+        "position": "C",
+        "updated": "Mon, Feb 23",
         "source": "CBS Sports"
       },
       {
@@ -1160,6 +1104,24 @@
     ],
     "Houston Rockets": [
       {
+        "player": "Amen Thompson",
+        "team": "Houston Rockets",
+        "status": "Out",
+        "injury": "Quadriceps",
+        "position": "SG",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Jae'Sean Tate",
+        "team": "Houston Rockets",
+        "status": "Out",
+        "injury": "Knee",
+        "position": "SF",
+        "updated": "Mon, Feb 23",
+        "source": "CBS Sports"
+      },
+      {
         "player": "Steven Adams",
         "team": "Houston Rockets",
         "status": "Out",
@@ -1183,27 +1145,18 @@
         "player": "Pascal Siakam",
         "team": "Indiana Pacers",
         "status": "GTD",
-        "injury": "Hamstring",
+        "injury": "Wrist",
         "position": "PF",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
         "player": "Aaron Nesmith",
         "team": "Indiana Pacers",
-        "status": "GTD",
+        "status": "Out",
         "injury": "Ankle",
         "position": "SF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Andrew Nembhard",
-        "team": "Indiana Pacers",
-        "status": "GTD",
-        "injury": "Back",
-        "position": "PG",
-        "updated": "Fri, Feb 20",
+        "updated": "Sun, Feb 22",
         "source": "CBS Sports"
       },
       {
@@ -1250,16 +1203,7 @@
         "status": "GTD",
         "injury": "Head",
         "position": "PF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Kawhi Leonard",
-        "team": "Los Angeles Clippers",
-        "status": "GTD",
-        "injury": "Ankle",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
+        "updated": "Mon, Feb 23",
         "source": "CBS Sports"
       },
       {
@@ -1281,6 +1225,17 @@
         "source": "CBS Sports"
       }
     ],
+    "Los Angeles Lakers": [
+      {
+        "player": "Jaxson Hayes",
+        "team": "Los Angeles Lakers",
+        "status": "GTD",
+        "injury": "Ankle",
+        "position": "C",
+        "updated": "Wed, Feb 25",
+        "source": "CBS Sports"
+      }
+    ],
     "Memphis Grizzlies": [
       {
         "player": "Santi Aldama",
@@ -1288,16 +1243,7 @@
         "status": "Out",
         "injury": "Knee",
         "position": "C",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Kyle Anderson",
-        "team": "Memphis Grizzlies",
-        "status": "GTD",
-        "injury": "Knee",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1306,16 +1252,16 @@
         "status": "Out",
         "injury": "Knee",
         "position": "SG",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
-        "player": "Walter Clayton Jr.",
+        "player": "Kyle Anderson",
         "team": "Memphis Grizzlies",
         "status": "GTD",
-        "injury": "Calf",
-        "position": "PG",
-        "updated": "Fri, Feb 20",
+        "injury": "Knee",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1362,43 +1308,7 @@
         "status": "GTD",
         "injury": "Back",
         "position": "PF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Tyler Herro",
-        "team": "Miami Heat",
-        "status": "GTD",
-        "injury": "Ribs",
-        "position": "PG",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Dru Smith",
-        "team": "Miami Heat",
-        "status": "GTD",
-        "injury": "Calf",
-        "position": "SG",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Davion Mitchell",
-        "team": "Miami Heat",
-        "status": "GTD",
-        "injury": "Illness",
-        "position": "PG",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Norman Powell",
-        "team": "Miami Heat",
-        "status": "GTD",
-        "injury": "Illness",
-        "position": "SG",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1415,19 +1325,10 @@
       {
         "player": "Giannis Antetokounmpo",
         "team": "Milwaukee Bucks",
-        "status": "Out",
-        "injury": "Calf",
-        "position": "PF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Myles Turner",
-        "team": "Milwaukee Bucks",
         "status": "GTD",
         "injury": "Calf",
-        "position": "C",
-        "updated": "Fri, Feb 20",
+        "position": "PF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1442,39 +1343,30 @@
     ],
     "New Orleans Pelicans": [
       {
-        "player": "Yves Missi",
+        "player": "Trey Murphy III",
         "team": "New Orleans Pelicans",
-        "status": "Out",
-        "injury": "Calf",
-        "position": "C",
-        "updated": "Sat, Feb 21",
+        "status": "GTD",
+        "injury": "Shoulder",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
         "player": "Micah Peavy",
         "team": "New Orleans Pelicans",
-        "status": "Out",
+        "status": "GTD",
         "injury": "Toe",
         "position": "SF",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
-        "player": "Trey Murphy III",
-        "team": "New Orleans Pelicans",
-        "status": "Out",
-        "injury": "Shoulder",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Dejounte Murray",
+        "player": "Yves Missi",
         "team": "New Orleans Pelicans",
         "status": "GTD",
-        "injury": "Achilles",
-        "position": "PG",
-        "updated": "Fri, Feb 20",
+        "injury": "Calf",
+        "position": "C",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       }
     ],
@@ -1531,10 +1423,10 @@
       {
         "player": "Jalen Suggs",
         "team": "Orlando Magic",
-        "status": "Out",
+        "status": "GTD",
         "injury": "Back",
         "position": "SG",
-        "updated": "Sat, Feb 21",
+        "updated": "Wed, Feb 25",
         "source": "CBS Sports"
       },
       {
@@ -1549,16 +1441,61 @@
     ],
     "Philadelphia 76ers": [
       {
-        "player": "Joel Embiid",
+        "player": "MarJon Beauchamp",
+        "team": "Philadelphia 76ers",
+        "status": "GTD",
+        "injury": "Illness",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Johni Broome",
         "team": "Philadelphia 76ers",
         "status": "Out",
-        "injury": "Lower Leg",
-        "position": "C",
-        "updated": "Fri, Feb 20",
+        "injury": "Knee",
+        "position": "PF",
+        "updated": "Sun, Feb 22",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Paul George",
+        "team": "Philadelphia 76ers",
+        "status": "Out",
+        "injury": "Suspension",
+        "position": "SF",
+        "updated": "Sat, Jan 31",
         "source": "CBS Sports"
       }
     ],
     "Phoenix Suns": [
+      {
+        "player": "Cole Anthony",
+        "team": "Phoenix Suns",
+        "status": "GTD",
+        "injury": "Not Injury Related",
+        "position": "PG",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Jordan Goodwin",
+        "team": "Phoenix Suns",
+        "status": "Out",
+        "injury": "Calf",
+        "position": "SG",
+        "updated": "Mon, Feb 23",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Dillon Brooks",
+        "team": "Phoenix Suns",
+        "status": "Out",
+        "injury": "Hand",
+        "position": "SF",
+        "updated": "Sun, Feb 22",
+        "source": "CBS Sports"
+      },
       {
         "player": "Devin Booker",
         "team": "Phoenix Suns",
@@ -1566,15 +1503,6 @@
         "injury": "Hip",
         "position": "SG",
         "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Cole Anthony",
-        "team": "Phoenix Suns",
-        "status": "Out",
-        "injury": "Not Injury Related",
-        "position": "PG",
-        "updated": "Fri, Feb 20",
         "source": "CBS Sports"
       },
       {
@@ -1589,12 +1517,30 @@
     ],
     "Portland Trail Blazers": [
       {
-        "player": "Shaedon Sharpe",
+        "player": "Deni Avdija",
         "team": "Portland Trail Blazers",
         "status": "GTD",
+        "injury": "Back",
+        "position": "SG",
+        "updated": "Wed, Feb 25",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Robert Williams III",
+        "team": "Portland Trail Blazers",
+        "status": "GTD",
+        "injury": "Foot",
+        "position": "C",
+        "updated": "Wed, Feb 25",
+        "source": "CBS Sports"
+      },
+      {
+        "player": "Shaedon Sharpe",
+        "team": "Portland Trail Blazers",
+        "status": "Out",
         "injury": "Calf",
         "position": "SG",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1608,6 +1554,15 @@
       }
     ],
     "Sacramento Kings": [
+      {
+        "player": "Devin Carter",
+        "team": "Sacramento Kings",
+        "status": "GTD",
+        "injury": "Back",
+        "position": "SG",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
       {
         "player": "De'Andre Hunter",
         "team": "Sacramento Kings",
@@ -1627,15 +1582,6 @@
         "source": "CBS Sports"
       },
       {
-        "player": "Domantas Sabonis",
-        "team": "Sacramento Kings",
-        "status": "Out",
-        "injury": "Knee",
-        "position": "C",
-        "updated": "Wed, Feb 18",
-        "source": "CBS Sports"
-      },
-      {
         "player": "Dylan Cardwell",
         "team": "Sacramento Kings",
         "status": "Out",
@@ -1643,25 +1589,25 @@
         "position": "C",
         "updated": "Wed, Feb 18",
         "source": "CBS Sports"
+      },
+      {
+        "player": "Domantas Sabonis",
+        "team": "Sacramento Kings",
+        "status": "Out",
+        "injury": "Knee",
+        "position": "C",
+        "updated": "Wed, Feb 18",
+        "source": "CBS Sports"
       }
     ],
     "San Antonio Spurs": [
-      {
-        "player": "Lindy Waters III",
-        "team": "San Antonio Spurs",
-        "status": "Out",
-        "injury": "Knee",
-        "position": "SF",
-        "updated": "Sat, Feb 21",
-        "source": "CBS Sports"
-      },
       {
         "player": "Mason Plumlee",
         "team": "San Antonio Spurs",
         "status": "Out",
         "injury": "Not Injury Related",
         "position": "C",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1676,32 +1622,41 @@
     ],
     "Toronto Raptors": [
       {
+        "player": "Jakob Poeltl",
+        "team": "Toronto Raptors",
+        "status": "GTD",
+        "injury": "Back",
+        "position": "C",
+        "updated": "Tue, Feb 24",
+        "source": "CBS Sports"
+      },
+      {
         "player": "Scottie Barnes",
         "team": "Toronto Raptors",
         "status": "GTD",
-        "injury": "Personal",
+        "injury": "Quadriceps",
         "position": "PF",
-        "updated": "Sat, Feb 21",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
         "player": "Chucky Hepburn",
         "team": "Toronto Raptors",
-        "status": "Out",
+        "status": "GTD",
         "injury": "Knee",
         "position": "PG",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       }
     ],
     "Utah Jazz": [
       {
-        "player": "Lauri Markkanen",
+        "player": "Vince Williams Jr.",
         "team": "Utah Jazz",
-        "status": "GTD",
-        "injury": "Illness",
-        "position": "PF",
-        "updated": "Fri, Feb 20",
+        "status": "Out",
+        "injury": "Knee",
+        "position": "SF",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
@@ -1710,16 +1665,16 @@
         "status": "GTD",
         "injury": "Ankle",
         "position": "SG",
-        "updated": "Fri, Feb 20",
+        "updated": "Tue, Feb 24",
         "source": "CBS Sports"
       },
       {
         "player": "Jusuf Nurkic",
         "team": "Utah Jazz",
-        "status": "GTD",
+        "status": "Out",
         "injury": "Nose",
         "position": "C",
-        "updated": "Fri, Feb 20",
+        "updated": "Mon, Feb 23",
         "source": "CBS Sports"
       },
       {
@@ -1742,33 +1697,6 @@
       }
     ],
     "Washington Wizards": [
-      {
-        "player": "Tristan Vukcevic",
-        "team": "Washington Wizards",
-        "status": "GTD",
-        "injury": "Hand",
-        "position": "PF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Justin Champagnie",
-        "team": "Washington Wizards",
-        "status": "GTD",
-        "injury": "Knee",
-        "position": "SF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
-      {
-        "player": "Kyshawn George",
-        "team": "Washington Wizards",
-        "status": "GTD",
-        "injury": "Toe",
-        "position": "SF",
-        "updated": "Fri, Feb 20",
-        "source": "CBS Sports"
-      },
       {
         "player": "D'Angelo Russell",
         "team": "Washington Wizards",

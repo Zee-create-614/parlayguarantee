@@ -131,12 +131,12 @@ export default function HomePage() {
 
           {/* CTAs */}
           <div className="opacity-0-init animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4 justify-center items-center mb-14">
-            <Link href="/pricing" className="btn-primary text-base md:text-lg py-4 px-10 flex items-center group font-display">
-              Browse Picks
+            <Link href="/auth/signin" className="btn-primary text-base md:text-lg py-4 px-10 flex items-center group font-display">
+              Join the Waitlist
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link href="/auth/signin" className="btn-secondary text-base md:text-lg py-4 px-10 flex items-center font-display">
-              <Gift className="w-5 h-5 mr-2" /> Free 3-Leg Pick
+              <Gift className="w-5 h-5 mr-2" /> Get Early Access
             </Link>
           </div>
 
@@ -190,7 +190,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { step: '01', title: 'Sign Up Free', desc: 'Create an account. Get a free 3-leg parlay instantly.', icon: Users },
-              { step: '02', title: 'Choose a Tier', desc: 'Single picks ($5) to 7-leg parlays ($100). You pick the tier.', icon: Target },
+              { step: '02', title: 'Get Early Access', desc: 'Join the waitlist now. Be first in line when March Madness picks go live.', icon: Target },
               { step: '03', title: 'AI Assigns Picks', desc: '37 factors analyzed per game. No duplicates. Maximum edge.', icon: Brain },
               { step: '04', title: 'Win or Refund', desc: 'Any leg loses? Full refund. No questions. Under 24 hours.', icon: Shield },
             ].map((s, i) => (
@@ -216,7 +216,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <div className="section-label"><Trophy className="w-3.5 h-3.5 mr-2" />PICK YOUR TIER</div>
-            <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">7 Tiers. <span className="text-neon">One Guarantee.</span></h2>
+            <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">7 Tiers. <span className="text-neon">Coming Soon.</span></h2>
             <p className="text-text-muted max-w-xl mx-auto">Every tier includes a full refund if any leg loses. Scale your risk, keep your edge.</p>
           </div>
 
@@ -297,40 +297,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══════════════ TESTIMONIALS ═══════════════ */}
-      <section className="py-24 px-4 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-neon/[0.01] to-transparent" />
-        <div className="max-w-5xl mx-auto relative z-10">
-          <div className="text-center mb-16">
-            <div className="section-label"><Users className="w-3.5 h-3.5 mr-2" />SOCIAL PROOF</div>
-            <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">What Bettors Are Saying</h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { quote: "Got my refund in under 12 hours. These guys are legit. Already bought 3 more tiers.", author: "Marcus T.", tier: "5-Leg Parlay", stars: 5 },
-              { quote: "The AI picks are actually insane. Hit a 4-legger on my first try. Withdrew $400 from DraftKings.", author: "Jake R.", tier: "4-Leg Parlay", stars: 5 },
-              { quote: "Free 3-leg hit on my first day. I was skeptical but this is real. Refer your friends.", author: "Destiny W.", tier: "Free Pick", stars: 5 },
-            ].map((t, i) => (
-              <div key={i} className="bg-bg-card border border-white/[0.06] rounded-2xl p-6 hover:border-neon/20 transition-all duration-500">
-                <div className="flex gap-0.5 mb-4">
-                  {Array.from({ length: t.stars }).map((_, j) => (
-                    <Star key={j} className="w-4 h-4 fill-neon text-neon" />
-                  ))}
-                </div>
-                <p className="text-sm text-text-primary/80 mb-4 leading-relaxed italic">&ldquo;{t.quote}&rdquo;</p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="text-sm font-bold">{t.author}</div>
-                    <div className="text-xs text-text-muted">{t.tier}</div>
-                  </div>
-                  <div className="text-neon text-xs font-bold">✓ Verified</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Testimonials section removed — launching soon */}
 
       {/* ═══════════════ REFERRAL ═══════════════ */}
       <section className="py-24 px-4">
@@ -357,18 +324,18 @@ export default function HomePage() {
         <div className="absolute inset-0 hero-gradient opacity-50" />
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h2 className="font-display text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Your Edge Starts<br /><span className="text-neon glow-neon">Today.</span>
+            March Madness<br /><span className="text-neon glow-neon">Is Coming.</span>
           </h2>
           <p className="text-lg text-text-muted mb-10 max-w-xl mx-auto">
-            Sign up free and claim your 3-leg parlay. Or jump straight to pricing.
+            Sign up now for early access. Get a FREE 3-leg parlay when we go live.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/auth/signin" className="btn-primary text-lg py-5 px-10 flex items-center group font-display">
-              🎁 Claim Free Pick
+              🏀 Join the Waitlist
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link href="/pricing" className="btn-secondary text-lg py-5 px-10 font-display">
-              View Pricing
+              Preview Tiers
             </Link>
           </div>
         </div>

@@ -45,3 +45,252 @@
 2026-02-21 16:32:25,959 INFO fanduel: 109 games
 2026-02-21 16:32:25,959 INFO odds_api: 129 games
 2026-02-21 16:32:25,959 INFO Phase 2: Playwright scrapers...
+2026-02-24 12:29:31,797 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 12:29:31,879 INFO Scraping all sources for ncaab consensus...
+2026-02-24 12:29:32,675 INFO Phase 1: API scrapers...
+2026-02-24 12:29:33,747 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-24 12:29:33,797 INFO FanDuel: got 39 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-24 12:29:33,797 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-24 12:29:33,797 INFO OddsAPI: got 37 games
+2026-02-24 12:29:33,797 INFO fanduel: 39 games
+2026-02-24 12:29:33,797 INFO odds_api: 37 games
+2026-02-24 12:29:33,797 INFO Phase 2: Playwright scrapers...
+2026-02-24 12:30:16,688 INFO DraftKings: 36 games scraped via Playwright
+2026-02-24 12:30:16,688 INFO draftkings: 36 games
+2026-02-24 12:30:50,288 INFO Caesars: 0 games scraped via Playwright
+2026-02-24 12:30:50,288 WARNING caesars: 0 games (WAF blocked)
+2026-02-24 12:31:24,121 ERROR betmgm failed: 'str' object has no attribute 'get'
+2026-02-24 12:31:24,121 INFO Sources: fanduel=39, odds_api=37, draftkings=36
+2026-02-24 12:31:24,129 INFO Dropped 2 single-source games (no consensus)
+2026-02-24 12:31:24,137 INFO Cached 37 consensus games to consensus_ncaab_2026-02-24.json
+2026-02-24 12:31:24,137 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 12:31:24,137 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 12:31:24,137 INFO Found 36 NCAAB games
+2026-02-24 12:31:42,946 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 12:31:43,048 INFO Using cached consensus (0m old, 37 games)
+2026-02-24 12:31:43,048 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 12:31:43,048 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 12:31:43,048 INFO Found 36 NCAAB games
+2026-02-24 12:32:16,528 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 12:32:16,582 INFO Using cached consensus (1m old, 37 games)
+2026-02-24 12:32:16,582 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 12:32:16,582 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 12:32:16,582 INFO Found 36 NCAAB games
+2026-02-24 12:33:48,848 INFO Generated 36 predictions
+2026-02-24 12:33:48,848 INFO Rex filter: 26 PICKS, 10 PASSES out of 36 games
+2026-02-24 12:33:48,848 INFO Spread floor: 55% | ML floor: 58%
+2026-02-24 15:05:07,044 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:05:08,897 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:05:08,905 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:05:08,905 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:05:09,044 INFO Scraping all sources for ncaab consensus...
+2026-02-24 15:05:10,211 INFO Phase 1: API scrapers...
+2026-02-24 15:05:13,917 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-24 15:05:13,993 INFO FanDuel: got 48 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-24 15:05:13,993 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-24 15:05:14,007 INFO OddsAPI: got 59 games
+2026-02-24 15:05:14,007 INFO fanduel: 48 games
+2026-02-24 15:05:14,007 INFO odds_api: 59 games
+2026-02-24 15:05:14,007 INFO Phase 2: Playwright scrapers...
+2026-02-24 15:05:56,210 INFO DraftKings: 45 games scraped via Playwright
+2026-02-24 15:05:56,210 INFO draftkings: 45 games
+2026-02-24 15:06:34,768 INFO Caesars: 0 games scraped via Playwright
+2026-02-24 15:06:34,768 WARNING caesars: 0 games (WAF blocked)
+2026-02-24 15:07:21,501 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:07:23,279 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:07:23,287 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:07:23,287 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:07:23,420 INFO Scraping all sources for ncaab consensus...
+2026-02-24 15:07:24,198 INFO Phase 1: API scrapers...
+2026-02-24 15:07:27,396 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-24 15:07:27,412 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-24 15:07:27,417 INFO OddsAPI: got 61 games
+2026-02-24 15:07:27,479 INFO FanDuel: got 48 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-24 15:07:27,479 INFO fanduel: 48 games
+2026-02-24 15:07:27,479 INFO odds_api: 61 games
+2026-02-24 15:07:27,479 INFO Phase 2: Playwright scrapers...
+2026-02-24 15:08:06,119 INFO DraftKings: 45 games scraped via Playwright
+2026-02-24 15:08:06,119 INFO draftkings: 45 games
+2026-02-24 15:08:44,540 INFO Caesars: 0 games scraped via Playwright
+2026-02-24 15:08:44,540 WARNING caesars: 0 games (WAF blocked)
+2026-02-24 15:09:41,412 ERROR betmgm failed: 'str' object has no attribute 'get'
+2026-02-24 15:09:41,414 INFO Sources: fanduel=48, odds_api=61, draftkings=45
+2026-02-24 15:09:41,523 INFO Dropped 15 single-source games (no consensus)
+2026-02-24 15:09:41,551 INFO Cached 48 consensus games to consensus_ncaab_2026-02-24.json
+2026-02-24 15:09:41,560 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:09:41,560 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:09:41,560 INFO Found 36 NCAAB games
+2026-02-24 15:10:42,987 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:10:44,557 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:10:44,559 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:10:44,559 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:10:44,706 INFO Using cached consensus (1m old, 48 games)
+2026-02-24 15:10:44,712 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:10:44,712 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:10:44,712 INFO Found 36 NCAAB games
+2026-02-24 15:12:19,367 INFO Generated 36 predictions
+2026-02-24 15:12:28,011 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/indiana/
+2026-02-24 15:12:29,636 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/northwestern/
+2026-02-24 15:12:42,403 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/texas-tech/
+2026-02-24 15:12:43,615 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/cincinnati/
+2026-02-24 15:12:55,485 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/tcu/
+2026-02-24 15:12:56,770 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/arizona-st/
+2026-02-24 15:13:08,956 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/boise-st/
+2026-02-24 15:13:10,239 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/wyoming/
+2026-02-24 15:13:22,979 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/toledo/
+2026-02-24 15:13:24,452 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/northern-illinois/
+2026-02-24 15:13:37,144 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/bowling-green/
+2026-02-24 15:13:38,660 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/western-michigan/
+2026-02-24 15:13:51,592 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/marshall/
+2026-02-24 15:13:52,904 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/old-dominion/
+2026-02-24 15:14:06,435 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/troy/
+2026-02-24 15:14:07,753 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/louisiana/
+2026-02-24 15:14:20,675 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/michigan/
+2026-02-24 15:14:22,144 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/minnesota/
+2026-02-24 15:14:38,282 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/kent-st/
+2026-02-24 15:14:40,043 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/central-michigan/
+2026-02-24 15:14:53,534 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/arkansas-st/
+2026-02-24 15:14:55,119 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/southern-miss/
+2026-02-24 15:15:09,974 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/notre-dame/
+2026-02-24 15:15:11,701 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/duke/
+2026-02-24 15:15:25,456 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/akron/
+2026-02-24 15:15:26,934 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/buffalo/
+2026-02-24 15:15:38,559 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/byu/
+2026-02-24 15:15:39,808 WARNING HTTP 404 from https://www.teamrankings.com/ncb/teams/central-florida/
+2026-02-24 15:22:02,095 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:22:04,032 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:22:04,034 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:22:04,038 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:22:04,173 INFO Using cached consensus (12m old, 48 games)
+2026-02-24 15:22:04,175 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:22:04,175 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:22:04,175 INFO Found 36 NCAAB games
+2026-02-24 15:24:34,801 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:24:36,581 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:24:36,581 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:24:36,581 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:24:36,722 INFO Using cached consensus (15m old, 48 games)
+2026-02-24 15:24:36,726 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:24:36,726 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:24:36,727 INFO Found 36 NCAAB games
+2026-02-24 15:26:11,913 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:26:13,589 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:26:13,593 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:26:13,593 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:26:13,697 INFO Using cached consensus (17m old, 48 games)
+2026-02-24 15:26:13,697 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:26:13,697 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:26:13,697 INFO Found 36 NCAAB games
+2026-02-24 15:27:40,118 INFO Generated 36 predictions
+2026-02-24 15:31:59,172 INFO Rex V2 filter: 28 PICKS, 8 PASSES
+2026-02-24 15:31:59,175 INFO Rex V2: 36 predictions generated
+2026-02-25 08:19:27,844 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:19:27,846 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:19:27,846 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:19:29,516 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:19:29,520 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:19:29,521 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:19:29,611 INFO Scraping all sources for ncaab consensus...
+2026-02-25 08:19:30,543 INFO Phase 1: API scrapers...
+2026-02-25 08:19:34,099 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-25 08:19:34,149 INFO FanDuel: got 54 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-25 08:19:34,151 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-25 08:19:34,167 INFO OddsAPI: got 54 games
+2026-02-25 08:19:34,168 INFO fanduel: 54 games
+2026-02-25 08:19:34,168 INFO odds_api: 54 games
+2026-02-25 08:19:34,168 INFO Phase 2: Playwright scrapers...
+2026-02-25 08:20:30,124 INFO DraftKings: 54 games scraped via Playwright
+2026-02-25 08:20:30,128 INFO draftkings: 54 games
+2026-02-25 08:21:06,062 INFO Caesars: 0 games scraped via Playwright
+2026-02-25 08:21:06,062 WARNING caesars: 0 games (WAF blocked)
+2026-02-25 08:21:44,926 ERROR betmgm failed: 'str' object has no attribute 'get'
+2026-02-25 08:21:44,936 INFO Sources: fanduel=54, odds_api=54, draftkings=54
+2026-02-25 08:21:45,233 INFO Dropped 2 single-source games (no consensus)
+2026-02-25 08:21:45,271 INFO Cached 54 consensus games to consensus_ncaab_2026-02-25.json
+2026-02-25 08:21:45,281 INFO Returning 54 NCAAB games for 2026-02-25
+2026-02-25 08:21:45,281 INFO Using CONSENSUS data: 54 games from multiple books
+2026-02-25 08:21:45,281 INFO Found 54 NCAAB games
+2026-02-25 08:22:34,413 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:22:34,413 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:22:34,413 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:22:35,565 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:22:35,567 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:22:35,567 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:22:35,655 INFO Using cached consensus (1m old, 54 games)
+2026-02-25 08:22:35,655 INFO Returning 54 NCAAB games for 2026-02-25
+2026-02-25 08:22:35,655 INFO Using CONSENSUS data: 54 games from multiple books
+2026-02-25 08:22:35,655 INFO Found 54 NCAAB games
+2026-02-25 08:24:52,838 INFO Generated 54 predictions
+2026-02-25 08:26:20,813 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:26:20,820 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:26:20,820 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:26:22,583 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:26:22,589 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:26:22,589 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:26:22,722 INFO Using cached consensus (5m old, 54 games)
+2026-02-25 08:26:22,730 INFO Returning 54 NCAAB games for 2026-02-25
+2026-02-25 08:26:22,730 INFO Using CONSENSUS data: 54 games from multiple books
+2026-02-25 08:26:22,730 INFO Found 54 NCAAB games
+2026-02-25 08:28:27,843 INFO Generated 54 predictions
+2026-02-25 08:31:36,385 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:31:36,385 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:31:36,393 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:31:38,024 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:31:38,028 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:31:38,028 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:31:38,158 INFO Using cached consensus (10m old, 54 games)
+2026-02-25 08:31:38,158 INFO Returning 54 NCAAB games for 2026-02-25
+2026-02-25 08:31:38,158 INFO Using CONSENSUS data: 54 games from multiple books
+2026-02-25 08:31:38,158 INFO Found 54 NCAAB games
+2026-02-25 08:33:57,281 INFO Generated 54 predictions
+2026-02-25 08:36:54,500 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:36:54,500 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:36:54,502 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:36:55,982 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:36:55,988 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:36:55,988 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:36:56,101 INFO Using cached consensus (15m old, 54 games)
+2026-02-25 08:36:56,103 INFO Returning 54 NCAAB games for 2026-02-25
+2026-02-25 08:36:56,103 INFO Using CONSENSUS data: 54 games from multiple books
+2026-02-25 08:36:56,103 INFO Found 54 NCAAB games
+2026-02-25 08:39:14,049 INFO Generated 54 predictions
+2026-02-25 08:44:50,658 INFO Rex V2 filter: 45 PICKS, 9 PASSES
+2026-02-25 08:44:50,658 INFO Rex V2: 54 predictions generated
+2026-02-25 08:54:42,482 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:54:42,482 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:54:42,482 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:54:44,052 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:54:44,057 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:54:44,057 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:54:44,179 INFO Scraping all sources for ncaab consensus...
+2026-02-25 08:54:44,886 INFO Phase 1: API scrapers...
+2026-02-25 08:54:47,873 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-25 08:54:47,876 INFO OddsAPI: got 54 games
+2026-02-25 08:54:47,987 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-25 08:54:48,025 INFO FanDuel: got 54 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-25 08:54:48,025 INFO fanduel: 54 games
+2026-02-25 08:54:48,025 INFO odds_api: 54 games
+2026-02-25 08:54:48,025 INFO Phase 2: Playwright scrapers...
+2026-02-25 08:55:29,541 INFO DraftKings: 54 games scraped via Playwright
+2026-02-25 08:55:29,541 INFO draftkings: 54 games
+2026-02-25 08:56:08,558 INFO Caesars: 0 games scraped via Playwright
+2026-02-25 08:56:08,558 WARNING caesars: 0 games (WAF blocked)
+2026-02-25 08:56:27,156 INFO [rex] Loaded learned weights (trained on 21 games, last update: 2026-02-25)
+2026-02-25 08:56:27,156 INFO Rex V2 using weights (learned=True): top 5 = [('adv_net_rating', 0.049285), ('net_ranking', 0.046547), ('off_efficiency', 0.046547), ('def_efficiency', 0.046547), ('implied_prob', 0.038724)]
+2026-02-25 08:56:27,156 INFO Rex V2 Engine: predicting for 2026-02-25
+2026-02-25 08:56:28,629 INFO Barttorvik: scraped 0 teams
+2026-02-25 08:56:28,634 INFO Loaded barttorvik data for 0 teams
+2026-02-25 08:56:28,634 INFO NCAAB Engine: predicting games for 2026-02-25
+2026-02-25 08:56:28,753 INFO Scraping all sources for ncaab consensus...
+2026-02-25 08:56:29,492 INFO Phase 1: API scrapers...
+2026-02-25 08:56:32,649 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-25 08:56:32,660 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-25 08:56:32,670 INFO OddsAPI: got 54 games
+2026-02-25 08:56:32,703 INFO FanDuel: got 54 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-25 08:56:32,703 INFO fanduel: 54 games
+2026-02-25 08:56:32,703 INFO odds_api: 54 games
+2026-02-25 08:56:32,703 INFO Phase 2: Playwright scrapers...
+2026-02-25 08:57:11,213 INFO DraftKings: 54 games scraped via Playwright
+2026-02-25 08:57:11,213 INFO draftkings: 54 games
+2026-02-25 08:57:50,354 INFO Caesars: 0 games scraped via Playwright
+2026-02-25 08:57:50,354 WARNING caesars: 0 games (WAF blocked)

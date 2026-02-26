@@ -1,0 +1,24 @@
+﻿2026-02-24 15:07:21,501 INFO Rex V2 Engine: predicting for 2026-02-24
+2026-02-24 15:07:23,279 INFO Barttorvik: scraped 0 teams
+2026-02-24 15:07:23,287 INFO Loaded barttorvik data for 0 teams
+2026-02-24 15:07:23,287 INFO NCAAB Engine: predicting games for 2026-02-24
+2026-02-24 15:07:23,420 INFO Scraping all sources for ncaab consensus...
+2026-02-24 15:07:24,198 INFO Phase 1: API scrapers...
+2026-02-24 15:07:27,396 INFO HTTP Request: GET https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page?page=CUSTOM&customPageId=ncaab&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York "HTTP/1.1 200 OK"
+2026-02-24 15:07:27,412 INFO HTTP Request: GET https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?apiKey=f3c9f91dc369f56dea1b523d3071e1f1&regions=us&markets=h2h%2Cspreads%2Ctotals&oddsFormat=american&bookmakers=draftkings%2Cfanduel "HTTP/1.1 200 OK"
+2026-02-24 15:07:27,417 INFO OddsAPI: got 61 games
+2026-02-24 15:07:27,479 INFO FanDuel: got 48 games from https://sbapi.mi.sportsbook.fanduel.com/api/content-managed-page
+2026-02-24 15:07:27,479 INFO fanduel: 48 games
+2026-02-24 15:07:27,479 INFO odds_api: 61 games
+2026-02-24 15:07:27,479 INFO Phase 2: Playwright scrapers...
+2026-02-24 15:08:06,119 INFO DraftKings: 45 games scraped via Playwright
+2026-02-24 15:08:06,119 INFO draftkings: 45 games
+2026-02-24 15:08:44,540 INFO Caesars: 0 games scraped via Playwright
+2026-02-24 15:08:44,540 WARNING caesars: 0 games (WAF blocked)
+2026-02-24 15:09:41,412 ERROR betmgm failed: 'str' object has no attribute 'get'
+2026-02-24 15:09:41,414 INFO Sources: fanduel=48, odds_api=61, draftkings=45
+2026-02-24 15:09:41,523 INFO Dropped 15 single-source games (no consensus)
+2026-02-24 15:09:41,551 INFO Cached 48 consensus games to consensus_ncaab_2026-02-24.json
+2026-02-24 15:09:41,560 INFO Returning 36 NCAAB games for 2026-02-24
+2026-02-24 15:09:41,560 INFO Using CONSENSUS data: 36 games from multiple books
+2026-02-24 15:09:41,560 INFO Found 36 NCAAB games

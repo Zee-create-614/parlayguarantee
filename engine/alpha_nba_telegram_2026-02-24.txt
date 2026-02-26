@@ -1,0 +1,73 @@
+🐺 ALPHA NBA v2 — Tuesday Feb 24, 2026
+Edge model: ML div + H/A + form + upset + injuries
+Spread floor: 56% | ML floor: 58%
+5 PICKS | 6 PASSES | 11 games
+
+── PICKS ──
+
+1. Charlotte Hornets @ Chicago Bulls — 08:10 PM ET
+   ML: Charlotte Hornets (73.8%)
+   Spread: Charlotte Hornets -8.5 (63.6%) [mkt: 50.0%]
+   O/U: Under 229.6 (60.0%)
+   → ML conviction 74% vs spread 50% = +24% edge
+   → Charlotte Hornets hot (7-3 L10)
+   → Opponent cold (1-9 L10)
+
+2. Minnesota Timberwolves @ Portland Trail Blazers — 10:10 PM ET
+   ML: Minnesota Timberwolves (66.9%)
+   Spread: Minnesota Timberwolves -5.8 (57.4%) [mkt: 50.7%]
+   O/U: Under 233.5 (74.0%)
+   → ML conviction 67% vs spread 51% = +16% edge
+   → No upset signal — favorite safe
+
+3. Orlando Magic @ Los Angeles Lakers — 10:40 PM ET
+   ML: Los Angeles Lakers (64.3%)
+   Spread: Los Angeles Lakers -5.0 (57.1%) [mkt: 50.3%]
+   O/U: Under 230.3 (72.0%)
+   → ML conviction 64% vs spread 50% = +14% edge
+   → No upset signal — favorite safe
+
+4. New York Knicks @ Cleveland Cavaliers — 07:40 PM ET
+   ML: Cleveland Cavaliers (60.9%)
+   Spread: Cleveland Cavaliers -4.1 (56.4%) [mkt: 50.1%]
+   O/U: Over 231.3 (50.1%)
+   → ML conviction 61% vs spread 50% = +11% edge
+   → Cleveland Cavaliers strong home team (63%)
+   → Cleveland Cavaliers hot (8-2 L10)
+
+5. Miami Heat @ Milwaukee Bucks — 08:10 PM ET
+   ML: Miami Heat (66.0%)
+   Spread: Miami Heat -5.4 (56.1%) [mkt: 50.3%]
+   O/U: Under 228.3 (60.0%)
+   → ML conviction 66% vs spread 50% = +16% edge
+   → No upset signal — favorite safe
+
+── PASSES ──
+
+PASS: Dallas Mavericks @ Brooklyn Nets
+  ML: Dallas Mavericks (53.2%) | Alpha: 48.9%
+  → Dallas Mavericks weak road (24%) — risk
+  → Dallas Mavericks cold (1-9 L10) — risk
+
+PASS: Oklahoma City Thunder @ Toronto Raptors
+  ML: Toronto Raptors (50.8%) | Alpha: 48.4%
+
+PASS: Golden State Warriors @ New Orleans Pelicans
+  ML: Golden State Warriors (52.8%) | Alpha: 48.0%
+  → ML disagrees with spread pick (47% vs 53%)
+  → New Orleans Pelicans weak home (32%) — risk
+
+PASS: Washington Wizards @ Atlanta Hawks
+  ML: Atlanta Hawks (85.2%) | Alpha: 40.8%
+  → ML disagrees with spread pick (15% vs 50%)
+  → Washington Wizards weak road (19%) — risk
+
+PASS: Philadelphia 76ers @ Indiana Pacers
+  ML: Philadelphia 76ers (77.1%) | Alpha: 40.0%
+  → ML disagrees with spread pick (23% vs 51%)
+  → Indiana Pacers weak home (34%) — risk
+
+PASS: Boston Celtics @ Phoenix Suns
+  ML: Boston Celtics (68.8%) | Alpha: 40.0%
+  → ML disagrees with spread pick (31% vs 51%)
+  → Phoenix Suns strong home team (63%)

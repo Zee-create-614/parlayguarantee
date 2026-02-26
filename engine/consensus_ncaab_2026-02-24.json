@@ -1,0 +1,2463 @@
+{
+  "sport": "ncaab",
+  "generated_at": "2026-02-24T20:09:41.525137+00:00",
+  "sources": {
+    "fanduel": 48,
+    "odds_api": 61,
+    "draftkings": 45
+  },
+  "games": [
+    {
+      "home_team": "Rutgers",
+      "away_team": "Washington",
+      "start_time": "2026-02-24T23:30:18.000Z",
+      "spread_home": 4.5,
+      "spread_away": -4.5,
+      "total": 140.5,
+      "moneyline_home": 174,
+      "moneyline_away": -211,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Rutgers",
+          "away_team": "Washington",
+          "start_time": "2026-02-24T23:30:18.000Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 184,
+          "moneyline_away": -225,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Rutgers Scarlet Knights",
+          "away_team": "Washington Huskies",
+          "start_time": "2026-02-24T23:30:00Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 170,
+          "moneyline_away": -205,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Rutgers",
+          "away_team": "Washington",
+          "start_time": "2026-02-24T23:30:00.0000000Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 170,
+          "moneyline_away": -205,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Oklahoma State",
+      "away_team": "West Virginia",
+      "start_time": "2026-02-25T00:00:24.000Z",
+      "spread_home": -1.5,
+      "spread_away": 1.5,
+      "total": 144.2,
+      "moneyline_home": -126,
+      "moneyline_away": 105,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Oklahoma State",
+          "away_team": "WV Mountaineers",
+          "start_time": "2026-02-25T00:00:24.000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 143.5,
+          "moneyline_home": -128,
+          "moneyline_away": 106,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Oklahoma St Cowboys",
+          "away_team": "West Virginia Mountaineers",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 144.5,
+          "moneyline_home": -125,
+          "moneyline_away": 105,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Oklahoma State",
+          "away_team": "West Virginia",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 144.5,
+          "moneyline_home": -125,
+          "moneyline_away": 105,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Indiana",
+      "away_team": "Northwestern",
+      "start_time": "2026-02-25T00:00:18.000Z",
+      "spread_home": -8.5,
+      "spread_away": 8.5,
+      "total": 145.5,
+      "moneyline_home": -453,
+      "moneyline_away": 346,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Indiana",
+          "away_team": "Northwestern",
+          "start_time": "2026-02-25T00:00:18.000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 145.5,
+          "moneyline_home": -450,
+          "moneyline_away": 340,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Indiana Hoosiers",
+          "away_team": "Northwestern Wildcats",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 145.5,
+          "moneyline_home": -455,
+          "moneyline_away": 350,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Indiana",
+          "away_team": "Northwestern",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 145.5,
+          "moneyline_home": -455,
+          "moneyline_away": 350,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "South Carolina",
+      "away_team": "Kentucky",
+      "start_time": "2026-02-25T00:00:02.000Z",
+      "spread_home": 6.5,
+      "spread_away": -6.5,
+      "total": 149.5,
+      "moneyline_home": 241,
+      "moneyline_away": -301,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "South Carolina",
+          "away_team": "Kentucky",
+          "start_time": "2026-02-25T00:00:02.000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 149.5,
+          "moneyline_home": 240,
+          "moneyline_away": -300,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "South Carolina Gamecocks",
+          "away_team": "Kentucky Wildcats",
+          "start_time": "2026-02-25T00:00:02Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 149.5,
+          "moneyline_home": 240,
+          "moneyline_away": -300,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "South Carolina",
+          "away_team": "Kentucky",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 149.5,
+          "moneyline_home": 245,
+          "moneyline_away": -305,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Texas Tech",
+      "away_team": "Cincinnati",
+      "start_time": "2026-02-25T00:00:59.000Z",
+      "spread_home": -6.5,
+      "spread_away": 6.5,
+      "total": 142.5,
+      "moneyline_home": -302,
+      "moneyline_away": 241,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Texas Tech",
+          "away_team": "Cincinnati",
+          "start_time": "2026-02-25T00:00:59.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 142.5,
+          "moneyline_home": -310,
+          "moneyline_away": 245,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Texas Tech Red Raiders",
+          "away_team": "Cincinnati Bearcats",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 142.5,
+          "moneyline_home": -298,
+          "moneyline_away": 240,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Texas Tech",
+          "away_team": "Cincinnati",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 142.5,
+          "moneyline_home": -298,
+          "moneyline_away": 240,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Georgetown",
+      "away_team": "Marquette",
+      "start_time": "2026-02-25T00:00:15.000Z",
+      "spread_home": -2.5,
+      "spread_away": 2.5,
+      "total": 150.2,
+      "moneyline_home": -157,
+      "moneyline_away": 131,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Georgetown",
+          "away_team": "Marquette",
+          "start_time": "2026-02-25T00:00:15.000Z",
+          "spread_home": -2.5,
+          "spread_away": 2.5,
+          "total": 149.5,
+          "moneyline_home": -162,
+          "moneyline_away": 134,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Georgetown Hoyas",
+          "away_team": "Marquette Golden Eagles",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -2.5,
+          "spread_away": 2.5,
+          "total": 150.5,
+          "moneyline_home": -155,
+          "moneyline_away": 130,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Georgetown",
+          "away_team": "Marquette",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -2.5,
+          "spread_away": 2.5,
+          "total": 150.5,
+          "moneyline_home": -155,
+          "moneyline_away": 130,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Virginia",
+      "away_team": "NC State",
+      "start_time": "2026-02-24T23:59:40.000Z",
+      "spread_home": -6.5,
+      "spread_away": 6.5,
+      "total": 150.5,
+      "moneyline_home": -300,
+      "moneyline_away": 235,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Virginia",
+          "away_team": "NC State",
+          "start_time": "2026-02-24T23:59:40.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 150.5,
+          "moneyline_home": -300,
+          "moneyline_away": 240,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Virginia Cavaliers",
+          "away_team": "NC State Wolfpack",
+          "start_time": "2026-02-24T23:59:40Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 150.5,
+          "moneyline_home": -300,
+          "moneyline_away": 240,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Virginia",
+          "away_team": "NC State",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 150.5,
+          "moneyline_home": -278,
+          "moneyline_away": 225,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "TCU",
+      "away_team": "Arizona State",
+      "start_time": "2026-02-25T02:00:00.000Z",
+      "spread_home": -7.5,
+      "spread_away": 7.5,
+      "total": 149.5,
+      "moneyline_home": -326,
+      "moneyline_away": 260,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "TCU",
+          "away_team": "Arizona State",
+          "start_time": "2026-02-25T02:00:00.000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 149.5,
+          "moneyline_home": -330,
+          "moneyline_away": 260,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "TCU Horned Frogs",
+          "away_team": "Arizona St Sun Devils",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 149.5,
+          "moneyline_home": -325,
+          "moneyline_away": 260,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "TCU",
+          "away_team": "Arizona State",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 149.5,
+          "moneyline_home": -325,
+          "moneyline_away": 260,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Florida State",
+      "away_team": "Miami (FL)",
+      "start_time": "2026-02-25T02:00:42.000Z",
+      "spread_home": 2.5,
+      "spread_away": -2.5,
+      "total": 153.5,
+      "moneyline_home": 117,
+      "moneyline_away": -140,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Florida State",
+          "away_team": "Miami",
+          "start_time": "2026-02-25T02:00:42.000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 153.5,
+          "moneyline_home": 125,
+          "moneyline_away": -150,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Florida St Seminoles",
+          "away_team": "Miami Hurricanes",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 153.5,
+          "moneyline_home": 114,
+          "moneyline_away": -135,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Florida State",
+          "away_team": "Miami FL",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 153.5,
+          "moneyline_home": 114,
+          "moneyline_away": -135,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Baylor",
+      "away_team": "Arizona",
+      "start_time": "2026-02-25T02:00:06.000Z",
+      "spread_home": 8.5,
+      "spread_away": -8.5,
+      "total": 154.5,
+      "moneyline_home": 316,
+      "moneyline_away": -406,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Baylor",
+          "away_team": "Arizona",
+          "start_time": "2026-02-25T02:00:06.000Z",
+          "spread_home": 8.5,
+          "spread_away": -8.5,
+          "total": 154.5,
+          "moneyline_home": 310,
+          "moneyline_away": -400,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Baylor Bears",
+          "away_team": "Arizona Wildcats",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 8.5,
+          "spread_away": -8.5,
+          "total": 154.5,
+          "moneyline_home": 320,
+          "moneyline_away": -410,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Baylor",
+          "away_team": "Arizona",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 8.5,
+          "spread_away": -8.5,
+          "total": 154.5,
+          "moneyline_home": 320,
+          "moneyline_away": -410,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Oklahoma",
+      "away_team": "Auburn",
+      "start_time": "2026-02-25T02:00:42.000Z",
+      "spread_home": 2.5,
+      "spread_away": -2.5,
+      "total": 156.5,
+      "moneyline_home": 119,
+      "moneyline_away": -142,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Oklahoma",
+          "away_team": "Auburn",
+          "start_time": "2026-02-25T02:00:42.000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 156.5,
+          "moneyline_home": 118,
+          "moneyline_away": -142,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Oklahoma Sooners",
+          "away_team": "Auburn Tigers",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 156.5,
+          "moneyline_home": 120,
+          "moneyline_away": -142,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Oklahoma",
+          "away_team": "Auburn",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 156.5,
+          "moneyline_home": 120,
+          "moneyline_away": -142,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "BYU",
+      "away_team": "Central Florida",
+      "start_time": "2026-02-25T04:00:10.000Z",
+      "spread_home": -12.5,
+      "spread_away": 12.5,
+      "total": 161.8,
+      "moneyline_home": -950,
+      "moneyline_away": 620,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "BYU",
+          "away_team": "UCF",
+          "start_time": "2026-02-25T04:00:10.000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 162.5,
+          "moneyline_home": -950,
+          "moneyline_away": 610,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "BYU Cougars",
+          "away_team": "UCF Knights",
+          "start_time": "2026-02-25T04:00:00Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 161.5,
+          "moneyline_home": -950,
+          "moneyline_away": 625,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "BYU",
+          "away_team": "UCF",
+          "start_time": "2026-02-25T04:00:00.0000000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 161.5,
+          "moneyline_home": -950,
+          "moneyline_away": 625,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "UCLA",
+      "away_team": "USC",
+      "start_time": "2026-02-25T04:00:19.000Z",
+      "spread_home": -7.2,
+      "spread_away": 7.2,
+      "total": 150.5,
+      "moneyline_home": -338,
+      "moneyline_away": 268,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "UCLA",
+          "away_team": "USC",
+          "start_time": "2026-02-25T04:00:19.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 150.5,
+          "moneyline_home": -335,
+          "moneyline_away": 265,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "UCLA Bruins",
+          "away_team": "USC Trojans",
+          "start_time": "2026-02-25T04:00:00Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 150.5,
+          "moneyline_home": -340,
+          "moneyline_away": 270,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "UCLA",
+          "away_team": "USC",
+          "start_time": "2026-02-25T04:00:00.0000000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 150.5,
+          "moneyline_home": -340,
+          "moneyline_away": 270,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Missouri",
+      "away_team": "Tennessee",
+      "start_time": "2026-02-25T02:00:08.000Z",
+      "spread_home": 2.5,
+      "spread_away": -2.5,
+      "total": 144.5,
+      "moneyline_home": 129,
+      "moneyline_away": -154,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Missouri",
+          "away_team": "Tennessee",
+          "start_time": "2026-02-25T02:00:08.000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 144.5,
+          "moneyline_home": 128,
+          "moneyline_away": -154,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Missouri Tigers",
+          "away_team": "Tennessee Volunteers",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 144.5,
+          "moneyline_home": 130,
+          "moneyline_away": -155,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Missouri",
+          "away_team": "Tennessee",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 2.5,
+          "spread_away": -2.5,
+          "total": 144.5,
+          "moneyline_home": 130,
+          "moneyline_away": -155,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Iowa",
+      "away_team": "Ohio State",
+      "start_time": "2026-02-26T02:00:04.000Z",
+      "spread_home": -5.2,
+      "spread_away": 5.2,
+      "total": 141.8,
+      "moneyline_home": -295,
+      "moneyline_away": 235,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Iowa",
+          "away_team": "Ohio State",
+          "start_time": "2026-02-26T02:00:04.000Z",
+          "spread_home": -5.5,
+          "spread_away": 5.5,
+          "total": 141.5,
+          "moneyline_home": -295,
+          "moneyline_away": 235,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Iowa Hawkeyes",
+          "away_team": "Ohio State Buckeyes",
+          "start_time": "2026-02-26T02:00:04Z",
+          "spread_home": -5.5,
+          "spread_away": 5.5,
+          "total": 141.5,
+          "moneyline_home": -295,
+          "moneyline_away": 235,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Iowa",
+          "away_team": "Ohio State",
+          "start_time": "2026-02-26T02:00:00.0000000Z",
+          "spread_home": -4.5,
+          "spread_away": 4.5,
+          "total": 142.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Dayton",
+      "away_team": "Saint Louis",
+      "start_time": "2026-02-25T00:00:49.000Z",
+      "spread_home": 3.5,
+      "spread_away": -3.5,
+      "total": 156.2,
+      "moneyline_home": 145,
+      "moneyline_away": -175,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Dayton",
+          "away_team": "Saint Louis",
+          "start_time": "2026-02-25T00:00:49.000Z",
+          "spread_home": 3.5,
+          "spread_away": -3.5,
+          "total": 155.5,
+          "moneyline_home": 146,
+          "moneyline_away": -176,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Dayton Flyers",
+          "away_team": "Saint Louis Billikens",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": 3.5,
+          "spread_away": -3.5,
+          "total": 156.5,
+          "moneyline_home": 145,
+          "moneyline_away": -175,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Dayton",
+          "away_team": "Saint Louis",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": 3.5,
+          "spread_away": -3.5,
+          "total": 156.5,
+          "moneyline_home": 145,
+          "moneyline_away": -175,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Villanova",
+      "away_team": "Butler",
+      "start_time": "2026-02-26T00:00:36.000Z",
+      "spread_home": -10.5,
+      "spread_away": 10.5,
+      "total": 147.5,
+      "moneyline_home": -750,
+      "moneyline_away": 520,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Villanova",
+          "away_team": "Butler",
+          "start_time": "2026-02-26T00:00:36.000Z",
+          "spread_home": -10.5,
+          "spread_away": 10.5,
+          "total": 147.5,
+          "moneyline_home": -750,
+          "moneyline_away": 520,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Villanova Wildcats",
+          "away_team": "Butler Bulldogs",
+          "start_time": "2026-02-26T00:00:36Z",
+          "spread_home": -10.5,
+          "spread_away": 10.5,
+          "total": 147.5,
+          "moneyline_home": -750,
+          "moneyline_away": 520,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Villanova",
+          "away_team": "Butler",
+          "start_time": "2026-02-26T00:00:00.0000000Z",
+          "spread_home": -10.5,
+          "spread_away": 10.5,
+          "total": 147.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Texas",
+      "away_team": "Florida",
+      "start_time": "2026-02-26T00:00:21.000Z",
+      "spread_home": 7.5,
+      "spread_away": -7.5,
+      "total": 156.8,
+      "moneyline_home": 290,
+      "moneyline_away": -375,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Texas",
+          "away_team": "Florida",
+          "start_time": "2026-02-26T00:00:21.000Z",
+          "spread_home": 7.5,
+          "spread_away": -7.5,
+          "total": 156.5,
+          "moneyline_home": 290,
+          "moneyline_away": -375,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Texas Longhorns",
+          "away_team": "Florida Gators",
+          "start_time": "2026-02-26T00:00:21Z",
+          "spread_home": 7.5,
+          "spread_away": -7.5,
+          "total": 156.5,
+          "moneyline_home": 290,
+          "moneyline_away": -375,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Texas",
+          "away_team": "Florida",
+          "start_time": "2026-02-26T00:00:00.0000000Z",
+          "spread_home": 7.5,
+          "spread_away": -7.5,
+          "total": 157.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Nebraska",
+      "away_team": "Maryland",
+      "start_time": "2026-02-26T00:00:38.000Z",
+      "spread_home": -18.5,
+      "spread_away": 18.5,
+      "total": 144.2,
+      "moneyline_home": -3500,
+      "moneyline_away": 1280,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Nebraska",
+          "away_team": "Maryland",
+          "start_time": "2026-02-26T00:00:38.000Z",
+          "spread_home": -18.5,
+          "spread_away": 18.5,
+          "total": 144.5,
+          "moneyline_home": -3500,
+          "moneyline_away": 1280,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Nebraska Cornhuskers",
+          "away_team": "Maryland Terrapins",
+          "start_time": "2026-02-26T00:00:38Z",
+          "spread_home": -18.5,
+          "spread_away": 18.5,
+          "total": 144.5,
+          "moneyline_home": -3500,
+          "moneyline_away": 1280,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Nebraska",
+          "away_team": "Maryland",
+          "start_time": "2026-02-26T00:00:00.0000000Z",
+          "spread_home": -18.5,
+          "spread_away": 18.5,
+          "total": 143.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Vanderbilt",
+      "away_team": "Georgia",
+      "start_time": "2026-02-26T00:00:35.000Z",
+      "spread_home": -8.8,
+      "spread_away": 8.8,
+      "total": 167.8,
+      "moneyline_home": -490,
+      "moneyline_away": 365,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Vanderbilt",
+          "away_team": "Georgia",
+          "start_time": "2026-02-26T00:00:35.000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 167.5,
+          "moneyline_home": -490,
+          "moneyline_away": 365,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Vanderbilt Commodores",
+          "away_team": "Georgia Bulldogs",
+          "start_time": "2026-02-26T00:00:35Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 167.5,
+          "moneyline_home": -490,
+          "moneyline_away": 365,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Vanderbilt",
+          "away_team": "Georgia",
+          "start_time": "2026-02-26T00:00:00.0000000Z",
+          "spread_home": -9.5,
+          "spread_away": 9.5,
+          "total": 168.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "UConn",
+      "away_team": "St. John's",
+      "start_time": "2026-02-26T00:00:31.000Z",
+      "spread_home": -4.8,
+      "spread_away": 4.8,
+      "total": 145.2,
+      "moneyline_home": -220,
+      "moneyline_away": 180,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Connecticut",
+          "away_team": "St. John's",
+          "start_time": "2026-02-26T00:00:31.000Z",
+          "spread_home": -4.5,
+          "spread_away": 4.5,
+          "total": 145.5,
+          "moneyline_home": -220,
+          "moneyline_away": 180,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "UConn Huskies",
+          "away_team": "St. John's Red Storm",
+          "start_time": "2026-02-26T00:00:31Z",
+          "spread_home": -4.5,
+          "spread_away": 4.5,
+          "total": 145.5,
+          "moneyline_home": -220,
+          "moneyline_away": 180,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "UConn",
+          "away_team": "St. Johns",
+          "start_time": "2026-02-26T00:00:00.0000000Z",
+          "spread_home": -5.5,
+          "spread_away": 5.5,
+          "total": 144.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Alabama",
+      "away_team": "Mississippi State",
+      "start_time": "2026-02-26T02:00:59.000Z",
+      "spread_home": -15.2,
+      "spread_away": 15.2,
+      "total": 170.5,
+      "moneyline_home": -2100,
+      "moneyline_away": 1000,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Alabama",
+          "away_team": "Mississippi State",
+          "start_time": "2026-02-26T02:00:59.000Z",
+          "spread_home": -15.5,
+          "spread_away": 15.5,
+          "total": 170.5,
+          "moneyline_home": -2100,
+          "moneyline_away": 1000,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Alabama Crimson Tide",
+          "away_team": "Mississippi St Bulldogs",
+          "start_time": "2026-02-26T02:00:59Z",
+          "spread_home": -15.5,
+          "spread_away": 15.5,
+          "total": 170.5,
+          "moneyline_home": -2100,
+          "moneyline_away": 1000,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Alabama",
+          "away_team": "Mississippi State",
+          "start_time": "2026-02-26T02:00:00.0000000Z",
+          "spread_home": -14.5,
+          "spread_away": 14.5,
+          "total": 172.5,
+          "moneyline_home": null,
+          "moneyline_away": null,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "La Salle",
+      "away_team": "George Washington",
+      "start_time": "2026-02-24T23:30:00.000Z",
+      "spread_home": 6.5,
+      "spread_away": -6.5,
+      "total": 147.8,
+      "moneyline_home": 251,
+      "moneyline_away": -315,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "La Salle",
+          "away_team": "GW Revolutionaries",
+          "start_time": "2026-02-24T23:30:00.000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 147.5,
+          "moneyline_home": 255,
+          "moneyline_away": -320,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "La Salle Explorers",
+          "away_team": "GW Revolutionaries",
+          "start_time": "2026-02-24T23:30:00Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 147.5,
+          "moneyline_home": 255,
+          "moneyline_away": -320,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "La Salle",
+          "away_team": "George Washington",
+          "start_time": "2026-02-24T23:30:00.0000000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 148.5,
+          "moneyline_home": 245,
+          "moneyline_away": -305,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Ball State",
+      "away_team": "Massachusetts",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": 4.5,
+      "spread_away": -4.5,
+      "total": 140.5,
+      "moneyline_home": 182,
+      "moneyline_away": -222,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Ball State",
+          "away_team": "UMass",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 188,
+          "moneyline_away": -230,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Ball State Cardinals",
+          "away_team": "Massachusetts Minutemen",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 180,
+          "moneyline_away": -218,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Ball State",
+          "away_team": "UMass",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 140.5,
+          "moneyline_home": 180,
+          "moneyline_away": -218,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Morehead State",
+      "away_team": "Southern",
+      "start_time": "2026-02-25T00:30:00.000Z",
+      "spread_home": -7.8,
+      "spread_away": 7.8,
+      "total": 142.5,
+      "moneyline_home": -405,
+      "moneyline_away": 313,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Morehead State",
+          "away_team": "Southern Indiana",
+          "start_time": "2026-02-25T00:30:00.000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 142.5,
+          "moneyline_home": -410,
+          "moneyline_away": 315,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Morehead St Eagles",
+          "away_team": "Southern Indiana Screaming Eagles",
+          "start_time": "2026-02-25T00:30:00Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 142.5,
+          "moneyline_home": -410,
+          "moneyline_away": 315,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Morehead State",
+          "away_team": "Southern Indiana",
+          "start_time": "2026-02-25T00:30:00.0000000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 142.5,
+          "moneyline_home": -395,
+          "moneyline_away": 310,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Boise State",
+      "away_team": "Wyoming",
+      "start_time": "2026-02-25T02:00:00.000Z",
+      "spread_home": -8.5,
+      "spread_away": 8.5,
+      "total": 145.2,
+      "moneyline_home": -398,
+      "moneyline_away": 310,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Boise State",
+          "away_team": "Wyoming",
+          "start_time": "2026-02-25T02:00:00.000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 145.5,
+          "moneyline_home": -400,
+          "moneyline_away": 310,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Boise State Broncos",
+          "away_team": "Wyoming Cowboys",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 145.5,
+          "moneyline_home": -400,
+          "moneyline_away": 310,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Boise State",
+          "away_team": "Wyoming",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 144.5,
+          "moneyline_home": -395,
+          "moneyline_away": 310,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Colorado State",
+      "away_team": "Fresno State",
+      "start_time": "2026-02-25T02:00:00.000Z",
+      "spread_home": -8.5,
+      "spread_away": 8.5,
+      "total": 148.5,
+      "moneyline_home": -450,
+      "moneyline_away": 336,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Colorado State",
+          "away_team": "Fresno State",
+          "start_time": "2026-02-25T02:00:00.000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 148.5,
+          "moneyline_home": -450,
+          "moneyline_away": 340,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Colorado St Rams",
+          "away_team": "Fresno St Bulldogs",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 148.5,
+          "moneyline_home": -450,
+          "moneyline_away": 340,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Colorado State",
+          "away_team": "Fresno State",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": -8.5,
+          "spread_away": 8.5,
+          "total": 148.5,
+          "moneyline_home": -425,
+          "moneyline_away": 330,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Nevada",
+      "away_team": "New Mexico",
+      "start_time": "2026-02-25T04:00:00.000Z",
+      "spread_home": -1.5,
+      "spread_away": 1.5,
+      "total": 149.5,
+      "moneyline_home": -123,
+      "moneyline_away": 102,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Nevada",
+          "away_team": "New Mexico",
+          "start_time": "2026-02-25T04:00:00.000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 149.5,
+          "moneyline_home": -125,
+          "moneyline_away": 104,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Nevada Wolf Pack",
+          "away_team": "New Mexico Lobos",
+          "start_time": "2026-02-25T04:00:00Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 149.5,
+          "moneyline_home": -122,
+          "moneyline_away": 102,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Nevada",
+          "away_team": "New Mexico",
+          "start_time": "2026-02-25T04:00:00.0000000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 149.5,
+          "moneyline_home": -122,
+          "moneyline_away": 102,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "UIC",
+      "away_team": "Bradley",
+      "start_time": "2026-02-25T01:00:00.000Z",
+      "spread_home": -3.5,
+      "spread_away": 3.5,
+      "total": 142.5,
+      "moneyline_home": -166,
+      "moneyline_away": 138,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "UIC",
+          "away_team": "Bradley",
+          "start_time": "2026-02-25T01:00:00.000Z",
+          "spread_home": -3.5,
+          "spread_away": 3.5,
+          "total": 142.5,
+          "moneyline_home": -166,
+          "moneyline_away": 138,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "UIC Flames",
+          "away_team": "Bradley Braves",
+          "start_time": "2026-02-25T01:00:00Z",
+          "spread_home": -3.5,
+          "spread_away": 3.5,
+          "total": 142.5,
+          "moneyline_home": -166,
+          "moneyline_away": 138,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Illinois Chicago",
+          "away_team": "Bradley",
+          "start_time": "2026-02-25T01:00:00.0000000Z",
+          "spread_home": -3.5,
+          "spread_away": 3.5,
+          "total": 142.5,
+          "moneyline_home": -166,
+          "moneyline_away": 140,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Eastern Michigan",
+      "away_team": "Miami (OH)",
+      "start_time": "2026-02-24T23:30:00.000Z",
+      "spread_home": 8.8,
+      "spread_away": -8.8,
+      "total": 153.5,
+      "moneyline_home": 360,
+      "moneyline_away": -470,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Eastern Michigan",
+          "away_team": "Miami (OH)",
+          "start_time": "2026-02-24T23:30:00.000Z",
+          "spread_home": 9.5,
+          "spread_away": -9.5,
+          "total": 153.5,
+          "moneyline_home": 385,
+          "moneyline_away": -520,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Eastern Michigan Eagles",
+          "away_team": "Miami (OH) RedHawks",
+          "start_time": "2026-02-24T23:30:00Z",
+          "spread_home": 8.5,
+          "spread_away": -8.5,
+          "total": 153.5,
+          "moneyline_home": 360,
+          "moneyline_away": -470,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Eastern Michigan",
+          "away_team": "Miami OH",
+          "start_time": "2026-02-24T23:30:00.0000000Z",
+          "spread_home": 8.5,
+          "spread_away": -8.5,
+          "total": 153.5,
+          "moneyline_home": 360,
+          "moneyline_away": -470,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Air Force",
+      "away_team": "San Jose State",
+      "start_time": "2026-02-25T02:00:00.000Z",
+      "spread_home": 6.5,
+      "spread_away": -6.5,
+      "total": 145.2,
+      "moneyline_home": 250,
+      "moneyline_away": -311,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Air Force",
+          "away_team": "San Jose St",
+          "start_time": "2026-02-25T02:00:00.000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 144.5,
+          "moneyline_home": 250,
+          "moneyline_away": -315,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Air Force Falcons",
+          "away_team": "San Jos\u00e9 St Spartans",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 145.5,
+          "moneyline_home": 250,
+          "moneyline_away": -310,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Air Force",
+          "away_team": "San Jose State",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 6.5,
+          "spread_away": -6.5,
+          "total": 145.5,
+          "moneyline_home": 250,
+          "moneyline_away": -310,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Toledo",
+      "away_team": "Northern Illinois",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -12.5,
+      "spread_away": 12.5,
+      "total": 150.2,
+      "moneyline_home": -1000,
+      "moneyline_away": 650,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Toledo",
+          "away_team": "Northern Illinois",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 149.5,
+          "moneyline_home": -950,
+          "moneyline_away": 610,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Toledo Rockets",
+          "away_team": "Northern Illinois Huskies",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 150.5,
+          "moneyline_home": -1000,
+          "moneyline_away": 650,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Toledo",
+          "away_team": "Northern Illinois",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 150.5,
+          "moneyline_home": -1000,
+          "moneyline_away": 650,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Bowling Green",
+      "away_team": "Western Michigan",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -12.5,
+      "spread_away": 12.5,
+      "total": 149.5,
+      "moneyline_home": -1050,
+      "moneyline_away": 675,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Bowling Green",
+          "away_team": "Western Michigan",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 149.5,
+          "moneyline_home": -1050,
+          "moneyline_away": 640,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Bowling Green Falcons",
+          "away_team": "Western Michigan Broncos",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 149.5,
+          "moneyline_home": -1050,
+          "moneyline_away": 675,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Bowling Green",
+          "away_team": "Western Michigan",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -12.5,
+          "spread_away": 12.5,
+          "total": 149.5,
+          "moneyline_home": -1050,
+          "moneyline_away": 675,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Marshall",
+      "away_team": "Old Dominion",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -7.2,
+      "spread_away": 7.2,
+      "total": 161.2,
+      "moneyline_home": -341,
+      "moneyline_away": 270,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Marshall",
+          "away_team": "Old Dominion",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 160.5,
+          "moneyline_home": -345,
+          "moneyline_away": 270,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Marshall Thundering Herd",
+          "away_team": "Old Dominion Monarchs",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 161.5,
+          "moneyline_home": -340,
+          "moneyline_away": 270,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Marshall",
+          "away_team": "Old Dominion",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 161.5,
+          "moneyline_home": -340,
+          "moneyline_away": 270,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Troy",
+      "away_team": "Louisiana",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -11.5,
+      "spread_away": 11.5,
+      "total": 134.5,
+      "moneyline_home": -793,
+      "moneyline_away": 543,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Troy",
+          "away_team": "Louisiana",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 134.5,
+          "moneyline_home": -780,
+          "moneyline_away": 530,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Troy Trojans",
+          "away_team": "Louisiana Ragin' Cajuns",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 134.5,
+          "moneyline_home": -800,
+          "moneyline_away": 550,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Troy",
+          "away_team": "Louisiana",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 134.5,
+          "moneyline_home": -800,
+          "moneyline_away": 550,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "New Haven",
+      "away_team": "St. Francis (PA)",
+      "start_time": "2026-02-24T23:00:54.000Z",
+      "spread_home": -6.8,
+      "spread_away": 6.8,
+      "total": 141.2,
+      "moneyline_home": -350,
+      "moneyline_away": 270,
+      "confidence": 0.8,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "New Haven",
+          "away_team": "St. Francis (PA)",
+          "start_time": "2026-02-24T23:00:54.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 141.5,
+          "moneyline_home": -350,
+          "moneyline_away": 275,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "New Haven Chargers",
+          "away_team": "St. Francis (PA) Red Flash",
+          "start_time": "2026-02-24T23:00:54Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 141.5,
+          "moneyline_home": -350,
+          "moneyline_away": 275,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "New Haven",
+          "away_team": "Saint Francis PA",
+          "start_time": "2026-02-24T23:00:00.0000000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 140.5,
+          "moneyline_home": -325,
+          "moneyline_away": 260,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Michigan",
+      "away_team": "Minnesota",
+      "start_time": "2026-02-25T01:30:14.000Z",
+      "spread_home": -22.2,
+      "spread_away": 22.2,
+      "total": 146.2,
+      "moneyline_home": -6500,
+      "moneyline_away": 2000,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': -7000, 'odds_api': -6500, 'draftkings': -6500} diff=500.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Michigan",
+          "away_team": "Minnesota",
+          "start_time": "2026-02-25T01:30:14.000Z",
+          "spread_home": -21.5,
+          "spread_away": 21.5,
+          "total": 145.5,
+          "moneyline_home": -7000,
+          "moneyline_away": 2000,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Michigan Wolverines",
+          "away_team": "Minnesota Golden Gophers",
+          "start_time": "2026-02-25T01:30:00Z",
+          "spread_home": -22.5,
+          "spread_away": 22.5,
+          "total": 146.5,
+          "moneyline_home": -6500,
+          "moneyline_away": 2000,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Michigan",
+          "away_team": "Minnesota",
+          "start_time": "2026-02-25T01:30:00.0000000Z",
+          "spread_home": -22.5,
+          "spread_away": 22.5,
+          "total": 146.5,
+          "moneyline_home": -6500,
+          "moneyline_away": 2000,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Utah",
+      "away_team": "Iowa State",
+      "start_time": "2026-02-25T02:00:16.000Z",
+      "spread_home": 13.5,
+      "spread_away": -13.5,
+      "total": 142.5,
+      "moneyline_home": 706,
+      "moneyline_away": -1100,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_away_DISAGREE: {'fanduel': -1200, 'odds_api': -1100, 'draftkings': -1100} diff=100.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Utah",
+          "away_team": "Iowa State",
+          "start_time": "2026-02-25T02:00:16.000Z",
+          "spread_home": 13.5,
+          "spread_away": -13.5,
+          "total": 142.5,
+          "moneyline_home": 720,
+          "moneyline_away": -1200,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Utah Utes",
+          "away_team": "Iowa State Cyclones",
+          "start_time": "2026-02-25T02:00:00Z",
+          "spread_home": 13.5,
+          "spread_away": -13.5,
+          "total": 142.5,
+          "moneyline_home": 700,
+          "moneyline_away": -1100,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Utah",
+          "away_team": "Iowa State",
+          "start_time": "2026-02-25T02:00:00.0000000Z",
+          "spread_home": 13.5,
+          "spread_away": -13.5,
+          "total": 142.5,
+          "moneyline_home": 700,
+          "moneyline_away": -1100,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Stanford",
+      "away_team": "Pittsburgh",
+      "start_time": "2026-02-26T01:00:09.000Z",
+      "spread_home": -6.5,
+      "spread_away": 6.5,
+      "total": 139.5,
+      "moneyline_home": -320,
+      "moneyline_away": 255,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Stanford",
+          "away_team": "Pittsburgh",
+          "start_time": "2026-02-26T01:00:09.000Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 139.5,
+          "moneyline_home": -320,
+          "moneyline_away": 255,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Stanford Cardinal",
+          "away_team": "Pittsburgh Panthers",
+          "start_time": "2026-02-26T01:00:09Z",
+          "spread_home": -6.5,
+          "spread_away": 6.5,
+          "total": 139.5,
+          "moneyline_home": -320,
+          "moneyline_away": 255,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Arkansas",
+      "away_team": "Texas A&M",
+      "start_time": "2026-02-26T02:00:15.000Z",
+      "spread_home": -7.5,
+      "spread_away": 7.5,
+      "total": 169.5,
+      "moneyline_home": -410,
+      "moneyline_away": 315,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Arkansas",
+          "away_team": "Texas A&M",
+          "start_time": "2026-02-26T02:00:15.000Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 169.5,
+          "moneyline_home": -410,
+          "moneyline_away": 315,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Arkansas Razorbacks",
+          "away_team": "Texas A&M Aggies",
+          "start_time": "2026-02-26T02:00:15Z",
+          "spread_home": -7.5,
+          "spread_away": 7.5,
+          "total": 169.5,
+          "moneyline_home": -410,
+          "moneyline_away": 315,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Kent State",
+      "away_team": "Central Michigan",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -11.5,
+      "spread_away": 11.5,
+      "total": 155.8,
+      "moneyline_home": -820,
+      "moneyline_away": 550,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': -820, 'odds_api': -820, 'draftkings': -750} diff=70.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Kent State",
+          "away_team": "Central Michigan",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 155.5,
+          "moneyline_home": -820,
+          "moneyline_away": 550,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Kent State Golden Flashes",
+          "away_team": "Central Michigan Chippewas",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 155.5,
+          "moneyline_home": -820,
+          "moneyline_away": 550,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Kent State",
+          "away_team": "Central Michigan",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -11.5,
+          "spread_away": 11.5,
+          "total": 156.5,
+          "moneyline_home": -750,
+          "moneyline_away": 525,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Georgia State",
+      "away_team": "Coastal Carolina",
+      "start_time": "2026-02-25T00:30:00.000Z",
+      "spread_home": 1.5,
+      "spread_away": -1.5,
+      "total": 140.2,
+      "moneyline_home": 104,
+      "moneyline_away": -122,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': 104, 'odds_api': 104, 'draftkings': -102} diff=206.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Georgia State",
+          "away_team": "Coastal Carolina",
+          "start_time": "2026-02-25T00:30:00.000Z",
+          "spread_home": 1.5,
+          "spread_away": -1.5,
+          "total": 140.5,
+          "moneyline_home": 104,
+          "moneyline_away": -125,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Georgia St Panthers",
+          "away_team": "Coastal Carolina Chanticleers",
+          "start_time": "2026-02-25T00:30:00Z",
+          "spread_home": 1.5,
+          "spread_away": -1.5,
+          "total": 140.5,
+          "moneyline_home": 104,
+          "moneyline_away": -125,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Georgia State",
+          "away_team": "Coastal Carolina",
+          "start_time": "2026-02-25T00:30:00.0000000Z",
+          "spread_home": 1.5,
+          "spread_away": -1.5,
+          "total": 139.5,
+          "moneyline_home": -102,
+          "moneyline_away": -118,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Arkansas State",
+      "away_team": "Southern Miss",
+      "start_time": "2026-02-25T01:30:08.000Z",
+      "spread_home": -9.5,
+      "spread_away": 9.5,
+      "total": 158.5,
+      "moneyline_home": -485,
+      "moneyline_away": 370,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': -580, 'odds_api': -485, 'draftkings': -485} diff=95.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Arkansas State",
+          "away_team": "Southern Miss",
+          "start_time": "2026-02-25T01:30:08.000Z",
+          "spread_home": -9.5,
+          "spread_away": 9.5,
+          "total": 158.5,
+          "moneyline_home": -580,
+          "moneyline_away": 420,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Arkansas St Red Wolves",
+          "away_team": "Southern Miss Golden Eagles",
+          "start_time": "2026-02-25T01:30:00Z",
+          "spread_home": -9.5,
+          "spread_away": 9.5,
+          "total": 158.5,
+          "moneyline_home": -485,
+          "moneyline_away": 370,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Arkansas State",
+          "away_team": "Southern Miss",
+          "start_time": "2026-02-25T01:30:00.0000000Z",
+          "spread_home": -9.5,
+          "spread_away": 9.5,
+          "total": 158.5,
+          "moneyline_home": -485,
+          "moneyline_away": 370,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "San Diego State",
+      "away_team": "Utah State",
+      "start_time": "2026-02-26T04:00:00.000Z",
+      "spread_home": -1.5,
+      "spread_away": 1.5,
+      "total": 147.5,
+      "moneyline_home": -114,
+      "moneyline_away": -105,
+      "confidence": 0.65,
+      "sources": [
+        "fanduel",
+        "odds_api"
+      ],
+      "flags": [],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "San Diego State",
+          "away_team": "Utah State",
+          "start_time": "2026-02-26T04:00:00.000Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 147.5,
+          "moneyline_home": -114,
+          "moneyline_away": -105,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "San Diego St Aztecs",
+          "away_team": "Utah State Aggies",
+          "start_time": "2026-02-26T04:00:00Z",
+          "spread_home": -1.5,
+          "spread_away": 1.5,
+          "total": 147.5,
+          "moneyline_home": -114,
+          "moneyline_away": -105,
+          "source": "odds_api"
+        }
+      }
+    },
+    {
+      "home_team": "Boston College",
+      "away_team": "Wake Forest",
+      "start_time": "2026-02-25T23:00:00Z",
+      "spread_home": 4.5,
+      "spread_away": -4.5,
+      "total": 144.5,
+      "moneyline_home": 164,
+      "moneyline_away": -198,
+      "confidence": 0.65,
+      "sources": [
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "odds_api": {
+          "home_team": "Boston College Eagles",
+          "away_team": "Wake Forest Demon Deacons",
+          "start_time": "2026-02-25T23:00:00Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 144.5,
+          "moneyline_home": 164,
+          "moneyline_away": -198,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Boston College",
+          "away_team": "Wake Forest",
+          "start_time": "2026-02-25T23:00:00.0000000Z",
+          "spread_home": 4.5,
+          "spread_away": -4.5,
+          "total": 144.5,
+          "moneyline_home": 164,
+          "moneyline_away": -198,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Providence",
+      "away_team": "Xavier",
+      "start_time": "2026-02-26T00:30:00Z",
+      "spread_home": -5.5,
+      "spread_away": 5.5,
+      "total": 170.5,
+      "moneyline_home": -258,
+      "moneyline_away": 210,
+      "confidence": 0.65,
+      "sources": [
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [],
+      "source_lines": {
+        "odds_api": {
+          "home_team": "Providence Friars",
+          "away_team": "Xavier Musketeers",
+          "start_time": "2026-02-26T00:30:00Z",
+          "spread_home": -5.5,
+          "spread_away": 5.5,
+          "total": 170.5,
+          "moneyline_home": -258,
+          "moneyline_away": 210,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Providence",
+          "away_team": "Xavier",
+          "start_time": "2026-02-26T00:30:00.0000000Z",
+          "spread_home": -5.5,
+          "spread_away": 5.5,
+          "total": 170.5,
+          "moneyline_home": -258,
+          "moneyline_away": 210,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Notre Dame",
+      "away_team": "Duke",
+      "start_time": "2026-02-24T23:59:58.000Z",
+      "spread_home": 17.5,
+      "spread_away": -17.5,
+      "total": 139.5,
+      "moneyline_home": 1100,
+      "moneyline_away": -2100,
+      "confidence": 0.5,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': 1200, 'odds_api': 1100, 'draftkings': 1100} diff=100.0",
+        "ml_away_DISAGREE: {'fanduel': -3000, 'odds_api': -2100, 'draftkings': -2100} diff=900.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Notre Dame",
+          "away_team": "Duke",
+          "start_time": "2026-02-24T23:59:58.000Z",
+          "spread_home": 17.5,
+          "spread_away": -17.5,
+          "total": 139.5,
+          "moneyline_home": 1200,
+          "moneyline_away": -3000,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Notre Dame Fighting Irish",
+          "away_team": "Duke Blue Devils",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": 17.5,
+          "spread_away": -17.5,
+          "total": 139.5,
+          "moneyline_home": 1100,
+          "moneyline_away": -2100,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Notre Dame",
+          "away_team": "Duke",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": 17.5,
+          "spread_away": -17.5,
+          "total": 139.5,
+          "moneyline_home": 1100,
+          "moneyline_away": -2100,
+          "source": "draftkings"
+        }
+      }
+    },
+    {
+      "home_team": "Akron",
+      "away_team": "Buffalo",
+      "start_time": "2026-02-25T00:00:00.000Z",
+      "spread_home": -15.5,
+      "spread_away": 15.5,
+      "total": 157.5,
+      "moneyline_home": -2100,
+      "moneyline_away": 1000,
+      "confidence": 0.5,
+      "sources": [
+        "fanduel",
+        "odds_api",
+        "draftkings"
+      ],
+      "flags": [
+        "ml_home_DISAGREE: {'fanduel': -2100, 'odds_api': -2100, 'draftkings': -1600} diff=500.0",
+        "ml_away_DISAGREE: {'fanduel': 1000, 'odds_api': 1000, 'draftkings': 900} diff=100.0"
+      ],
+      "source_lines": {
+        "fanduel": {
+          "home_team": "Akron",
+          "away_team": "Buffalo",
+          "start_time": "2026-02-25T00:00:00.000Z",
+          "spread_home": -15.5,
+          "spread_away": 15.5,
+          "total": 157.5,
+          "moneyline_home": -2100,
+          "moneyline_away": 1000,
+          "source": "fanduel"
+        },
+        "odds_api": {
+          "home_team": "Akron Zips",
+          "away_team": "Buffalo Bulls",
+          "start_time": "2026-02-25T00:00:00Z",
+          "spread_home": -15.5,
+          "spread_away": 15.5,
+          "total": 157.5,
+          "moneyline_home": -2100,
+          "moneyline_away": 1000,
+          "source": "odds_api"
+        },
+        "draftkings": {
+          "home_team": "Akron",
+          "away_team": "Buffalo",
+          "start_time": "2026-02-25T00:00:00.0000000Z",
+          "spread_home": -15.5,
+          "spread_away": 15.5,
+          "total": 157.5,
+          "moneyline_home": -1600,
+          "moneyline_away": 900,
+          "source": "draftkings"
+        }
+      }
+    }
+  ]
+}

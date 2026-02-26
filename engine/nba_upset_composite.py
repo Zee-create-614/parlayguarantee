@@ -288,12 +288,13 @@ def compute_nba_upset_composite(game: dict, standings: Dict,
         dog_side = 'home'
         dog_spread = spread
     
-    # ═══ GATE CHECK: Is our pick the DOG? ═══
-    # If we're picking the favorite, this is NOT an upset — score = 0
-    if pick == market_fav:
-        return 0.0, ["Picking favorite — not an upset"], False
+    # ═══ ALWAYS SCORE THE UPSET POTENTIAL ═══
+    # Even if we're currently picking the favorite, compute the dog's upset
+    # score so the engine can decide whether to FLIP to the dog.
+    # The flip logic in enhance_games_with_upset_composite handles the switch.
+    picking_fav = (pick == market_fav)
     
-    # We're picking the dog. Now score HOW GOOD this upset play is.
+    # Score HOW GOOD this upset play WOULD BE for the dog side.
     score = 0.0
     reasons = []
     
@@ -512,7 +513,7 @@ def enhance_games_with_upset_composite(games: List[dict], injuries: Dict) -> Non
         else:
             continue
             
-        if game['pick'] != market_dog and composite_score >= 0.60:
+        if game['pick'] != market_dog and composite_score >= 0.55:
             # This case shouldn't happen often since composite=0 when picking fav
             # But just in case there's a rounding edge case
             game['original_pick'] = game['pick']

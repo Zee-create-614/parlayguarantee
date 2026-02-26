@@ -86,6 +86,8 @@ SPORTS = {
     "basketball_ncaab": "NCAAB",
 }
 
+OG_SPREAD_FLOOR = 0.62
+
 TIER_CONFIG = {
     'single': {'legs': 1, 'count': 10},
     '2leg':   {'legs': 2, 'count': 8},
@@ -1154,7 +1156,21 @@ def run_picks_pipeline() -> dict:
 
     summary['total_games'] = len(target_games)
 
-    # ─── Save analyzed_games.json ───
+    # ─── Apply OG confidence floor ───
+    og_picks_count = 0
+    og_pass_count = 0
+    for g in target_games:
+        sc = g.get('spread_confidence', g.get('enhanced_prob', 0.5))
+        g['spread_confidence'] = sc
+        if sc >= OG_SPREAD_FLOOR:
+            g['spread_status'] = 'PICK'
+            og_picks_count += 1
+        else:
+            g['spread_status'] = 'PASS'
+            og_pass_count += 1
+    log.info(f"OG confidence floor {OG_SPREAD_FLOOR:.0%}: {og_picks_count} PICKS, {og_pass_count} PASSES")
+
+    # ─── Save analyzed_games.json (all games, including PASS) ───
     with open(ENGINE_DIR / 'analyzed_games.json', 'w', encoding='utf-8') as f:
         json.dump(target_games, f, indent=2, default=str)
     log.info(f"\n💾 Saved analyzed_games.json ({len(target_games)} games)")
@@ -1166,6 +1182,11 @@ def run_picks_pipeline() -> dict:
     ncaab_games = sorted([g for g in target_games if g['sport'] == 'NCAAB'],
                          key=lambda x: x['enhanced_prob'], reverse=True)
     all_sorted = sorted(target_games, key=lambda x: x['enhanced_prob'], reverse=True)
+
+    # Customer-facing pools: only PICK games (above OG_SPREAD_FLOOR)
+    nba_games = [g for g in nba_games if g.get('spread_status') == 'PICK']
+    ncaab_games = [g for g in ncaab_games if g.get('spread_status') == 'PICK']
+    customer_sorted = [g for g in all_sorted if g.get('spread_status') == 'PICK']
 
     output = {
         'date': TODAY,
@@ -1179,10 +1200,10 @@ def run_picks_pipeline() -> dict:
         'ml_tiers': {},
     }
 
-    # Spread parlays
+    # Spread parlays (customer-facing: only PICK games)
     for tier_id, cfg in TIER_CONFIG.items():
         legs, count = cfg['legs'], cfg['count']
-        pool = all_sorted[:25]
+        pool = customer_sorted[:25]
         picks = generate_parlays(pool, legs, count)
         output['tiers'][tier_id] = {
             'tier_id': tier_id, 'legs': legs,
@@ -1246,6 +1267,29 @@ def run_picks_pipeline() -> dict:
     except Exception as e:
         log.error(f"Turso push failed (non-fatal): {e}")
         summary['errors'].append(f"Turso push: {str(e)}")
+
+    # Store opening odds for CLV tracking
+    try:
+        from clv_tracker import store_opening_odds
+        all_analyzed = target_games
+        nba_picks_for_clv = [g for g in all_analyzed if g.get('sport') == 'NBA' and g.get('pick')]
+        ncaab_picks_for_clv = [g for g in all_analyzed if g.get('sport') == 'NCAAB' and g.get('pick')]
+
+        clv_picks = []
+        for g in nba_picks_for_clv + ncaab_picks_for_clv:
+            clv_picks.append({
+                'home_team': g.get('home', ''),
+                'away_team': g.get('away', ''),
+                'predicted_winner': g.get('pick', ''),
+                'model_prob': g.get('enhanced_prob', g.get('cover_prob', 0.5)),
+                'opening_odds': g.get('american_odds', 0),
+                'commence_time': g.get('commence_time', ''),
+                'confidence': g.get('spread_confidence', 0.5),
+            })
+        stored = store_opening_odds(clv_picks, TODAY)
+        log.info(f"CLV: stored opening odds for {stored} picks")
+    except Exception as e:
+        log.warning(f"CLV store_opening failed (non-fatal): {e}")
 
     return summary
 
