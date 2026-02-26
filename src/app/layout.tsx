@@ -35,14 +35,15 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         {/* Google Ads gtag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-12978747118"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=GT-577TCP3R"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'AW-12978747118');
+              gtag('config', 'GT-577TCP3R');
+              gtag('config', 'AW-17978747118');
             `,
           }}
         />
