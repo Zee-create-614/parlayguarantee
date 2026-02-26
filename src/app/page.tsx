@@ -80,13 +80,13 @@ export default function HomePage() {
   }, [])
 
   const tiers = [
-    { name: 'Single Pick', price: '$0.50', icon: '🎯', legs: '1 pick', popular: false },
-    { name: '2-Leg Parlay', price: '$0.50', icon: '🔥', legs: '2 legs', popular: false },
-    { name: '3-Leg Parlay', price: '$0.50', icon: '⚡', legs: '3 legs', popular: true },
-    { name: '4-Leg Parlay', price: '$0.50', icon: '💎', legs: '4 legs', popular: false },
-    { name: '5-Leg Parlay', price: '$0.50', icon: '👑', legs: '5 legs', popular: false },
-    { name: '6-Leg Parlay', price: '$0.50', icon: '🏆', legs: '6 legs', popular: false },
-    { name: '7-Leg Parlay', price: '$0.50', icon: '🚀', legs: '7 legs', popular: false },
+    { name: 'Single Pick', price: 'Coming Soon', icon: '🎯', legs: '1 pick', popular: false },
+    { name: '2-Leg Parlay', price: 'Coming Soon', icon: '🔥', legs: '2 legs', popular: false },
+    { name: '3-Leg Parlay', price: 'Coming Soon', icon: '⚡', legs: '3 legs', popular: true },
+    { name: '4-Leg Parlay', price: 'Coming Soon', icon: '💎', legs: '4 legs', popular: false },
+    { name: '5-Leg Parlay', price: 'Coming Soon', icon: '👑', legs: '5 legs', popular: false },
+    { name: '6-Leg Parlay', price: 'Coming Soon', icon: '🏆', legs: '6 legs', popular: false },
+    { name: '7-Leg Parlay', price: 'Coming Soon', icon: '🚀', legs: '7 legs', popular: false },
   ]
 
   return (
