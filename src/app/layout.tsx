@@ -34,6 +34,18 @@ export default function RootLayout({
     <html lang="en" className={`dark ${inter.variable} ${spaceGrotesk.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        {/* Google Ads gtag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-12978747118"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-12978747118');
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
